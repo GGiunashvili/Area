@@ -33,18 +33,42 @@ a {
   font-family: markgeo-bold;
 }
 
-.line-for-sections {
-  display: block;
-  width: 100px;
-  margin: 30px auto;
+.hight-score-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.card-inside-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
 }
 
 .buy-now-btn-own {
-  background: #F72163;
-  border-color: #F72163;
+  background-color: rgba(122, 29, 255, 0.1);
+  border-color: rgba(122, 29, 255, 0.1);
+  border: none;
+  border-radius: 14px;
   font-size: 18px;
   font-family: markgeo-semibold;
-  border-radius: 1px;
+  padding: 10px;
+  font-size: 14px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .card-text-description {
@@ -67,14 +91,19 @@ a {
   font-size: 28px;
 }
 
+.high-score-title {
+  font-family: markgeo-semibold;
+  font-size: 17px;
+}
+
 .card-styles {
   border: none;
+  background: #F7F7F7;
 }
 
 .card-styles .high-score-title {
   font-family: markgeo-semibold;
-  font-size: 22px;
-  margin: 15px 0;
+  font-size: 17px;
 }
 
 .more-easy-description {
@@ -90,21 +119,59 @@ a {
 
 .btn-arrow {
   width: 14px;
+  margin-right: 5px;
+}
+
+.buy-now-p-btn {
+  color: #7a1dff;
+  font-family: markgeo-semibold;
+  padding: 5px 10px;
 }
 
 .buy-now-btn-own:hover {
-  background: #F72163;
-  border-color: #F72163;
+  background-color: rgba(122, 29, 255, 0.1);
+  border-color: rgba(122, 29, 255, 0.1);
+  border: none;
 }
 
 .buy-now-btn-own:focus {
-  border-color: #F72163 !important;
-  background: #F72163 !important;
+  background-color: rgba(122, 29, 255, 0.1) !important;
+  border-color: rgba(122, 29, 255, 0.1) !important;
+  -webkit-box-shadow: rgba(122, 29, 255, 0.1) !important;
+          box-shadow: rgba(122, 29, 255, 0.1) !important;
+  border: none !important;
 }
 
-.buy-now-btn-own:active {
-  border-color: #F72163 !important;
-  background: #F72163 !important;
+.btn-primary.focus, .btn-primary:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+#slick .slider_content .slider_items img {
+  width: 500px;
+  margin: 0 auto;
+  display: block;
+}
+
+#slick .arrow_prev {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+}
+
+.multiple-items {
+  width: auto !important;
+  margin: 10px;
+}
+
+.slick-track {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.slick-slide {
+  margin: 10px;
 }
 
 @media only screen and (max-width: 480px) {
@@ -113,9 +180,6 @@ a {
   }
   .choose-easy-text {
     font-size: 16px !important;
-  }
-  .line-for-sections {
-    display: none;
   }
   .high-score-title {
     font-size: 16px;

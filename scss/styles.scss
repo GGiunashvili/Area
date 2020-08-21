@@ -33,19 +33,34 @@ a{
     font-family: markgeo-bold;
 }
 
-.line-for-sections{
-    display: block;
-    width: 100px; 
-    margin: 30px auto; 
-
+.hight-score-container{
+    display: flex;
+    flex-direction: column;
+}
+.card-inside-title{
+    display: flex;
+    height: 100%;         
 }
 
+
+
 .buy-now-btn-own{
-    background:#F72163;
-    border-color:#F72163;
+    background-color: rgba(122,29,255,.1);
+    border-color:rgba(122,29,255,.1);
+    border: none;
+    border-radius: 14px;
     font-size:18px;  
     font-family: markgeo-semibold;
-    border-radius: 1px;
+    padding: 10px;
+    font-size:14px;
+    display: inline-flex;
+    align-items: baseline; 
+    display: inline-flex;
+     align-items: center;
+    
+    
+    
+    
 }
 
 .card-text-description{
@@ -64,12 +79,20 @@ a{
     font-family: markgeo-semibold;
     font-size:28px;
 }
+.high-score-title{
+    font-family: markgeo-semibold;
+    font-size: 17px;
+    
+    // display: flex;
+    // height: 100%;
+}
 .card-styles{
     border: none;
+    background: #F7F7F7;
     .high-score-title{
         font-family: markgeo-semibold;
-        font-size:22px;
-        margin: 15px 0;
+        font-size: 17px;
+        
         // display: flex;
         // height: 100%;
     }
@@ -86,27 +109,68 @@ a{
 }
 .btn-arrow{
     width:14px;
+    margin-right: 5px;
 }
 
 
-
+.buy-now-p-btn{
+    color: #7a1dff;
+    font-family: markgeo-semibold;
+    padding: 5px 10px;
+}
 ///////////////////////////////hover/focus/active///////////////////////////////
 .buy-now-btn-own:hover{
-    background:#F72163;
-    border-color:#F72163;
+    background-color: rgba(122,29,255,.1);
+    border-color:rgba(122,29,255,.1);
+    border: none;
 
 }
 .buy-now-btn-own:focus{
-    border-color:#F72163!important;
-    background:#F72163!important;
+    background-color: rgba(122,29,255,.1)!important;
+    border-color:rgba(122,29,255,.1)!important;
+    box-shadow: rgba(122,29,255,.1)!important;
+    border: none!important;
 
 }
-.buy-now-btn-own:active{
-    border-color:#F72163!important;
-    background:#F72163!important;
+// .buy-now-btn-own:active{
+//     background-color: rgba(122,29,255,.1)!important;
+//     border-color:rgba(122,29,255,.1)!important;
+//     box-shadow: rgba(122,29,255,.1)!important;
+//     border: none!important;
 
+// }
+.btn-primary.focus, .btn-primary:focus {
+    
+    box-shadow: none!important;
 }
+
 ///////////////////////////////hover/focus/active END///////////////////////////////
+
+
+
+
+
+#slick .slider_content .slider_items img{
+    width: 500px;
+    margin: 0 auto;
+    display: block;
+
+}
+#slick .arrow_prev{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+.multiple-items{
+    width: auto!important;
+    margin: 10px;
+}
+.slick-track{
+    display: flex!important;
+}
+.slick-slide {
+    margin: 10px;
+}
 
   @media only screen and (max-width: 480px) {
     .header{
@@ -117,9 +181,7 @@ a{
         font-size:16px!important;
     }
 
-    .line-for-sections{
-        display: none;
-    }
+    
 
     .high-score-title{
         font-size: 16px;
