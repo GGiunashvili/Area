@@ -21,199 +21,143 @@ a{
     color:black;
 }
 
-.hight-core-title{
-    font-family: markgeo-semibold;
-    // display: flex;
-    // height: 100%;
-}
-.title-section-content{
+.apple-sale-box{
     text-align: center;
-    font-size: 28px;
-    margin: 25px 0;
-    font-family: markgeo-bold;
-}
-
-.hight-score-container{
-    display: flex;
-    flex-direction: column;
-}
-.card-inside-title{
-    display: flex;
-    height: 100%;         
-}
-
-
-
-.buy-now-btn-own{
-    background-color: rgba(122,29,255,.1);
-    border-color:rgba(122,29,255,.1);
-    border: none;
-    border-radius: 14px;
-    font-size:18px;  
-    font-family: markgeo-semibold;
-    padding: 10px;
-    font-size:14px;
-    display: inline-flex;
-    align-items: baseline; 
-    display: inline-flex;
-     align-items: center;
-
-}
-
-.contact-us-btn{
-    background-color: rgba(122,29,255,.1);
-    border-color:rgba(122,29,255,.1);
-    border: none;
-    border-radius: 14px;
-    font-size:18px;  
-    font-family: markgeo-semibold;
-    padding: 10px;
-    font-size:14px;
-    display: inline-flex;
-    align-items: baseline; 
-    display: inline-flex;
-     align-items: center;
-}
-.card-text-description{
-    font-size:24px;
-}
-.card-body-own{
-    padding-left:0;
-}
-
-.easy-content-row-second{
-    display: flex;
-    margin: 40px 0;
-}
-
-.easy-choose-text{
-    font-family: markgeo-semibold;
-    font-size:28px;
-}
-.high-score-title{
-    font-family: markgeo-semibold;
-    font-size: 17px;
-    
-    // display: flex;
-    // height: 100%;
-}
-.card-styles{
-    border: none;
-    background: #F7F7F7;
-    .high-score-title{
+    .apple-sale-title{
+        font-size:58px;
         font-family: markgeo-semibold;
-        font-size: 17px;
-        
-        // display: flex;
-        // height: 100%;
     }
 }
-.more-easy-description{
-    font-size:16px;
-    font-family: markgeo-semibold;
-    height: 100%;
-    
-}
-.hight-score-description{
-    font-family: markgeo-semibold;
-    font-size: 18px;
-}
-.btn-arrow{
-    width:14px;
-    margin-right: 5px;
-}
 
 
-.buy-now-p-btn{
-    color: #7a1dff;
-    font-family: markgeo-semibold;
-    // padding: 5px 10px;
-    font: normal normal bold 14px/18px Helvetica;
-    margin-left: 20px;
+.advertise-row-phone{
+    height: 584px;
 }
-///////////////////////////////hover/focus/active///////////////////////////////
-.buy-now-btn-own:hover{
-    background-color: rgba(122,29,255,.1);
-    border-color:rgba(122,29,255,.1);
-    border: none;
-
+.advertise-row-watch{
+    height: 135px;
 }
-.buy-now-btn-own:focus{
-    background-color: rgba(122,29,255,.1)!important;
-    border-color:rgba(122,29,255,.1)!important;
-    box-shadow: rgba(122,29,255,.1)!important;
-    border: none!important;
-
+.advertise-row-laptop{
+    height: 215px;
 }
-// .buy-now-btn-own:active{
-//     background-color: rgba(122,29,255,.1)!important;
-//     border-color:rgba(122,29,255,.1)!important;
-//     box-shadow: rgba(122,29,255,.1)!important;
-//     border: none!important;
-
-// }
-.btn-primary.focus, .btn-primary:focus {
-    
-    box-shadow: none!important;
+.advertise-row-ipad{
+    height: 194px;
+}
+.advertise-row-airpod{
+    height: 166px;
 }
 
-///////////////////////////////hover/focus/active END///////////////////////////////
 
-
-
-
-
-#slick .slider_content .slider_items img{
-    width: 500px;
-    margin: 0 auto;
-    display: block;
-
-}
-#slick .arrow_prev{
-    position: absolute;
-    top: 50%;
-    left: 20%;
-}
-.multiple-items{
-    width: auto!important;
-    margin: 10px;
-}
-.slick-track{
-    display: flex!important;
-}
-.slick-slide {
-    margin: 10px;
-}
-
-  @media only screen and (max-width: 480px) {
-
-    .header{
-        padding:0 20px;
+.second-sale-box{
+    text-align: center;
+    .second-sale-title{
+        font-size:40px;
+        font-family: markgeo-semibold;
     }
+}
 
-    .choose-easy-text{
-        font-size:16px!important;
+.use-sale-box{
+    text-align: center;
+    .use-sale-title{
+        font-size:52px;
+        font-family: markgeo-semibold;
     }
+}
 
-    .text{
-        justify-content: center;
+.footer{
+    padding: 32px;
+    background: #161E3F;
+    .footer-p{
+        color: white;
+        font-size: 14px;
+        font-family: markgeo-regular;
     }
-    .btn-buy-now{
-        display: none;
+    .instagram-icon{
+        margin: 0 17px;
     }
+}
 
-    .high-score-title{
-        font-size: 16px;
+.carousel-first-section{
+    text-align: center;
+    .carosel-sale-nt{
+        text-decoration: line-through;
+        font-family: markgeo-regular;
+        font-size: 32px;
+        color: #161E3F;
     }
-    .buy-now-btn-own {
-        font-size: 16px;
+    .carousel-sale-price{
+        font-family: markgeo-regular;
+        font-size: 45px;
+        color: #161E3F;
     }
-    .btn-arrow {
-        width: 10px;
-    }   
+    .carousel-buy-btn{
+        background: #000000 0% 0% no-repeat padding-box;
+        padding: 35px 23px;
+        .carousel-but-btn-p{
+            color: white;
+            font-size: 38px;
+            font-family: markgeo-regular;
+        }
+    }
+}
+
+.bts-carousel-dots{
+    height: 6px!important;
+    width:6px!important;
+    background: #000000 0% 0% no-repeat padding-box!important;
+    border-top:30px!important;
+}
+.carousel-indicators{
+    bottom: -30px;
+    border-top:30px!important;
+}
 
 
-    .baner-title{
-        font-size: 18px;
+.carousel-indicators li {
+    border-radius:30px;
+    border-bottom: 30px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .apple-sale-title{
+        font-size:20px!important;
     }
-  }
+    .advertise-row-phone{
+        height: 192px;
+    }
+    .advertise-row-watch{
+        height: 43px;
+    }
+    .advertise-row-laptop{
+        height: 70px;
+    }
+    .advertise-row-ipad{
+        height: 64px;
+    }
+    .advertise-row-airpod{
+        height: 54px;
+    }
+    .second-sale-title{
+        font-size:20px!important;
+    }
+    .use-sale-title{
+         font-size: 20px!important;
+    }
+    .footer-p{
+        font-size: 8px!important;
+    }
+    .facebook-icon{
+        height:13px;
+    }
+    .instagram-icon{
+        margin: 0 9px!important;
+        height: 13px;
+    }
+    .linkedin-icon{
+        height:13px;
+    }
+    .second-sale-title{
+        font-size: 14px!important;
+    }
+}

@@ -22,206 +22,153 @@ a {
   color: black;
 }
 
-.hight-core-title {
-  font-family: markgeo-semibold;
-}
-
-.title-section-content {
+.apple-sale-box {
   text-align: center;
-  font-size: 28px;
-  margin: 25px 0;
-  font-family: markgeo-bold;
 }
 
-.hight-score-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.card-inside-title {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 100%;
-}
-
-.buy-now-btn-own {
-  background-color: rgba(122, 29, 255, 0.1);
-  border-color: rgba(122, 29, 255, 0.1);
-  border: none;
-  border-radius: 14px;
-  font-size: 18px;
+.apple-sale-box .apple-sale-title {
+  font-size: 58px;
   font-family: markgeo-semibold;
-  padding: 10px;
+}
+
+.advertise-row-phone {
+  height: 584px;
+}
+
+.advertise-row-watch {
+  height: 135px;
+}
+
+.advertise-row-laptop {
+  height: 215px;
+}
+
+.advertise-row-ipad {
+  height: 194px;
+}
+
+.advertise-row-airpod {
+  height: 166px;
+}
+
+.second-sale-box {
+  text-align: center;
+}
+
+.second-sale-box .second-sale-title {
+  font-size: 40px;
+  font-family: markgeo-semibold;
+}
+
+.use-sale-box {
+  text-align: center;
+}
+
+.use-sale-box .use-sale-title {
+  font-size: 52px;
+  font-family: markgeo-semibold;
+}
+
+.footer {
+  padding: 32px;
+  background: #161E3F;
+}
+
+.footer .footer-p {
+  color: white;
   font-size: 14px;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
-  display: inline-flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  font-family: markgeo-regular;
 }
 
-.contact-us-btn {
-  background-color: rgba(122, 29, 255, 0.1);
-  border-color: rgba(122, 29, 255, 0.1);
-  border: none;
-  border-radius: 14px;
-  font-size: 18px;
-  font-family: markgeo-semibold;
-  padding: 10px;
-  font-size: 14px;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
-  display: inline-flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+.footer .instagram-icon {
+  margin: 0 17px;
 }
 
-.card-text-description {
-  font-size: 24px;
+.carousel-first-section {
+  text-align: center;
 }
 
-.card-body-own {
-  padding-left: 0;
+.carousel-first-section .carosel-sale-nt {
+  text-decoration: line-through;
+  font-family: markgeo-regular;
+  font-size: 32px;
+  color: #161E3F;
 }
 
-.easy-content-row-second {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 40px 0;
+.carousel-first-section .carousel-sale-price {
+  font-family: markgeo-regular;
+  font-size: 45px;
+  color: #161E3F;
 }
 
-.easy-choose-text {
-  font-family: markgeo-semibold;
-  font-size: 28px;
+.carousel-first-section .carousel-buy-btn {
+  background: #000000 0% 0% no-repeat padding-box;
+  padding: 35px 23px;
 }
 
-.high-score-title {
-  font-family: markgeo-semibold;
-  font-size: 17px;
+.carousel-first-section .carousel-buy-btn .carousel-but-btn-p {
+  color: white;
+  font-size: 38px;
+  font-family: markgeo-regular;
 }
 
-.card-styles {
-  border: none;
-  background: #F7F7F7;
+.bts-carousel-dots {
+  height: 6px !important;
+  width: 6px !important;
+  background: #000000 0% 0% no-repeat padding-box !important;
+  border-top: 30px !important;
 }
 
-.card-styles .high-score-title {
-  font-family: markgeo-semibold;
-  font-size: 17px;
+.carousel-indicators {
+  bottom: -30px;
+  border-top: 30px !important;
 }
 
-.more-easy-description {
-  font-size: 16px;
-  font-family: markgeo-semibold;
-  height: 100%;
+.carousel-indicators li {
+  border-radius: 30px;
+  border-bottom: 30px;
 }
 
-.hight-score-description {
-  font-family: markgeo-semibold;
-  font-size: 18px;
-}
-
-.btn-arrow {
-  width: 14px;
-  margin-right: 5px;
-}
-
-.buy-now-p-btn {
-  color: #7a1dff;
-  font-family: markgeo-semibold;
-  font: normal normal bold 14px/18px Helvetica;
-  margin-left: 20px;
-}
-
-.buy-now-btn-own:hover {
-  background-color: rgba(122, 29, 255, 0.1);
-  border-color: rgba(122, 29, 255, 0.1);
-  border: none;
-}
-
-.buy-now-btn-own:focus {
-  background-color: rgba(122, 29, 255, 0.1) !important;
-  border-color: rgba(122, 29, 255, 0.1) !important;
-  -webkit-box-shadow: rgba(122, 29, 255, 0.1) !important;
-          box-shadow: rgba(122, 29, 255, 0.1) !important;
-  border: none !important;
-}
-
-.btn-primary.focus, .btn-primary:focus {
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
-}
-
-#slick .slider_content .slider_items img {
-  width: 500px;
-  margin: 0 auto;
-  display: block;
-}
-
-#slick .arrow_prev {
-  position: absolute;
-  top: 50%;
-  left: 20%;
-}
-
-.multiple-items {
-  width: auto !important;
-  margin: 10px;
-}
-
-.slick-track {
-  display: -webkit-box !important;
-  display: -ms-flexbox !important;
-  display: flex !important;
-}
-
-.slick-slide {
-  margin: 10px;
-}
-
-@media only screen and (max-width: 480px) {
-  .header {
-    padding: 0 20px;
+@media only screen and (max-width: 768px) {
+  .apple-sale-title {
+    font-size: 20px !important;
   }
-  .choose-easy-text {
-    font-size: 16px !important;
+  .advertise-row-phone {
+    height: 192px;
   }
-  .text {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+  .advertise-row-watch {
+    height: 43px;
   }
-  .btn-buy-now {
-    display: none;
+  .advertise-row-laptop {
+    height: 70px;
   }
-  .high-score-title {
-    font-size: 16px;
+  .advertise-row-ipad {
+    height: 64px;
   }
-  .buy-now-btn-own {
-    font-size: 16px;
+  .advertise-row-airpod {
+    height: 54px;
   }
-  .btn-arrow {
-    width: 10px;
+  .second-sale-title {
+    font-size: 20px !important;
   }
-  .baner-title {
-    font-size: 18px;
+  .use-sale-title {
+    font-size: 20px !important;
+  }
+  .footer-p {
+    font-size: 8px !important;
+  }
+  .facebook-icon {
+    height: 13px;
+  }
+  .instagram-icon {
+    margin: 0 9px !important;
+    height: 13px;
+  }
+  .linkedin-icon {
+    height: 13px;
+  }
+  .second-sale-title {
+    font-size: 14px !important;
   }
 }
 /*# sourceMappingURL=styles.css.map */
