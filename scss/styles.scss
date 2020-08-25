@@ -57,12 +57,23 @@ a{
     align-items: baseline; 
     display: inline-flex;
      align-items: center;
-    
-    
-    
-    
+
 }
 
+.contact-us-btn{
+    background-color: rgba(122,29,255,.1);
+    border-color:rgba(122,29,255,.1);
+    border: none;
+    border-radius: 14px;
+    font-size:18px;  
+    font-family: markgeo-semibold;
+    padding: 10px;
+    font-size:14px;
+    display: inline-flex;
+    align-items: baseline; 
+    display: inline-flex;
+     align-items: center;
+}
 .card-text-description{
     font-size:24px;
 }
@@ -116,7 +127,9 @@ a{
 .buy-now-p-btn{
     color: #7a1dff;
     font-family: markgeo-semibold;
-    padding: 5px 10px;
+    // padding: 5px 10px;
+    font: normal normal bold 14px/18px Helvetica;
+    margin-left: 20px;
 }
 ///////////////////////////////hover/focus/active///////////////////////////////
 .buy-now-btn-own:hover{
@@ -173,6 +186,7 @@ a{
 }
 
   @media only screen and (max-width: 480px) {
+
     .header{
         padding:0 20px;
     }
@@ -181,7 +195,12 @@ a{
         font-size:16px!important;
     }
 
-    
+    .text{
+        justify-content: center;
+    }
+    .btn-buy-now{
+        display: none;
+    }
 
     .high-score-title{
         font-size: 16px;

@@ -1,5 +1,4 @@
-
-
+//////////////////////////////////////////////// carousel not buutstrap //////////////////////////////////////////////////////////
 
 $('.responsive').slick({
   dots: false,
@@ -8,7 +7,7 @@ $('.responsive').slick({
   nextArrow: '.arrow_next',
   speed: 300,
   slidesToShow: 5,
-  slidesToScroll: 5,
+  slidesToScroll: 3,
   responsive: [
     {
       breakpoint: 1024,
@@ -16,7 +15,7 @@ $('.responsive').slick({
         slidesToShow: 3,
         slidesToScroll: 3,
         infinite: true,
-        dots: true
+        dots: false
       }
     },
     {
@@ -38,3 +37,29 @@ $('.responsive').slick({
     // instead of a settings object
   ]
 });
+
+
+
+/////////////////////// arrow horizont centered ///////////////////////////////////
+$(window).on('load resize', function () {
+  changepos();
+ });
+ 
+ function changepos() {
+   var toppos = ($('.slick-active').find("img").height()/2);
+   $('.slick-arrow').css('top',toppos+'px');
+ }
+ 
+ $('.list').slick({
+   dots: true,
+   infinite: true,
+   speed: 300,
+   slidesToShow: 1,
+   adaptiveHeight: true
+ }).on('afterChange',function(event){
+   var toppos = ($('.slick-active').find("img").height()/2);
+   $('.slick-arrow').css('top',toppos+'px');
+ }).trigger('afterChange');
+
+ /////////////////////// arrow horizont centered end /////////////////////////////
+ //////////////////////////////////////////////// carousel not buutstrap end ///////////////////////////////////////////////////////////////////////////////////////
