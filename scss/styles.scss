@@ -49,19 +49,35 @@ a{
 
 .second-sale-box{
     text-align: center;
+    margin-bottom: 200px;
+
+    
     .second-sale-title{
         font-size:40px;
         font-family: markgeo-semibold;
     }
 }
-
-.use-sale-box{
-    text-align: center;
-    .use-sale-title{
-        font-size:52px;
-        font-family: markgeo-semibold;
+.carousel-control-prev-icon {
+    background-image: url(../image/marcxena.svg);
+}
+.carousel-control-next-icon {
+    background-image: url(../image/marjvena.svg)
+}
+.sale-content-main-logo{
+    height: 508px;
+}
+.use-sale-content{
+    margin-bottom: 60px;
+    .use-sale-box{
+        text-align: center;
+        margin-bottom:50px;
+        .use-sale-title{
+            font-size:52px;
+            font-family: markgeo-semibold;
+        }
     }
 }
+
 
 .footer{
     padding: 32px;
@@ -83,11 +99,14 @@ a{
         font-family: markgeo-regular;
         font-size: 32px;
         color: #161E3F;
+        margin-top: 90px;
+        margin-bottom: 10px;
     }
     .carousel-sale-price{
         font-family: markgeo-regular;
         font-size: 45px;
         color: #161E3F;
+        margin-bottom:21px;
     }
     .carousel-buy-btn{
         background: #000000 0% 0% no-repeat padding-box;
@@ -98,11 +117,21 @@ a{
             font-family: markgeo-regular;
         }
     }
+    .sale-content-logo{
+        margin-top: 73px;
+        width: 275px;
+    }
 }
 
+.use-sale-components{
+    margin-top:24px;
+    font-size: 20px;
+    font-family: markgeo-regular;
+    font-weight: bold;
+}
 .bts-carousel-dots{
-    height: 6px!important;
-    width:6px!important;
+    height: 26px!important;
+    width:26px!important;
     background: #000000 0% 0% no-repeat padding-box!important;
     border-top:30px!important;
 }
@@ -118,7 +147,12 @@ a{
 }
 
 
+@media only screen and (max-width: 1024px){
+    .sale-content-main-logo{
+        height: 400px!important;
+    }
 
+}
 @media only screen and (max-width: 768px) {
     .apple-sale-title{
         font-size:20px!important;
@@ -159,5 +193,60 @@ a{
     }
     .second-sale-title{
         font-size: 14px!important;
+    }
+    .use-sale-components{
+       
+        font-size: 12px;
+     
+    }
+    .sale-indepentent-cont{
+        height: 77px;
+    }
+    .use-sale-components {
+        margin-top: 11px;
+    }
+    .use-sale-content .use-sale-box {
+        margin-bottom: 15px;
+    }
+}    
+@media only screen and (max-width: 575px) {
+    .sale-items-third{
+        margin-top: 25px;
+    } 
+    .sale-items-fourth{
+        margin-top: 25px;
+    }
+    .carousel-sale-nt{
+        margin-top: 28px;
+    }
+    .sale-content-main-logo{
+       
+        height: 223px!important;
+
+    }
+    .carousel-first-section .carosel-sale-nt {
+        font-size: 14px;
+        margin-top: 28px;
+    }
+    .carousel-first-section .carousel-sale-price {
+        font-size: 16px;
+       
+        font-weight: bold;
+    
+    }
+    .carousel-first-section .sale-content-logo {
+        width: 110px;
+        margin-top: 0;
+    }
+    .carousel-first-section .carousel-buy-btn .carousel-but-btn-p{
+        font-size: 9px;
+    }
+    .carousel-first-section .carousel-buy-btn {
+        padding: 9px 31px;
+    }
+    .carousel-for-vendor-item{
+        justify-content: space-around;
+        align-items:center;
+
     }
 }
