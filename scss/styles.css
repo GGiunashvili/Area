@@ -24,6 +24,7 @@ a {
 
 .apple-sale-box {
   text-align: center;
+  margin-top: 20px;
 }
 
 .apple-sale-box .apple-sale-title {
@@ -40,7 +41,7 @@ a {
 }
 
 .advertise-row-laptop {
-  height: 215px;
+  height: 165px;
 }
 
 .advertise-row-ipad {
@@ -51,9 +52,24 @@ a {
   height: 166px;
 }
 
+.carousel-bf-ol {
+  margin-bottom: 200px;
+}
+
+.carousel-main-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .second-sale-box {
   text-align: center;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 
 .second-sale-box .second-sale-title {
@@ -63,10 +79,12 @@ a {
 
 .carousel-control-prev-icon {
   background-image: url(../image/marcxena.svg);
+  height: 60px;
 }
 
 .carousel-control-next-icon {
   background-image: url(../image/marjvena.svg);
+  height: 60px;
 }
 
 .sale-content-main-logo {
@@ -102,11 +120,11 @@ a {
   margin: 0 17px;
 }
 
-.carousel-first-section {
-  text-align: center;
+.sale-content-img {
+  width: 275px;
 }
 
-.carousel-first-section .carosel-sale-nt {
+.carosel-sale-nt {
   text-decoration: line-through;
   font-family: markgeo-regular;
   font-size: 32px;
@@ -115,16 +133,57 @@ a {
   margin-bottom: 10px;
 }
 
+.carousel-sale-price {
+  font-family: markgeo-regular;
+  font-size: 40px;
+  color: #161E3F;
+  margin-bottom: 21px;
+  font-weight: bold;
+}
+
+.carousel-buy-btn {
+  background: #000000 0% 0% no-repeat padding-box;
+  padding: 35px 23px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.carousel-buy-btn .carousel-but-btn-p {
+  color: white;
+  font-size: 38px;
+  font-family: markgeo-regular;
+  font-weight: bold;
+}
+
+.sale-content-logo {
+  margin-top: 73px;
+  width: 275px;
+}
+
+.carousel-first-section {
+  text-align: center;
+}
+
+.carousel-first-section .carosel-sale-nt {
+  text-decoration: line-through;
+  font-family: markgeo-regular;
+  font-size: 32px;
+  color: red;
+  margin-top: 90px;
+  margin-bottom: 10px;
+}
+
 .carousel-first-section .carousel-sale-price {
   font-family: markgeo-regular;
-  font-size: 45px;
+  font-size: 40px;
   color: #161E3F;
   margin-bottom: 21px;
 }
 
 .carousel-first-section .carousel-buy-btn {
   background: #000000 0% 0% no-repeat padding-box;
-  padding: 35px 23px;
+  padding: 30px 20px;
 }
 
 .carousel-first-section .carousel-buy-btn .carousel-but-btn-p {
@@ -146,8 +205,8 @@ a {
 }
 
 .bts-carousel-dots {
-  height: 26px !important;
-  width: 26px !important;
+  height: 20px !important;
+  width: 20px !important;
   background: #000000 0% 0% no-repeat padding-box !important;
   border-top: 30px !important;
 }
@@ -166,6 +225,18 @@ a {
   .sale-content-main-logo {
     height: 400px !important;
   }
+  .second-sale-title {
+    font-size: 30px;
+  }
+  .advertise-row-phone {
+    height: 410px;
+  }
+  .advertise-row-laptop {
+    height: 125px;
+  }
+  .advertise-row-watch {
+    height: 110px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -173,19 +244,19 @@ a {
     font-size: 20px !important;
   }
   .advertise-row-phone {
-    height: 192px;
+    height: 225px;
   }
   .advertise-row-watch {
-    height: 43px;
+    height: 55px;
   }
   .advertise-row-laptop {
-    height: 70px;
+    height: 75px;
   }
   .advertise-row-ipad {
-    height: 64px;
+    height: 84px;
   }
   .advertise-row-airpod {
-    height: 54px;
+    height: 84px;
   }
   .second-sale-title {
     font-size: 20px !important;
@@ -224,6 +295,21 @@ a {
 }
 
 @media only screen and (max-width: 575px) {
+  .advertise-row-phone {
+    height: 192px;
+  }
+  .advertise-row-watch {
+    height: 43px;
+  }
+  .advertise-row-laptop {
+    height: 55px;
+  }
+  .advertise-row-ipad {
+    height: 64px;
+  }
+  .advertise-row-airpod {
+    height: 54px;
+  }
   .sale-items-third {
     margin-top: 25px;
   }
@@ -234,24 +320,24 @@ a {
     margin-top: 28px;
   }
   .sale-content-main-logo {
-    height: 223px !important;
+    width: 185px !important;
   }
-  .carousel-first-section .carosel-sale-nt {
+  .carosel-sale-nt {
     font-size: 14px;
     margin-top: 28px;
   }
-  .carousel-first-section .carousel-sale-price {
+  .carousel-sale-price {
     font-size: 16px;
     font-weight: bold;
   }
-  .carousel-first-section .sale-content-logo {
+  .sale-content-logo {
     width: 110px;
     margin-top: 0;
   }
-  .carousel-first-section .carousel-buy-btn .carousel-but-btn-p {
-    font-size: 9px;
+  .carousel-but-btn-p {
+    font-size: 9px !important;
   }
-  .carousel-first-section .carousel-buy-btn {
+  .carousel-buy-btn {
     padding: 9px 31px;
   }
   .carousel-for-vendor-item {
@@ -260,6 +346,46 @@ a {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+  .carousel-main-div {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .sale-content-img {
+    width: 77px;
+  }
+  .bts-carousel-dots {
+    height: 6px !important;
+    width: 6px !important;
+  }
+  .carousel-indicators {
+    bottom: 90px;
+  }
+  .last-carousel-div {
+    height: 400px;
+  }
+  .last-carousel-div .last-sale-logo {
+    height: 150px !important;
+    width: auto !important;
+  }
+  .carousel-bf-ol {
+    margin-bottom: 0;
+  }
+  .second-sale-box {
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 355px) {
+  .advertise-row-phone {
+    height: 170px;
+  }
+  .advertise-row-laptop {
+    height: 40px;
+  }
+  .advertise-row-ipad {
+    height: 55px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
