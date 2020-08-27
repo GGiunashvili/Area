@@ -1,125 +1,136 @@
-@font-face{
+@font-face {
     src: url(../fonts/MarkGEO-Bold.ttf);
     font-family: markgeo-bold;
-
 }
-@font-face{
+
+@font-face {
     src: url(../fonts/MarkGEO-Regular.ttf);
     font-family: markgeo-regular;
-
 }
-@font-face{
+
+@font-face {
     src: url(../fonts/MarkGEO-SemiBold.ttf);
     font-family: markgeo-semibold;
-
 }
-a:hover{
+
+a:hover {
     text-decoration: none;
     color: black;
 }
-a{
-    color:black;
+
+a {
+    color: black;
 }
 
-.apple-sale-box{
+.apple-sale-box {
     text-align: center;
     margin-top: 20px;
-    .apple-sale-title{
-        font-size:58px;
+    .apple-sale-title {
+        font-size: 58px;
         font-family: markgeo-semibold;
     }
 }
 
-
-.advertise-row-phone{
+.advertise-row-phone {
     height: 584px;
 }
-.advertise-row-watch{
+
+.advertise-row-watch {
     height: 135px;
 }
-.advertise-row-laptop{
-    height: 145px;
+
+.advertise-row-laptop {
+    height: 140px;
 }
-.advertise-row-ipad{
+
+.advertise-row-ipad {
     height: 194px;
 }
-.advertise-row-airpod{
+
+.advertise-row-airpod {
     height: 166px;
 }
-.carousel-bf-ol{
+
+.carousel-bf-ol {
     margin-bottom: 110px;
 }
-.carousel-main-div{
-    
+
+.carousel-main-div {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.second-sale-box{
+
+.second-sale-box {
     text-align: center;
     margin-bottom: 100px;
-
-    
-    .second-sale-title{
-        font-size:40px;
+    .second-sale-title {
+        font-size: 40px;
         font-family: markgeo-semibold;
     }
 }
+
 .carousel-control-prev-icon {
     background-image: url(../image/marcxena.svg);
-    height:60px;
-    
+    height: 60px;
 }
+
 .carousel-control-next-icon {
     background-image: url(../image/marjvena.svg);
-    height:60px;
-   
+    height: 60px;
 }
-.carousel-control-next{
+
+.carousel-control-next {
     right: -70px;
 }
-.carousel-control-prev{
+
+.carousel-control-prev {
     left: -70px;
 }
-.sale-content-main-logo{
+
+.sale-content-main-logo {
     height: 508px;
 }
-.use-sale-content{
+
+.use-sale-content {
     margin-bottom: 60px;
-    .use-sale-box{
+    .use-sale-box {
         text-align: center;
-        margin-bottom:50px;
-        .use-sale-title{
-            font-size:52px;
+        margin-bottom: 50px;
+        .use-sale-title {
+            font-size: 52px;
             font-family: markgeo-semibold;
         }
     }
 }
 
-
-.footer{
+.footer {
     padding: 32px;
     background: #161E3F;
-    .footer-p{
+    .footer-p {
         color: white;
         font-size: 14px;
         font-family: markgeo-regular;
     }
-    .instagram-icon{
+    .instagram-icon {
         margin: 0 17px;
     }
 }
-.sale-content-img{
+
+.sale-content-img {
     width: 275px;
 }
-.extra-footer-logo{
-    height:20px;
+
+.extra-footer-logo {
+    height: 20px;
 }
-.last-two-box{
+
+.last-two-box {
     justify-content: center;
 }
+
 ///////////////////////////second slider ////////////////////////////////////
-.carosel-sale-nt{
+.carosel-sale-nt {
     text-decoration: line-through;
     font-family: markgeo-regular;
     font-size: 32px;
@@ -127,137 +138,133 @@ a{
     margin-top: 90px;
     margin-bottom: 10px;
 }
-.carousel-sale-price{
+
+.carousel-sale-price {
     font-family: markgeo-regular;
     font-size: 40px;
     color: #161E3F;
-    margin-bottom:21px;
+    margin-bottom: 21px;
     font-weight: bold;
 }
-.carousel-buy-btn{
+
+.carousel-buy-btn {
     background: #000000 0% 0% no-repeat padding-box;
     padding: 35px 23px;
     align-items: center;
-
-    .carousel-but-btn-p{
+    .carousel-but-btn-p {
         color: white;
         font-size: 38px;
         font-family: markgeo-regular;
         font-weight: bold;
     }
-    .arrow-for-btn{
+    .arrow-for-btn {
         height: 18px;
     }
 }
-.sale-content-logo{
+
+.sale-content-logo {
     margin-top: 73px;
     width: 275px;
 }
+
 ///////////////////////////second slider ////////////////////////////////////
-.carousel-first-section{
+.carousel-first-section {
     text-align: center;
-    .carosel-sale-nt{
+    .carosel-sale-nt {
         text-decoration: line-through;
         font-family: markgeo-regular;
         font-size: 32px;
         color: red;
-        
         margin-top: 90px;
         margin-bottom: 10px;
     }
-    .carousel-sale-price{
+    .carousel-sale-price {
         font-family: markgeo-regular;
         font-size: 40px;
         color: #161E3F;
-        margin-bottom:21px;
+        margin-bottom: 21px;
     }
-    .carousel-buy-btn{
+    .carousel-buy-btn {
         background: #000000 0% 0% no-repeat padding-box;
         padding: 30px 20px;
-        .carousel-but-btn-p{
+        .carousel-but-btn-p {
             color: white;
             font-size: 38px;
             font-family: markgeo-regular;
         }
     }
-    .sale-content-logo{
+    .sale-content-logo {
         margin-top: 73px;
         width: 275px;
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-.use-sale-components{
-    margin-top:24px;
+.use-sale-components {
+    margin-top: 24px;
     font-size: 20px;
     font-family: markgeo-regular;
     font-weight: bold;
 }
-.bts-carousel-dots{
+
+.bts-carousel-dots {
     height: 20px!important;
-    width:20px!important;
+    width: 20px!important;
     background: #000000 0% 0% no-repeat padding-box!important;
-    border-top:30px!important;
-}
-.carousel-indicators{
-    bottom: -30px;
-    border-top:30px!important;
+    border-top: 30px!important;
 }
 
+.carousel-indicators {
+    bottom: -30px;
+    border-top: 30px!important;
+}
 
 .carousel-indicators li {
-    border-radius:30px;
+    border-radius: 30px;
     border-bottom: 30px;
 }
 
-
-@media only screen and (max-width: 1024px){
-    .carousel-control-next{
+@media only screen and (max-width: 1024px) {
+    .carousel-control-next {
         right: -60px;
     }
-    .carousel-control-prev{
+    .carousel-control-prev {
         left: -60px;
     }
-    .last-two-box{
+    .last-two-box {
         justify-content: space-between;
     }
     .second-sale-title {
         font-size: 30px;
     }
     .advertise-row-phone {
-        height: 410px;
+        height: 390px;
     }
     .advertise-row-laptop {
-        height: 125px;
+        height: 105px;
+    }
+    .advertise-row-ipad {
+        height: 174px;
+    }
+    .advertise-row-airpod {
+        height: 146px;
     }
     .advertise-row-watch {
-        height: 110px;
+        height: 90px;
     }
-    .iphone-main-content{
+    .iphone-main-content {
         justify-content: center!important;
     }
-
 }
+
 @media only screen and (max-width: 768px) {
-    .last-two-box{
+    .last-two-box {
         justify-content: center;
     }
-    .iphone-main-content{
+    .iphone-main-content {
         justify-content: center!important;
     }
-    .carousel-main-div{
+    .carousel-main-div {
         height: 490px;
-
     }
     .sale-content-img {
         width: 249px;
@@ -265,55 +272,53 @@ a{
     .sale-content-main-logo {
         height: 395px;
     }
-    .last-sale-logo{
+    .last-sale-logo {
         height: 280px;
     }
-    .apple-sale-title{
-        font-size:25px!important;
+    .apple-sale-title {
+        font-size: 25px!important;
     }
-    .advertise-row-phone{
+    .advertise-row-phone {
         height: 225px;
     }
-    .advertise-row-watch{
+    .advertise-row-watch {
         height: 55px;
     }
-    .advertise-row-laptop{
+    .advertise-row-laptop {
         height: 75px;
     }
-    .advertise-row-ipad{
+    .advertise-row-ipad {
         height: 84px;
     }
-    .advertise-row-airpod{
+    .advertise-row-airpod {
         height: 84px;
     }
-    .second-sale-title{
-        font-size:20px!important;
+    .second-sale-title {
+        font-size: 20px!important;
     }
-    .use-sale-title{
-         font-size: 20px!important;
+    .use-sale-title {
+        font-size: 20px!important;
     }
-    .footer-p{
+    .footer-p {
         font-size: 8px!important;
     }
-    .facebook-icon{
-        height:13px;
+    .facebook-icon {
+        height: 13px;
     }
-    .instagram-icon{
+    .instagram-icon {
         margin: 0 9px!important;
         height: 13px;
     }
-    .linkedin-icon{
-        height:13px;
+    .linkedin-icon {
+        height: 13px;
     }
-    .second-sale-title{
+    .second-sale-title {
         font-size: 20px!important;
     }
-    .use-sale-components{
-       
+    .use-sale-components {
         font-size: 12px;
-     
     }
-    .sale-indepentent-cont{
+    .sale-indepentent-cont {
         height: 77px;
     }
     .use-sale-components {
@@ -328,48 +333,46 @@ a{
     .carousel-bf-ol {
         margin-bottom: 100px;
     }
-}    
+}
+
 @media only screen and (max-width: 575px) {
-    
-    .iphone-main-content{
+    .iphone-main-content {
         justify-content: stretch!important;
     }
-    .carousel-main-div{
+    .carousel-main-div {
         height: auto;
-
     }
-    .iphone-main-content{
-        max-width:31.333%;
+    .iphone-main-content {
+        max-width: 31.333%;
     }
-    .advertise-row-phone{
+    .advertise-row-phone {
         height: 192px;
     }
-    .advertise-row-watch{
+    .advertise-row-watch {
         height: 43px;
     }
-    .advertise-row-laptop{
+    .advertise-row-laptop {
         height: 55px;
         padding-left: 5px;
     }
-    .advertise-row-ipad{
+    .advertise-row-ipad {
         height: 64px;
     }
-    .advertise-row-airpod{
+    .advertise-row-airpod {
         height: 54px;
     }
-    .sale-items-third{
-        margin-top: 25px;
-    } 
-    .sale-items-fourth{
+    .sale-items-third {
         margin-top: 25px;
     }
-    .carousel-sale-nt{
+    .sale-items-fourth {
+        margin-top: 25px;
+    }
+    .carousel-sale-nt {
         margin-top: 28px;
     }
-    .sale-content-main-logo{
+    .sale-content-main-logo {
         width: 185px!important;
         height: 220px!important;
-
     }
     .carosel-sale-nt {
         font-size: 14px;
@@ -378,88 +381,78 @@ a{
     .carousel-sale-price {
         font-size: 16px;
         font-weight: bold;
-
-    
     }
     .sale-content-logo {
         width: 110px;
         margin-top: 0;
     }
-    .carousel-but-btn-p{
+    .carousel-but-btn-p {
         font-size: 9px!important;
     }
     .carousel-buy-btn {
         padding: 9px 31px;
     }
-    .carousel-for-vendor-item{
+    .carousel-for-vendor-item {
         justify-content: space-around;
-        align-items:center;
-
+        align-items: center;
     }
-    .carousel-main-div{
-    
-      
+    .carousel-main-div {
         justify-content: center;
-     
     }
-
-    .sale-content-img{
+    .sale-content-img {
         width: 77px;
     }
-    .bts-carousel-dots{
+    .bts-carousel-dots {
         height: 6px!important;
-        width:6px!important;
-        
+        width: 6px!important;
     }
-    .carousel-indicators{
+    .carousel-indicators {
         bottom: 10px;
     }
-    .use-sale-content{
+    .use-sale-content {
         margin-top: 15px;
     }
-    .last-carousel-div{
+    .last-carousel-div {
         height: 400px;
-        .last-sale-logo{
+        .last-sale-logo {
             height: 130px!important;
             width: auto!important;
         }
     }
-    .carousel-bf-ol{
+    .carousel-bf-ol {
         margin-bottom: 0;
     }
-    .second-sale-box{
+    .second-sale-box {
         margin-bottom: 5px;
     }
-    .arrow-for-btn{
+    .arrow-for-btn {
         height: 5px!important;
     }
-    .last-carousel-div{
+    .last-carousel-div {
         height: 220px;
     }
-    .carousel-control-next-icon{
+    .carousel-control-next-icon {
         height: 18px;
     }
-    .carousel-control-prev-icon{
+    .carousel-control-prev-icon {
         height: 18px;
     }
-    .carousel-control-prev{
-        left:-14px;
+    .carousel-control-prev {
+        left: -14px;
     }
-    .carousel-control-next{
+    .carousel-control-next {
         right: -14px;
     }
-    .extra-footer-logo{
+    .extra-footer-logo {
         width: 60px;
-
     }
-    .apple-sale-title{
-        font-size:20px!important;
+    .apple-sale-title {
+        font-size: 20px!important;
     }
-    .second-sale-title{
+    .second-sale-title {
         font-size: 15px!important;
     }
 }
-
 
 @media only screen and (max-width: 355px) {
     .advertise-row-phone {
@@ -472,7 +465,6 @@ a{
         height: 55px;
     }
 }
-
 
 @media only screen and (max-width: 320px) {
     .apple-sale-title {

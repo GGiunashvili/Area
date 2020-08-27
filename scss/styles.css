@@ -41,7 +41,7 @@ a {
 }
 
 .advertise-row-laptop {
-  height: 145px;
+  height: 140px;
 }
 
 .advertise-row-ipad {
@@ -259,13 +259,19 @@ a {
     font-size: 30px;
   }
   .advertise-row-phone {
-    height: 410px;
+    height: 390px;
   }
   .advertise-row-laptop {
-    height: 125px;
+    height: 105px;
+  }
+  .advertise-row-ipad {
+    height: 174px;
+  }
+  .advertise-row-airpod {
+    height: 146px;
   }
   .advertise-row-watch {
-    height: 110px;
+    height: 90px;
   }
   .iphone-main-content {
     -webkit-box-pack: center !important;
