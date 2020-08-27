@@ -41,7 +41,7 @@ a {
 }
 
 .advertise-row-laptop {
-  height: 165px;
+  height: 145px;
 }
 
 .advertise-row-ipad {
@@ -53,7 +53,7 @@ a {
 }
 
 .carousel-bf-ol {
-  margin-bottom: 200px;
+  margin-bottom: 110px;
 }
 
 .carousel-main-div {
@@ -85,6 +85,14 @@ a {
 .carousel-control-next-icon {
   background-image: url(../image/marjvena.svg);
   height: 60px;
+}
+
+.carousel-control-next {
+  right: -70px;
+}
+
+.carousel-control-prev {
+  left: -70px;
 }
 
 .sale-content-main-logo {
@@ -126,6 +134,12 @@ a {
 
 .extra-footer-logo {
   height: 20px;
+}
+
+.last-two-box {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .carosel-sale-nt {
@@ -230,6 +244,17 @@ a {
 }
 
 @media only screen and (max-width: 1024px) {
+  .carousel-control-next {
+    right: -60px;
+  }
+  .carousel-control-prev {
+    left: -60px;
+  }
+  .last-two-box {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
   .second-sale-title {
     font-size: 30px;
   }
@@ -242,11 +267,38 @@ a {
   .advertise-row-watch {
     height: 110px;
   }
+  .iphone-main-content {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
 }
 
 @media only screen and (max-width: 768px) {
+  .last-two-box {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .iphone-main-content {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  .carousel-main-div {
+    height: 490px;
+  }
+  .sale-content-img {
+    width: 249px;
+  }
+  .sale-content-main-logo {
+    height: 395px;
+  }
+  .last-sale-logo {
+    height: 280px;
+  }
   .apple-sale-title {
-    font-size: 20px !important;
+    font-size: 25px !important;
   }
   .advertise-row-phone {
     height: 225px;
@@ -283,7 +335,7 @@ a {
     height: 13px;
   }
   .second-sale-title {
-    font-size: 15px !important;
+    font-size: 20px !important;
   }
   .use-sale-components {
     font-size: 12px;
@@ -297,9 +349,23 @@ a {
   .use-sale-content .use-sale-box {
     margin-bottom: 15px;
   }
+  .second-sale-box {
+    margin-bottom: 0;
+  }
+  .carousel-bf-ol {
+    margin-bottom: 100px;
+  }
 }
 
 @media only screen and (max-width: 575px) {
+  .iphone-main-content {
+    -webkit-box-pack: stretch !important;
+        -ms-flex-pack: stretch !important;
+            justify-content: stretch !important;
+  }
+  .carousel-main-div {
+    height: auto;
+  }
   .iphone-main-content {
     max-width: 31.333%;
   }
@@ -379,7 +445,7 @@ a {
     height: 400px;
   }
   .last-carousel-div .last-sale-logo {
-    height: 150px !important;
+    height: 130px !important;
     width: auto !important;
   }
   .carousel-bf-ol {
@@ -394,14 +460,26 @@ a {
   .last-carousel-div {
     height: 220px;
   }
+  .carousel-control-next-icon {
+    height: 18px;
+  }
+  .carousel-control-prev-icon {
+    height: 18px;
+  }
   .carousel-control-prev {
-    left: -10px;
+    left: -14px;
   }
   .carousel-control-next {
-    right: -10px;
+    right: -14px;
   }
   .extra-footer-logo {
     width: 60px;
+  }
+  .apple-sale-title {
+    font-size: 20px !important;
+  }
+  .second-sale-title {
+    font-size: 15px !important;
   }
 }
 
@@ -429,6 +507,9 @@ a {
   }
   .use-sale-components {
     font-size: 10px;
+  }
+  .instagram-icon {
+    margin: 0 0px !important;
   }
 }
 /*# sourceMappingURL=styles.css.map */
