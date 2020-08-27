@@ -104,6 +104,9 @@ a{
 .sale-content-img{
     width: 275px;
 }
+.extra-footer-logo{
+    height:20px;
+}
 ///////////////////////////second slider ////////////////////////////////////
 .carosel-sale-nt{
     text-decoration: line-through;
@@ -403,5 +406,21 @@ a{
     }
     .advertise-row-ipad {
         height: 55px;
+    }
+}
+
+
+@media only screen and (max-width: 320px) {
+    .apple-sale-title {
+        font-size: 15px !important;
+    }
+    .second-sale-title {
+        font-size: 12px !important;
+    }
+    .use-sale-title {
+        font-size: 15px !important;
+    }
+    .use-sale-components {
+        font-size: 10px;
     }
 }

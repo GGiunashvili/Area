@@ -124,6 +124,10 @@ a {
   width: 275px;
 }
 
+.extra-footer-logo {
+  height: 20px;
+}
+
 .carosel-sale-nt {
   text-decoration: line-through;
   font-family: markgeo-regular;
@@ -410,6 +414,21 @@ a {
   }
   .advertise-row-ipad {
     height: 55px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .apple-sale-title {
+    font-size: 15px !important;
+  }
+  .second-sale-title {
+    font-size: 12px !important;
+  }
+  .use-sale-title {
+    font-size: 15px !important;
+  }
+  .use-sale-components {
+    font-size: 10px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
