@@ -131,6 +131,9 @@ a{
         font-family: markgeo-regular;
         font-weight: bold;
     }
+    .arrow-for-btn{
+        height: 18px;
+    }
 }
 .sale-content-logo{
     margin-top: 73px;
@@ -274,7 +277,7 @@ a{
         height:13px;
     }
     .second-sale-title{
-        font-size: 14px!important;
+        font-size: 15px!important;
     }
     .use-sale-components{
        
@@ -317,8 +320,8 @@ a{
         margin-top: 28px;
     }
     .sale-content-main-logo{
-       
         width: 185px!important;
+        height: 220px!important;
 
     }
     .carosel-sale-nt {
@@ -362,7 +365,7 @@ a{
         
     }
     .carousel-indicators{
-        bottom: 90px;
+        bottom: 15px;
     }
     .last-carousel-div{
         height: 400px;
@@ -375,7 +378,23 @@ a{
         margin-bottom: 0;
     }
     .second-sale-box{
-        margin-bottom: 0;
+        margin-bottom: 5px;
+    }
+    .arrow-for-btn{
+        height: 5px!important;
+    }
+    .last-carousel-div{
+        height: 220px;
+    }
+    .carousel-control-prev{
+        left:-10px;
+    }
+    .carousel-control-next{
+        right: -10px;
+    }
+    .extra-footer-logo{
+        width: 60px;
+
     }
 }
 
