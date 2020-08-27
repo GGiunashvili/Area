@@ -226,9 +226,6 @@ a {
 }
 
 @media only screen and (max-width: 1024px) {
-  .sale-content-main-logo {
-    height: 400px !important;
-  }
   .second-sale-title {
     font-size: 30px;
   }
@@ -299,6 +296,9 @@ a {
 }
 
 @media only screen and (max-width: 575px) {
+  .iphone-main-content {
+    max-width: 31.333%;
+  }
   .advertise-row-phone {
     height: 192px;
   }
@@ -307,6 +307,7 @@ a {
   }
   .advertise-row-laptop {
     height: 55px;
+    padding-left: 5px;
   }
   .advertise-row-ipad {
     height: 64px;
@@ -365,7 +366,10 @@ a {
     width: 6px !important;
   }
   .carousel-indicators {
-    bottom: 15px;
+    bottom: 10px;
+  }
+  .use-sale-content {
+    margin-top: 15px;
   }
   .last-carousel-div {
     height: 400px;
