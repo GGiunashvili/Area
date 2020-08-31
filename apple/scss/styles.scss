@@ -415,7 +415,7 @@ a {
     .last-carousel-div {
         height: 400px;
         .last-sale-logo {
-            height: 130px!important;
+            height: 190px!important;
             width: auto!important;
         }
     }
@@ -481,5 +481,11 @@ a {
     }
     .instagram-icon {
         margin: 0 0px !important;
+    }
+    .sale-content-main-logo {  
+        width: 155px!important;
+    }
+    .last-carousel-div .last-sale-logo {
+        height: 155px!important;
     }
 }

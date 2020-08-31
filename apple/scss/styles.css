@@ -451,7 +451,7 @@ a {
     height: 400px;
   }
   .last-carousel-div .last-sale-logo {
-    height: 130px !important;
+    height: 190px !important;
     width: auto !important;
   }
   .carousel-bf-ol {
@@ -516,6 +516,12 @@ a {
   }
   .instagram-icon {
     margin: 0 0px !important;
+  }
+  .sale-content-main-logo {
+    width: 155px !important;
+  }
+  .last-carousel-div .last-sale-logo {
+    height: 155px !important;
   }
 }
 /*# sourceMappingURL=styles.css.map */
