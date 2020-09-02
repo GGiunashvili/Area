@@ -68,10 +68,29 @@ a {
 
 .second-sale-box {
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
     .second-sale-title {
         font-size: 40px;
         font-family: markgeo-semibold;
+    }
+    
+}
+.see-all-sale-box{
+    text-align: center;
+    margin-bottom: 15px;
+    .see-all-sale-p{
+        background:black;
+        display: inline-block;
+        color: white;
+        padding:35px 23px;
+        font-size: 25px;
+        font-family: markgeo-semibold;
+    }
+    .see-all-second-sale-p{
+        margin-top:30px;
+        font-style: italic; 
+        color: gray;
+        font-size: 18px;
     }
 }
 
@@ -262,6 +281,16 @@ a {
 }
 
 @media only screen and (max-width: 768px) {
+    .see-all-sale-box{ 
+        margin-top: 20px;
+        .see-all-sale-p{    
+            font-size: 20px;
+        }
+        .see-all-second-sale-p{
+            margin-top:15px;
+            font-size: 15px;
+        }
+    }
     .last-two-box {
         justify-content: center;
     }
@@ -341,6 +370,18 @@ a {
 }
 
 @media only screen and (max-width: 575px) {
+    .see-all-sale-box{ 
+        margin-top: 20px;
+        .see-all-sale-p{    
+            font-size: 20px;
+            padding: 20px 20px;
+
+        }
+        .see-all-second-sale-p{
+            margin-top:15px;
+            font-size: 15px;
+        }
+    }
     .iphone-main-content {
         justify-content: stretch!important;
     }
@@ -475,6 +516,19 @@ a {
 }
 
 @media only screen and (max-width: 320px) {
+
+    .see-all-sale-box{ 
+        margin-top: 20px;
+        .see-all-sale-p{    
+            font-size: 17px;
+            padding: 15px 20px;
+
+        }
+        .see-all-second-sale-p{
+            margin-top:15px;
+            font-size: 13px;
+        }
+    }
     .apple-sale-title {
         font-size: 15px !important;
     }
