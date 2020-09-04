@@ -1,0 +1,61 @@
+@font-face {
+    src: url(../fonts/MarkGEO-Bold.ttf);
+    font-family: markgeo-bold;
+}
+
+@font-face {
+    src: url(../fonts/MarkGEO-Regular.ttf);
+    font-family: markgeo-regular;
+}
+
+@font-face {
+    src: url(../fonts/MarkGEO-SemiBold.ttf);
+    font-family: markgeo-semibold;
+}
+.carousel .carousel-item {
+    transition-duration: 0.3s;
+   
+  
+    
+}
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+a {
+    color: black;
+}
+
+.banner-img-box{
+    position: relative;
+    .buy-btn-a{
+        position: absolute;
+        text-decoration: none;
+        bottom: 65px;
+        right: 85px;
+    }
+    .buy-btn-p{
+        font-family: markgeo-regular;
+        background: #F72163;
+        display: inline; 
+        color: white;
+        padding: 19px 60px;
+        font-size: 20px;
+    }
+}
+
+.current-sale{
+ font-size:30px;
+ font-family: markgeo-bold;
+}
+
+.current-sale-text{
+ font-size:20px;
+ font-family: markgeo-bold;
+}
+
+.img{
+    background-image: url(https://promo.extra.ge/ads/image/colors-03.svg);
+}
+

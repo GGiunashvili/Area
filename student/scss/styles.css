@@ -252,7 +252,7 @@ a {
 
 .use-sale-components {
   margin-top: 24px;
-  font-size: 20px;
+  font-size: 25px;
   font-family: markgeo-regular;
   font-weight: bold;
 }
@@ -453,7 +453,7 @@ a {
     margin-top: 28px;
   }
   .sale-content-main-logo {
-    width: 185px !important;
+    width: 180px !important;
     height: 220px !important;
   }
   .carosel-sale-nt {
@@ -505,7 +505,7 @@ a {
     height: 400px;
   }
   .last-carousel-div .last-sale-logo {
-    height: 190px !important;
+    height: 160px !important;
     width: auto !important;
   }
   .carousel-bf-ol {
