@@ -58,6 +58,6 @@ a {
 }
 
 .img {
-  background-image: url(https://promo.extra.ge/ads/image/colors-03.svg);
+  background-image: url("https://promo.extra.ge/ads/image/colors-03.svg");
 }
 /*# sourceMappingURL=styles.css.map */
