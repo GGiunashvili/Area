@@ -22,6 +22,10 @@ html {
           transition-duration: 0.3s;
 }
 
+.someClass {
+  color: red;
+}
+
 a:hover {
   text-decoration: none;
   color: black;
