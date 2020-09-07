@@ -33,6 +33,7 @@ a {
 }
 
 .banner-img-box{
+   
     position: relative;
     .buy-btn-a{
         position: absolute;
@@ -140,6 +141,7 @@ a {
     .carousel-control-prev {
         left: -100px;
     }
+       
 @media only screen and (max-width: 1024px) {
     .carousel-control-next {
         right: -70px;
@@ -147,13 +149,12 @@ a {
     .carousel-control-prev {
         left: -70px;
     }
+    .mrgn-top{
+        margin-top:25px!important;
+    } 
     
 }  
-@media only screen and (max-width: 995px) {
-   .mrgn-top{
-       margin-top:10px;
-   } 
-}  
+ 
 @media only screen and (max-width: 768px) {
     .banner-icon{
         width:160px;
@@ -183,12 +184,6 @@ a {
     .independent-carousel-component .position-vendor{
         height: 53px;
     }
-}
-
-@media only screen and (max-width: 414px) {
-    .banner-icon{
-        width:90px;
-    }
     .carousel-control-next {
         right: -10px;
     }
@@ -197,13 +192,20 @@ a {
         left: -10px;
     }
     .carousel-control-prev-icon {
-        height: 30px;
+        height: 20px;
                    
     }
     .carousel-control-next-icon {
-        height: 30px;
+        height: 20px;
         
     }
+}
+
+@media only screen and (max-width: 414px) {
+    .banner-icon{
+        width:90px;
+    }
+  
    
 }
 
