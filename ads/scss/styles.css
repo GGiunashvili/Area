@@ -111,7 +111,7 @@ a {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  bottom: 27%;
+  top: 63%;
   font-size: 20px;
   text-align: center;
   font-family: markgeo-bold;
@@ -173,7 +173,7 @@ a {
     font-size: 15px;
   }
   .independent-carousel-component .save-money {
-    font-size: 15px;
+    font-size: 13px;
   }
   .banner-icon {
     width: 120px;
@@ -212,7 +212,7 @@ a {
     height: 30px;
   }
   .independent-carousel-component .save-money {
-    font-size: 12px;
+    font-size: 11px;
   }
   .independent-carousel-component .sale-carousel-head {
     font-size: 13px;
