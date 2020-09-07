@@ -13,6 +13,10 @@
   font-family: markgeo-semibold;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .carousel .carousel-item {
   -webkit-transition-duration: 0.3s;
           transition-duration: 0.3s;

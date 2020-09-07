@@ -12,6 +12,10 @@
     src: url(../fonts/MarkGEO-SemiBold.ttf);
     font-family: markgeo-semibold;
 }
+
+html{
+    scroll-behavior: smooth;
+}
 .carousel .carousel-item {
     transition-duration: 0.3s;
    
