@@ -23,6 +23,8 @@
   
     
 }
+
+
 a:hover {
     text-decoration: none;
     color: black;
@@ -95,6 +97,7 @@ a {
         height: 70px;
         .vendor-img{
             padding:5px 40px;
+            height:75px;
            
             
         }
@@ -153,7 +156,15 @@ a {
         margin-top:25px!important;
     } 
     
-}  
+} 
+
+@media only screen and (max-width: 992px) {
+    
+    .mrgn-top{
+        margin-top:25px!important;
+    } 
+    
+} 
  
 @media only screen and (max-width: 768px) {
     .banner-icon{
@@ -166,6 +177,12 @@ a {
     }
 }
 @media only screen and (max-width: 575px) {
+    .vendor-img{
+        padding:5px 40px;
+        height:55px!important;
+       
+        
+    }
     .independent-carousel-component .sale-carousel-head{
         font-size: 15px;
     }
