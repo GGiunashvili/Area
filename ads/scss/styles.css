@@ -88,7 +88,7 @@ a {
 .independent-carousel-component .position-vendor {
   background: white;
   position: absolute;
-  border: 0.5px solid #707070;
+  border: 0.5px solid #80808045;
   top: 38%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -177,11 +177,11 @@ a {
 
 @media only screen and (max-width: 575px) {
   .vendor-img {
-    padding: 5px 40px;
-    height: 55px !important;
+    padding: 5px 35px !important;
+    height: 50px !important;
   }
   .independent-carousel-component .sale-carousel-head {
-    font-size: 15px;
+    font-size: 13px;
   }
   .independent-carousel-component .save-money {
     font-size: 13px;
