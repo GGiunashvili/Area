@@ -1,144 +1,65 @@
-let slider     = document.querySelector('.slider'),
-    sliderItem = document.querySelectorAll('.slider-item'),
-    dots       = document.querySelectorAll('.dots-item'),
-    step       = sliderItem[0].offsetHeight;
 
-//Some data
-let currentPage = 0,
-    canDrag     = false,
-    canWeel     = true,
-    intialMousePostions = 0;
-//functions 
-const changePage = (nextPage) => {
-    slider.style.transform = `translateY(-${step * nextPage}px)`;
-}
-const getNextPage = (direction) => {
-    if(direction === 'next' && currentPage < sliderItem.length - 1){
-      currentPage = currentPage + 1;
-      return currentPage;
-    }
-    else if(direction === 'prev' && currentPage > 0){
-      currentPage = currentPage - 1;
-      return currentPage;
-    }
-    else {
-      return false;
-    }
-}
-const togleActiveBtn = (id) => {
-  dots.forEach((item) => {
-    item.className = 'dots-item';
-  })
-  dots[id].classList.add('active');
-}
-const resetCanWeel   = () => canWeel = true;
-//listeners
-
-//Control slider use ArrowUp and ArrowDown
-window.addEventListener('keyup', (e) =>{
-  let nextPage = e.key === 'ArrowUp' 
-                 ? getNextPage('prev') 
-                 : e.key === 'ArrowDown' 
-                 ?  getNextPage('next')
-                 : false;
-  if(nextPage !== false){
-      togleActiveBtn(nextPage);
-      changePage(nextPage)
-  }
-})
-
-//Control slider use dots there are no checks... I like dots 
-dots.forEach((item, id) => {
-  item.addEventListener('click', (e) => {
-      currentPage = id;
-      togleActiveBtn(id);
-      changePage(currentPage);
-  })
-})
-
-//Control slider use drag-n-drop
-
-slider.addEventListener('mousedown',(e) => {
-    canDrag = true;
-    intialMousePostions = e.pageY;
-})
-slider.addEventListener('mouseup',(e) => {
-    canDrag = false;
-})
-slider.addEventListener('mousemove',(e) => {
-  if(canDrag){
-      let currentMousePosition = e.pageY;
-      let nextPage = false;
-      if(intialMousePostions - currentMousePosition  > 30 ){
-        nextPage = getNextPage('next'); 
-        canDrag = false;
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+// Code By Webdevtrick ( https://webdevtrick.com )
+var $header_top = $('.header-top');
+var $nav = $('nav');
+ 
+$header_top.find('a').on('click', function() {
+  $(this).parent().toggleClass('open-menu');
+});
+ 
+$('#fullpage').fullpage({
+  sectionsColor: ['#3dcfa1', '#348899', '#ff8b20', '#ff5757', '#ffd03c'],
+  sectionSelector: '.vertical-scrolling',
+  navigation: true,
+  slidesNavigation: true,
+  controlArrows: false,
+  anchors: ['firstSection', 'secondSection', 'thirdSection', 'fourthSection', 'fifthSection'],
+  menu: '#menu',
+ 
+  afterLoad: function(anchorLink, index) {
+    $header_top.css('background', 'rgba(0, 47, 77, .3)');
+    $nav.css('background', 'rgba(0, 47, 77, .25)');
+    if (index == 5) {
+        $('#fp-nav').hide();
       }
-      else if(intialMousePostions - currentMousePosition < -30){
-        nextPage =  getNextPage('prev'); 
-        canDrag = false;
-      }
-      if(nextPage !== false){
-          togleActiveBtn(nextPage);
-          changePage(nextPage)
-       } 
-  }
-})
-
-//Control slider use touch (for mobile, tablet or another sensor device)
-
-slider.addEventListener('touchstart', (e) => {
-    canDrag = true;
-    intialMousePostions = e.targetTouches[0].pageY;
-})
-slider.addEventListener('touchend',(e) => {
-    canDrag = false;
-})
-slider.addEventListener('touchmove',(e) => {
-  if(canDrag){
-      let currentMousePosition =  e.targetTouches[0].pageY;;
-      let nextPage = false;
-      if(intialMousePostions - currentMousePosition  > 30 ){
-        nextPage = getNextPage('next'); 
-        canDrag = false;
-      }
-      else if(intialMousePostions - currentMousePosition < -30){
-        nextPage =  getNextPage('prev'); 
-        canDrag = false;
-      }
-      if(nextPage !== false){
-          togleActiveBtn(nextPage);
-          changePage(nextPage)
-       } 
-  }
-})
-
-//Control slider use mouseweel
-
-slider.addEventListener('mousewheel',(e) => {
-  if(canWeel){
-    let nextPage = false;
-    if(e.deltaY < -90){
-      canWeel = false;
-      nextPage = getNextPage('prev');
-      setTimeout(()=>{
-        resetCanWeel()
-      },1000)
+  },
+ 
+  onLeave: function(index, nextIndex, direction) {
+    if(index == 5) {
+      $('#fp-nav').show();
     }
-    else if(e.deltaY > 90) {
-      canWeel = false;
-      nextPage = getNextPage('next');
-      setTimeout(()=>{
-        resetCanWeel()
-      },1000)
-    }
-    if(nextPage !== false){
-      togleActiveBtn(nextPage);
-      changePage(nextPage)
-    } 
-  }
-})
-//re-calculate step and slider transform on window resize
-window.addEventListener('resize',(e)=>{
-  step = sliderItem[0].offsetHeight;
-  changePage(currentPage);
-})
+  },
+ 
+ 
+});
