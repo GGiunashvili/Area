@@ -13,12 +13,27 @@
     font-family: markgeo-semibold;
 }
 
+@font-face {
+    src: url(../fonts/MarkGEOCAPS-Regular.ttf);
+    font-family: markgeocaps-regular;
+}
+
 html{
     scroll-behavior: smooth;
     
 }
+.fp-tableCell{
+	vertical-align: unset!important;
+	height:100%!important;
+}
+.ss{
+	max-height: 100%;
+	
+}
+// .fp-tableCell{
+// 	vertical-align: unset!important;
 
-
+// }
 a:hover {
     text-decoration: none;
     color: black;
@@ -27,6 +42,47 @@ a:hover {
 a {
     color: black;
 }
+
+.first-container{
+	text-align: initial;
+	.header-logo{
+		margin-bottom: 135px;
+		margin-top: 20px;
+	}
+	.main-text-one{
+		font-size:34px;
+		font-family: markgeocaps-regular;
+		font-weight: bold;
+	}
+}
+.line-section{
+	text-align:center;
+	background: #205299;
+	width: 140px;
+	height: 4px; 
+	border-radius: 5px;
+	margin: 40px auto;
+	margin-bottom: 70px;
+}
+.button-a{
+	float: left;
+	text-decoration:none;
+	background: #2B1877;
+	 display: inline-block;
+	color: white; 
+	padding: 30px 60px;
+	font-size: 17px;
+	font-family: markgeo-semibold;
+}
+
+
+
+
+
+
+
+
+
 /////////////////////////////////////////////code//////////////////////////////////
 @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,700);
 * {
