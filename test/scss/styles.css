@@ -54,7 +54,7 @@ a {
 }
 
 .main-text-one {
-  font-size: 34px;
+  font-size: 26px;
   font-weight: bold;
   font-family: markgeocaps-bold;
 }
@@ -77,6 +77,16 @@ a {
   color: white;
   padding: 20px 60px;
   font-size: 17px;
+  font-family: markgeo-semibold;
+}
+
+.sec-two-title {
+  font-size: 35px;
+  font-family: markgeocaps-bold;
+}
+
+.sec-two-text {
+  font-size: 30px;
   font-family: markgeo-semibold;
 }
 /*# sourceMappingURL=styles.css.map */
