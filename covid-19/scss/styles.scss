@@ -108,9 +108,16 @@ a {
 
 }
 
-
+.last-case{
+    margin-top: 90px;
+}
 
 @media only screen and (max-width: 768px) {
+
+    .last-case{
+        margin-top: 35px;
+    }
+    
     .for-all-img{
         height: 212px;
     }
@@ -135,8 +142,12 @@ a {
        
     }
     .footer {
-        padding: 14px 15px;
+        padding: 20px 15px;
     }    
+    .button-a{
+        margin-top: 30px;
+        margin-bottom: 35px;
+    }
 
 }
 @media only screen and (max-width: 375px) {
@@ -165,9 +176,14 @@ a {
     }
     .button-a{
         padding:30px 20px;
+        margin-top:30px;
+        margin-bottom:30px;
     }
     .instagram-icon{
         margin-left: 0!important;
+    }
+    .last-case{
+        margin-top: 25px!important;
     }
 }
 @media only screen and (max-width: 320px) {
