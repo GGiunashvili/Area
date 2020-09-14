@@ -17,6 +17,12 @@
     font-family: markgeocaps-bold;
 
 }
+@font-face{
+    src: url(../fonts/MarkGEOCAPS-Regular.ttf);
+    font-family: markgeocaps-regular;
+
+
+}
 
 html{
     scroll-behavior: smooth;
@@ -44,6 +50,7 @@ a {
 .first-title{
     font-size:62px;
     margin-top: 90px;
+    font-family: markgeocaps-bold;
 }
 .second-title{
     font-size: 62px;
@@ -53,7 +60,7 @@ a {
 }
 .title-description{
     font-size: 36px;
-    font-family: markgeo-regular;
+    font-family: markgeocaps-bold;
     text-align: center;
     margin-top: 30px;
 }
@@ -71,6 +78,8 @@ a {
     .button-p{
         color: white;
         font-size: 33px;
+        font-family: markgeo-regular;
+
    
     }
 }
