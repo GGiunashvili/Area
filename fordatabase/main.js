@@ -10,18 +10,9 @@ var firebaseConfig = {
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
 
 
-  var messageRef = firebase.database().ref('messages');
-
-
-
-
-
-
-
-
+  var messagesRef = firebase.database().ref('messages');
 
 
 
@@ -56,12 +47,13 @@ function getInputVal(id){
 
 function saveMessage(name, company, email, phone, message){
     var newMessageRef = messagesRef.push();
-    newMessageRef.set({
-        name:name,
-        company:company,
-        email:email,
-        phone:phone,
-        message:message
-    });
+        newMessageRef.set({
+            name: name,
+            company:company,
+            email:email,
+            phone:phone,
+            message:message
+        });
+        
 
 }
