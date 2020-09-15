@@ -64,7 +64,7 @@ a {
     font-size: 25px;
     font-family: markgeocaps-bold;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 20px;
     line-height: initial;
 
 }
@@ -142,7 +142,7 @@ a {
        
     }
     .footer {
-        padding: 20px 15px!important;
+        padding: 20px 15px;
     }    
     .button-a{
         margin-top: 30px;
@@ -187,12 +187,13 @@ a {
         margin-left: 0px!important;
         margin: 0!important;
     }
+    .footer-p{
+        font-size: 14px;
+    }
 }
 @media only screen and (max-width: 320px) {
     .footer{
         padding: 10px 10px;
     }
-    .footer-p{
-        font-size: 14px;
-    }
+    
 }
