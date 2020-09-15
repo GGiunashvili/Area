@@ -141,7 +141,7 @@ a {
     font-weight: bold;
   }
   .footer {
-    padding: 20px 15px;
+    padding: 20px 15px !important;
   }
   .button-a {
     margin-top: 30px;
