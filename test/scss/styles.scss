@@ -17,9 +17,85 @@
     src: url(../fonts/MarkGEOCAPS-Regular.ttf);
     font-family: markgeocaps-regular;
 }
-@font-face{
+
+@font-face {
     src: url(../fonts/MarkGEOCAPS-Bold.ttf);
     font-family: markgeocaps-bold;
+}
+
+button {
+    z-index: 102;
+    display: none!important;
+}
+
+.ss {}
+
+section {
+    position: relative;
+    background: #FAFAFA;
+}
+
+.slick-slide {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 0.3s ease-in-out all;
+    transition: 0.3s ease-in-out all;
+}
+
+.slick-slide.slick-center {
+    opacity: 1;
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+}
+
+.switch {
+    background: #000;
+}
+
+.slider {
+    margin: 0 auto;
+    position: relative;
+}
+
+.slider:after,
+.slider:before {
+    content: "";
+    background: #FAFAFA;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 12%;
+    z-index: 100;
+}
+
+.slider:after {
+    right: 0;
+    background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), to(#ffffff));
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, #ffffff 100%);
+}
+
+.slider:before {
+    background: -webkit-gradient(linear, left top, right top, from(#ffffff), to(rgba(255, 255, 255, 0)));
+    background: linear-gradient(to right, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.img-box {
+    padding: 0;
+}
+
+.img-box img {
+    width: 100%;
+}
+
+article {
+    /* border: 1px solid; */
+    float: left;
+    margin: 50px 15px;
+    font-size: 0.8vw;
+}
+
+h1 {
+    font-size: 2vw;
 }
 
 // html {
@@ -28,10 +104,10 @@
 // .fp-tableCell{
 // 	vertical-align: unset!important;
 // }
-.b1{
+.b1 {
     background-image: linear-gradient(red, yellow, green);
-
 }
+
 a:hover {
     text-decoration: none;
     color: black;
@@ -40,7 +116,8 @@ a:hover {
 a {
     color: black;
 }
-.button-a{
+
+.button-a {
     float: left;
     text-decoration: none;
     background: #2B1877;
@@ -56,18 +133,18 @@ a {
     .header-logo {
         // margin-bottom: 135px;
         // margin-top: 40px;
-        width:460px;
+        width: 460px;
         position: absolute;
         top: 50px;
     }
-    
 }
+
 .main-text-one {
     font-size: 30px;
-    
     font-weight: bold;
     font-family: markgeocaps-bold;
 }
+
 .line-section {
     text-align: center;
     background: #205299;
@@ -77,6 +154,7 @@ a {
     margin: 40px 30%;
     margin-bottom: 70px;
 }
+
 .button-a {
     float: left;
     text-decoration: none;
@@ -88,14 +166,12 @@ a {
     font-family: markgeo-semibold;
 }
 
-
-
-
-.sec-two-title{
-    font-size:35px;
+.sec-two-title {
+    font-size: 35px;
     font-family: markgeocaps-bold;
 }
-.sec-two-text{
-    font-size:30px;
+
+.sec-two-text {
+    font-size: 30px;
     font-family: markgeo-semibold;
 }
