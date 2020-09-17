@@ -62,7 +62,7 @@ section {
 .slider:after,
 .slider:before {
     content: "";
-    background: #FAFAFA;
+    // background: #FAFAFA;
     position: absolute;
     top: 0;
     height: 100%;
@@ -70,16 +70,16 @@ section {
     z-index: 100;
 }
 
-.slider:after {
-    right: 0;
-    background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), to(#ffffff));
-    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, #ffffff 100%);
-}
+// .slider:after {
+//     right: 0;
+//     background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), to(#ffffff));
+//     background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, #ffffff 100%);
+// }
 
-.slider:before {
-    background: -webkit-gradient(linear, left top, right top, from(#ffffff), to(rgba(255, 255, 255, 0)));
-    background: linear-gradient(to right, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
-}
+// .slider:before {
+//     background: -webkit-gradient(linear, left top, right top, from(#ffffff), to(rgba(255, 255, 255, 0)));
+//     background: linear-gradient(to right, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+// }
 
 .img-box {
     padding: 0;
@@ -118,6 +118,11 @@ h1 {
 }
 .b2 {
     background-image: url(../image/s.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.m2{
+    background-image: url(../image/MaskGroup2.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -203,4 +208,15 @@ a {
   .block{
     display: block;
 }
+.main-text-one {
+    padding-top: 50px;
+    font-size: 20px;
+   text-align: center;
+    
+}
+
+    .button-a{
+        font-size: 20px;
+        padding: 12px 30px;
+    }
 } 
