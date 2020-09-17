@@ -68,15 +68,15 @@ button {
   display: block;
 }
 
-.dropdown-content a:hover {
+.dropdown-content a:active {
   background-color: #016CDE;
 }
 
-.dropdown:hover .dropdown-content {
+.dropdown:active .dropdown-content {
   display: block;
 }
 
-.dropdown:hover .dropbtn {
+.dropdown:active .dropbtn {
   background-color: #3e8e41;
 }
 
