@@ -111,6 +111,12 @@ h1 {
   background-size: cover;
 }
 
+body {
+  background-image: url(../image/meore.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 a:hover {
   text-decoration: none;
   color: black;
@@ -201,7 +207,7 @@ a {
     display: block;
   }
   .main-text-one {
-    padding-top: 35%;
+    padding-top: 30%;
     font-size: 20px;
     text-align: center;
   }
