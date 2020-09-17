@@ -28,7 +28,6 @@ button {
     display: none!important;
 }
 
-.ss {}
 
 section {
     position: relative;
@@ -116,6 +115,8 @@ h1 {
 }
 .b2 {
     background-image: url(../image/s.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 a:hover {
@@ -154,7 +155,7 @@ a {
     font-size: 30px;
     font-weight: bold;
     font-family: markgeocaps-bold;
-    text-align: center;
+    
 }
 
 .line-section {
@@ -187,3 +188,11 @@ a {
     font-size: 30px;
     font-family: markgeo-semibold;
 }
+.main-box-div{
+    padding: 0 100px;
+}
+@media only screen and (max-width: 768px){
+    .main-box-div{
+        padding: 1px!important;
+    }
+} 
