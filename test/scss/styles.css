@@ -94,13 +94,13 @@ h1 {
 }
 
 .b1 {
-  background-image: url(../image/s.png);
+  background-image: url(../image/1111.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .b2 {
-  background-image: url(../image/s.png);
+  background-image: url(../image/meore.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -177,9 +177,19 @@ a {
   display: none;
 }
 
+.block-first {
+  display: none;
+}
+
 @media only screen and (max-width: 768px) {
   .main-box-div {
     padding: 1px !important;
+  }
+  .block-first {
+    display: block;
+  }
+  .none-first {
+    display: none;
   }
 }
 
