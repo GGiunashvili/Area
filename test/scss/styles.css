@@ -184,4 +184,10 @@ a {
     padding: 1px !important;
   }
 }
+
+@media only screen and (max-width: 500px) {
+  .none {
+    display: none;
+  }
+}
 /*# sourceMappingURL=styles.css.map */

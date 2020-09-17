@@ -184,9 +184,17 @@ a {
 }
 .main-box-div{
     padding: 0 100px;
+
 }
 @media only screen and (max-width: 768px){
     .main-box-div{
         padding: 1px!important;
     }
+} 
+
+
+@media only screen and (max-width: 500px){
+  .none{
+      display: none;
+  }
 } 
