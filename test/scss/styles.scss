@@ -186,6 +186,9 @@ a {
     padding: 0 100px;
 
 }
+.block{
+    display: none;
+}
 @media only screen and (max-width: 768px){
     .main-box-div{
         padding: 1px!important;
@@ -197,4 +200,7 @@ a {
   .none{
       display: none;
   }
+  .block{
+    display: block;
+}
 } 

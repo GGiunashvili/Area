@@ -179,6 +179,10 @@ a {
   padding: 0 100px;
 }
 
+.block {
+  display: none;
+}
+
 @media only screen and (max-width: 768px) {
   .main-box-div {
     padding: 1px !important;
@@ -188,6 +192,9 @@ a {
 @media only screen and (max-width: 500px) {
   .none {
     display: none;
+  }
+  .block {
+    display: block;
   }
 }
 /*# sourceMappingURL=styles.css.map */
