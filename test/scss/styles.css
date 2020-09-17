@@ -30,18 +30,19 @@ a:hover {
 
 button {
   z-index: 102;
-  display: none !important;
 }
 
 .dropbtn {
-  background-color: #016CDE;
+  background-color: #3498DB;
   color: white;
   padding: 16px;
   font-size: 16px;
   border: none;
   cursor: pointer;
-  width: 600px;
-  background: transparent linear-gradient(267deg, #016CDE 0%, #003674 100%) 0% 0% no-repeat padding-box;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
 }
 
 .dropdown {
@@ -52,13 +53,12 @@ button {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #016CDE;
-  background: transparent linear-gradient(267deg, #016CDE 0%, #003674 100%) 0% 0% no-repeat padding-box;
+  background-color: #f1f1f1;
   min-width: 160px;
+  overflow: auto;
   -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
-  width: 100%;
 }
 
 .dropdown-content a {
@@ -68,16 +68,12 @@ button {
   display: block;
 }
 
-.dropdown-content a:hover {
-  background-color: #016CDE;
+.dropdown a:hover {
+  background-color: #ddd;
 }
 
-.dropdown:hover .dropdown-content {
+.show {
   display: block;
-}
-
-.dropdown:hover .dropbtn {
-  background-color: #3e8e41;
 }
 
 section {
