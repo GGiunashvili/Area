@@ -23,6 +23,11 @@
   font-family: markgeocaps-bold;
 }
 
+a:hover {
+  text-decoration: none;
+  color: white !important;
+}
+
 button {
   z-index: 102;
   display: none !important;
@@ -121,17 +126,6 @@ a {
   color: black;
 }
 
-.button-a {
-  float: left;
-  text-decoration: none;
-  background: #9FC224;
-  display: inline-block;
-  color: white;
-  padding: 30px 60px;
-  font-size: 17px;
-  font-family: markgeo-semibold;
-}
-
 .first-container {
   text-align: initial;
 }
@@ -147,6 +141,7 @@ a {
   font-size: 30px;
   font-weight: bold;
   font-family: markgeocaps-bold;
+  color: #FFFFFF;
 }
 
 .line-section {
@@ -165,9 +160,9 @@ a {
   background: #9FC224;
   display: inline-block;
   color: white;
-  padding: 25px 65px;
-  font-size: 23px;
-  font-family: markgeo-semibold;
+  padding: 18px 44px;
+  font-size: 30px;
+  font-family: markgeocaps-bold;
 }
 
 .sec-two-title {
