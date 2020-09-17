@@ -101,7 +101,9 @@ h1 {
 }
 
 .b1 {
-  background-image: url(../image/screenv2.png);
+  background-image: url(../image/s.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .b2 {
@@ -136,12 +138,14 @@ a {
   width: 460px;
   position: absolute;
   top: 50px;
+  left: 100px;
 }
 
 .main-text-one {
   font-size: 30px;
   font-weight: bold;
   font-family: markgeocaps-bold;
+  text-align: center;
 }
 
 .line-section {
