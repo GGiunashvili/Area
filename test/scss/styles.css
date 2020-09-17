@@ -101,8 +101,11 @@ h1 {
 }
 
 .b1 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(red), color-stop(yellow), to(green));
-  background-image: linear-gradient(red, yellow, green);
+  background-image: url(../image/screenv2.png);
+}
+
+.b2 {
+  background-image: url(../image/s.png);
 }
 
 a:hover {
@@ -117,7 +120,7 @@ a {
 .button-a {
   float: left;
   text-decoration: none;
-  background: #2B1877;
+  background: #9FC224;
   display: inline-block;
   color: white;
   padding: 30px 60px;
@@ -154,7 +157,7 @@ a {
 .button-a {
   float: left;
   text-decoration: none;
-  background: #2B1877;
+  background: #9FC224;
   display: inline-block;
   color: white;
   padding: 25px 65px;
