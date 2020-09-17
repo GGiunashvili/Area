@@ -28,11 +28,28 @@ a:hover {
 }
 button {
     z-index: 102;
-    // display: none!important;
+    display: none!important;
 }
 /////////////////////////////dropdown////////////
 .dropbtn {
-    background-color: #3498DB;
+    // background-color:#016CDE;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    // background: transparent linear-gradient(267deg, #016CDE 0%, #003674 100%) 0% 0% no-repeat padding-box;
+  }
+  .real-dropbtn{
+       background-color:#016CDE;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background: transparent linear-gradient(267deg, #016CDE 0%, #003674 100%) 0% 0% no-repeat padding-box;
+  }
+  .dropbtn-icon{
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -41,7 +58,7 @@ button {
   }
   
   .dropbtn:hover, .dropbtn:focus {
-    background-color: #2980B9;
+    background-color: none;
   }
   
   .dropdown {
@@ -52,11 +69,14 @@ button {
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: #016CDE;
     min-width: 160px;
     overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    width: 100%;
+    background: transparent linear-gradient(267deg, #016CDE 0%, #003674 100%) 0% 0% no-repeat padding-box;
+
   }
   
   .dropdown-content a {
