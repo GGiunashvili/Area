@@ -34,6 +34,10 @@ a {
     background: transparent linear-gradient(267deg, #016CDE 0%, #003674 100%) 0% 0% no-repeat padding-box;
 }
 ///////////////////////////////
+
+.main-header-text{
+    font-size: 26px!important;
+}
 .button-a{
     text-align: center;
     text-decoration: none;
@@ -60,5 +64,43 @@ a {
         font-size: 30px;
         color: white;
         text-align: center;
+    }
+}
+.mobile-full-page{
+    display: none;
+}
+.footer-paddings{
+    padding: 25px 25px;
+}
+
+/////bootstrapclasses//////@at-root
+.card-header{
+    padding: 0;
+}
+.card{
+    border: none;
+    // background-color: #fff0!important;
+}
+////////////////////////////////
+.my-card{
+    margin: 10px 0;
+}
+.dropdown-icon-footer{
+    width: 46px;
+}
+@media only screen and (max-width: 768px) {
+    .desktop-full-page{
+        display: none;
+    }
+    .mobile-full-page{
+        display: block;
+    }
+    .mobile-img{
+        margin: 50px 0;
+    }
+}
+@media only screen and (max-width: 575px) {
+    .footer-paddings {
+        padding: 20px 5px;
     }
 }
