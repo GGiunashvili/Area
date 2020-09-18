@@ -1,9 +1,3 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 4 version
-*/
 @font-face {
   src: url(../fonts/MarkGEO-Bold.ttf);
   font-family: markgeo-bold;
@@ -48,13 +42,13 @@ button {
 }
 
 .real-dropbtn {
-  background-color: #016cde;
+  background-color: #016CDE;
   color: white;
   padding: 16px;
   font-size: 16px;
   border: none;
   cursor: pointer;
-  background: transparent linear-gradient(267deg, #016cde 0%, #003674 100%) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(267deg, #016CDE 0%, #003674 100%) 0% 0% no-repeat padding-box;
 }
 
 .dropbtn-icon {
@@ -77,14 +71,14 @@ button {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #016cde;
+  background-color: #016CDE;
   min-width: 160px;
   overflow: auto;
   -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   width: 100%;
-  background: transparent linear-gradient(267deg, #016cde 0%, #003674 100%) 0% 0% no-repeat padding-box;
+  background: transparent linear-gradient(267deg, #016CDE 0%, #003674 100%) 0% 0% no-repeat padding-box;
 }
 
 .dropdown-content a {
@@ -104,7 +98,7 @@ button {
 
 section {
   position: relative;
-  background: #fafafa;
+  background: #FAFAFA;
 }
 
 .slick-slide {
@@ -129,7 +123,8 @@ section {
   position: relative;
 }
 
-.slider:after, .slider:before {
+.slider:after,
+.slider:before {
   content: "";
   position: absolute;
   top: 0;
@@ -147,8 +142,7 @@ section {
 }
 
 article {
-  /* border: 1px solid;
-    */
+  /* border: 1px solid; */
   float: left;
   margin: 30px 15px;
   font-size: 0.8vw;
@@ -210,7 +204,7 @@ a {
   font-size: 30px;
   font-weight: bold;
   font-family: markgeocaps-bold;
-  color: #fff;
+  color: #FFFFFF;
 }
 
 .line-section {
@@ -226,7 +220,7 @@ a {
 .button-a {
   float: left;
   text-decoration: none;
-  background: #9fc224;
+  background: #9FC224;
   display: inline-block;
   color: white;
   padding: 18px 44px;
@@ -257,6 +251,9 @@ a {
 }
 
 @media only screen and (max-width: 768px) {
+  .mobile-none {
+    display: none;
+  }
   .main-box-div {
     padding: 1px !important;
   }
