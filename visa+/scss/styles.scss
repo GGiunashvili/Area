@@ -1,0 +1,64 @@
+@font-face {
+    src: url(../fonts/MarkGEO-Bold.ttf);
+    font-family: markgeo-bold;
+}
+
+@font-face {
+    src: url(../fonts/MarkGEO-Regular.ttf);
+    font-family: markgeo-regular;
+}
+
+@font-face {
+    src: url(../fonts/MarkGEO-SemiBold.ttf);
+    font-family: markgeo-semibold;
+}
+@font-face {
+    src: url(../fonts/MarkGEOCAPS-Bold.ttf);
+    font-family: markgeocaps-bold;
+}
+body{
+    background-image: url(..//image/backgroundi.png);
+    width: 100%;
+}
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+////btst////dropwowm///@at-root
+.card-header{
+    background: transparent linear-gradient(267deg, #016CDE 0%, #003674 100%) 0% 0% no-repeat padding-box;
+}
+///////////////////////////////
+.button-a{
+    text-align: center;
+    text-decoration: none;
+    background: #9FC224;
+    display: inline-block;
+    color: white;
+    padding: 18px 44px;
+    font-size: 30px;
+    font-family: markgeocaps-bold;
+}
+.component-text{
+    font-size: 34px;
+    color: white;
+    font-family: markgeocaps-bold;
+    margin-bottom: 20px;
+
+}
+
+
+.how-use-sale-div{
+    text-align: center;
+    .how-use-sale{
+        font-family: markgeocaps-bold;
+        font-size: 30px;
+        color: white;
+        text-align: center;
+    }
+}
