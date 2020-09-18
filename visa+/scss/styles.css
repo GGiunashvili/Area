@@ -103,11 +103,29 @@ a {
   .mobile-img {
     margin: 50px 0;
   }
+  .component-text {
+    margin-bottom: 0;
+  }
+  .main-header-text {
+    margin-top: 14px;
+  }
 }
 
 @media only screen and (max-width: 575px) {
+  .button-a {
+    font-size: 19px;
+  }
   .footer-paddings {
     padding: 20px 5px;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .component-text {
+    font-size: 22px !important;
+  }
+  .main-header-text {
+    font-size: 20px !important;
   }
 }
 /*# sourceMappingURL=styles.css.map */
