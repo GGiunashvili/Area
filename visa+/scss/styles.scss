@@ -88,6 +88,10 @@ a {
 .dropdown-icon-footer{
     width: 46px;
 }
+.rotate{
+    -ms-transform: rotate(180deg); /* IE 9 */
+  transform: rotate(180deg);
+}
 @media only screen and (max-width: 768px) {
     .desktop-full-page{
         display: none;
