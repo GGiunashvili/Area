@@ -14,9 +14,29 @@
     <link rel="stylesheet" href="scss/styles.css">
     <link rel="stylesheet" href="scss/reset.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- <link rel="icon" href="image/extra_tab_logo-01.svg" type="image/gif" > -->
 
     <!-- Hotjar Tracking Code for https://extra.ge/ -->
+
+
+    <script>
+
+        </script>
+    <style>
+        .main {
+            -ms-transform: rotate(180deg); /* IE 9 */
+            transform: rotate(180deg);
+            }
+    </style>
+
+
+
+
+
         
     <script>
         (function(h,o,t,j,a,r){
@@ -33,7 +53,7 @@
 </head>
 
 <body >
-
+   
 
     <div class="container">
         <div class="row">
@@ -380,42 +400,46 @@
         </tbody></table>
     </div>
 
+
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
 
 <script>
+
      $('.bog').click( function() {
-            // $('#os1').removeClass('active');
             $('.tbc-clps').removeClass('show');
 
                          
         } );
     $('.tbc').click( function() {
-            // $('#os1').removeClass('active');
             $('.bog-clps').removeClass('show');
                          
         } );
 
+        // $(document).ready(function(jQuery) {
+        //     if ($(".dropdown-icon-footer-1").hasClass("rotate")) {
+        //         $(".dropdown-icon-footer-1").addClass('rotate');
+        //     } 
+        // });
+     
+      
 
-       
+        
         $('.arrow-full-button-1').click( function() {
-            // $('#os1').removeClass('active');
             $('.dropdown-icon-footer-1').addClass('rotate');
 
                          
         } );
 
         $('.arrow-full-button-2').click( function() {
-            // $('#os1').removeClass('active');
             $('.dropdown-icon-footer-2').addClass('rotate');
 
                          
         } );
 
         $('.arrow-full-button-3').click( function() {
-            // $('#os1').removeClass('active');
             $('.dropdown-icon-footer-3').addClass('rotate');
                 
                          
@@ -426,24 +450,42 @@
 
 
 
-        $('.arrow-full-button-1').click( function() {
-            // $('#os1').removeClass('active');
-            $('.dropdown-icon-footer-2').removeClass('rotate');
-            $('.dropdown-icon-footer-3').removeClass('rotate');                         
-        } );
+//         $('.arrow-full-button-1').click( function() {
+//             $('.dropdown-icon-footer-2').removeClass('rotate');
+//             $('.dropdown-icon-footer-3').removeClass('rotate');                         
+//         } );
      
-        $('.arrow-full-button-2').click( function() {
-            // $('#os1').removeClass('active');
-            $('.dropdown-icon-footer-1').removeClass('rotate');
-            $('.dropdown-icon-footer-3').removeClass('rotate');                         
-        } );
+//         $('.arrow-full-button-2').click( function() {
+//             $('.dropdown-icon-footer-1').removeClass('rotate');
+//             $('.dropdown-icon-footer-3').removeClass('rotate');                         
+//         } );
      
-        $('.arrow-full-button-3').click( function() {
-            // $('#os1').removeClass('active');
-            $('.dropdown-icon-footer-1').removeClass('rotate');
-            $('.dropdown-icon-footer-2').removeClass('rotate');                         
-        } );
-     
+//         $('.arrow-full-button-3').click( function() {
+//             $('.dropdown-icon-footer-1').removeClass('rotate');
+//             $('.dropdown-icon-footer-2').removeClass('rotate');                         
+//         } );
+
+       
+
+
+        //////arrow rotate///////
+        $(document).ready(function(){
+            $(".arrow-full-button-1").click(function(){
+                $(".dropdown-icon-footer-1").toggleClass("main");
+            });
+        });
+        $(document).ready(function(){
+            $(".arrow-full-button-2").click(function(){
+                $(".dropdown-icon-footer-2").toggleClass("main");
+            });
+        });
+        $(document).ready(function(){
+            $(".arrow-full-button-3").click(function(){
+                $(".dropdown-icon-footer-3").toggleClass("main");
+            });
+        });
+        /////////////////////////
+
             
 </script>
 

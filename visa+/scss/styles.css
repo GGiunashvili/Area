@@ -93,12 +93,6 @@ a {
   width: 46px;
 }
 
-.rotate {
-  /* IE 9 */
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
-}
-
 .color {
   background: red;
   /* IE 9 */
