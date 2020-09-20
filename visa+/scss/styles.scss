@@ -32,6 +32,7 @@ a {
     font-family: markgeocaps-bold;
     color: white;
 }
+
 ////btst////dropwowm///@at-root
 .card-header{
     background: transparent linear-gradient(267deg, #016CDE 0%, #003674 100%) 0% 0% no-repeat padding-box;
@@ -114,6 +115,11 @@ a {
     height: 46px;
 }
 
+@media only screen and (max-width: 1000px) {
+    .tbc{
+        margin-top: 10px;
+    }
+}
 @media only screen and (max-width: 768px) {
     .desktop-full-page{
         display: none;
