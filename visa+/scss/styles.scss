@@ -92,6 +92,11 @@ a {
     -ms-transform: rotate(180deg); /* IE 9 */
   transform: rotate(180deg);
 }
+.color{
+    background:red;
+    -ms-transform: rotate(180deg); /* IE 9 */
+    transform: rotate(180deg)!important;
+}
 @media only screen and (max-width: 768px) {
     .desktop-full-page{
         display: none;
