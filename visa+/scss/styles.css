@@ -72,6 +72,7 @@ a {
   font-size: 30px;
   color: white;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 .mobile-full-page {
@@ -103,6 +104,18 @@ a {
   /* IE 9 */
   -webkit-transform: rotate(180deg) !important;
           transform: rotate(180deg) !important;
+}
+
+.dropdown-icon-footer-1 {
+  height: 46px;
+}
+
+.dropdown-icon-footer-2 {
+  height: 46px;
+}
+
+.dropdown-icon-footer-3 {
+  height: 46px;
 }
 
 @media only screen and (max-width: 768px) {
