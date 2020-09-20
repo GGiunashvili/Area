@@ -118,9 +118,15 @@ a {
   height: 46px;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 992px) {
   .tbc {
     margin-top: 10px;
+  }
+  .bog {
+    width: 100%;
+  }
+  .tbc {
+    width: 100%;
   }
 }
 
