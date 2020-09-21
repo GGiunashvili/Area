@@ -39,6 +39,7 @@ a {
 
 .visa-use {
   font-family: markgeo-semibold;
+  display: block;
 }
 
 .card-header {
@@ -143,6 +144,7 @@ a {
   }
   .mobile-img {
     margin: 50px 0;
+    padding: 0 20px;
   }
   .component-text {
     margin-bottom: 0;
