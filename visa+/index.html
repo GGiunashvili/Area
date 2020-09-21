@@ -514,7 +514,27 @@
 
     
         
+      ///////////bog & tbc dropdown arrow/////////
+      $(document).ready(function(){
+            $(".bog").click(function(){
+                $(".bog-native-arrow").toggleClass("main");
+            });
+        });
+        $(document).ready(function(){
+            $(".tbc").click(function(){
+                $(".tbc-native-arrow").toggleClass("main");
+            });
+        });
 
+
+
+        $('.bog').click( function() {
+            $('.tbc-native-arrow').removeClass('main');
+        } );
+        $('.tbc').click( function() {
+            $('.bog-native-arrow').removeClass('main');
+        } );
+      ////////////end/////
 
 
 
