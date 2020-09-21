@@ -56,7 +56,7 @@ a {
 .visa-use{
     font-family: markgeo-semibold;
     text-align: start;
-    
+    line-height: 1.2;
 }
 ////btst////dropwowm///@at-root
 .card-header{
@@ -196,12 +196,15 @@ a {
 @media only screen and (max-width: 992px) {
     .tbc{
         margin-top: 10px;
+
     }
     .bog{
         width: 100%;
+        margin-right: 0;
     }
     .tbc{
         width: 100%;
+        margin-left: 0;
     }
 }
 @media only screen and (max-width: 768px) {
