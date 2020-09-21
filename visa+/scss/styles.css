@@ -39,7 +39,7 @@ a {
 
 .visa-use {
   font-family: markgeo-semibold;
-  display: block;
+  text-align: start;
 }
 
 .card-header {
@@ -123,6 +123,24 @@ a {
   height: 46px;
 }
 
+.tbc-clps {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bog-clps {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 @media only screen and (max-width: 992px) {
   .tbc {
     margin-top: 10px;
@@ -143,7 +161,6 @@ a {
     display: block;
   }
   .mobile-img {
-    margin: 50px 0;
     padding: 0 20px;
   }
   .component-text {
@@ -151,6 +168,7 @@ a {
   }
   .main-header-text {
     margin-top: 14px;
+    margin-bottom: 20px;
   }
 }
 
@@ -162,8 +180,9 @@ a {
     padding: 20px 5px;
   }
   .how-use-sale {
-    font-size: 19px !important;
+    font-size: 22px !important;
     margin: 20px 0;
+    line-height: 1.3;
   }
   .visa-setting-title {
     font-size: 15px !important;
