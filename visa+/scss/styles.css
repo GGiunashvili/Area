@@ -36,15 +36,31 @@ a {
   color: white;
 }
 
+.checked-icon {
+  height: 20px;
+}
+
 .visa-setting-title {
   font-family: markgeocaps-bold;
   color: white;
 }
 
+.last-child {
+  -webkit-box-align: start !important;
+      -ms-flex-align: start !important;
+          align-items: flex-start !important;
+}
+
+.checked-icon-box {
+  line-height: 1.9;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .visa-use {
   font-family: markgeo-semibold;
   text-align: start;
-  line-height: 1.4;
 }
 
 .card-header {
@@ -137,7 +153,64 @@ a {
           justify-content: center;
 }
 
-.bog-clps {
+.bog {
+  background: #FE6410 !important;
+  border-color: #FE6410 !important;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.bog:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.bog:focus-within {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.bog:visited {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.bog {
+  background: #FE6410 !important;
+  border-color: #FE6410 !important;
+  padding: 15px;
+}
+
+.tbc {
+  background: #00A3E0 !important;
+  border-color: #00A3E0 !important;
+  padding: 15px;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.tbc:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.tbc:focus-within {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.tbc:visited {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.tbc-clps {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -178,6 +251,11 @@ a {
 }
 
 @media only screen and (max-width: 575px) {
+  .checked-icon-box {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
   .button-a {
     font-size: 19px;
   }
