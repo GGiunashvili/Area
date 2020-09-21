@@ -209,12 +209,12 @@ a {
   .main-header-text {
     font-size: 20px !important;
   }
-}
-
-@media only screen and (max-width: 320px) {
   .mobile-arrow {
     height: 50px;
   }
+}
+
+@media only screen and (max-width: 320px) {
   .main-header-text {
     font-size: 18px !important;
   }
