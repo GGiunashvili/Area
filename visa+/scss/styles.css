@@ -18,6 +18,10 @@
   font-family: markgeocaps-bold;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-image: url(..//image/backgroundi.png);
   width: 100%;
@@ -204,6 +208,15 @@ a {
   }
   .main-header-text {
     font-size: 20px !important;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .mobile-arrow {
+    height: 50px;
+  }
+  .main-header-text {
+    font-size: 18px !important;
   }
 }
 /*# sourceMappingURL=styles.css.map */
