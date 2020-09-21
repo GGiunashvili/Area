@@ -166,6 +166,7 @@ a {
 .bog {
   background: #FE6410 !important;
   border-color: #FE6410 !important;
+  font-family: markgeo-semibold;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
@@ -192,12 +193,15 @@ a {
   background: #FE6410 !important;
   border-color: #FE6410 !important;
   padding: 15px;
+  margin-right: 5px;
 }
 
 .tbc {
   background: #00A3E0 !important;
   border-color: #00A3E0 !important;
   padding: 15px;
+  font-family: markgeo-semibold;
+  margin-left: 5px;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
