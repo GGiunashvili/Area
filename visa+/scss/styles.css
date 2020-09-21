@@ -37,6 +37,10 @@ a {
   color: white;
 }
 
+.visa-use {
+  font-family: markgeo-semibold;
+}
+
 .card-header {
   background: transparent linear-gradient(267deg, #016CDE 0%, #003674 100%) 0% 0% no-repeat padding-box;
 }
