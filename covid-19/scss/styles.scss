@@ -52,6 +52,9 @@ a {
 .copy-class{
     margin-top:0!important;
 }
+.video-main-box{
+    padding:0 60px;
+}
 .first-container-box{
     padding-bottom: 90px;
 }
@@ -106,7 +109,7 @@ a {
     color: white;
 }
 .for-all-img{
-    height: 800px;
+    // height: 800px;
     width: 100%;
 }
 .instagram-icon{
@@ -119,7 +122,9 @@ a {
 }
 
 @media only screen and (max-width: 768px) {
-
+    .video-main-box{
+        padding:0;
+    }
     .last-case{
         margin-top: 35px;
     }
