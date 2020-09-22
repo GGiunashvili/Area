@@ -96,10 +96,15 @@ a {
    
     }
 }
-
-.img-p-text{
-    font-size: 32px;
+.sanitaizer-card-title{
+    font-size: 20px;
     font-family: markgeo-bold;
+    margin-top: 10px;
+}
+.img-p-text{
+    font-size: 20px;
+    font-family: markgeo-bold;
+    margin-top: 10px;
 }
 .footer{
     padding: 20px 50px;
@@ -162,7 +167,20 @@ a {
     }
 
 }
+@media only screen and (max-width: 575px) {
+
+.sanitaizer-card-title{
+    font-size: 16px;
+}
+}
+
+@media only screen and (max-width: 414px) {
+    
+}
+
+
 @media only screen and (max-width: 375px) {
+    
     .for-all-img{
         height: 212px;
     }
@@ -202,6 +220,7 @@ a {
     .footer-p{
         font-size: 14px;
     }
+    
 }
 @media only screen and (max-width: 320px) {
     .footer{

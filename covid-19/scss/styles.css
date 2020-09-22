@@ -100,9 +100,16 @@ a {
   font-family: markgeo-regular;
 }
 
-.img-p-text {
-  font-size: 32px;
+.sanitaizer-card-title {
+  font-size: 20px;
   font-family: markgeo-bold;
+  margin-top: 10px;
+}
+
+.img-p-text {
+  font-size: 20px;
+  font-family: markgeo-bold;
+  margin-top: 10px;
 }
 
 .footer {
@@ -160,6 +167,12 @@ a {
   .button-a {
     margin-top: 30px;
     margin-bottom: 35px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .sanitaizer-card-title {
+    font-size: 16px;
   }
 }
 
