@@ -149,9 +149,6 @@ a {
   .last-case {
     margin-top: 35px;
   }
-  .for-all-img {
-    height: 212px;
-  }
   .first-title {
     font-size: 24px;
     margin-top: 24px;
@@ -185,10 +182,13 @@ a {
   }
 }
 
-@media only screen and (max-width: 375px) {
-  .for-all-img {
-    height: 212px;
+@media only screen and (max-width: 414px) {
+  .footer-p {
+    font-size: 14px;
   }
+}
+
+@media only screen and (max-width: 375px) {
   .first-title {
     font-size: 20px;
     margin-top: 20px;
@@ -218,9 +218,6 @@ a {
   .instagram-icon {
     margin-left: 0px !important;
     margin: 0 !important;
-  }
-  .footer-p {
-    font-size: 14px;
   }
 }
 
