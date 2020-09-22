@@ -133,7 +133,16 @@ a {
   margin-top: 90px;
 }
 
+.align-dflex {
+  position: absolute;
+  bottom: 0;
+}
+
 @media only screen and (max-width: 768px) {
+  .align-dflex {
+    position: unset;
+    bottom: 0;
+  }
   .video-main-box {
     padding: 0;
   }
