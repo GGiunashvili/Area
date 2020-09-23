@@ -29,7 +29,7 @@ function submitForm(e){
 
     var name = getInputVal('name');
     // var company = getInputVal('company');
-    var email = getInputVal('email');
+    // var email = getInputVal('email');
     var phone = getInputVal('phone');
     // var message = getInputVal('message');
 

@@ -11,6 +11,47 @@
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/reset.css">
 </head>
+<style>
+  * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
+
+li {
+  display: inline-block;
+  font-size: 10px;
+  list-style-type: none;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+li span {
+  display: block;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+@media all and (max-width: 800px) {
+  h1 {
+    font-size: 17px
+  }
+  
+  li {
+    font-size: 17px;
+  }
+  
+  li span {
+    font-size: 17px;
+  }
+}
+</style>
+</style>
 <body>
 
       
@@ -22,16 +63,37 @@
 
           <div class="col-md-4 col-12 section-two" style="border: 2px solid black;">ssss</div>
 
-          <div class="col-md-4 col-12 section-three">
+          <div class="col-md-4 col-12 section-three" style="border: 2px solid black;">
 
             <div class="col-12 mobile-header-image img-fluid" style="height: 300px;">
               <p class="mobile-sale-price">-50%</p>
               <div >
-                <img style="height: 80px;" src="image/dropdown.png" alt="">
+                <img style="height: 80px;" src="image/drop.png" alt="">
              
               </div>
             </div>
 
+            <div class="d-flex justify-content-end">
+              <div style="background-color: #FFFCEE; border-radius: 50px 0 0 0; padding: 12px 25px; text-align: center;  width:300px;   line-height: 1.2;">
+                <p style="font-size: 30px; font-weight: bold;">ფასდაკლება</p>
+                <p style="font-size: 18px;">თმის სამაგრზე</p>
+              </div>
+            </div>
+
+            <div class="d-flex justify-content-end">
+              <div style="display: flex; align-items: center;background-color: white;  padding: 12px 25px; text-align: center;  width:300px;    line-height: 1.2;">
+               <img src="image/watch.png" alt="">
+               <div>
+                 <p>დარჩენილა</p>
+                    <ul>
+                      <li><span id="days"></span></li>
+                      <li><span id="hours"></span></li>
+                      <li><span id="minutes"></span></li>
+                      <li><span id="seconds"></span></li>
+                    </ul>
+               </div>
+              </div>
+            </div>
 
               <div style="display: flex; justify-content: center;">
                 <div class="contact">
@@ -41,28 +103,39 @@
                     <div class="alert">თქვენი შეტყობინება მიღებულია</div>
                     <p class="field-parent-p">
                       <label class="naming">სახელი, გვარი</label>
-                      <input type="text" name="name" id="name">
+                      <input class="own-input" type="text" name="name" id="name">
                     </p>
                     <p class="field-parent-p" style="display: none;">
                       <label class="naming">Company</label>
-                      <input type="text" name="company"  id="company">
+                      <input class="own-input" type="text" name="company"  id="company">
                     </p>
-                    <p class="field-parent-p">
+                    <p class="field-parent-p" style="display: none;">
                       <label class="naming">მეილი</label>
-                      <input type="email" name="email" id="email">  
+                      <input class="own-input" type="email" name="email" id="email">  
                     </p>
                     <p class="field-parent-p">
                       <label class="naming">ტელეფონის ნომერის</label>
-                      <input type="text" name="phone"  id="phone">
+                      <input class="own-input" type="text" name="phone"  id="phone">
                     </p>
                     <p class="field-parent-p" style="display: none;" class="full">
                       <label class="naming">Message</label>
                       <textarea name="message" rows="5"  id="message"></textarea>
                     </p>
+                    
+
+                    <div class="form-check">
+                      <input class="form-check-input own-form-check-input" type="checkbox" value="" id="defaultCheck1">
+                      <label class="form-check-label" for="defaultCheck1">
+                        ვეთანხმები მოხმარების წესებს<br> და პირობებს
+                      </label>
+                    </div>
+                   
                     <p class="full field-parent-p">
                       <button class=" finish-order">შეკვეთის დასრულება</button>
                     </p>
                   </form>
+
+                  
                 </div>
               </div>
         </div>
@@ -86,6 +159,34 @@
   <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-app.js"></script>
   <!-- import the real time database SDK -->
   <script src="https://www.gstatic.com/firebasejs/6.3.3/firebase-database.js"></script>
+
+
+
+  <script>
+    const second = 1000,
+          minute = second * 60,
+          hour = minute * 60,
+          day = hour * 24;
+    
+    let countDown = new Date('Sep 30, 2020 00:00:00').getTime(),
+        x = setInterval(function() {    
+    
+          let now = new Date().getTime(),
+              distance = countDown - now;
+    
+          document.getElementById('days').innerText = Math.floor(distance / (day)),
+            document.getElementById('hours').innerText = Math.floor((distance % (day)) / (hour)),
+            document.getElementById('minutes').innerText = Math.floor((distance % (hour)) / (minute)),
+            document.getElementById('seconds').innerText = Math.floor((distance % (minute)) / second);
+    
+          //do something later when date is reached
+          //if (distance < 0) {
+          //  clearInterval(x);
+          //  'IT'S MY BIRTHDAY!;
+          //}
+    
+        }, second)
+    </script>
   <script src="main.js"></script>
 </body>
 </html>
