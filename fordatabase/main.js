@@ -17,6 +17,8 @@ var firebaseConfig = {
 
 
 
+
+
 document.getElementById('contactForm').addEventListener('submit',
 submitForm);
 
@@ -32,6 +34,14 @@ function submitForm(e){
     // var message = getInputVal('message');
 
     saveMessage(name, company, email, phone, message);
+
+    document.querySelector('.alert').style.display = 'block';
+
+
+    setTimeout(function(){
+        document.querySelector('.alert').style.display = 'none';
+
+    },3000);
 
     
 }
