@@ -17,6 +17,13 @@
   font-family: markgeocaps-bold;
 
 }
+.progress{
+  height: 3px;
+  margin: 5px 0;
+}
+.bg-success{
+  background-color: #93BBF5!important;
+}
 .contact{
   width: 90%;
 }
@@ -58,7 +65,8 @@ color: #707070;
   width: 100%;
   }
 
-  .alert{ text-align:center; padding:10px; background:red; color:white; margin-bottom:10px;
+  .alert{ text-align:center; padding:10px; background:#FFEEE5; color:#00800094; margin-bottom:10px;     font-family: markgeocaps-bold;
+
     display: none;
   }
 
@@ -110,6 +118,15 @@ margin-top: 22px;
 }
 .own-form-check{
   margin: 20px 0;
+}
+.in-reserve{
+  color: #000000;
+  font-family: markgeocaps-bold;
+  font-size: 18px;
+}
+.reserve-in-numbers{
+  color: #707070;
+  font-size: 14px;;
 }
   @media only screen and (max-width: 768px) {
     .container{
