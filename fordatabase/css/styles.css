@@ -91,6 +91,12 @@
   font-family: markgeo-regular;
 }
 
+.sale-price {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: markgeocaps-bold;
+}
+
 @media only screen and (max-width: 768px) {
   .container {
     margin: 0;
