@@ -45,6 +45,18 @@ a {
   color: black;
 }
 
+.call-button {
+  font-family: markgeocaps-bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  line-height: initial;
+  font-size: 23px;
+}
+
 .title-description-last {
   margin-bottom: 50px;
 }

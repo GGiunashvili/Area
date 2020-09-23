@@ -46,6 +46,13 @@ a:hover {
 a {
     color: black;
 }
+.call-button{
+    font-family: markgeocaps-bold;
+    display: flex; 
+    justify-content: center;  
+    line-height: initial;
+    font-size: 23px;
+}
 .title-description-last{
     margin-bottom: 50px;
 }
