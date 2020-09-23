@@ -1,7 +1,28 @@
+@font-face {
+  src: url(../fonts/MarkGEO-Bold.ttf);
+  font-family: markgeo-bold;
+}
 
+@font-face {
+  src: url(../fonts/MarkGEO-Regular.ttf);
+  font-family: markgeo-regular;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEO-SemiBold.ttf);
+  font-family: markgeo-semibold;
+}
+@font-face {
+  src: url(../fonts/MarkGEOCAPS-Bold.ttf);
+  font-family: markgeocaps-bold;
+
+}
+.contact{
+  width: 90%;
+}
 .field-parent-p{
   text-align: center;
-  line-height: 1.8;
+  line-height: 2.5;
   
   .naming{
     display: block;
@@ -48,7 +69,20 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
   }
- 
+ .fast-buy{
+   font-size: 26px;
+   font-family: markgeocaps-bold;
+   color: #2E384D;
+   margin-top: 37px;
+    margin-bottom: 17px;
+
+ }
+ .personal-info{
+   font-size: 18px;
+   color: #2E384D;
+   font-family: markgeo-regular;
+
+ }
 
   @media only screen and (max-width: 768px) {
     .container{
