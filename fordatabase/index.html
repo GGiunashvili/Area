@@ -27,14 +27,14 @@ li {
   display: inline-block;
   font-size: 10px;
   list-style-type: none;
-  padding: 10px;
+  padding: 10px 5px;
   text-transform: uppercase;
 }
 
 li span {
   display: block;
   font-size: 17px;
-  font-weight: bold;
+  font-family: markgeocaps-bold;
 }
 
 @media all and (max-width: 800px) {
@@ -73,11 +73,11 @@ li span {
               </div>
             </div>
 
-            <div style="position: relative; height: 180px;">
+            <div style="position: relative; height: 160px;">
               <div class="d-flex justify-content-end">
                 <div style="background-color: #FFFCEE; border-radius: 50px 0 0 0; padding: 12px 25px; text-align: center;  width:300px;   line-height: 1.2;">
                   <p class="sale-price">ფასდაკლება</p>
-                  <p style="font-size: 18px;">თმის სამაგრზე</p>
+                  <p class="product-description" >თმის სამაგრზე</p>
                 </div>
               </div>
   
@@ -91,12 +91,18 @@ li span {
                 opacity: 1;display: flex; align-items: center;background-color: white;  padding: 12px 25px; text-align: center;  width:300px;    line-height: 1.2;">
                  <img src="image/watch.png" alt="">
                  <div>
-                   <p>დარჩენილა</p>
+                   <p class="left-time">დარჩენილა</p>
                       <ul>
-                        <li><span id="days"></span>:</li>
-                        <li><span id="hours"></span>:</li>
-                        <li><span id="minutes"></span>:</li>
-                        <li><span id="seconds"></span>:</li>
+                        <!-- <li><span id="days"></span>:</li> -->
+
+                        <li><span id="hours"></span></li>
+                        <li><span>:</span></li>
+
+                        <li><span id="minutes"></span></li>
+                        <li><span>:</span></li>
+
+                        <li><span id="seconds"></span></li>
+
                       </ul>
                  </div>
                 </div>
@@ -132,16 +138,18 @@ li span {
                     </p>
                     
 
-                    <div class="form-check">
+                    <div class="form-check own-form-check">
                       <input class="form-check-input own-form-check-input" type="checkbox" value="" id="defaultCheck1">
-                      <label class="form-check-label" for="defaultCheck1">
+                      <label class="form-check-label accept-consumer-rules" for="defaultCheck1">
                         ვეთანხმები მოხმარების წესებს<br> და პირობებს
                       </label>
                     </div>
                    
                     <p class="full field-parent-p">
-                      <button class=" finish-order">შეკვეთის დასრულება</button>
+                      <button class=" finish-order">განვადებით ყიდვა</button>
                     </p>
+
+                    <p class="operator-will-call">* ღილაკზე დაჭერის შემდეგ ოპერატორი დაგირეკავთ და დეტალურად გაგაცნობთ განვადების პირობებს</p>
                   </form>
 
                   
@@ -183,7 +191,7 @@ li span {
           let now = new Date().getTime(),
               distance = countDown - now;
     
-          document.getElementById('days').innerText = Math.floor(distance / (day)),
+          // document.getElementById('days').innerText = Math.floor(distance / (day)),
             document.getElementById('hours').innerText = Math.floor((distance % (day)) / (hour)),
             document.getElementById('minutes').innerText = Math.floor((distance % (hour)) / (minute)),
             document.getElementById('seconds').innerText = Math.floor((distance % (minute)) / second);

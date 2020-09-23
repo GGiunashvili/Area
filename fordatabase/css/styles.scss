@@ -27,15 +27,25 @@
   .naming{
     display: block;
     text-align: left;
+    font-family: markgeo-regular;
+
+
   }
+}
+.accept-consumer-rules{
+  font-family: markgeo-regular;
+color: #707070;
 }
 .finish-order{
   margin-top: 20px;
-  background-color: #2E384D;
-  color: white;
-  padding: 10px 50px;
+  color: #FF5600;
+  background-color: #FFEEE5;
+  font-size: 20px;
+  padding: 3px 50px;
     border-radius: 10px;
     border: none;
+    font-family: markgeocaps-bold;
+
     
 }
 .own-form-check-input{
@@ -69,6 +79,12 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
   }
+  .product-description{
+    font-size: 18px;   font-family: markgeo-regular;
+  }
+  .left-time{
+    font-size: 18px;   font-family: markgeo-regular;
+  }
  .fast-buy{
    font-size: 26px;
    font-family: markgeocaps-bold;
@@ -86,7 +102,15 @@
  .sale-price{
   font-size: 30px; font-weight: bold;     font-family: markgeocaps-bold;
  }
-
+.operator-will-call{
+  font-size: 15px;
+  color: #707070;
+  margin-bottom: 100px;
+margin-top: 22px;
+}
+.own-form-check{
+  margin: 20px 0;
+}
   @media only screen and (max-width: 768px) {
     .container{
      margin: 0;
