@@ -130,14 +130,14 @@ margin-top: 22px;
   color: #707070;
   font-size: 14px;;
 }
-  @media only screen and (max-width: 768px) {
-    .container{
-     margin: 0;
-     padding:0;
-    }
-    .row{
-      margin: 0;
-    }
+  @media only screen and (max-width: 779px) {
+    // .container{
+    //  margin: 0;
+    //  padding:0;
+    // }
+    // .row{
+    //   margin: 0;
+    // }
     .section-one{
       display: none;
     }
