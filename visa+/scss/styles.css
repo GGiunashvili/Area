@@ -279,10 +279,6 @@ a {
   margin-bottom: 60px;
 }
 
-.visa-card {
-  display: none;
-}
-
 @media only screen and (max-width: 992px) {
   .tbc {
     margin-top: 10px;
@@ -298,12 +294,6 @@ a {
 }
 
 @media only screen and (max-width: 768px) {
-  .vise-card-one {
-    display: none;
-  }
-  .visa-card {
-    display: block;
-  }
   .second-category-row {
     margin: 0;
   }
@@ -317,6 +307,12 @@ a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+  }
+  .desktop-full-page {
+    display: none;
+  }
+  .mobile-full-page {
+    display: block;
   }
   .mobile-img {
     padding: 0 20px;
