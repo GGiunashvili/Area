@@ -106,9 +106,7 @@ a {
 
 }
 
-.category-div{
-    padding:0;
-}
+
 .how-use-sale-div{
     text-align: center;
     margin-top: 40px;
@@ -250,8 +248,15 @@ a {
     }
 }
 @media only screen and (max-width: 768px) {
+    .second-category-row{
+        margin: 0;
+    }
+    .category-div{
+        margin-top: 40px;
+    }
     .hidden-category-div{
         display: none;
+
     }
     .hidden-row{
         display: flex;
