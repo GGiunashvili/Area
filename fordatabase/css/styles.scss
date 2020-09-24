@@ -57,9 +57,10 @@ color: #707070;
 
     
 }
-.own-form-check-input{
-  border: 1px solid red!important;
-}
+button:focus {outline:0;}
+input:focus {outline:0;}
+
+
 .own-input {
   text-align: center;
   border: 2px solid #E0E7FF;
@@ -90,7 +91,10 @@ color: #707070;
     transform: translate(-50%, -50%);
   }
   .product-description{
-    font-size: 18px;   font-family: markgeo-regular;
+    font-size: 18px;   
+    font-family: markgeo-regular;
+    margin-bottom: 5px;
+
   }
   .left-time{
     font-size: 18px;   font-family: markgeo-regular;
@@ -110,7 +114,11 @@ color: #707070;
 
  }
  .sale-price{
-  font-size: 30px; font-weight: bold;     font-family: markgeocaps-bold;
+    font-size: 25px; 
+    font-weight: bold;  
+    font-family: markgeocaps-bold;
+    margin: 5px 0 5px 0;
+
  }
 .operator-will-call{
   font-size: 15px;
