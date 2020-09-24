@@ -18,6 +18,26 @@
   font-family: markgeocaps-bold;
 }
 
+.hidden-row {
+  display: none;
+}
+
+p {
+  text-decoration: none !important;
+}
+
+button:hover {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  text-decoration: none !important;
+}
+
+button:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  text-decoration: none !important;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -78,6 +98,7 @@ a {
 
 .card-header {
   background: transparent linear-gradient(267deg, #016CDE 0%, #003674 100%) 0% 0% no-repeat padding-box;
+  border-bottom: none;
 }
 
 .main-header-text {
@@ -102,8 +123,13 @@ a {
   margin-bottom: 20px;
 }
 
+.category-div {
+  padding: 0;
+}
+
 .how-use-sale-div {
   text-align: center;
+  margin-top: 40px;
 }
 
 .how-use-sale-div .how-use-sale {
@@ -111,7 +137,7 @@ a {
   font-size: 30px;
   color: white;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 .mobile-full-page {
@@ -131,7 +157,7 @@ a {
 }
 
 .my-card {
-  margin: 10px 0;
+  margin: 20px 0;
 }
 
 .dropdown-icon-footer {
@@ -146,15 +172,15 @@ a {
 }
 
 .dropdown-icon-footer-1 {
-  height: 46px;
+  height: 35px;
 }
 
 .dropdown-icon-footer-2 {
-  height: 46px;
+  height: 35px;
 }
 
 .dropdown-icon-footer-3 {
-  height: 46px;
+  height: 35px;
 }
 
 .tbc-clps {
@@ -236,6 +262,13 @@ a {
           justify-content: center;
 }
 
+.category-description {
+  text-align: center;
+  font-size: 17x;
+  font-family: markgeo-bold;
+  color: white;
+}
+
 @media only screen and (max-width: 992px) {
   .tbc {
     margin-top: 10px;
@@ -251,6 +284,14 @@ a {
 }
 
 @media only screen and (max-width: 768px) {
+  .hidden-category-div {
+    display: none;
+  }
+  .hidden-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
   .desktop-full-page {
     display: none;
   }
