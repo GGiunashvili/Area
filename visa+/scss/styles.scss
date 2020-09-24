@@ -261,12 +261,12 @@ a {
     .hidden-row{
         display: flex;
     }
-    .desktop-full-page{
-        display: none;
-    }
-    .mobile-full-page{
-        display: block;
-    }
+    
+    
+}
+@media only screen and (max-width: 575px) {
+    
+
     .mobile-img{
         padding: 0 20px;
     }
@@ -278,8 +278,13 @@ a {
         margin-bottom: 10px;
 
     }
-}
-@media only screen and (max-width: 575px) {
+
+
+
+
+
+
+
     .checked-icon-box {
         align-items: flex-start;
     }
@@ -309,6 +314,18 @@ a {
 }
 
 @media only screen and (max-width: 414px) {
+
+    .desktop-full-page{
+        display: none;
+    }
+    .mobile-full-page{
+        display: block;
+    }
+
+
+
+
+
     .component-text {
         font-size: 22px!important;
         
