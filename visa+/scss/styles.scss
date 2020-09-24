@@ -234,6 +234,13 @@ a {
     margin-bottom: 60px;
 }
 @media only screen and (max-width: 992px) {
+    .hidden-category-div{
+        display: none;
+
+    }
+    .hidden-row{
+        display: flex;
+    }
     .tbc{
         margin-top: 10px;
 
@@ -247,6 +254,11 @@ a {
         margin-left: 0;
     }
 }
+@media only screen and (max-width: 769px) {
+
+    
+    
+}
 @media only screen and (max-width: 768px) {
     .second-category-row{
         margin: 0;
@@ -254,17 +266,19 @@ a {
     .category-div{
         margin-top: 40px;
     }
-    .hidden-category-div{
-        display: none;
-
-    }
-    .hidden-row{
-        display: flex;
-    }
+    
     
     
 }
+
 @media only screen and (max-width: 575px) {
+
+   
+
+
+
+
+
     
 
     .mobile-img{

@@ -280,6 +280,14 @@ a {
 }
 
 @media only screen and (max-width: 992px) {
+  .hidden-category-div {
+    display: none;
+  }
+  .hidden-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
   .tbc {
     margin-top: 10px;
   }
@@ -299,14 +307,6 @@ a {
   }
   .category-div {
     margin-top: 40px;
-  }
-  .hidden-category-div {
-    display: none;
-  }
-  .hidden-row {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
   }
 }
 
