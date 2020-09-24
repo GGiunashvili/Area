@@ -269,6 +269,20 @@ a {
   color: white;
 }
 
+.category-title {
+  color: white;
+  font-family: markgeocaps-bold;
+  font-size: 34px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+
+.second-category-row {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
 @media only screen and (max-width: 992px) {
   .tbc {
     margin-top: 10px;
