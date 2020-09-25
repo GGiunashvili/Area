@@ -18,9 +18,8 @@
   font-family: markgeocaps-bold;
 }
 
-*, *:before, *:after {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+html {
+  height: -webkit-fill-available;
 }
 
 .hidden-row {
