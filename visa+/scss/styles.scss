@@ -17,14 +17,8 @@
     font-family: markgeocaps-bold;
 }
 
-body {
-    min-height: 100vh;
-    /* mobile viewport bug fix */
-    min-height: -webkit-fill-available;
-  }
-  
-  html {
-    height: -webkit-fill-available;
+body, html, .app {
+    height: 100%;
   }
 .hidden-row{
     display: none;
