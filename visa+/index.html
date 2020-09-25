@@ -837,16 +837,18 @@
 
 
 
-        var intFrameHeight = window.innerHeight; // or
+        function setDocHeight() {
+document.documentElement.style.setProperty('--vh', `${window.innerHeight/100}px`);
+};
 
-var intFrameHeight = self.innerHeight;
-// will return the height of the frame viewport within the frameset
+window.addEventListener('resize', function () {
+setDocHeight();
+});
+window.addEventListener('orientationchange', function () {
+setDocHeight();
+});
 
-var intFramesetHeight = parent.innerHeight;
-// will return the height of the viewport of the closest frameset
-
-var intOuterFramesetHeight = top.innerHeight;
-// will return the height of the viewport of the outermost frameset
+setDocHeight();
 </script>
 
 
