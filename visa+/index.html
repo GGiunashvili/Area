@@ -157,7 +157,7 @@
                 
                 
     
-                <div  style="height: 100vh; display: flex; flex-direction: column; background:red;">
+                <div  style="height: 100vh;  height: calc(var(--vh, 1vh) * 100); display: flex; flex-direction: column; background:red;">
 
 
                     <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-around;">
@@ -833,14 +833,7 @@
                       
                         
         } );
-        function resetHeight(){
-    // reset the body height to that of the inner browser
-    document.body.style.height = window.innerHeight + "px";
-}
-// reset the height whenever the window's resized
-window.addEventListener("resize", resetHeight);
-// called to initially set the height.
-resetHeight();
+            
 </script>
 
 
