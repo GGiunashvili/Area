@@ -233,6 +233,17 @@ a {
     margin-top: 60px;
     margin-bottom: 60px;
 }
+.information{
+    height: 30px;
+    margin-right: 15px;
+}
+.rules-conditions{
+    color: white;
+    font-size: 18px;
+    font-family: markgeo-semibold;
+    line-height: 1.3;
+
+}
 @media only screen and (max-width: 992px) {
     .hidden-category-div{
         display: none;
@@ -260,6 +271,14 @@ a {
     
 }
 @media only screen and (max-width: 768px) {
+    .rules-conditions{
+        font-size: 16px;
+    }
+    .category-title{
+        
+        margin-top: 75px;
+        margin-bottom: 35px;
+    }
     .second-category-row{
         margin: 0;
     }
