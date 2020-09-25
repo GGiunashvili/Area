@@ -420,12 +420,6 @@ a {
 }
 
 @media only screen and (max-width: 414px) {
-  .desktop-full-page {
-    display: none;
-  }
-  .mobile-full-page {
-    display: block;
-  }
   .component-text {
     font-size: 22px !important;
   }
