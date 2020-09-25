@@ -244,7 +244,7 @@ a {
 .category-title{
     color: white;
     font-family: markgeocaps-bold;
-    font-size: 34px;
+    font-size: 28px;
     text-align: center;
     margin-top: 100px;
     margin-bottom: 60px;
@@ -311,6 +311,9 @@ a {
     .second-category-row{
         margin: 0;
     }
+    .categoty-div-lst-two-child{
+        margin-bottom: 20px;
+    }
     
     
     
@@ -361,9 +364,10 @@ a {
         padding: 20px 5px;
     }
     .how-use-sale{
-        font-size: 22px!important;
+        font-size: 18px!important;
         margin: 20px 0;
         line-height: 1.3;
+        padding:0 15px;
     }
     .visa-setting-title{
         font-size: 15px!important;
@@ -416,7 +420,7 @@ a {
 @media only screen and (max-width: 320px) {
     
     .main-header-text{
-        font-size: 18px!important;
+        font-size: 16px!important;
     }
     .footer-paddings{
         font-size: 12px;
