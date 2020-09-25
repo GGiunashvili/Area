@@ -19,11 +19,15 @@
 .hidden-row{
     display: none;
 }
+.footer-text{
+    font-size: 16px;
+}
 p{
     text-decoration: none!important;
 
 
 }
+
 button:hover{
     box-shadow: none !important;
     text-decoration: none!important;
@@ -255,6 +259,9 @@ a {
     line-height: 1.5;
 
 }
+.linkedin-icon{
+    margin: 0 10px;
+}
 @media only screen and (max-width: 992px) {
     .hidden-category-div{
         display: none;
@@ -303,6 +310,12 @@ a {
 }
 
 @media only screen and (max-width: 575px) {
+    .footer-text{
+        font-size: 12px;
+    }
+    .linkedin-icon{
+        margin: 0 5px;
+    }
 
    
 
