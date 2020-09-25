@@ -30,6 +30,15 @@
   font-family: markgeo-regular;
 }
 
+.mg-head-text {
+  text-align: center;
+  color: white;
+  font-family: markgeocaps-bold;
+  margin-bottom: 20px;
+  line-height: 1.2;
+  font-size: 2vw;
+}
+
 p {
   text-decoration: none !important;
 }
@@ -318,6 +327,10 @@ a {
   margin: 0 10px;
 }
 
+.card-for-respo {
+  display: none;
+}
+
 @media only screen and (max-width: 992px) {
   .hidden-category-div {
     display: none;
@@ -344,6 +357,9 @@ a {
 }
 
 @media only screen and (max-width: 768px) {
+  .mg-head-text {
+    font-size: 20px;
+  }
   .how-use-sale-div {
     padding: 0;
   }
@@ -416,6 +432,12 @@ a {
   }
   .dropdown-icon-footer-6 {
     height: 30px !important;
+  }
+  .dsp-none-for-mb {
+    display: none;
+  }
+  .card-for-respo {
+    display: block;
   }
 }
 
