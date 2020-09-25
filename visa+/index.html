@@ -837,8 +837,9 @@
 
 
 
-        window.onresize = function(){ getHeight(); }
-
+        window.screen.orientation.addEventListener('change', function(){
+    console.log(window.innerHeight)
+})
 </script>
 
 
