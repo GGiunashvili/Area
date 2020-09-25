@@ -158,11 +158,11 @@
                 
     
                 <div  style="height: 100vh; display: flex; flex-direction: column; background:red;">
-                    <img style="    height: 55px;" src="image/Group 395.svg" alt="">
 
 
                     <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-around;">
-                        
+                        <img style="    height: 55px;" src="image/Group 395.svg" alt="">
+
                         <img class="d-md-none w-100"  src="image/ssad.png" alt="">
                         <img  class="d-md-none  w-100" src="image/Group 418.png" alt="">
                         <p class="d-md-none  mg-head-text " style="    text-align: center; " >გადაიხადე VISA-ს ციფრული <br>ბარათით და შეიძინე რაც <br> გაგიხარდება 60%-იანი ფასდაკლებით</p>
@@ -179,9 +179,6 @@
                                 <div class="col-md-6">
                                     <img class="w-100"  src="image/ssad.png" alt="">
                                     <p class="w-100 mg-head-text" >გადაიხადე VISA-ს ციფრული <br>ბარათით და შეიძინე რაც <br> გაგიხარდება 60%-იანი ფასდაკლებით</p>
-                                    <a href="#section2"  >
-                                        <img style="" src="image/Group 316.svg" alt="">
-                                    </a>
                                 </div>
                                 
                             </div>
@@ -208,10 +205,12 @@
 
                         </div> -->
                        
-                        
+                        <a href="#section2"  >
+                            <img style="" src="image/Group 316.svg" alt="">
+                        </a>
                        
                     </div>
-                   
+                  
                 </div>
     
     
@@ -834,7 +833,14 @@
                       
                         
         } );
-            
+        function resetHeight(){
+    // reset the body height to that of the inner browser
+    document.body.style.height = window.innerHeight + "px";
+}
+// reset the height whenever the window's resized
+window.addEventListener("resize", resetHeight);
+// called to initially set the height.
+resetHeight();
 </script>
 
 
