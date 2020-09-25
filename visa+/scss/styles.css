@@ -18,6 +18,10 @@
   font-family: markgeocaps-bold;
 }
 
+html, head, body {
+  margin: 0px;
+}
+
 .hidden-row {
   display: none;
 }
