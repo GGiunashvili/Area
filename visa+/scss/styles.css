@@ -26,6 +26,10 @@ body, html, .app {
   display: none;
 }
 
+.bog-inside-text {
+  padding-left: 50px;
+}
+
 .footer-text {
   font-size: 16px;
 }
@@ -336,6 +340,9 @@ a {
 }
 
 @media only screen and (max-width: 992px) {
+  .bog-inside-text {
+    padding-left: 0 !important;
+  }
   .hidden-category-div {
     display: none;
   }

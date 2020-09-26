@@ -23,6 +23,9 @@ body, html, .app {
 .hidden-row{
     display: none;
 }
+.bog-inside-text{
+    padding-left:50px;
+}
 .footer-text{
     font-size: 16px;
 }
@@ -283,6 +286,9 @@ a {
     display: none;
 }
 @media only screen and (max-width: 992px) {
+    .bog-inside-text{
+        padding-left:0!important;
+    }
     .hidden-category-div{
         display: none;
 
@@ -306,12 +312,9 @@ a {
         margin-top: 40px;
     }
 }
-@media only screen and (max-width: 769px) {
 
-    
-    
-}
 @media only screen and (max-width: 768px) {
+    
     .mg-head-text{
         font-size: 18px;
     }
