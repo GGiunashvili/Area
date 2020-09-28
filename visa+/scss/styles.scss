@@ -20,7 +20,13 @@
     src: url(../fonts/MarkGEO-Medium.ttf);
     font-family: markgeo-medium;
 }
-
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url(..//image/backgroundi.png);
+    width: 100%;
+}
 body, html, .app {
     height: 100%;
   }
@@ -59,13 +65,6 @@ button:hover{
 button:focus{
     box-shadow: none !important;
     text-decoration: none!important;
-}
-html {
-    scroll-behavior: smooth;
-}
-body{
-    background-image: url(..//image/backgroundi.png);
-    width: 100%;
 }
 a:hover {
     text-decoration: none;
