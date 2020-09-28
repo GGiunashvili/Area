@@ -28,7 +28,7 @@ body, html, .app {
     display: none;
 }
 .bog-inside-text{
-    padding-left:50px;
+    padding-left:55px;
 }
 .footer-text{
     font-size: 16px;
@@ -36,6 +36,10 @@ body, html, .app {
 .extra-footer{
     font-family: markgeo-regular;
 
+}
+.span-messenger{
+    font-family: markgeo-semibold;
+    text-decoration:underline; 
 }
 .mg-head-text{
     text-align: center;
@@ -98,7 +102,10 @@ a {
 .checked-icon-box {
     line-height: 1.9;
     align-items: center;
-    margin: 10px 0;
+    // margin: 10px 0;
+}
+.second-visa-use{
+    line-height: 2.0!important;
 }
 .visa-use{
     font-family: markgeo-semibold;

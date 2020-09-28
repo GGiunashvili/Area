@@ -32,7 +32,7 @@ body, html, .app {
 }
 
 .bog-inside-text {
-  padding-left: 50px;
+  padding-left: 55px;
 }
 
 .footer-text {
@@ -41,6 +41,11 @@ body, html, .app {
 
 .extra-footer {
   font-family: markgeo-regular;
+}
+
+.span-messenger {
+  font-family: markgeo-semibold;
+  text-decoration: underline;
 }
 
 .mg-head-text {
@@ -117,7 +122,10 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 10px 0;
+}
+
+.second-visa-use {
+  line-height: 2 !important;
 }
 
 .visa-use {
