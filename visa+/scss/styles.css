@@ -23,15 +23,6 @@
   font-family: markgeo-medium;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  background-image: url(..//image/backgroundi.png);
-  width: 100%;
-}
-
 body, html, .app {
   height: 100%;
 }
@@ -80,6 +71,10 @@ button:focus {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
   text-decoration: none !important;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 a:hover {
