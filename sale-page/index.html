@@ -130,7 +130,7 @@ li span {
                     </p>
                     <p class="field-parent-p">
                       <label class="naming">ტელეფონის ნომერის</label>
-                      <input class="own-input" type="text" name="phone"  id="phone">
+                      <input class="own-input" type="number"  name="phone"  id="phone">
                     </p>
                     <p class="field-parent-p" style="display: none;" class="full">
                       <label class="naming">Message</label>
@@ -198,7 +198,7 @@ li span {
           hour = minute * 60,
           day = hour * 24;
     
-    let countDown = new Date('Sep 25, 2020 14:00:00').getTime(),
+    let countDown = new Date('Sep 30, 2020 14:00:00').getTime(),
         x = setInterval(function() {    
     
           let now = new Date().getTime(),
