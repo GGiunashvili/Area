@@ -24,6 +24,10 @@
   width: 180px;
 }
 
+.hide-section-3-components {
+  display: none;
+}
+
 .bg-success {
   background-color: #93BBF5 !important;
 }
@@ -142,7 +146,6 @@ input[type=number]::-webkit-outer-spin-button {
 .operator-will-call {
   font-size: 15px;
   color: #707070;
-  margin-bottom: 100px;
   margin-top: 22px;
 }
 
@@ -162,6 +165,9 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 @media only screen and (max-width: 779px) {
+  .hide-section-3-components {
+    display: block;
+  }
   .section-one {
     display: none;
   }
