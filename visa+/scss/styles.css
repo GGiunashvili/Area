@@ -18,6 +18,11 @@
   font-family: markgeocaps-bold;
 }
 
+@font-face {
+  src: url(../fonts/MarkGEO-Medium.ttf);
+  font-family: markgeo-medium;
+}
+
 body, html, .app {
   height: 100%;
 }
