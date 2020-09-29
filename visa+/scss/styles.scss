@@ -38,6 +38,28 @@ body, html, .app {
 .main-texts{
     line-height: 1.1;
 }
+.see-all-product{
+    display: flex; justify-content: center;    
+    margin-top: 50px;
+    .see-all-product-div{
+        background-color: #9FC224;
+        display: flex;
+        align-items: center;
+        padding: 23px 36px; 
+
+
+        .see-all-product-p{
+            font-size: 23px;
+            color: white;
+            font-family: markgeocaps-bold;
+    
+        }
+        .extra-svg{
+            height: 45px;
+            margin-right: 10px;
+        }
+    }
+}
 .main-text-one{
     font-size: 65px;
     font-family: markgeocaps-bold;
@@ -286,7 +308,7 @@ a {
     font-family: markgeocaps-bold;
     font-size: 28px;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 70px;
     margin-bottom: 60px;
 }
 .second-category-row{
@@ -380,6 +402,12 @@ a {
 }
 
 @media only screen and (max-width: 575px) {
+    .see-all-product-p{
+        font-size: 20px;
+    }
+    .extra-svg{
+        height: 30px!important;
+    }
     .footer-text{
         font-size: 12px;
     }
@@ -470,5 +498,11 @@ a {
     }
     .footer-text {
         font-size: 10px;
+    }
+    .see-all-product-div {
+        padding: 26px 30px!important;
+    }
+    .see-all-product-p{
+        font-size: 19px!important;
     }
 }
