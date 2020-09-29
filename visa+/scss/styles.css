@@ -75,7 +75,8 @@ body, html, .app {
 }
 
 .footer-text {
-  font-size: 16px;
+  font-size: 14px;
+  font-family: markgeo-medium;
 }
 
 .extra-footer {
@@ -546,6 +547,9 @@ a {
   }
   .add-text-mobile {
     font-size: 36px !important;
+  }
+  .footer-text {
+    font-size: 10px;
   }
 }
 /*# sourceMappingURL=styles.css.map */

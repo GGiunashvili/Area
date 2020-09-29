@@ -63,7 +63,9 @@ body, html, .app {
 
 }
 .footer-text{
-    font-size: 16px;
+    font-size: 14px;
+    font-family: markgeo-medium;
+
 }
 .extra-footer{
     font-family: markgeo-regular;
@@ -465,5 +467,8 @@ a {
     }
     .add-text-mobile{
         font-size: 36px!important;
+    }
+    .footer-text {
+        font-size: 10px;
     }
 }
