@@ -35,6 +35,45 @@ body, html, .app {
   padding-left: 55px;
 }
 
+.text-description-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.main-texts {
+  line-height: 1.1;
+}
+
+.main-text-one {
+  font-size: 65px;
+  font-family: markgeocaps-bold;
+  color: white;
+  text-align: center;
+}
+
+.add-text-desktop {
+  font-size: 68px;
+}
+
+.main-texts-mobile {
+  line-height: 1.1;
+}
+
+.main-text-one-mobile {
+  font-size: 65px;
+  font-family: markgeocaps-bold;
+  color: white;
+  text-align: center;
+}
+
 .footer-text {
   font-size: 16px;
 }
@@ -353,6 +392,15 @@ a {
 }
 
 @media only screen and (max-width: 992px) {
+  .main-text-one {
+    font-size: 50px;
+    font-family: markgeocaps-bold;
+    color: white;
+    text-align: center;
+  }
+  .add-text-desktop {
+    font-size: 52px;
+  }
   .bog-inside-text {
     padding-left: 0 !important;
   }
@@ -381,11 +429,17 @@ a {
 }
 
 @media only screen and (max-width: 768px) {
+  .main-text-one-mobile {
+    font-size: 45px;
+  }
   .mg-head-text {
     font-size: 18px;
   }
   .how-use-sale-div {
     padding: 0;
+  }
+  .add-text-mobile {
+    font-size: 47px !important;
   }
   .rules-conditions {
     font-size: 16px;
@@ -486,6 +540,12 @@ a {
   }
   .mg-head-text {
     font-size: 16px;
+  }
+  .main-text-one-mobile {
+    font-size: 35px;
+  }
+  .add-text-mobile {
+    font-size: 36px !important;
   }
 }
 /*# sourceMappingURL=styles.css.map */
