@@ -24,16 +24,22 @@
   background-color: #FFEEE5;
 }
 
+.section-two .section-two-box-divs {
+  margin-top: 45px;
+}
+
 .section-two .sale-price-percent {
   font-size: 44px;
   color: #FF5600;
   font-family: markgeocaps-bold;
+  margin-top: 20px;
 }
 
 .section-two .sale-price-title-sc2 {
   font-size: 36px;
   color: #2E384D;
   font-family: markgeocaps-bold;
+  line-height: 1.7;
 }
 
 .section-two .sale-product-title-sc2 {
@@ -60,6 +66,10 @@
   text-align: center;
   width: 300px;
   line-height: 1.2;
+}
+
+.section-two .three-box:nth-child(2) {
+  margin: 30px 0;
 }
 
 .progress {
@@ -208,7 +218,22 @@ input[type=number]::-webkit-outer-spin-button {
   font-size: 14px;
 }
 
-@media only screen and (max-width: 779px) {
+@media only screen and (max-width: 992px) {
+  .three-box {
+    padding: 12px 5px !important;
+  }
+  .section-two {
+    padding: 0 10px;
+  }
+  .section-two .sale-price-title-sc2 {
+    font-size: 28px;
+  }
+  .section-two .sale-product-title-sc2 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
   .hide-section-3-components {
     display: block;
   }
