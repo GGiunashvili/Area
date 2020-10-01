@@ -87,9 +87,9 @@ li span {
                     <div>
                       <p class="left-time">დარჩენილა</p>
                       <div class="progress" >
-                        <div class="progress-bar" id="timeProgressBar" role="progressbar"  style="width: 100%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress-bar timeProgressBar" role="progressbar"  style="width: 100%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                       </div>
-                      <p id="time">text</p>
+                      <p class="timeLabel">text</p>
                          <!-- <ul>
    
                            <li><span id="hours">20</span></li>
@@ -111,9 +111,9 @@ li span {
                   <div>
                     <p style="text-align: left; margin-left: 10px; color: red;">მიწოდება <br>საქართველოს მასშტაბით</p>
                     <div class="progress" >
-                      <div class="progress-bar" id="amountProgressBar" role="progressbar" style="width: 100%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                      <div class="progress-bar amountProgressBar" role="progressbar" style="width: 100%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
-                    <p id="amount">time</p>
+                    <p class="amountLabel">time</p>
                         
                   </div>
               </div>
@@ -156,9 +156,9 @@ li span {
                  <div>
                    <p class="left-time">დარჩენილა</p>
                    <div class="progress progress-mobile" >
-                    <div class="progress-bar progress-bar-mobile" id="timeProgressBar" role="progressbar"  style="width: 100%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    <div class="progress-bar progress-bar-mobile timeProgressBar" role="progressbar"  style="width: 100%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
-                  <p id="time" class="time-mobile">text</p>
+                  <p class="timeLabel time-mobile">text</p>
                   <!-- mobile time -->
                       <!-- <ul>
 
@@ -219,9 +219,9 @@ li span {
                      <div class="col-8 " style="padding-left:0;">
                        <p class="in-reserve">მარაგშია</p>
                        <div class="progress">
-                        <div class="progress-bar bg-success"  role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="amountProgressBar progress-bar bg-success"  role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                       </div>
-                      <p class="reserve-in-numbers">3 ცალი</p>
+                      <p class="amountLabel reserve-in-numbers">3 ცალი</p>
 
                      </div>
                    </div>
@@ -321,11 +321,11 @@ if (updateScheduled && leftAmount > 1) {
 }
 
 var progressValue = Math.floor(leftAmount / amount * 100);
-$('#amountProgressBar').css('width', progressValue+'%').attr('aria-valuenow', progressValue);
+$('.amountProgressBar').css('width', progressValue+'%').attr('aria-valuenow', progressValue);
 
 var distanceRatio = distance / 86400000;
 var timeProgress = Math.floor(distanceRatio * 100);
-$('#timeProgressBar').css('width', timeProgress+'%').attr('aria-valuenow', timeProgress);
+$('.timeProgressBar').css('width', timeProgress+'%').attr('aria-valuenow', timeProgress);
   
 // Time calculations for days, hours, minutes and seconds
 var days = Math.floor(distance / (1000 * 60 * 60 * 24));
@@ -334,9 +334,16 @@ var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
 var seconds = Math.floor((distance % (1000 * 60)) / 1000);
   
 // Output the result in an element with id="demo"
-document.getElementById("amount").innerHTML = "დარჩენილია " + leftAmount ;
-document.getElementById("time").innerHTML = hours + "h "
-+ minutes + "m " + seconds + "s ";
+
+var amountElements = document.getElementsByClassName("amountLabel");
+for (var i = 0; i < amountElements.length; i++) {
+  amountElements[i].innerHTML = "დარჩენილია " + leftAmount;
+}
+
+var timeElements = document.getElementsByClassName("timeLabel");
+for (var i = 0; i < timeElements.length; i++) {
+  timeElements[i].innerHTML = hours + "h "+ minutes + "m " + seconds + "s ";
+}
   
 // If the count down is over, write some text 
 if (distance < 0) {
