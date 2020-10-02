@@ -22,6 +22,10 @@
   font-family: markgeocaps-medium;
 
 }
+.last-section{
+  display: flex; 
+  justify-content: center; 
+}
 .box-fonts{
   font-family: markgeocaps-medium;
   text-align: center;
@@ -222,8 +226,27 @@ font-family: markgeocaps-medium;
 }
 
   @media only screen and (max-width: 768px) {
+  
+    .progress{
+      width:150px;
+    }
+    .last-section{
+      background-color: #EEEEEE;
+    }
+    .mobile-sale-box{
+      text-align: center;
+      padding-top: 20px;
+      margin-bottom: 27px;
+      .mobile-sale-title{
+        font-family: markgeocaps-bold;
+        color: #161E3F;
+        font-size: 23px;
+        line-height: 1.4;
+      }
+    }
     .box-fonts{
-      font-size: 22px;
+      font-size: 16px;
+      text-align: left;
     }
     .hide-section-3-components{
       display: block;
@@ -238,6 +261,13 @@ font-family: markgeocaps-medium;
     .col-md-4{
       flex:100%!important;
       max-width: 100%!important;
+    }
+    .mobile-cali-time{
+      text-align: left;
+      font-size: 20px;
+      font-family: markgeocaps-bold;
+      color: black;
+
     }
   }
 
