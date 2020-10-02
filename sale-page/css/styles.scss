@@ -17,6 +17,18 @@
   font-family: markgeocaps-bold;
 
 }
+@font-face {
+  src: url(../fonts/MarkGEO-Medium.ttf);
+  font-family: markgeocaps-medium;
+
+}
+.box-fonts{
+  font-family: markgeocaps-medium;
+
+}
+.box-images{
+  margin-right: 5px;
+}
 .section-two{
   text-align: center;
   padding: 0 45px;
@@ -44,7 +56,7 @@
 }
 .progress{
   height: 3px;
-  margin: 5px 0;
+  margin: 7px 0;
   width: 180px;
 
 }
@@ -148,6 +160,7 @@ input[type=number]::-webkit-outer-spin-button {
   font-size: 15px;
   color: #707070;
 margin-top: 22px;
+line-height: 1.3;
 }
 .own-form-check{
   margin: 20px 0;
@@ -183,6 +196,9 @@ margin-top: 22px;
 }
 
   @media only screen and (max-width: 768px) {
+    .box-fonts{
+      font-size: 22px;
+    }
     .hide-section-3-components{
       display: block;
     }

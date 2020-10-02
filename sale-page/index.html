@@ -74,22 +74,31 @@ li span {
                 <p class="sale-product-title-sc2">თმის სამაგრზე</p>
 
                 <div class="section-two-box-divs" >
-                  <div class="w-100  three-box ">
-                    <img src="image/watch.png" alt="">
-                    <div>
-                      <p style="text-align: left; margin-left: 10px;">მიწოდება <br>საქართველოს მასშტაბით</p>
-                          
-                    </div>
-                </div>
+                  
+
                 <div class="w-100  three-box ">
-                  <img src="image/watch.png" alt="">
+                  <img class="box-images" src="image/watch.png" alt="">
+                  <div>
+                    <p class="box-fonts" style="text-align: left; color: red;">მარაგშია</p>
+                    <div class="progress" >
+                      <div class="progress-bar amountProgressBar" role="progressbar" style="width: 100%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <p class="amountLabel box-fonts" style="display: flex; padding-left: 5px;" >time</p>
+                        
+                  </div>
+              </div>
+
+
+
+                <div class="w-100  three-box ">
+                  <img class="box-images" src="image/watch.png" alt="">
                   <div>
                     <div>
-                      <p class="left-time">დარჩენილა</p>
+                      <p class="left-time box-fonts" style="text-align: left;">დარჩენილია</p>
                       <div class="progress" >
                         <div class="progress-bar timeProgressBar" role="progressbar"  style="width: 100%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                       </div>
-                      <p class="timeLabel">text</p>
+                      <p class="timeLabel box-fonts" style="text-align: left;  font-weight: bold;">text</p>
                          <!-- <ul>
    
                            <li><span id="hours">20</span></li>
@@ -104,19 +113,18 @@ li span {
                     </div>
                   </div>
               </div>
+
+
+              <div class="w-100  three-box ">
+                <img class="box-images" src="image/watch.png" alt="">
+                <div>
+                  <p class="box-fonts" style="text-align: left; ">მიწოდება <br>საქართველოს მასშტაბით</p>
+                      
+                </div>
+            </div>
                 
 
-                <div class="w-100  three-box ">
-                  <img src="image/watch.png" alt="">
-                  <div>
-                    <p style="text-align: left; margin-left: 10px; color: red;">მიწოდება <br>საქართველოს მასშტაბით</p>
-                    <div class="progress" >
-                      <div class="progress-bar amountProgressBar" role="progressbar" style="width: 100%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                    <p class="amountLabel" style="display: flex; padding-left: 5px;" >time</p>
-                        
-                  </div>
-              </div>
+                
 
 
             </div>
@@ -154,11 +162,11 @@ li span {
                 opacity: 1;display: flex; align-items: center;background-color: white;  padding: 12px 25px; text-align: center;  width:300px;    line-height: 1.2;">
                  <img src="image/watch.png" alt="">
                  <div>
-                   <p class="left-time">დარჩენილა</p>
+                   <p class="left-time box-fonts">დარჩენილია</p>
                    <div class="progress progress-mobile" >
                     <div class="progress-bar progress-bar-mobile timeProgressBar" role="progressbar"  style="width: 100%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                   </div>
-                  <p class="timeLabel time-mobile">text</p>
+                  <p class="timeLabel time-mobile box-fonts" style="font-weight: bold;">text</p>
                   <!-- mobile time -->
                       <!-- <ul>
 
@@ -337,12 +345,12 @@ var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
 var amountElements = document.getElementsByClassName("amountLabel");
 for (var i = 0; i < amountElements.length; i++) {
-  amountElements[i].innerHTML = "დარჩენილია " + leftAmount;
+  amountElements[i].innerHTML =  leftAmount  +  " ცალი " ;
 }
 
 var timeElements = document.getElementsByClassName("timeLabel");
 for (var i = 0; i < timeElements.length; i++) {
-  timeElements[i].innerHTML = hours + "h "+ minutes + "m " + seconds + "s ";
+  timeElements[i].innerHTML = hours + " : "+ minutes + " : " + seconds + " ";
 }
   
 // If the count down is over, write some text 
