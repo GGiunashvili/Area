@@ -136,8 +136,9 @@ input[type=number]::-webkit-outer-spin-button {
     display: none;
   }
   .mobile-header-image{
-    background-image: url('../image/machine.webp');
+    background-image: url('../image/machine-mobile.png');
     background-repeat: round;
+    height: 350px;
   }
   .mobile-sale-price{
     position:absolute;
@@ -224,7 +225,12 @@ font-family: markgeocaps-medium;
   }
   
 }
+@media only screen and (max-width: 575px) {
 
+.mobile-header-image{
+  height: 225px;
+  }
+}
   @media only screen and (max-width: 768px) {
   
     .progress{
