@@ -26,9 +26,18 @@
   display: flex; 
   justify-content: center; 
 }
+.price-now{
+  background-image: url(../image/popm.png);
+  background-size: cover;
+    height: 120px;
+    width: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .box-fonts{
   font-family: markgeocaps-medium;
-  text-align: center;
+  text-align: left;
   line-height: 1.4;
 
 }
@@ -37,26 +46,33 @@
   font-size: 23px;
 
 }
+.hurry-up{
+  color: white; font-size: 24px; margin-bottom: 10px;font-family: markgeocaps-bold;
+}
 .box-images{
   margin-right: 15px;
 }
+.title-sc2-span{
+  font-size: 14px;
+  font-family: markgeocaps-medium;
+  margin-left: 5px;
+
+}
 .section-two{
-  text-align: center;
   padding: 0 45px;
   background-color: #161E3F;
   .section-two-box-divs{
-    margin-top: 45px;
+    margin-top: 25px;
   }
   .sale-price-percent{
-    font-size: 65px; color:white ;  font-family: markgeocaps-bold;
+    font-size: 25px; color:white ;  font-family: markgeocaps-bold;
     margin-top: 20px;
   }
   .sale-price-title-sc2{
-    font-size: 28px; color:white ; font-family: markgeocaps-bold;
-    line-height: 1.7;
+    font-size: 14; color:white ; font-family: markgeocaps-bold; margin-top: 15px; margin-bottom:10px; display: flex;
   }
   .sale-product-title-sc2{
-    font-size: 24px; color:white ; font-family: markgeocaps-bold;
+    font-size: 14px; color:white ; font-family: markgeocaps-bold; display: flex;
   }
   .three-box{
     background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box; background: #FFFFFF 0% 0% no-repeat padding-box; box-shadow: 0px 3px 20px #0000000F; border-radius: 10px; opacity: 1;display: flex; align-items: center;background-color: white;  padding: 12px 25px; text-align: center;  width:300px;    line-height: 1.2;
@@ -109,7 +125,7 @@ color: #707070;
 .finish-order{
   margin-top: 20px;
   color: white;
-  background-color: #161E3F;
+  background-color: #F72163;
   font-size: 20px;
   padding: 3px 50px;
     border-radius: 10px;

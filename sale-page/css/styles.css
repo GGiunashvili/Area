@@ -32,9 +32,25 @@
           justify-content: center;
 }
 
+.price-now {
+  background-image: url(../image/popm.png);
+  background-size: cover;
+  height: 120px;
+  width: 125px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .box-fonts {
   font-family: markgeocaps-medium;
-  text-align: center;
+  text-align: left;
   line-height: 1.4;
 }
 
@@ -43,38 +59,57 @@
   font-size: 23px;
 }
 
+.hurry-up {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-family: markgeocaps-bold;
+}
+
 .box-images {
   margin-right: 15px;
 }
 
+.title-sc2-span {
+  font-size: 14px;
+  font-family: markgeocaps-medium;
+  margin-left: 5px;
+}
+
 .section-two {
-  text-align: center;
   padding: 0 45px;
   background-color: #161E3F;
 }
 
 .section-two .section-two-box-divs {
-  margin-top: 45px;
+  margin-top: 25px;
 }
 
 .section-two .sale-price-percent {
-  font-size: 65px;
+  font-size: 25px;
   color: white;
   font-family: markgeocaps-bold;
   margin-top: 20px;
 }
 
 .section-two .sale-price-title-sc2 {
-  font-size: 28px;
+  font-size: 14;
   color: white;
   font-family: markgeocaps-bold;
-  line-height: 1.7;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .section-two .sale-product-title-sc2 {
-  font-size: 24px;
+  font-size: 14px;
   color: white;
   font-family: markgeocaps-bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .section-two .three-box {
@@ -146,7 +181,7 @@
 .finish-order {
   margin-top: 20px;
   color: white;
-  background-color: #161E3F;
+  background-color: #F72163;
   font-size: 20px;
   padding: 3px 50px;
   border-radius: 10px;
