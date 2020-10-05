@@ -239,6 +239,9 @@ font-family: markgeocaps-medium;
 .pink-header{
   background-color: #F72163; height: 130px;display: flex; justify-content: center; align-items: center;
 }
+.vertical-line{
+  width: 132px; height: 2px; background-color: #161E3F; margin-top: 10px; margin-bottom: 7px;
+}
 @media only screen and (max-width: 992px) {
    .three-box{
     //  display: flex;
@@ -266,6 +269,16 @@ font-family: markgeocaps-medium;
   }
 }
   @media only screen and (max-width: 768px) {
+    .vertical-line{
+      background-color: #FFEEE5;
+      opacity: 1;
+    }
+    .fast-buy{
+      text-align: center;
+    }
+    .personal-info{
+      text-align: center;
+    }
     .pink-header{
       height:90px;
     }
