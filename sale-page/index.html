@@ -192,7 +192,7 @@ li span {
                     <div class="alert">თქვენი შეტყობინება მიღებულია</div>
                     <p class="field-parent-p">
                       <label class="naming">სახელი, გვარი</label>
-                      <input class="own-input" type="text" name="name" id="name">
+                      <input class="own-input" placeholder="სახელი, გვარი"  type="text" name="name" id="name">
                     </p>
                     <p class="field-parent-p" style="display: none;">
                       <label class="naming">Company</label>
@@ -204,7 +204,9 @@ li span {
                     </p>
                     <p class="field-parent-p">
                       <label class="naming">ტელეფონის ნომერის</label>
-                      <input class="own-input" type="number"  name="phone"  id="phone">
+                      <input class="own-input" placeholder="ტელეფონის ნომერი" onclick="showValue(5)"   type="number"  name="phone"  id="phone"   oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength) ;"
+                      type = "number"
+                      min = "4" maxlength = "9"   >
                     </p>
                     <p class="field-parent-p" style="display: none;" class="full">
                       <label class="naming">Message</label>
@@ -348,6 +350,13 @@ if (distance < 0) {
 func();
 var x = setInterval(func, 1000);
     </script>
+
+
+<script>
+  var showValue = function(val){
+      document.getElementById('phone').value = parseInt(val);
+  }
+  </script>
   <script src="main.js"></script>
 </body>
 </html>

@@ -24,10 +24,36 @@
 
 }
 
+
+@font-face {
+    src: url(../fonts/MarkGEO-Medium.ttf);
+    font-family: markgeo-medium;
+}
+
 html{
     scroll-behavior: smooth;
     
 }
+///////////footer////////
+.linkedin-icon{
+    margin: 0 10px;
+}
+.footer-text{
+    font-size: 14px;
+    font-family: markgeo-medium;
+    
+
+}
+.extra-footer:hover{
+    color: white;
+
+}
+.extra-footer{
+    font-family: markgeo-regular;
+    color: white;
+
+}
+///////////////////
 
 .carousel .carousel-item {
     transition-duration: 0.3s;
@@ -181,6 +207,12 @@ a {
 
 }
 @media only screen and (max-width: 575px) {
+    .linkedin-icon{
+        margin: 0 5px;
+    }
+    .footer-text{
+        font-size: 12px;
+    }
 
 .sanitaizer-card-title{
     font-size: 16px;
@@ -239,5 +271,7 @@ a {
     .footer{
         padding: 10px 10px;
     }
-    
+    .footer-text {
+        font-size: 10px;
+    }
 }
