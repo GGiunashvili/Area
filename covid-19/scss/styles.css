@@ -32,6 +32,12 @@ html {
   scroll-behavior: smooth;
 }
 
+.shop-now-btn {
+  color: white;
+  font-size: 18px;
+  font-family: markgeocaps-regular;
+}
+
 .linkedin-icon {
   margin: 0 10px;
 }
@@ -111,7 +117,7 @@ a {
 
 .title-description {
   font-size: 23px;
-  font-family: markgeocaps-bold;
+  font-family: markgeo-regular;
   text-align: center;
   margin-top: 20px;
   line-height: initial;
@@ -132,7 +138,7 @@ a {
 .button-a .button-p {
   color: white;
   font-size: 33px;
-  font-family: markgeo-regular;
+  font-family: markgeocaps-regular;
 }
 
 .sanitaizer-card-title {
