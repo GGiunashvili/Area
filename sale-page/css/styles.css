@@ -35,7 +35,7 @@
 .price-now {
   background-image: url(../image/popm.png);
   background-size: cover;
-  height: 120px;
+  height: 155px;
   width: 125px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -296,6 +296,34 @@ input[type=number]::-webkit-outer-spin-button {
   font-size: 14px;
 }
 
+.first-div-section-two-mobile {
+  display: none;
+}
+
+.made-by-country {
+  font-family: markgeocaps-bold;
+  font-size: 14px;
+}
+
+.m-cube {
+  font-family: markgeocaps-bold;
+  font-size: 14px;
+}
+
+.pink-header {
+  background-color: #F72163;
+  height: 130px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 @media only screen and (max-width: 992px) {
   .three-box {
     padding: 12px 5px !important;
@@ -318,6 +346,15 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 @media only screen and (max-width: 768px) {
+  .pink-header {
+    height: 90px;
+  }
+  .first-div-section-two-desktop {
+    display: none !important;
+  }
+  .first-div-section-two-mobile {
+    display: block;
+  }
   .progress {
     width: 150px;
   }
@@ -325,7 +362,6 @@ input[type=number]::-webkit-outer-spin-button {
     background-color: #EEEEEE;
   }
   .mobile-sale-box {
-    text-align: center;
     padding-top: 20px;
     margin-bottom: 27px;
   }

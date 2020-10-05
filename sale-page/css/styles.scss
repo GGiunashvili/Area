@@ -29,7 +29,7 @@
 .price-now{
   background-image: url(../image/popm.png);
   background-size: cover;
-    height: 120px;
+    height: 155px;
     width: 125px;
     display: flex;
     align-items: center;
@@ -221,6 +221,21 @@ font-family: markgeocaps-medium;
   color: #707070;
   font-size: 14px;;
 }
+.first-div-section-two-mobile{
+  display: none;
+}
+.made-by-country{
+  font-family: markgeocaps-bold;
+  font-size: 14px;
+}
+.m-cube{
+  font-family: markgeocaps-bold;
+  font-size: 14px;
+
+}
+.pink-header{
+  background-color: #F72163; height: 130px;display: flex; justify-content: center; align-items: center;
+}
 @media only screen and (max-width: 992px) {
    .three-box{
     //  display: flex;
@@ -248,6 +263,15 @@ font-family: markgeocaps-medium;
   }
 }
   @media only screen and (max-width: 768px) {
+    .pink-header{
+      height:90px;
+    }
+    .first-div-section-two-desktop{
+      display: none!important;
+    }
+    .first-div-section-two-mobile{
+      display: block;
+    }
   
     .progress{
       width:150px;
@@ -256,7 +280,6 @@ font-family: markgeocaps-medium;
       background-color: #EEEEEE;
     }
     .mobile-sale-box{
-      text-align: center;
       padding-top: 20px;
       margin-bottom: 27px;
       .mobile-sale-title{
