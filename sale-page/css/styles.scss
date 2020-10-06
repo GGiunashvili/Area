@@ -321,6 +321,10 @@ font-family: markgeocaps-medium;
         background-repeat: round;
         height: 212px;
         display: block;
+        -o-background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size:cover;
+        background-size: cover;
     }
   
     .progress{

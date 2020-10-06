@@ -432,6 +432,7 @@ input[type=number]::-webkit-outer-spin-button {
     background-repeat: round;
     height: 212px;
     display: block;
+    background-size: cover;
   }
   .progress {
     width: 150px;
