@@ -67,6 +67,12 @@
   right: 15px;
 }
 
+.first-div-section-two-desktop {
+  background-image: url(../image/machine.png);
+  background-size: cover;
+  background-repeat: round;
+}
+
 .last-section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -423,6 +429,7 @@ input[type=number]::-webkit-outer-spin-button {
   .first-div-section-two-mobile {
     background: url(../image/machine.png);
     background-size: cover;
+    background-repeat: round;
     height: 212px;
     display: block;
   }
