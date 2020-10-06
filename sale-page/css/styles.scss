@@ -42,8 +42,10 @@
 }
 .first-div-section-two-desktop{
   background-image: url(../image/karma-desk-desk.webp);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  background-repeat: round;
 
 
 }
@@ -318,9 +320,9 @@ font-family: markgeocaps-medium;
     .first-div-section-two-mobile{
         background: url(../image/mobb.webp) ;
         -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
 
         // background-size: 100% 100%;
         // background-repeat: round;
