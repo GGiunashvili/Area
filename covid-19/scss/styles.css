@@ -133,6 +133,7 @@ a {
   font-family: markgeo-semibold;
   margin-top: 50px;
   margin-bottom: 90px;
+  border-radius: 2px;
 }
 
 .button-a .button-p {
@@ -151,6 +152,7 @@ a {
   font-size: 20px;
   font-family: markgeo-bold;
   margin-top: 10px;
+  line-height: 1.2;
 }
 
 .footer {
