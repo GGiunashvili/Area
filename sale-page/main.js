@@ -41,7 +41,7 @@ function submitForm(e){
     setTimeout(function(){
         document.querySelector('.alert').style.display = 'none';
 
-    },9000);
+    },5000);
 
     
 }
