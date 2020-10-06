@@ -32,6 +32,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.video-100vh {
+  height: 100vh;
+}
+
 .shop-now-btn {
   color: white;
   font-size: 18px;
@@ -74,6 +78,10 @@ a {
   color: black;
 }
 
+.call-button:hover {
+  color: white;
+}
+
 .call-button {
   font-family: markgeocaps-bold;
   display: -webkit-box;
@@ -84,6 +92,8 @@ a {
           justify-content: center;
   line-height: initial;
   font-size: 23px;
+  float: right;
+  color: white;
 }
 
 .title-description-last {
@@ -92,10 +102,6 @@ a {
 
 .copy-class {
   margin-top: 0 !important;
-}
-
-.video-main-box {
-  padding: 0 60px;
 }
 
 .first-container-box {
@@ -181,13 +187,26 @@ a {
   bottom: 0;
 }
 
+.call-btn-div {
+  background: #161E3F;
+  padding: 20px 23px;
+}
+
+.call-icon {
+  height: 30px;
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 992px) {
+  .video-100vh {
+    height: auto;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .align-dflex {
     position: unset;
     bottom: 0;
-  }
-  .video-main-box {
-    padding: 0;
   }
   .last-case {
     margin-top: 35px;

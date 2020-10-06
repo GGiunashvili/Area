@@ -22,6 +22,28 @@
   font-family: markgeocaps-medium;
 
 }
+.price-main-head{
+  padding: 9px 30px; text-align: center; margin-top: 25px; margin-left: 8px; font-size: 25px; color: black; font-family: markgeocaps-bold;     text-decoration: line-through; text-decoration-color: red;
+}
+.two-price-column{
+  background-color: #F72163; text-align: center;     padding: 3px 41px; 
+}
+.ganvadeba-tveshi{
+  font-size: 15px; color: white; font-family: markgeocaps-bold; margin-bottom: 5px;
+}
+.ganvadeba-tveshi-text{
+  font-size: 15px; color: white; font-family: markgeocaps-bold; margin-bottom: 5px;
+}
+.flag-mobile{
+  height: 30px; position: absolute; top: 100px; right: 15px;
+}
+.first-div-section-two-desktop{
+  background-image: url(../image/karma-desk.png);
+  background-size: cover;
+  background-repeat: round;
+
+
+}
 .last-section{
   display: flex; 
   justify-content: center; 
@@ -265,6 +287,8 @@ font-family: markgeocaps-medium;
   }
   
 }
+
+
 @media only screen and (max-width: 575px) {
 
 .mobile-header-image{
@@ -289,7 +313,11 @@ font-family: markgeocaps-medium;
       display: none!important;
     }
     .first-div-section-two-mobile{
-      display: block;
+        background-image: url(../image/telefonis.png);
+        background-size: cover;
+        background-repeat: round;
+        height: 212px;
+        display: block;
     }
   
     .progress{
