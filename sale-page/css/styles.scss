@@ -317,13 +317,14 @@ font-family: markgeocaps-medium;
     }
     .first-div-section-two-mobile{
         background: url(../image/mobb.webp) center/cover no-repeat #1b1d37;
-        background-position:center; 
-background-attachment:fixed; 
--o-background-size:cover; 
--moz-background-size:cover; 
--webkit-background-size:cover; 
-background-size:100% 100%; 
-background-repeat:no-repeat;
+        background-size: cover;
+        background-repeat: round;
+        height: 212px;
+        display: block;
+        -o-background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size:cover;
+        background-size: cover;
     }
   
     .progress{
