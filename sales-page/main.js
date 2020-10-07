@@ -42,11 +42,11 @@ function submitForm(e){
     setTimeout(function(){
         document.querySelector('.alert').style.display = 'none';
 
-    },15000);
+    },5000);
     setTimeout(function(){
         window.location.href = "https://extra.ge/";
 
-    },15000);
+    },5000);
 
 }
 
