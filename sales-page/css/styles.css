@@ -438,6 +438,9 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 @media only screen and (max-width: 768px) {
+  .own-input {
+    height: 50px;
+  }
   .finish-order {
     font-size: 20px;
   }
