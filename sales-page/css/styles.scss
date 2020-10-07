@@ -336,6 +336,9 @@ font-size: 2.8vh;
   }
 }
   @media only screen and (max-width: 768px) {
+    .alert{
+      margin-top: 15px;
+    }
     .vertical-line{
       display: none;
     }
@@ -355,7 +358,7 @@ font-size: 2.8vh;
     }
     .operator-will-call{
       margin-bottom: 65px;
-      font-size: 21px;
+      font-size: 19px;
 
     }
     .company-name{

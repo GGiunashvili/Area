@@ -438,6 +438,9 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 @media only screen and (max-width: 768px) {
+  .alert {
+    margin-top: 15px;
+  }
   .vertical-line {
     display: none;
   }
@@ -455,7 +458,7 @@ input[type=number]::-webkit-outer-spin-button {
   }
   .operator-will-call {
     margin-bottom: 65px;
-    font-size: 21px;
+    font-size: 19px;
   }
   .company-name {
     font-size: 24px;
