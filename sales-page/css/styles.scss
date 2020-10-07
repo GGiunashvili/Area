@@ -67,41 +67,44 @@
   font-family: markgeocaps-medium;
   text-align: left;
   line-height: 1.4;
+  font-size: 3.2vh;
 
 }
 .countdown-stock{
   font-weight: bold;
-  font-size: 23px;
+  font-size: 4.2vh;
 
 }
 .hurry-up{
-  color: white; font-size: 24px; margin-bottom: 10px;font-family: markgeocaps-bold; margin-top: 25px;
+  color: white; font-size: 4.2vh;font-family: markgeocaps-bold; margin-top: 3vh;
+  margin-bottom: 2vh;
 }
 .box-images{
   margin-right: 15px;
+  height: 8.2vh;
 }
 .title-sc2-span{
-  font-size: 14px;
+  font-size: 2.2vh;
   font-family: markgeocaps-medium;
   margin-left: 5px;
 
 }
 .section-two{
-  padding: 0 45px;
+  padding: 0 2%;
   background-color: #161E3F;
   padding-top: 25px;
   .section-two-box-divs{
     margin-top: 25px;
   }
   .sale-price-percent{
-    font-size: 25px; color:white ;  font-family: markgeocaps-bold;
+    font-size: 4.2vh; color:white ;  font-family: markgeocaps-bold;
     margin-top: 20px;
   }
   .sale-price-title-sc2{
-    font-size: 14; color:white ; font-family: markgeocaps-bold; margin-top: 15px; margin-bottom:10px; display: flex;
+    font-size: 2.5vh; color:white ; font-family: markgeocaps-bold; margin-top: 15px; margin-bottom:10px; display: flex;
   }
   .sale-product-title-sc2{
-    font-size: 14px; color:white ; font-family: markgeocaps-bold; display: flex;
+    font-size:  2.5vh; color:white ; font-family: markgeocaps-bold; display: flex;
   }
   .three-box{
     background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
@@ -109,7 +112,7 @@
      box-shadow: 0px 3px 20px #0000000F; border-radius: 10px;
       opacity: 1;display: flex; align-items: center;
       background-color: white; 
-       padding: 5% 7%;
+       padding: 5% 5%;
        text-align: center;  
        width:300px; 
           line-height: 1.2;
@@ -120,8 +123,8 @@
   // }
 }
 .box3{
-  margin-top: 30px;
-  margin-bottom: 25px;
+  margin-top: 8%;
+  margin-bottom: 8%;
 }
 .progress{
   height: 5px;
@@ -216,7 +219,7 @@ input[type=number]::-webkit-outer-spin-button {
 
   }
   .left-time{
-    font-size: 16px;   font-family: markgeo-regular;
+    font-size: 2.8vh;   font-family: markgeo-regular;
   }
  .fast-buy{
    font-size: 26px;
@@ -292,7 +295,6 @@ font-family: markgeocaps-medium;
    }
    
   .section-two{
-    padding: 0 10px;
     .sale-price-title-sc2{
       font-size: 14px;
     }
