@@ -264,15 +264,14 @@ a:hover {
 }
 
 .finish-order {
-  margin-top: 20px;
   color: white;
-  background-color: #F72163;
-  font-size: 20px;
-  padding: 3px 50px;
+  background-color: #F72163 !important;
+  margin-top: 1vh;
   border-radius: 10px;
   border: none;
   font-family: markgeocaps-bold;
   font-size: 3vh;
+  padding: 2vh 7vh;
 }
 
 button:focus {

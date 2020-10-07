@@ -36,14 +36,18 @@ function submitForm(e){
     saveMessage(name, company, email, phone, message);
 
     document.querySelector('.alert').style.display = 'block';
+    
 
 
     setTimeout(function(){
         document.querySelector('.alert').style.display = 'none';
 
     },5000);
+    setTimeout(function(){
+        window.location.href = "https://extra.ge/";
 
-    
+    },5000);
+
 }
 
 
