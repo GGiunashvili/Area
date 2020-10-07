@@ -1,0 +1,488 @@
+@font-face {
+  src: url(../fonts/MarkGEO-Bold.ttf);
+  font-family: markgeo-bold;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEO-Regular.ttf);
+  font-family: markgeo-regular;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEO-SemiBold.ttf);
+  font-family: markgeo-semibold;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEOCAPS-Bold.ttf);
+  font-family: markgeocaps-bold;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEO-Medium.ttf);
+  font-family: markgeocaps-medium;
+}
+
+.container {
+  max-width: none;
+}
+
+.price-main-head {
+  padding: 9px 30px;
+  text-align: center;
+  margin-top: 25px;
+  margin-left: 8px;
+  font-size: 25px;
+  color: black;
+  font-family: markgeocaps-bold;
+  text-decoration: line-through;
+  -webkit-text-decoration-color: red;
+          text-decoration-color: red;
+}
+
+.two-price-column {
+  background-color: #F72163;
+  text-align: center;
+  padding: 3px 41px;
+}
+
+.ganvadeba-tveshi {
+  font-size: 15px;
+  color: white;
+  font-family: markgeocaps-bold;
+  margin-bottom: 5px;
+}
+
+.ganvadeba-tveshi-text {
+  font-size: 15px;
+  color: white;
+  font-family: markgeocaps-bold;
+  margin-bottom: 5px;
+}
+
+.flag-mobile {
+  height: 30px;
+  position: absolute;
+  top: 100px;
+  right: 15px;
+}
+
+.first-div-section-two-desktop {
+  background-image: url(../image/desktop.png);
+  background-size: cover;
+  background-repeat: round;
+}
+
+.last-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.price-now {
+  background-image: url(../image/popm.png);
+  background-size: cover;
+  height: 155px;
+  width: 125px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.box-fonts {
+  font-family: markgeocaps-medium;
+  text-align: left;
+  line-height: 1.4;
+}
+
+.countdown-stock {
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.hurry-up {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-family: markgeocaps-bold;
+  margin-top: 25px;
+}
+
+.box-images {
+  margin-right: 15px;
+}
+
+.title-sc2-span {
+  font-size: 14px;
+  font-family: markgeocaps-medium;
+  margin-left: 5px;
+}
+
+.section-two {
+  padding: 0 45px;
+  background-color: #161E3F;
+  padding-top: 25px;
+}
+
+.section-two .section-two-box-divs {
+  margin-top: 25px;
+}
+
+.section-two .sale-price-percent {
+  font-size: 25px;
+  color: white;
+  font-family: markgeocaps-bold;
+  margin-top: 20px;
+}
+
+.section-two .sale-price-title-sc2 {
+  font-size: 14;
+  color: white;
+  font-family: markgeocaps-bold;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section-two .sale-product-title-sc2 {
+  font-size: 14px;
+  color: white;
+  font-family: markgeocaps-bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section-two .three-box {
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  -webkit-box-shadow: 0px 3px 20px #0000000F;
+          box-shadow: 0px 3px 20px #0000000F;
+  border-radius: 10px;
+  opacity: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  padding: 5% 7%;
+  text-align: center;
+  width: 300px;
+  line-height: 1.2;
+}
+
+.box3 {
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+.progress {
+  height: 5px;
+  margin: 7px 0;
+  width: 100%;
+  background-color: #b94514;
+}
+
+.progress-bar {
+  background-color: #fd5601;
+}
+
+.hide-section-3-components {
+  display: none;
+}
+
+.bg-success {
+  background-color: #93BBF5 !important;
+}
+
+.contact {
+  width: 90%;
+}
+
+.field-parent-p {
+  text-align: center;
+  line-height: 2.5;
+}
+
+.field-parent-p .naming {
+  display: block;
+  text-align: left;
+  font-family: markgeo-regular;
+  font-weight: bold;
+  opacity: 0.9;
+  line-height: 3.0;
+}
+
+.accept-consumer-rules {
+  font-family: markgeo-regular;
+  color: #707070;
+}
+
+.finish-order {
+  margin-top: 20px;
+  color: white;
+  background-color: #F72163;
+  font-size: 20px;
+  padding: 3px 50px;
+  border-radius: 10px;
+  border: none;
+  font-family: markgeocaps-bold;
+}
+
+button:focus {
+  outline: 0;
+}
+
+input:focus {
+  outline: 0;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.own-input {
+  padding-left: 10px;
+  border: 2px solid #161E3F;
+  border-radius: 5px;
+  width: 100%;
+  -webkit-box-shadow: 0px 3px 6px #00000029;
+          box-shadow: 0px 3px 6px #00000029;
+}
+
+.alert {
+  text-align: center;
+  padding: 10px;
+  background: #FFEEE5;
+  color: #00800094;
+  margin-bottom: 10px;
+  font-family: markgeocaps-bold;
+  display: none;
+}
+
+.mobile-header-image {
+  background-image: url("../image/machine-mobile.png");
+  background-repeat: round;
+  height: 350px;
+}
+
+.mobile-sale-price {
+  position: absolute;
+  bottom: 0;
+  font-size: 30px;
+  color: white;
+  font-style: bold;
+  font-family: markgeocaps-bold;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.product-description {
+  font-size: 18px;
+  font-family: markgeo-regular;
+  margin-bottom: 5px;
+}
+
+.left-time {
+  font-size: 16px;
+  font-family: markgeo-regular;
+}
+
+.fast-buy {
+  font-size: 26px;
+  font-family: markgeocaps-bold;
+  color: #161E3F;
+  margin-top: 37px;
+  margin-bottom: 17px;
+}
+
+.personal-info {
+  font-size: 18px;
+  color: #161E3F;
+  font-family: markgeo-regular;
+  font-weight: bold;
+  opacity: 0.9;
+}
+
+.sale-price {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: markgeocaps-bold;
+  margin: 5px 0 5px 0;
+}
+
+.operator-will-call {
+  font-size: 15px;
+  color: #707070;
+  margin-top: 22px;
+  line-height: 1.3;
+  margin-bottom: 65px;
+  font-family: markgeocaps-medium;
+}
+
+.own-form-check {
+  margin: 20px 0;
+}
+
+.in-reserve {
+  color: #000000;
+  font-family: markgeocaps-bold;
+  font-size: 18px;
+}
+
+.reserve-in-numbers {
+  color: #707070;
+  font-size: 14px;
+}
+
+.first-div-section-two-mobile {
+  display: none;
+}
+
+.made-by-country {
+  font-family: markgeocaps-bold;
+  font-size: 14px;
+  margin-bottom: 7px;
+}
+
+.m-cube {
+  font-family: markgeocaps-bold;
+  font-size: 14px;
+}
+
+.pink-header {
+  background-color: #F72163;
+  height: 130px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.vertical-line {
+  width: 132px;
+  height: 2px;
+  background-color: #161E3F;
+  margin-top: 10px;
+  margin-bottom: 7px;
+}
+
+@media only screen and (max-width: 992px) {
+  .section-two {
+    padding: 0 10px;
+  }
+  .section-two .sale-price-title-sc2 {
+    font-size: 14px;
+  }
+  .section-two .sale-product-title-sc2 {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .mobile-header-image {
+    height: 225px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .vertical-line {
+    background-color: #FFEEE5;
+    opacity: 1;
+  }
+  .fast-buy {
+    text-align: center;
+  }
+  .personal-info {
+    text-align: center;
+  }
+  .pink-header {
+    height: 90px;
+  }
+  .first-div-section-two-desktop {
+    display: none !important;
+  }
+  .first-div-section-two-mobile {
+    background: url(../image/mobile.png);
+    background-size: cover;
+    background-repeat: round;
+    height: 212px;
+    display: block;
+  }
+  .progress {
+    width: 150px;
+  }
+  .last-section {
+    background-color: #EEEEEE;
+  }
+  .mobile-sale-box {
+    padding-top: 20px;
+    margin-bottom: 27px;
+    text-align: left;
+  }
+  .mobile-sale-box .mobile-sale-title {
+    font-family: markgeocaps-bold;
+    color: #161E3F;
+    font-size: 23px;
+    line-height: 1.4;
+  }
+  .mobile-sale-title {
+    font-family: markgeocaps-bold;
+    color: #161E3F;
+    font-size: 23px;
+    line-height: 1.4;
+  }
+  .box-fonts {
+    font-size: 16px;
+    text-align: left;
+  }
+  .hide-section-3-components {
+    display: block;
+  }
+  .section-one {
+    display: none;
+  }
+  .section-two {
+    display: none;
+  }
+  .col-md-4 {
+    -webkit-box-flex: 100% !important;
+        -ms-flex: 100% !important;
+            flex: 100% !important;
+    max-width: 100% !important;
+  }
+  .mobile-cali-time {
+    text-align: left;
+    font-size: 20px;
+    font-family: markgeocaps-bold;
+    color: black;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .finish-order {
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
