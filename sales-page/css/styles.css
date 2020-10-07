@@ -23,6 +23,19 @@
   font-family: markgeocaps-medium;
 }
 
+.company-name {
+  color: white;
+  font-family: markgeocaps-bold;
+  font-size: 4vh;
+  margin-bottom: 7px;
+}
+
+.company-product-name {
+  color: white;
+  font-family: markgeocaps-bold;
+  font-size: 4vh;
+}
+
 .container {
   max-width: none;
 }
@@ -192,8 +205,8 @@
 }
 
 .progress {
-  height: 5px;
-  margin: 7px 0;
+  height: 1vh;
+  margin: 1vh 0;
   width: 100%;
   background-color: #b94514;
 }
@@ -226,6 +239,7 @@
   font-weight: bold;
   opacity: 0.9;
   line-height: 3.0;
+  font-size: 2.5vh;
 }
 
 .accept-consumer-rules {
@@ -307,7 +321,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .fast-buy {
-  font-size: 26px;
+  font-size: 2.8vh;
   font-family: markgeocaps-bold;
   color: #161E3F;
   margin-top: 37px;
@@ -315,7 +329,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .personal-info {
-  font-size: 18px;
+  font-size: 2.8vh;
   color: #161E3F;
   font-family: markgeo-regular;
   font-weight: bold;
@@ -370,7 +384,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 .pink-header {
   background-color: #F72163;
-  height: 130px;
+  height: 25vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -383,11 +397,11 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .vertical-line {
-  width: 132px;
+  width: 22vh;
   height: 2px;
   background-color: #161E3F;
-  margin-top: 10px;
-  margin-bottom: 7px;
+  margin-top: 2vh;
+  margin-bottom: 1vh;
 }
 
 @media only screen and (max-width: 992px) {
@@ -406,6 +420,12 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 @media only screen and (max-width: 768px) {
+  .company-name {
+    font-size: 24px;
+  }
+  .company-product-name {
+    font-size: 21px;
+  }
   .vertical-line {
     background-color: #FFEEE5;
     opacity: 1;
@@ -431,6 +451,8 @@ input[type=number]::-webkit-outer-spin-button {
   }
   .progress {
     width: 150px;
+    height: 5px;
+    margin: 7px 0;
   }
   .last-section {
     background-color: #EEEEEE;
