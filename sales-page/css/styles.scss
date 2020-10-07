@@ -336,6 +336,9 @@ font-size: 2.8vh;
   }
 }
   @media only screen and (max-width: 768px) {
+    .vertical-line{
+      display: none;
+    }
     .naming{
       font-size: 19px!important;
 
@@ -352,6 +355,7 @@ font-size: 2.8vh;
     }
     .operator-will-call{
       margin-bottom: 65px;
+      font-size: 21px;
 
     }
     .company-name{
@@ -366,9 +370,11 @@ font-size: 2.8vh;
     }
     .fast-buy{
       text-align: center;
+      font-size: 26px;
     }
     .personal-info{
       text-align: center;
+      font-size: 21px;
     }
     .pink-header{
       height:90px;
