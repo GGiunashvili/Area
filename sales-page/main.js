@@ -72,3 +72,10 @@ function saveMessage(name, company, email, phone, message){
         
 
 }
+
+
+
+
+function myXiconclick() {
+    document.getElementById("exampleModalCenter").style.display = "none";
+  }
