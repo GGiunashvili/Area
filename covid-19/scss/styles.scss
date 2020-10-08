@@ -94,9 +94,7 @@ a {
 .title-description-last{
     margin-bottom: 50px;
 }
-.copy-class{
-    margin-top:0!important;
-}
+
 .video-main-box{
     // padding:0 60px;
 }
@@ -188,6 +186,10 @@ a {
     margin-right: 10px;
     margin-top: 2px;
 
+}
+.copy-class{
+    margin-top:0!important;
+    font-family: markgeocaps-regular;
 }
 @media only screen and (max-width: 992px) {
     .video-100vh{

@@ -100,10 +100,6 @@ a {
   margin-bottom: 50px;
 }
 
-.copy-class {
-  margin-top: 0 !important;
-}
-
 .first-container-box {
   padding-bottom: 50px;
 }
@@ -201,6 +197,11 @@ a {
   height: 30px;
   margin-right: 10px;
   margin-top: 2px;
+}
+
+.copy-class {
+  margin-top: 0 !important;
+  font-family: markgeocaps-regular;
 }
 
 @media only screen and (max-width: 992px) {
