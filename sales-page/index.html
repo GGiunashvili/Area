@@ -188,7 +188,7 @@ li span {
       <div class="modal-body" style="height: 300px; display: flex; justify-content: center; flex-direction: column; align-items: center; background-color: white; border-radius: 20px;" > 
         <div style="text-align: center;">
           <p style="font-family: markgeocaps-bold; ">თქვენი მოთხოვნა მიღებულია,</p>
-          <p style="font-family: markgeocaps-bold; line-height: 1.5; ">ოპერატორი მალე დაგიკავშირდებათ</p>
+          <p style="font-family: markgeocaps-bold; line-height: 1.5; ">ოპერატორი მალე დაგიკავშირდებათ!</p>
         </div>
         <div style=" margin-top: 20px; display: block; width: 65px; height: 4px; background: black; border-radius: 19px;"></div>
 
@@ -477,17 +477,24 @@ li span {
 
                         <p class="col-12 field-parent-p">
                           <label class="naming">სახელი, გვარი</label>
-                          <input class="own-input" placeholder="სახელი, გვარი"    type="text" name="name" id="name"  onkeyup="successname()" oninvalid="this.setCustomValidity('ჩაწერეთ სახელი და გვარი')"
+                          <input class="own-input" placeholder="სახელი, გვარი"    type="text" name="name" id="name"  onkeyup="successname()" oninvalid="this.setCustomValidity('ჩაწერე სახელი და გვარი')"
                           oninput="setCustomValidity('')" required>
                         </p>
-
+                        <!-- <p class="col-12 field-parent-p">
+                          <label class="naming">ტელეფონის ნომერის</label>
+                          <input class="own-input"    placeholder="ტელეფონის ნომერი" onclick="showValue(5)"   type="number"   name="phone"  id="phone" onkeyup="success()"    
+                          oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength) ;"
+                          min="8" maxlength="9"
+                           oninvalid="this.setCustomValidity('გთხოვთ  აკრიფოთ ტელეფონის ნომერი')"
+                          oninput="setCustomValidity('')"    required>
+                        </p> -->
 
                         <p class="col-12 field-parent-p">
                           <label class="naming">ტელეფონის ნომერის</label>
-                          <input class="own-input"    placeholder="ტელეფონის ნომერი" onclick="showValue(5)"   type="number"  name="phone"  id="phone" onkeyup="success()"    
-                          type = "number"
-                           oninvalid="this.setCustomValidity('გთხოვთ  აკრიფოთ ტელეფონის ნომერი')"
-                          oninput="setCustomValidity('')"    required>
+                          <input class="own-input"     placeholder="ტელეფონის ნომერი" onclick="showValue(5)"   type="text" pattern="(.){9,9}" maxlength="9"   name="phone"  id="phone" onkeyup="success()"    
+                         
+                           oninvalid="this.setCustomValidity('მიუთითე მობილურის ნომერი')"
+                          oninput="setCustomValidity('hhhhhhhhhhhhhhh')"    required>
                         </p>
 
 
@@ -508,7 +515,7 @@ li span {
                       </div>
                       <div class="form-group">
                         <div class="form-check">
-                          <input  style="font-size: 18pt; height: 3vh; width: 2vh;"  class="form-check-input" type="checkbox" value="" id="invalidCheck" oninvalid="this.setCustomValidity('გთხოვთ მონიშნოთ თუ ეთანხმებით')"
+                          <input  style="font-size: 18pt; height: 3vh; width: 2vh;"  class="form-check-input" type="checkbox" value="" id="invalidCheck" oninvalid="this.setCustomValidity('დაეთანხმე პირობებს')"
                           oninput="setCustomValidity('')"   required>
                           <label class="form-check-label accept-consumer-rules" for="invalidCheck" >
                             <a class="rules-a" href="https://extra.ge/customer-agreement" target="_blank" rel="noopener noreferrer">ვეთანხმები მოხმარების წესებს და პირობებს</a>
@@ -522,7 +529,7 @@ li span {
                         <button class="finish-order btn btn-primary" type="submit">განვადებით ყიდვა</button>
 
                       </div>
-                      <p class="operator-will-call">* ღილაკზე დაჭერის შემდეგ ოპერატორი დაგირეკავთ და დეტალურად გაგაცნობთ განვადების პირობებს</p>
+                      <p class="operator-will-call">მოთხოვნის დაფიქსირების შემდეგ, ოპერატორი დაგიკავშირდება მითითებულ ნომერზე და გაგაცნობს განვადების პირობებს.</p>
 
                     </form>
                     
@@ -571,6 +578,7 @@ li span {
         }
         form.classList.add('was-validated');
       }, false);
+
     });
   }, false);
 })();
