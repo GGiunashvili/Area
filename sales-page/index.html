@@ -493,8 +493,8 @@ li span {
                           <label class="naming">ტელეფონის ნომერის</label>
                           <input class="own-input"    placeholder="ტელეფონის ნომერი" onclick="showValue(5)"   type="text"   name="phone"  id="phone" onkeyup="success()"    
                           
-                          minlength="9" maxlength="9"       onkeypress='validate(event)'                    oninvalid="this.setCustomValidity('გთხოვთ  აკრიფოთ ტელეფონის ნომერი')"
-                          oninput="setCustomValidity('hdhdh')"    required>
+                          minlength="9" maxlength="9"       onkeypress="allowNumbersOnly(event)"                    oninvalid="this.setCustomValidity('გთხოვთ  აკრიფოთ ტელეფონის ნომერი')"
+                          oninput="setCustomValidity('')"    required>
                         </p>
 
 
