@@ -36,7 +36,8 @@ function submitForm(e){
     saveMessage(name, company, email, phone, message);
 
     document.querySelector('.alert').style.display = 'block';
-    
+    document.querySelector('.own-modal').style.display = 'block';
+
 
 
     setTimeout(function(){
