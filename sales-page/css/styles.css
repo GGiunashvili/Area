@@ -23,6 +23,10 @@
   font-family: markgeocaps-medium;
 }
 
+button:focus {
+  outline: 0;
+}
+
 .check-size-inpt {
   font-size: 18pt;
   height: 3vh;
@@ -289,7 +293,7 @@ a:hover {
   border: none;
   font-family: markgeocaps-bold;
   font-size: 3vh;
-  padding: 2vh 7vh;
+  padding: 2vh 4vh;
 }
 
 button:focus {
