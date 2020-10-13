@@ -31,7 +31,7 @@
       appId      : '{686785305298136}',
       cookie     : true,                     // Enable cookies to allow the server to access the session.
       xfbml      : true,                     // Parse social plugins on this webpage.
-      version    : '{api-version}'           // Use this Graph API version for this call.
+      version    : '{686785305298136}'           // Use this Graph API version for this call.
     });
 
 
@@ -60,125 +60,6 @@
 <div id="status">
 </div>
 
-Facebook Login
-Overview
-iOS
-Android
-Web
-Login Button
-Access Tokens
-Permissions
-Enabling HTTPS
-For Devices
-Best Practices
-User Experience Design
-Login Security
-Permissions
-Access Tokens
-Authentication Versus Data Access
-Testing
-App Review
-Advanced
-Changelog
-Business Login for Direct Businesses
-Login Button
-The Login button is a simple way to trigger the Facebook Login process on your website or web app.
-
-
-If someone hasn't logged into your app yet, they'll see this button, and clicking it will open a Login dialog, starting the login flow. People who have already logged in won't see any button, or you can also choose to show a logout button to them.
-
-If you show a logout button, when people use it to log out, they log out both from your app and from Facebook.
-
-The Login button is only designed to work in connection with the JavaScript SDK — if you're building a mobile app or can't use our JavaScript SDK, you should follow the login flow guide for that type of app instead.
-
-The Continue with Facebook button replaces earlier versions of the Login button. For more information, see Migration.
-
-Plugin Configurator
-Button Size
-large
-Button Text
-continue_with
-Button Layout Shape
-default
- Enable Logout Button Include name and profile picture when user is signed into Facebook [?]
-Width
-
-Get Code
-Continue as {Name} Button
-The Continue as {Name} button has the text "Continue as {persons' name}" and optionally includes the person's Facebook profile picture if they're logged in to Facebook in the same browser. To use the Continue as {Name} button, you must first load the JavaScript SDK. For instructions on setting up the JavaScript SDK, see the JavaScript SDK Quickstart. Enable Continue as {Name} by adding data-use-continue-as="true" to the settings for your button.
-
-
-The height of the Continue as {Name} button is not customizable.
-
-Button Size	Height	Width	Custom Widths?
-Small
-
-20 px
-
-200 px
-
-No
-
-Medium
-
-28 px
-
-200 - 320 px
-
-Yes
-
-Large
-
-40px
-
-240 - 400 px
-
-Yes
-
-If the you select a size beyond the maximum parameters, the button will default to the maximum width.
-
-Best Practices for the Continue as {Name} Button
-The Continue As {Name} button can be a great way to increase clicks and engagement. It lets the user see their profile picture and name on our Login button and can help make your app feel more personalized.
-
-As a result, it can also be confusing if the user isn't expecting to see their name and profile photo in this context. Please consider the following to see if Continue As is best for your app.
-
-Even if the Continue As {Name} is not right for your app, you can still try the new JavaScript SDK buttons that say "Continue With Facebook".
-
-Suggested Use Cases
-We serve a global user base and different regions have different user expectations. Be respectful of those expectations when using this button.
-
-Best when
-Your app is social:
-When people are using social apps, they expect to connect with others. We have seen Continue As {Name} perform well in these cases.
-
-People in the target market share phones:
-When multiple people are using the same phone, Continue As {Name} can give them reassurance that they are using the right account.
-
-Avoid when
-Your app is new:
-If your app is new to market, your users may be more likely to be confused about why their name and profile photo are showing automatically, versus an established or familiar app users plan to use on a regular basis.
-
-People in the target market are concerned about privacy:
-In many countries, profile images are considered very private. You may want to avoid using Continue As {Name} in this case as it will show the profile image of the person logging in.
-
-Login Button Best Practices
-Please follow the general Best Practices for using Facebook Login. It is particularly important to follow these two best practices when using Continue As {Name}:
-
-Provide a way to log out (required by policy)
-Test and Measure — Identify what impact this is having on user perceptions and conversion
-Some other possible best practices:
-
-Be clear about what Logging in Does
-Use a placeholder/spinner while the Login button is loading and remove it when button is loaded. An example of such code:
-<script>
-var finished_rendering = function() {
-  console.log("finished rendering plugins");
-  var spinner = document.getElementById("spinner");
-  spinner.removeAttribute("style");
-  spinner.removeChild(spinner.childNodes[0]);
-}
-FB.Event.subscribe('xfbml.render', finished_rendering);
-</script>
 <div id="spinner"
     style="
         background: #4267b2;
@@ -196,7 +77,15 @@ FB.Event.subscribe('xfbml.render', finished_rendering);
     data-use-continue-as="true"
     ></div>
 </div>
-
+<script>
+    var finished_rendering = function() {
+      console.log("finished rendering plugins");
+      var spinner = document.getElementById("spinner");
+      spinner.removeAttribute("style");
+      spinner.removeChild(spinner.childNodes[0]);
+    }
+    FB.Event.subscribe('xfbml.render', finished_rendering);
+    </script>
 
 <!-- Load the JS SDK asynchronously -->
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
