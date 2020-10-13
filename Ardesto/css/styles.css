@@ -514,7 +514,7 @@ input[type=number]::-webkit-outer-spin-button {
     display: none !important;
   }
   .first-div-section-two-mobile {
-    background: url(../image/mob.png);
+    background: url(../image/resp.png);
     background-size: cover;
     background-repeat: round;
     height: 212px;
