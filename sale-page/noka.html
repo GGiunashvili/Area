@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <form id="registration" action="test.php" method="POST">
+        <div>
+            <input type="text" name="username" placeholder="username">
+            <div id="error_username" class="error"></div>
+        </div>
+        <div>
+            <input type="email" name="email" placeholder="email">
+            <div id="error_email" class="error"></div>
+        </div>
+        <div>
+            <input type="number" name="age" placeholder="age">
+        </div>
+        <div>
+            gender
+            <label for="">
+                <input type="radio" name="gender" value="male">
+                male
+            </label>
+            <label for="">
+                <input type="radio" name="gender" value="female">
+                female
+            </label>
+        </div>
+        <div>
+            <input type="password" name="password" placeholder="password">
+            <div id="error_password" class="error"></div>
+        </div>
+        <div>
+            <input type="password" name="password2" placeholder="confimr password">
+            <div id="error_password2" class="error"></div>
+        </div>
+        <div>
+            <label for="">
+                <input type="checkbox" name="agree">
+                I agree terms and conditions
+            </label>
+            <div id="error_agree" class="error"></div>
+        </div>
+        <div>
+            <button type="submit">registration</button>
+        </div>
+    </form>
+​
+    <script>
+        let formRegistration = document.getElementById('registration');
+        formRegistration.addEventListener('submit',function(e) {
+            e.preventDefault();
+​
+            let form  = e.target;
+            let errors = {};
+​
+            let username = document.querySelector('[name = "username"]').value;
+            if(username.length < 5){
+                errors.username = "Min 5 letters"
+            }
+​
+            let email = document.querySelector('[name = "email"]').value;
+            if(!/^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/.test(email)){
+                errors.email = "invalid email"
+            }
+​
+            let password = document.querySelector('[name = "password"]').value;
+            let password2 = document.querySelector('[name = "password2"]').value;
+​
+            if(password.length < 5){
+                errors.password = "easy password";
+            }
+            if(password != password2){
+                errors.password = "password does not match"
+            }
+​
+            let agree = document.querySelector('[name = "agree"]').checked;
+            if(!agree){
+                errors.agree = "you must agree terms adn conditions"
+            }
+​
+​
+            form.querySelectorAll('.error').forEach(item => {
+                item.textContent = '';
+            });
+            for(let name in errors){
+                let erroPlaceholder = document.getElementById('error_' + name);
+                if(erroPlaceholder){
+                    erroPlaceholder.textContent = errors [name]
+                }
+                form.querySelector('[name ="' + name + '"]').classList.add('error');
+​
+            }
+​
+            form.submit();
+            console.log(errors)
+​
+        })
+    </script>
+</body>
+</html>
