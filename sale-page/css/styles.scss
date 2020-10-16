@@ -22,6 +22,9 @@
   font-family: markgeocaps-medium;
 
 }
+.for-vh{
+  height: 100vh;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -60,41 +63,43 @@ html {
     }
     .designator-1{
       box-shadow: 0px 7px 25px #7A1DFF29;
+      transition: 0.8s;
+
 
     }
     .designator-2{
       box-shadow: 0px 7px 25px #F7216329;
+      transition: 0.8s;
+
+
     }
     .designator-3{
       box-shadow: 0px 7px 25px #00AAFF29;
+      transition: 0.8s;
+
 
     }
     .designator-4{
       box-shadow: 0px 7px 25px #9DE41129;
+      transition: 0.8s;
+
 
     }
     .designator-1:hover{
       box-shadow: inset 0 -10px 0 #7A1DFF;
-
-      transition: 0.3s;
+     
 
     }
     .designator-2:hover{
       box-shadow: inset 0 -10px 0 #F72163;
 
-      transition: 0.3s;
-
     }
     .designator-3:hover{
       box-shadow: inset 0 -10px 0 #00AAFF;
 
-      transition: 0.3s;
-
     }
     .designator-4:hover{
       box-shadow: inset 0 -10px 0 #9DE411;
-
-      transition: 0.3s;
 
     }
   
@@ -410,8 +415,10 @@ font-size: 2.8vh;
   display: none;
 }
 .made-by-country{
+  display: flex;
+  text-align: justify;
   font-family: markgeocaps-bold;
-  font-size: 14px;
+  font-size: 2.5vh;
   margin-bottom: 7px;
 }
 .m-cube{
@@ -434,13 +441,7 @@ font-size: 2.8vh;
   background-color:#161E3F;
 }
 @media only screen and (max-width: 992px) {
-   .three-box{
-    //  display: flex;
-    //  flex-wrap:wrap;
-    //  text-align: center;
-    // padding: 12px 5px!important;
-
-   }
+   
    
   .section-two{
     .sale-price-title-sc2{
@@ -461,6 +462,9 @@ font-size: 2.8vh;
   }
 }
   @media only screen and (max-width: 768px) {
+    .for-vh{
+      display: none;
+    }
     .designator-1{
       box-shadow: none!important;
 
@@ -483,6 +487,7 @@ font-size: 2.8vh;
         flex-direction: column;
         align-items: center;
         background: #EEEEEE!important;
+        padding:0!important;
     }
     .designator-img{
       display: none;
@@ -495,6 +500,8 @@ font-size: 2.8vh;
     }
     .designator-title{
       font-size: 3vh;
+      padding-top: 4vh;
+    padding-bottom: 2vh;
     }
     .designator-text{
       font-size: 2vh!important;
@@ -594,9 +601,8 @@ font-size: 2.8vh;
       background-color: #EEEEEE;
     }
     .mobile-sale-box{
-      padding-top: 20px;
       margin-bottom: 27px;
-      text-align: left;
+      text-align: center;
       .mobile-sale-title{
         font-family: markgeocaps-bold;
         color: #161E3F;
