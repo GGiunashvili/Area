@@ -23,14 +23,102 @@
   font-family: markgeocaps-medium;
 }
 
+.degisnator-parent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.degisnator-parent .designator {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.degisnator-parent .designator .designator-child {
+  background: white;
+  border-radius: 8px;
+  width: 75%;
+  padding: 35px 0;
+}
+
+.degisnator-parent .designator .designator-child .designator-text {
+  color: #161E3F;
+  font-family: markgeo-regular;
+  font-weight: bold;
+  font-size: 3vh;
+}
+
+.degisnator-parent .designator .designator-child .designator-img {
+  height: 110px;
+  width: 90px;
+}
+
+.degisnator-parent .designator .designator-child .img-odd {
+  width: 50px;
+}
+
+.degisnator-parent .designator .designator-1:hover {
+  -webkit-box-shadow: inset 0 -10px 0 #7A1DFF;
+          box-shadow: inset 0 -10px 0 #7A1DFF;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.degisnator-parent .designator .designator-2:hover {
+  -webkit-box-shadow: inset 0 -10px 0 #F72163;
+          box-shadow: inset 0 -10px 0 #F72163;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.degisnator-parent .designator .designator-3:hover {
+  -webkit-box-shadow: inset 0 -10px 0 #00AAFF;
+          box-shadow: inset 0 -10px 0 #00AAFF;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.degisnator-parent .designator .designator-4:hover {
+  -webkit-box-shadow: inset 0 -10px 0 #9DE411;
+          box-shadow: inset 0 -10px 0 #9DE411;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.designator-title {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  text-align: center;
+  font-family: markgeocaps-bold;
+  font-size: 5vh;
+}
+
 button:focus {
   outline: 0;
 }
 
+.form-check {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .check-size-inpt {
   font-size: 18pt;
-  height: 3vh;
-  width: 2vh;
+  height: 4vh;
+  width: 4vh;
 }
 
 .x-icon-popup {
@@ -56,6 +144,7 @@ a:hover {
 
 .rules-a {
   text-decoration: underline !important;
+  color: white;
 }
 
 .company-name {
@@ -121,6 +210,12 @@ a:hover {
   background-repeat: round;
 }
 
+.clone-of-first-div-section-two-desktop {
+  background-image: url(../image/sec-img.png);
+  background-size: cover;
+  background-repeat: round;
+}
+
 .last-section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -179,7 +274,7 @@ a:hover {
 }
 
 .section-two {
-  padding: 0 2%;
+  padding: 0 4%;
   background-color: #161E3F;
 }
 
@@ -275,6 +370,7 @@ a:hover {
   opacity: 0.9;
   line-height: 3.0;
   font-size: 2.5vh;
+  color: white;
 }
 
 .accept-consumer-rules {
@@ -282,7 +378,7 @@ a:hover {
   color: #707070;
   font-size: 2.8vh;
   line-height: 1.2;
-  margin-left: 1vh;
+  margin-left: 2vh;
 }
 
 .finish-order {
@@ -363,14 +459,14 @@ input[type=number]::-webkit-outer-spin-button {
 .fast-buy {
   font-size: 3.8vh;
   font-family: markgeocaps-bold;
-  color: #161E3F;
+  color: white;
   margin-top: 37px;
   margin-bottom: 17px;
 }
 
 .personal-info {
   font-size: 2.8vh;
-  color: #161E3F;
+  color: white;
   font-family: markgeo-regular;
   font-weight: bold;
   opacity: 0.9;
@@ -385,7 +481,7 @@ input[type=number]::-webkit-outer-spin-button {
 
 .operator-will-call {
   font-size: 15px;
-  color: #707070;
+  color: white;
   margin-top: 22px;
   line-height: 1.3;
   font-family: markgeocaps-medium;
@@ -437,15 +533,16 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .vertical-line {
-  width: 22vh;
-  height: 2px;
-  background-color: #161E3F;
+  width: 30vh;
+  height: 1px;
+  background-color: white;
   margin-top: 2vh;
   margin-bottom: 1vh;
+  border-radius: 20px;
 }
 
 .section-three {
-  border: 2px solid red;
+  background-color: #161E3F;
 }
 
 @media only screen and (max-width: 992px) {
@@ -466,6 +563,7 @@ input[type=number]::-webkit-outer-spin-button {
 @media only screen and (max-width: 768px) {
   .section-three {
     display: block;
+    background: #EEEEEE;
   }
   .check-size-inpt {
     font-size: 18pt;
@@ -520,8 +618,11 @@ input[type=number]::-webkit-outer-spin-button {
   .first-div-section-two-desktop {
     display: none !important;
   }
+  .clone-of-first-div-section-two-desktop {
+    display: none !important;
+  }
   .first-div-section-two-mobile {
-    background: url(../image/mobile.png);
+    background: url(../image/Group5.png);
     background-size: cover;
     background-repeat: round;
     height: 212px;
