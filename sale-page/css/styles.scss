@@ -22,6 +22,12 @@
   font-family: markgeocaps-medium;
 
 }
+html {
+  scroll-behavior: smooth;
+}
+.mobile-designator-img{
+  display: none;
+}
 .degisnator-parent{
   display: flex;
   justify-content: space-around;
@@ -41,6 +47,7 @@
         font-family: markgeo-regular;
         font-weight: bold;
         font-size: 3vh;
+        line-height: 1.6;
       }
       .designator-img{
         height: 110px;
@@ -50,6 +57,21 @@
         width: 50px;
       }
       
+    }
+    .designator-1{
+      box-shadow: 0px 7px 25px #7A1DFF29;
+
+    }
+    .designator-2{
+      box-shadow: 0px 7px 25px #F7216329;
+    }
+    .designator-3{
+      box-shadow: 0px 7px 25px #00AAFF29;
+
+    }
+    .designator-4{
+      box-shadow: 0px 7px 25px #9DE41129;
+
     }
     .designator-1:hover{
       box-shadow: inset 0 -10px 0 #7A1DFF;
@@ -439,6 +461,45 @@ font-size: 2.8vh;
   }
 }
   @media only screen and (max-width: 768px) {
+    .designator-1{
+      box-shadow: none!important;
+
+    }
+    .designator-2{
+      box-shadow: none!important;
+    }
+    .designator-3{
+      box-shadow: none!important;
+
+    }
+    .designator-4{
+      box-shadow: none!important;
+
+    }
+    .designator-child{
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        background: #EEEEEE!important;
+    }
+    .designator-img{
+      display: none;
+    }
+    .mobile-designator-img{
+      display: block;
+    }
+    .section-one{
+      display: none!important;
+    }
+    .designator-title{
+      font-size: 3vh;
+    }
+    .designator-text{
+      font-size: 2vh!important;
+    }
+  
     .section-three{
       display: block;
       background:#EEEEEE;
@@ -457,10 +518,12 @@ font-size: 2.8vh;
     }
     .naming{
       font-size: 19px!important;
+      color:black!important;
 
     }
     .rules-a{
       font-size: 19px!important;
+      color:black;
 
     }
     .own-input{
@@ -473,6 +536,7 @@ font-size: 2.8vh;
     .operator-will-call{
       margin-bottom: 65px;
       font-size: 19px;
+      color:black;
 
     }
     .company-name{
@@ -488,10 +552,12 @@ font-size: 2.8vh;
     .fast-buy{
       text-align: center;
       font-size: 26px;
+      color:black;
     }
     .personal-info{
       text-align: center;
       font-size: 21px;
+      color:black;
     }
     .pink-header{
       height:90px;
@@ -514,7 +580,7 @@ font-size: 2.8vh;
         // background-size: 100% 100%;
         // background-repeat: round;
         height: 212px;
-        display: block;
+        display: none;
       
     }
   
