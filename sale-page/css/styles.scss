@@ -22,6 +22,9 @@
   font-family: markgeocaps-medium;
 
 }
+.linkedin-icon{
+  margin: 0 10px;
+}
 .for-vh{
   height: 100vh;
 }
@@ -462,6 +465,9 @@ font-size: 2.8vh;
   }
 }
   @media only screen and (max-width: 768px) {
+    .linkedin-icon{
+      margin: 0 5px;
+    }
     .for-vh{
       display: none;
     }
@@ -539,6 +545,7 @@ font-size: 2.8vh;
     }
     .finish-order{
       font-size: 20px;
+      padding:2vh 3vh;
     }
     .operator-will-call{
       margin-bottom: 65px;
