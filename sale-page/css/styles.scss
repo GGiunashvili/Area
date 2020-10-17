@@ -22,6 +22,12 @@
   font-family: markgeocaps-medium;
 
 }
+@font-face {
+  src: url(../fonts/MarkGEOCAPS-Medium.ttf);
+  font-family: markgeocapscaps-medium;
+
+}
+
 .linkedin-icon{
   margin: 0 10px;
 }
@@ -468,11 +474,18 @@ font-size: 2.8vh;
   }
 }
   @media only screen and (max-width: 768px) {
+    .footer-main-box{
+      padding-left: 5px!important;
+      padding-right: 5px!important;
+    }
+    .made-by-country{
+      font-size:14px;
+    }
     .for-vh-second{
       height: auto;
     }
     .linkedin-icon{
-      margin: 0 5px;
+      margin: 0 0;
     }
     .for-vh{
       display: none;
@@ -500,12 +513,14 @@ font-size: 2.8vh;
         align-items: center;
         background: #EEEEEE!important;
         padding:0!important;
+        width:100%!important;
     }
     .designator-img{
       display: none;
     }
     .mobile-designator-img{
       display: block;
+      width:55px!important;
     }
     .section-one{
       display: none!important;
@@ -515,9 +530,7 @@ font-size: 2.8vh;
       padding-top: 4vh;
     padding-bottom: 2vh;
     }
-    .designator-text{
-      font-size: 2vh!important;
-    }
+    
   
     .section-three{
       display: block;
@@ -550,8 +563,8 @@ font-size: 2.8vh;
       font-size: 16px!important;
     }
     .finish-order{
-      font-size: 20px;
-      padding:2vh 3vh;
+      font-size: 14px;
+      padding:2vh 7vh;
     }
     .operator-will-call{
       margin-bottom: 65px;
@@ -619,19 +632,22 @@ font-size: 2.8vh;
       .mobile-sale-title{
         font-family: markgeocaps-bold;
         color: #161E3F;
-        font-size: 23px;
+        font-size: 26px;
         line-height: 1.4;
       }
     }
     .mobile-sale-title{
       font-family: markgeocaps-bold;
       color: #161E3F;
-      font-size: 23px;
+      font-size: 33px;
       line-height: 1.4;
     }
     .box-fonts{
-      font-size: 16px;
+      font-size: 19px;
       text-align: left;
+    }
+    .left-time{
+      font-size:19px;
     }
     .hide-section-3-components{
       display: block;
@@ -649,15 +665,23 @@ font-size: 2.8vh;
     }
     .mobile-cali-time{
       text-align: left;
-      font-size: 20px;
+      font-size: 24px;
       font-family: markgeocaps-bold;
       color: black;
 
+    }
+    .designator-text{
+      font-size: 19px!important;
     }
   }
 
 
   @media only screen and (max-width: 320px){
+    .footer-main-box{
+      padding-left: 0!important;
+      padding-right: 0!important;
+      font-size: 12px;
+    }
     .finish-order{
       font-size: 14px;
     }
