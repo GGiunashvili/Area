@@ -28,6 +28,9 @@
 .for-vh{
   height: 100vh;
 }
+.for-vh-second{
+  height: 100vh;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -465,6 +468,9 @@ font-size: 2.8vh;
   }
 }
   @media only screen and (max-width: 768px) {
+    .for-vh-second{
+      height: auto;
+    }
     .linkedin-icon{
       margin: 0 5px;
     }

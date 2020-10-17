@@ -31,6 +31,10 @@
   height: 100vh;
 }
 
+.for-vh-second {
+  height: 100vh;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -602,6 +606,9 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 @media only screen and (max-width: 768px) {
+  .for-vh-second {
+    height: auto;
+  }
   .linkedin-icon {
     margin: 0 5px;
   }
