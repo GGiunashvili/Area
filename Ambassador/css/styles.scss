@@ -1,0 +1,89 @@
+@font-face {
+  src: url(../fonts/MarkGEO-Bold.ttf);
+  font-family: markgeo-bold;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEO-Regular.ttf);
+  font-family: markgeo-regular;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEO-SemiBold.ttf);
+  font-family: markgeo-semibold;
+}
+@font-face {
+  src: url(../fonts/MarkGEOCAPS-Bold.ttf);
+  font-family: markgeocaps-bold;
+
+}
+@font-face {
+  src: url(../fonts/MarkGEO-Medium.ttf);
+  font-family: markgeocaps-medium;
+
+}
+@font-face {
+  src: url(../fonts/MarkGEOCAPS-Medium.ttf);
+  font-family: markgeocapscaps-medium;
+
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  text-decoration: none;
+  color: black;
+  
+}
+.main-header-parent{
+  padding:0 20px; background-color: white;
+  position: fixed;
+  z-index: 99;
+  width:100%;
+  .main-header{
+    padding:20px 0;
+    .header-logo{
+      height: 45px;
+    }
+    .header-ticks{
+      margin: 10px 15px;
+      font-family: markgeo-bold;
+    
+    }
+  }
+}
+
+
+
+.join-us-box{
+  display: inline-block;
+  background:blue;
+  border-radius: 5px;
+  .join-us-text{
+    padding:5px 14px;
+
+  }
+}
+
+.ambasador-box-one{
+  background: white;
+    border-radius: 10px;
+    .ambasador-box-one-title{
+      margin-top: 50px;
+      margin-bottom:70px;
+    }
+    .ambasador-box-one-text{
+      margin-top: 50px;
+      margin-bottom:70px;
+    }
+}
+.ambasador-img-1{
+  
+}
+.wondering{
+  text-align: center;
+  .wondering-text{
+    line-height: 1.6;
+  }
+}
