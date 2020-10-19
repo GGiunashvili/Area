@@ -188,15 +188,15 @@ a:hover {
 .footer-title {
   color: #7A1DFF;
   font-family: markgeocaps-bold;
-  font-size: 10px;
+  font-size: 40px;
 }
 
 .footer-text {
   color: white;
-  font-size: 1.1vw;
+  font-size: 24px;
   line-height: 1.6;
-  margin-top: 90px;
-  margin-bottom: 90px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .mrg-top {
@@ -211,6 +211,12 @@ a:hover {
   background-color: white;
 }
 
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 100% !important;
+  }
+}
+
 @media only screen and (max-width: 992px) {
   .header-ticks {
     display: none;
@@ -218,6 +224,18 @@ a:hover {
 }
 
 @media only screen and (max-width: 768px) {
+  .footer-title {
+    color: #7A1DFF;
+    font-family: markgeocaps-bold;
+    font-size: 22px;
+  }
+  .footer-text {
+    color: white;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
   .offer-box {
     background: #EEEEEE;
   }
@@ -241,6 +259,7 @@ a:hover {
     font-size: 10px;
   }
   .wondering-img {
+    margin-top: 15px;
     height: 65px;
   }
   .wondering-main-title {
@@ -285,6 +304,12 @@ a:hover {
     text-align: center;
     white-space: pre-line !important;
     overflow: auto !important;
+  }
+  .mrg-top-sec {
+    padding-top: 0 !important;
+  }
+  .ambasadot-natura {
+    padding-top: 0;
   }
 }
 /*# sourceMappingURL=styles.css.map */
