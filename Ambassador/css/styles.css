@@ -235,6 +235,14 @@ a:hover {
   display: none;
 }
 
+.yleoba {
+  position: absolute;
+  right: 0;
+  height: 600px;
+  top: 0;
+  z-index: -1;
+}
+
 @media only screen and (min-width: 1200px) {
   .container {
     max-width: 100% !important;
@@ -242,11 +250,11 @@ a:hover {
 }
 
 @media only screen and (max-width: 992px) {
-  .header-ticks {
-    display: none;
-  }
   .footer-text {
     font-size: 16px !important;
+  }
+  .yleoba {
+    display: none;
   }
 }
 
@@ -349,6 +357,9 @@ a:hover {
   }
   .ambasadot-natura {
     padding-top: 0;
+  }
+  .header-ticks {
+    display: none;
   }
 }
 
