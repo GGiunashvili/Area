@@ -28,6 +28,10 @@
   font-family: markgeocapscaps-medium;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 a {
   text-decoration: none;
   color: black;
@@ -157,15 +161,15 @@ a:hover {
 }
 
 .offer-img-1 {
-  height: 215px;
+  height: 175px;
 }
 
 .offer-img-2 {
-  height: 270px;
+  height: 200px;
 }
 
 .offer-img-3 {
-  height: 215px;
+  height: 175px;
 }
 
 .wondering {
@@ -205,6 +209,10 @@ a:hover {
 
 .mrg-top {
   padding-top: 150px !important;
+}
+
+.mrg-top {
+  padding-top: 115px !important;
 }
 
 .hidden {
