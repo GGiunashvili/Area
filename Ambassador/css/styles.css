@@ -251,6 +251,18 @@ a:hover {
   z-index: -1;
 }
 
+.rangeslider--horizontal {
+  height: 5px;
+}
+
+.rangeslider__handle {
+  top: -18px !important;
+}
+
+.rangeslider__fill {
+  background: #7A1DFF;
+}
+
 @media only screen and (min-width: 1200px) {
   .container {
     max-width: 100% !important;
@@ -259,7 +271,7 @@ a:hover {
 
 @media only screen and (max-width: 992px) {
   .footer-text {
-    font-size: 16px !important;
+    font-size: 14px !important;
   }
   .yleoba {
     display: none;

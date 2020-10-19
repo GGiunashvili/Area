@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - rangeslider with json data</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/rangeslider.js/2.3.0/rangeslider.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!--
+RangeSlider (Feeds off JSON data and forces slider position)
+by Adewale George - @adewalegeorge_
+
+Credit to plugin developer
+https://github.com/andreruffert/rangeslider.js
+by André Ruffert - @andreruffert
+
+-->
+<h1>Control sliders</h1>
+<div class="input-slider">
+  <input class="sliderRange" id="slider1" type="range" min="0" max="4000" step="1" value="0" data-index="1"/>
+</div>
+
+<div class="input-text">  
+  <input class="sliderText" type="number" value="1" min="1" max="100" data-index="1" disabled="disabled"/>
+</div>
+
+<div class="input-slider">
+  <input class="sliderRange" id="slider2" type="range" min="0" max="600" step="1" value="0" data-index="2"/>
+</div>
+
+<div class="input-text">  
+  <input class="sliderText" type="number" value="1" min="1" max="100" data-index="2" disabled="disabled"/>
+</div>
+
+<div class="input-slider">
+  <input class="sliderRange" id="slider3" type="range" min="0" max="100" step="1" value="0" data-index="3"/>
+</div>
+
+<div class="input-text">  
+  <input class="sliderText" type="number" value="1" min="1" max="100" data-index="3" disabled="disabled"/>
+</div>
+
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

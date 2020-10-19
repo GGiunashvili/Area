@@ -11,6 +11,8 @@
   <meta property="og:image" content="https://promo.extra.ge/Ambassador/image/karmabanner.png" />
   <title>🌈 Akog გაზის გამათბობელი</title>
   <link rel="icon" href="image/extra_tab_logo-01.svg" type="image/gif" >
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/rangeslider.js/2.3.0/rangeslider.min.css'>
+
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
@@ -272,7 +274,34 @@
 
   <div  class="container" style="padding-left: 0;">
     <div class="row">
-      <div class="col-lg-6 col-12" style="background-color: yellow; height: 200px;"></div>
+      <div class="col-lg-6 col-12" style=" height: 200px;">
+        <h1>Control sliders</h1>
+        <div class="input-text">  
+          <input class="sliderText" type="number" value="1" min="1" max="100" data-index="1" disabled="disabled"/>
+        </div>
+        <div class="input-slider">
+          <input class="sliderRange" id="slider1" type="range" min="0" max="4000" step="1" value="0" data-index="1"/>
+        </div>
+        
+        
+        <div class="input-text">  
+          <input class="sliderText" type="number" value="1" min="1" max="100" data-index="2" disabled="disabled"/>
+        </div>
+        <div class="input-slider">
+          <input class="sliderRange" id="slider2" type="range" min="0" max="600" step="1" value="0" data-index="2"/>
+        </div>
+        
+        
+        <div class="input-text d-flex">  
+          <input class="sliderText" type="number" value="1" min="1" max="100" data-index="3" disabled="disabled"/>
+          <p>პროდუქტის საშუალო ღირებულება</p>
+        </div>
+        <div class="input-slider">
+          <input class="sliderRange" id="slider3" type="range" min="0" max="100" step="1" value="0" data-index="3"/>
+        </div>
+        
+        
+      </div>
       <div class="col-lg-6 col-12" style=" background: #161E3F; padding:5%; text-align: center;">
         <p class="footer-title">ჩვენ არ ვითხოვთ გამოცდილებას!</p>
         <p class="footer-text">ჩვენთვის სრულიად საკმარისია ის უნიკალური  უნარები, რომლებიც ისედაც გაქვს, შენივე  ყოველდღიურობიდან გამომდინარე! ჩვენთვის  მნიშვნელოვანია: ენერგიულობა,  პასუხისმგებლობა და სხვების დახმარების  სურვილი. სხვა ყველანაირი საჭირო  უნარ-ჩვევებითა და ტექნიკებით ჩვენ  უზრუნველვყოფთ შენს აღჭურვას!</p>
@@ -286,6 +315,8 @@
 
 
 
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script  src="./main.js"></script>
 
 
 </body>
