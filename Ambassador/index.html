@@ -19,6 +19,60 @@
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/reset.css">
 
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="https://jqueryui.com/resources/demos/style.css">
+  <script
+  src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+  crossorigin="anonymous"></script>  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+    $( function() {
+      var handle1 = $("#handle1");
+      var handle2 = $("#handle2");
+      var result = $("#result");
+      var value1div = $("#value1");
+      var value2div = $("#value2");
+      var value1 = 0;
+      var value2 = 0;
+  
+      function updateResult() {
+        result.text((value1 * value2 * 0.05 * 0.8).toFixed(2) );
+      }
+      var slider1 = $( "#slider1" ).slider({
+        min: 15,
+        max: 100,
+        value: 30,
+        create: function() {
+          // handle1.text( $( this ).slider( "value" ) );
+          value1 = $( this ).slider( "value" );
+          value1div.text( $( this ).slider( "value" ) );
+        },
+        slide: function( event, ui ) {
+          // handle1.text( ui.value );
+          value1div.text( ui.value );
+          value1 = ui.value;
+          updateResult();
+        }
+      });
+      $( "#slider2" ).slider({
+        min: 20,
+        max: 5000,
+        value: 150,
+        create: function() {
+          // handle2.text( $( this ).slider( "value" ) );
+          value2 = $( this ).slider( "value" );
+          value2div.text( $( this ).slider( "value" ) );
+        },
+        slide: function( event, ui ) {
+          // handle2.text( ui.value );
+          value2div.text( ui.value );
+          value2 = ui.value;
+          updateResult();
+        }
+      });
+    } );
+    </script>
+
 
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -129,7 +183,25 @@
       
 
       <div class="col-md-6 col-12">
-        <img class="w-100 ambasador-img-1"  src="image/Group 128.svg" alt="">
+        <!-- <img class="w-100 ambasador-img-1"  src="image/Group 128.svg" alt=""> -->
+        <div class="d-flex justify-content-between align-items-center">
+          <div id="value1" class="value1" style="    background: white;
+          border-radius: 9px;
+          display: inline-block;
+          padding: 12px 20px;"></div>
+          <p>გაყიდული პროდუქტების რაოდენობა</p>
+          <div>s</div>
+        </div>
+        <div id="slider1">
+          <div id="handle1" class="ui-slider-handle"></div>
+        </div>
+        ​
+        <div id="slider2">
+          <div id="handle2" class="ui-slider-handle"></div>
+        </div>
+        ​
+        <div id="value2" class="value2"></div>
+        <h2 id="result" class="result">450</h2>
       </div>
       <img class="yleoba" src="image/Path 427.svg" alt="">
 
@@ -275,7 +347,7 @@
   <div  class="container" style="padding-left: 0;">
     <div class="row">
       <div class="col-lg-6 col-12" style=" height: 200px;">
-        <h1>Control sliders</h1>
+        <!-- <h1>Control sliders</h1>
         <div class="input-text">  
           <input class="sliderText" type="number" value="1" min="1" max="100" data-index="1" disabled="disabled"/>
         </div>
@@ -298,7 +370,27 @@
         </div>
         <div class="input-slider">
           <input class="sliderRange" id="slider3" type="range" min="0" max="100" step="1" value="0" data-index="3"/>
+        </div> -->
+
+
+        <!-- <div class="d-flex justify-content-between align-items-center">
+          <div id="value1" class="value1" style="    background: white;
+          border-radius: 9px;
+          display: inline-block;
+          padding: 12px 20px;"></div>
+          <p>გაყიდული პროდუქტების რაოდენობა</p>
+          <div>s</div>
         </div>
+        <div id="slider1">
+          <div id="handle1" class="ui-slider-handle"></div>
+        </div>
+        ​
+        <div id="slider2">
+          <div id="handle2" class="ui-slider-handle"></div>
+        </div>
+        ​
+        <div id="value2" class="value2"></div>
+        <h2 id="result" class="result">450</h2> -->
         
         
       </div>
@@ -315,7 +407,8 @@
 
 
 
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script> -->
+  
   <script  src="./main.js"></script>
 
 
