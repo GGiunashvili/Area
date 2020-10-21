@@ -308,7 +308,7 @@ a:hover {
   background: white;
   border-radius: 9px;
   display: inline-block;
-  padding: 9px 16px;
+  padding: 9px 20px;
   font-family: markgeocaps-bold;
 }
 
@@ -364,10 +364,10 @@ input[type=text]:focus {
 @media only screen and (max-width: 768px) {
   .join-us-frst {
     margin-bottom: 0 !important;
-    margin-left: 0 !important;
   }
   .value-title .value1 {
     width: 60px;
+    padding: 9px 12px;
   }
   .value-title-2 .value2 {
     width: 60px;
