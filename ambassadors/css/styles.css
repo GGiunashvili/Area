@@ -308,7 +308,7 @@ a:hover {
   background: white;
   border-radius: 9px;
   display: inline-block;
-  padding: 9px 20px;
+  padding: 9px 16px;
   font-family: markgeocaps-bold;
 }
 
@@ -371,6 +371,7 @@ input[type=text]:focus {
   }
   .value-title-2 .value2 {
     width: 60px;
+    padding: 9px 12px;
   }
   .ambasador-box-one-text {
     margin-bottom: 20px !important;
