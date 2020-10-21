@@ -7,21 +7,14 @@
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
     <link rel="stylesheet" href="https://jqueryui.com/resources/demos/style.css">
     <style>
-    /* #custom-handle {
+    #custom-handle {
       width: 3em;
       height: 1.6em;
       top: 50%;
       margin-top: -.8em;
       text-align: center;
       line-height: 1.6em;
-    } */
-    #slider-2-value::-moz-range-thumb {
-  width: 23px;
-  height: 24px;
-  border: 0;
-  background: url('contrasticon.png');
-  cursor: pointer;
-}
+    }
     </style>
     <script
       src="https://code.jquery.com/jquery-2.2.4.min.js"
@@ -29,22 +22,22 @@
       crossorigin="anonymous"
     ></script>
     <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-    <!-- <script src="https://code.jquery.cm/mobile/1.4.5/jquery.mobile-14.5.min.js"></script> -->
+    <!-- <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> -->
     
     
   </head>
   <body>
   
   <div id="slider-1">
-    <input type="range" id="slider-1-value" min="20" max="100" value="30">
+    <input type="range" id="slider-1-value" min="20" max="1111" value="50">
   </div>
   
   <div id="slider-2">
-    <input type="range" id="slider-2-value" min="1" max="5000" value="150">
+    <input type="range" id="slider-2-value" min="1" max="1000" value="30">
   </div>
   
-  <div id="value1" class="value1">30</div>
-  <div id="value2" class="value2">150</div>
+  <div id="value1" class="value1"></div>
+  <div id="value2" class="value2"></div>
   <h2 id="result" class="result">450</h2>
   
   <script>
@@ -59,7 +52,7 @@
   
   
     function updateResult() {
-      result = (parseInt(value1) * parseInt(value2) * 0.05 * 0.8).toFixed();
+      result = (parseInt(value1) * parseInt(value2) * 0.05 * 0.8).toFixed(0);
       resultdiv.html(result);
       // console.log('result is:', result);
     }
