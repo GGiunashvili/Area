@@ -1,0 +1,472 @@
+@font-face {
+  src: url(../fonts/MarkGEO-Bold.ttf);
+  font-family: markgeo-bold;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEO-Regular.ttf);
+  font-family: markgeo-regular;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEO-SemiBold.ttf);
+  font-family: markgeo-semibold;
+}
+@font-face {
+  src: url(../fonts/MarkGEOCAPS-Bold.ttf);
+  font-family: markgeocaps-bold;
+
+}
+@font-face {
+  src: url(../fonts/MarkGEO-Medium.ttf);
+  font-family: markgeocaps-medium;
+
+}
+@font-face {
+  src: url(../fonts/MarkGEOCAPS-Medium.ttf);
+  font-family: markgeocapscaps-medium;
+
+}
+html {
+  scroll-behavior: smooth;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  text-decoration: none;
+  color: black;
+
+}
+.main-header-parent{
+  padding:0 20px; background-color: white;
+  position: fixed;
+  z-index: 99;
+  width:100%;
+  .main-header{
+    padding:20px 0;
+    .header-logo{
+      height: 45px;
+    }
+    .header-ticks{
+      margin: 10px 15px;
+      font-family: markgeo-bold;
+    
+    }
+  }
+}
+.header-ticks:hover{
+  color:#7A1DFF;
+}
+.first-ambasador-box-one{
+    border-radius: 10px;
+    background-color: white;
+   .first-ambasador-box-one-child{
+      padding: 20px 50px;
+      border-radius: 20px;
+    .first-text-component{
+      .first-ambasador-box-one-title{
+        margin-top: 10px;
+        margin-bottom:20px;
+        color: #7A1DFF;
+        font-family: markgeocaps-bold;
+        font-size: 40px;
+        line-height: 1.2;
+  
+      }
+      .first-ambasador-box-one-text{
+        color: black;
+        font-family: markgeo-semibold;
+        font-size: 20px;
+        line-height: 1.2;
+  
+      }
+}
+   }
+}
+.first-ambasador-box-one-text-sec{
+  margin-bottom:20px;
+}
+
+
+
+.join-us-box{
+  box-shadow: 0px 3px 6px #00000029; 
+  display: inline-block;
+  background:#7A1DFF;
+  border-radius: 30px;
+  padding: 7px 15px;
+
+  .join-us-text{
+    padding:7px 8px;
+    color: white;
+    font-family: markgeocapscaps-medium;
+  }
+}
+
+.scroll-join-us-box{
+  display: inline-block;
+  background:#7A1DFF;
+  border-radius: 30px;
+  padding: 7px 15px;
+  .scroll-join-img{
+    height: 25px;
+  }
+
+  .scroll-join-us-text{
+    padding:7px 8px;
+    color: white;
+    font-family: markgeocapscaps-medium;
+  }
+}
+
+.ambasador-box-one{
+  background: white;
+    border-radius: 10px;
+    .ambasador-box-one-title{
+      margin-top: 30px;
+      margin-bottom:30px;
+      font-family: markgeocaps-bold;
+      font-size: 40px;
+    }
+    .ambasador-box-one-text{
+      margin-top: 0;
+      margin-bottom:50px;
+      line-height: 1.6;
+      font-family: markgeo-semibold;
+      font-size: 1.1vw;
+
+    }
+}
+.ambasadot-natura{
+  padding-left: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.wondering-main-title{
+  font-family: markgeocaps-bold;
+  font-size: 40px;
+  margin-top:80px;
+  margin-bottom: 80px;
+
+
+}
+.offer-img-text{
+  text-align: center;  font-family: markgeocaps-bold; line-height: 1.3; font-size: 24px;
+}
+.offer-img-1{
+  height: 175px;
+}
+.offer-img-2{
+  height: 200px;
+}
+.offer-img-3{
+  height: 175px;
+}
+.wondering{
+  text-align: center;
+  .wondering-img{
+    margin-bottom: 20px;
+
+  }
+  
+  .wondering-text{
+    line-height: 1.3;
+    font-family: markgeocaps-bold;
+    font-size: 11px;
+
+
+  }
+  .wondering-text-second{
+    margin-bottom:40px;
+
+  }
+}
+
+.footer-title{
+  color:#7A1DFF;
+  font-family: markgeocaps-bold;
+  font-size: 40px;
+  line-height: 1.3;
+  text-align: left;
+
+}
+.footer-text{
+  color:white;
+  font-size:16px;
+  line-height: 1.6;
+ 
+  font-family: markgeo-semibold;
+  text-align: left;
+
+}
+.mrg-top{
+  padding-top: 150px!important;
+}
+.mrg-top{
+  padding-top: 115px!important;
+}
+.hidden{
+  display: none;
+}
+.offer-box{
+  background-color: white;
+}
+.blue-line-parent{
+  display: flex;
+  justify-content: left;
+  width: 100%!important;
+  margin-bottom:10px;
+  .blue-line{
+    width: 80px; background:#7A1DFF; height: 4px;
+  }
+}
+.blue-line-hide{
+  display: none;
+}
+.yleoba{
+  position: absolute;
+   right: 0; height: 600px; top: 0; z-index: -1;
+}
+.ui-widget-content{
+  background:#7A1DFF!important;
+  height: 2px!important;
+}
+.ui-slider-handle {
+  top: -0.6em!important;
+}
+.ui-slider-handle{
+  content: url("../image/slide.png");
+}
+.financ-interest{
+  color: black;
+  font-size: 30px;
+  font-family: markgeocaps-bold;
+  text-align: center;
+}
+.value-title {
+  margin: 15px 0;
+  .value1{
+    width: 75px;
+    text-align: center;
+    background: white;border-radius: 9px;display: inline-block; padding: 9px 20px;  font-family: markgeocaps-bold;
+  }
+ 
+  .sold-product{
+    font-family: markgeocaps-bold;
+  }
+
+}
+.value-title-2{
+  margin: 15px 0;
+  .value2{
+    width: 75px;
+    text-align: center;
+    background: white;border-radius: 9px;display: inline-block; padding: 9px 20px;  font-family: markgeocaps-bold;
+    
+  }
+  .sold-product-vl2{
+    font-family: markgeocaps-bold;
+  }
+
+}
+.your-cost-box{
+  text-align: center;
+ font-family: markgeocaps-bold;
+ .result{
+   color: #7A1DFF;
+   font-size: 35px;
+ }
+  
+}
+
+.ui-slider-handle {
+  border: none!important;
+  background:none!important;
+  color:none!important;
+}
+input[type=text]:focus {
+  border: 3px solid red;
+}
+.dropd-icon{
+  height: 25px;
+}
+.first-simple{
+  max-height: 200px;
+}
+.top-houndred{
+  margin-top: 150px;
+}
+.join-us-frst{
+  margin-left: 5px;
+}
+@media only screen and (max-width: 992px) {
+ 
+  .footer-text{
+    font-size: 14px!important;
+  }
+  .yleoba{
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .join-us-frst{
+    margin-bottom:0!important;
+  }
+  .value-title{
+    .value1{
+      width: 60px;
+    }
+  }
+  .value-title-2{
+    .value2{
+      width: 60px;
+    }
+  }
+  .ambasador-box-one-text{
+    margin-bottom:20px!important;
+  }
+  .join-us-box{
+    margin-top: 0!important;
+    margin-bottom:20px;
+  }
+  .financ-interest{
+    font-size: 24px;
+  }
+  .first-ambasador-box-one{
+    background-color:unset;
+  }
+  .top-houndred{
+    margin-top: 30px;
+  }
+  .blue-line-last{
+    display: none;
+  }
+  .sold-product{
+    font-size: 12px;
+  }
+  .sold-product-vl2{
+    font-size: 12px;
+  }
+  .join-us-text{
+    font-size: 12px;
+  }
+  
+  .blue-line-hide{
+    display: none;
+    width: 100%;
+  }
+  .blue-line-parent{
+      visibility: unset!important;
+    justify-content: center;
+  }
+  .footer-title{
+    color:#7A1DFF;
+    font-family: markgeocaps-bold;
+    font-size: 20px;
+    text-align: center;
+  
+  }
+  .footer-text{
+    color:white;
+    font-size:14px;
+    line-height: 1.6;
+    margin-top:0px;
+    margin-bottom:px;
+    text-align: left;
+  }
+  .offer-box{
+    background: #EEEEEE;
+
+  }
+  .wondering-main-title{
+    margin-top:30px;
+    margin-bottom:20px;
+  }
+  .offer-img-1{
+    height: auto;
+  }
+  .offer-img-2{
+    height: auto;
+  }
+  .offer-img-3{
+    height: auto;
+  }
+  .offer-img-text{
+    font-size: 10px;
+  }
+  .wondering-text{
+    font-size: 10px;
+  }
+  .wondering-img{
+    margin-top: 15px;
+    height: 65px;
+  }
+  .first-simple{
+    height: 85px;
+  }
+  
+  .wondering-main-title{
+    font-size: 24px!important;
+  }
+  .header-logo{
+    width: 95px!important;
+  }
+  .join-font-mobile{
+    font-size: 9px!important;
+  }
+  .ambasador-box-one{
+    background:none!important;
+    text-align: center;
+  }
+  .unhidden{
+    display: none;
+  }
+  .hidden{
+    display:block!important;
+  }
+  .mrg-top{
+    padding-top: 100px!important;
+  }
+  .first-ambasador-box-one-child{
+    padding: 0!important;
+    text-align: center;
+  }
+  .first-ambasador-box-one-title {
+    font-size: 24px!important;
+
+  }
+  .first-ambasador-box-one-text {
+    font-size: 20px!important;
+    color: black!important;
+
+  }
+
+  .ambasador-box-one-title{
+    font-size: 24px!important;
+    text-align: center;
+    margin-top: 0!important;
+  }
+  .ambasador-box-one-text{
+    font-size:4.1vw!important;
+    text-align: center;
+    white-space: pre-line!important;
+    overflow:auto!important;
+  }
+  .mrg-top-sec{
+    padding-top: 0!important;
+  }
+  .ambasadot-natura{
+    padding-top: 0;
+  }
+    .header-ticks{
+      display: none;
+    }
+}
+@media only screen and (max-width: 320px) {
+  .footer-text{
+    font-size: 12px!important;
+  }
+}
