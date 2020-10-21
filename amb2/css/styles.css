@@ -350,6 +350,13 @@ input[type=text]:focus {
 }
 
 @media only screen and (max-width: 768px) {
+  .ambasador-box-one-text {
+    margin-bottom: 20px !important;
+  }
+  .join-us-box {
+    margin-top: 0 !important;
+    margin-bottom: 20px;
+  }
   .financ-interest {
     font-size: 24px;
   }
@@ -454,6 +461,7 @@ input[type=text]:focus {
   .ambasador-box-one-title {
     font-size: 24px !important;
     text-align: center;
+    margin-top: 0 !important;
   }
   .ambasador-box-one-text {
     font-size: 4.1vw !important;
