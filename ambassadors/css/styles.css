@@ -364,6 +364,7 @@ input[type=text]:focus {
 @media only screen and (max-width: 768px) {
   .join-us-frst {
     margin-bottom: 0 !important;
+    margin-left: 0 !important;
   }
   .value-title .value1 {
     width: 60px;
