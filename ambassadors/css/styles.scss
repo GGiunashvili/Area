@@ -92,13 +92,14 @@ a:hover{
 
 
 .join-us-box{
+  box-shadow: 0px 3px 6px #00000029; 
   display: inline-block;
   background:#7A1DFF;
   border-radius: 30px;
-  padding: 5px 15px;
+  padding: 7px 15px;
 
   .join-us-text{
-    padding:5px 8px;
+    padding:7px 8px;
     color: white;
     font-family: markgeocapscaps-medium;
   }
@@ -108,13 +109,13 @@ a:hover{
   display: inline-block;
   background:#7A1DFF;
   border-radius: 30px;
-  padding: 5px 15px;
+  padding: 7px 15px;
   .scroll-join-img{
     height: 25px;
   }
 
   .scroll-join-us-text{
-    padding:5px 8px;
+    padding:7px 8px;
     color: white;
     font-family: markgeocapscaps-medium;
   }
@@ -219,7 +220,7 @@ a:hover{
   width: 100%!important;
   margin-bottom:10px;
   .blue-line{
-    width: 100px; background:#7A1DFF; height: 4px;
+    width: 80px; background:#7A1DFF; height: 4px;
   }
 }
 .blue-line-hide{
@@ -248,7 +249,9 @@ a:hover{
 .value-title {
   margin: 15px 0;
   .value1{
-    background: white;border-radius: 9px;display: inline-block; padding: 12px 20px;  font-family: markgeocaps-bold;
+    width: 75px;
+    text-align: center;
+    background: white;border-radius: 9px;display: inline-block; padding: 9px 20px;  font-family: markgeocaps-bold;
   }
  
   .sold-product{
@@ -259,7 +262,9 @@ a:hover{
 .value-title-2{
   margin: 15px 0;
   .value2{
-    background: white;border-radius: 9px;display: inline-block; padding: 12px 20px;  font-family: markgeocaps-bold;
+    width: 75px;
+    text-align: center;
+    background: white;border-radius: 9px;display: inline-block; padding: 9px 20px;  font-family: markgeocaps-bold;
     
   }
   .sold-product-vl2{
@@ -294,6 +299,9 @@ input[type=text]:focus {
 .top-houndred{
   margin-top: 150px;
 }
+.join-us-frst{
+  margin-left: 5px;
+}
 @media only screen and (max-width: 992px) {
  
   .footer-text{
@@ -304,6 +312,19 @@ input[type=text]:focus {
   }
 }
 @media only screen and (max-width: 768px) {
+  .join-us-frst{
+    margin-bottom:0!important;
+  }
+  .value-title{
+    .value1{
+      width: 60px;
+    }
+  }
+  .value-title-2{
+    .value2{
+      width: 60px;
+    }
+  }
   .ambasador-box-one-text{
     margin-bottom:20px!important;
   }
@@ -324,6 +345,9 @@ input[type=text]:focus {
     display: none;
   }
   .sold-product{
+    font-size: 12px;
+  }
+  .sold-product-vl2{
     font-size: 12px;
   }
   .join-us-text{
@@ -388,7 +412,7 @@ input[type=text]:focus {
     font-size: 24px!important;
   }
   .header-logo{
-    width: 84px!important;
+    width: 95px!important;
   }
   .join-font-mobile{
     font-size: 9px!important;

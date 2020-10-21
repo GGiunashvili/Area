@@ -1,84 +1,78 @@
+
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>jQuery UI Slider - Custom handle</title>
-  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-  <link rel="stylesheet" href="https://jqueryui.com/resources/demos/style.css">
-  <style>
-  #custom-handle {
-    width: 3em;
-    height: 1.6em;
-    top: 50%;
-    margin-top: -.8em;
-    text-align: center;
-    line-height: 1.6em;
-  }
-  </style>
-  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-  <script>
-  $( function() {
-    var handle1 = $("#handle1");
-    var handle2 = $("#handle2");
-    var result = $("#result");
-    var value1div = $("#value1");
-    var value2div = $("#value2");
-​
-    var value1 = 0;
-    var value2 = 0;
-​
-    function updateResult() {
-      result.text((value1 * value2 * 0.05 * 0.8).toFixed(2) );
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>jQuery UI Slider - Custom handle</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="https://jqueryui.com/resources/demos/style.css">
+    <style>
+    #custom-handle {
+      width: 3em;
+      height: 1.6em;
+      top: 50%;
+      margin-top: -.8em;
+      text-align: center;
+      line-height: 1.6em;
     }
-​
-    var slider1 = $( "#slider1" ).slider({
-      min: 15,
-      max: 100,
-      value: 30,
-      create: function() {
-        // handle1.text( $( this ).slider( "value" ) );
-        value1 = $( this ).slider( "value" );
-        value1div.text( $( this ).slider( "value" ) );
-      },
-      slide: function( event, ui ) {
-        // handle1.text( ui.value );
-        value1div.text( ui.value );
-        value1 = ui.value;
+    </style>
+    <script
+      src="https://code.jquery.com/jquery-2.2.4.min.js"
+      integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+      crossorigin="anonymous"
+    ></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <!-- <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> -->
+    
+    
+  </head>
+  <body>
+  
+  <div id="slider-1">
+    <input type="range" id="slider-1-value" min="20" max="1111" value="50">
+  </div>
+  
+  <div id="slider-2">
+    <input type="range" id="slider-2-value" min="1" max="1000" value="30">
+  </div>
+  
+  <div id="value1" class="value1"></div>
+  <div id="value2" class="value2"></div>
+  <h2 id="result" class="result">450</h2>
+  
+  <script>
+    let value1 = 0;
+    let value2 = 0;
+  
+    let result = 0;
+  
+    var value1div = $('#value1');
+    var value2div = $('#value2');
+    var resultdiv = $('#result');
+  
+  
+    function updateResult() {
+      result = (parseInt(value1) * parseInt(value2) * 0.05 * 0.8).toFixed(0);
+      resultdiv.html(result);
+      // console.log('result is:', result);
+    }
+  
+    $( "div#slider-1" ).on("change", function( event, ui ) {
+        // console.log( event, this );
+        // console.log( event.target.value );
+        value1 = event.target.value;
+        value1div.html(value1);
         updateResult();
-      }
     });
-    $( "#slider2" ).slider({
-      min: 20,
-      max: 5000,
-      value: 150,
-      create: function() {
-        // handle2.text( $( this ).slider( "value" ) );
-        value2 = $( this ).slider( "value" );
-        value2div.text( $( this ).slider( "value" ) );
-      },
-      slide: function( event, ui ) {
-        // handle2.text( ui.value );
-        value2div.text( ui.value );
-        value2 = ui.value;
+    $( "div#slider-2" ).on("change", function( event, ui ) {
+        // console.log( event, this );
+        // console.log( event.target.value );
+        value2 = event.target.value;
+        value2div.html(value2);
         updateResult();
-      }
     });
-  } );
+  
+    
   </script>
-</head>
-<body>
- 
-<div id="slider1">
-  <div id="handle1" class="ui-slider-handle"></div>
-</div>
-​
-<div id="slider2">
-  <div id="handle2" class="ui-slider-handle"></div>
-</div>
-​
-<div id="value1" class="value1"></div>
-<div id="value2" class="value2"></div>
-<h2 id="result" class="result">450</h2>
-</body>
-</html>
+  </body>
+  </html>
