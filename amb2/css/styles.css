@@ -425,6 +425,9 @@ input[type=text]:focus {
     margin-top: 15px;
     height: 65px;
   }
+  .first-simple {
+    height: 85px;
+  }
   .wondering-main-title {
     font-size: 24px !important;
   }
