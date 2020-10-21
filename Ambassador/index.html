@@ -22,18 +22,18 @@
       crossorigin="anonymous"
     ></script>
     <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
-    <!-- <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> -->
+    <!-- <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-14.5.min.js"></script> -->
     
     
   </head>
   <body>
   
   <div id="slider-1">
-    <input type="range" id="slider-1-value" min="20" max="1111" value="50">
+    <input type="range" id="slider-1-value" min="20" max="1111" value="30">
   </div>
   
   <div id="slider-2">
-    <input type="range" id="slider-2-value" min="1" max="1000" value="30">
+    <input type="range" id="slider-2-value" min="1" max="5000" value="150">
   </div>
   
   <div id="value1" class="value1"></div>
@@ -52,7 +52,7 @@
   
   
     function updateResult() {
-      result = (parseInt(value1) * parseInt(value2) * 0.05 * 0.8).toFixed(0);
+      result = (parseInt(value1) * parseInt(value2) * 0.05 * 0.8).toFixed();
       resultdiv.html(result);
       // console.log('result is:', result);
     }
