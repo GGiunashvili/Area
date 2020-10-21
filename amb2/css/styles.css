@@ -65,6 +65,7 @@ a:hover {
 
 .first-ambasador-box-one {
   border-radius: 10px;
+  background-color: white;
 }
 
 .first-ambasador-box-one .first-ambasador-box-one-child {
@@ -82,10 +83,14 @@ a:hover {
 }
 
 .first-ambasador-box-one .first-ambasador-box-one-child .first-text-component .first-ambasador-box-one-text {
-  color: #00A9FF;
+  color: black;
   font-family: markgeo-semibold;
   font-size: 20px;
   line-height: 1.2;
+}
+
+.first-ambasador-box-one-text-sec {
+  margin-bottom: 20px;
 }
 
 .join-us-box {
@@ -230,6 +235,7 @@ a:hover {
       -ms-flex-pack: left;
           justify-content: left;
   width: 100% !important;
+  margin-bottom: 10px;
 }
 
 .blue-line-parent .blue-line {
@@ -330,6 +336,10 @@ input[type=text]:focus {
   max-height: 200px;
 }
 
+.top-houndred {
+  margin-top: 150px;
+}
+
 @media only screen and (max-width: 992px) {
   .footer-text {
     font-size: 14px !important;
@@ -340,6 +350,24 @@ input[type=text]:focus {
 }
 
 @media only screen and (max-width: 768px) {
+  .financ-interest {
+    font-size: 24px;
+  }
+  .first-ambasador-box-one {
+    background-color: unset;
+  }
+  .top-houndred {
+    margin-top: 30px;
+  }
+  .blue-line-last {
+    display: none;
+  }
+  .sold-product {
+    font-size: 12px;
+  }
+  .join-us-text {
+    font-size: 12px;
+  }
   .blue-line-hide {
     display: none;
     width: 100%;
