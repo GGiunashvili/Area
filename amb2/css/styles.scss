@@ -194,10 +194,9 @@ a:hover{
 }
 .footer-text{
   color:white;
-  font-size:20px;
+  font-size:16px;
   line-height: 1.6;
-  margin-top:50px;
-  margin-bottom:50px;
+ 
   font-family: markgeo-semibold;
   text-align: left;
 
@@ -350,8 +349,8 @@ input[type=text]:focus {
     color:white;
     font-size:14px;
     line-height: 1.6;
-    margin-top:25px;
-    margin-bottom:25px;
+    margin-top:0px;
+    margin-bottom:px;
     text-align: left;
   }
   .offer-box{
@@ -444,6 +443,6 @@ input[type=text]:focus {
 }
 @media only screen and (max-width: 320px) {
   .footer-text{
-    font-size: 12px;
+    font-size: 12px!important;
   }
 }
