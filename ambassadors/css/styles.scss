@@ -325,6 +325,10 @@ input[type=text]:focus {
   }
 }
 @media only screen and (max-width: 768px) {
+  .ambasador-img-light{
+    height: 290px;
+    margin-bottom:15px;
+  }
   .video-emb{
     border-radius: 0;
     margin:0 15px;
