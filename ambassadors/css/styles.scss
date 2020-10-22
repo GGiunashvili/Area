@@ -148,7 +148,7 @@ a:hover{
 .wondering-main-title{
   font-family: markgeocaps-bold;
   font-size: 40px;
-  margin-top:80px;
+  margin-top:40px;
   margin-bottom: 80px;
 
 
@@ -302,6 +302,19 @@ input[type=text]:focus {
 .join-us-frst{
   margin-left: 5px;
 }
+.mrg-top-last-sec{
+  margin-top:30px;
+}
+.another-blue-line{
+  width: 100px; height: 4px; background-color: #7A1DFF;
+}
+.first-line{
+  margin-top: 50px;
+    margin-bottom: 15px;
+}
+.video-emb{
+  border-radius: 25px;
+}
 @media only screen and (max-width: 992px) {
  
   .footer-text{
@@ -312,6 +325,16 @@ input[type=text]:focus {
   }
 }
 @media only screen and (max-width: 768px) {
+  .video-emb{
+    border-radius: 0;
+    margin:0 15px;
+  }
+  .first-line{
+    display: none;
+  }
+  .mrg-top-last-sec{
+    margin-top:15px;
+  }
   
   .join-us-frst{
     margin-bottom:0!important;
@@ -366,6 +389,7 @@ input[type=text]:focus {
   .blue-line-parent{
       visibility: unset!important;
     justify-content: center;
+    margin-top: 20px;
   }
   .footer-title{
     color:#7A1DFF;
@@ -410,7 +434,7 @@ input[type=text]:focus {
     height: 65px;
   }
   .first-simple{
-    height: 85px;
+    height: 100px;
   }
   
   .wondering-main-title{
