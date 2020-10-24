@@ -57,12 +57,12 @@
   font-family: markgeocaps-bold;
 }
 
-.main-background .main-treat-row .treat-page-rule-box .treat-page-rule-fist {
+.main-background .main-treat-row .treat-3-cards-parent .treat-page-rule-box .treat-page-rule-fist {
   color: white;
   font-family: markgeocaps-medium;
 }
 
-.main-background .main-treat-row .treat-page-rule-box .treat-page-rule {
+.main-background .main-treat-row .treat-3-cards-parent .treat-page-rule-box .treat-page-rule {
   color: white;
   font-family: markgeo-regular;
 }
@@ -85,15 +85,18 @@
     -webkit-transform: translate(-50%, -50%);
     transform: translate(0, 0);
   }
-  .main-background .main-treat-row .treat-3-cards-box {
+  .main-background .main-treat-row .treat-3-cards-parent {
+    margin: 30px 0;
+  }
+  .main-background .main-treat-row .treat-3-cards-parent .treat-3-cards-box {
     position: relative;
     height: 340px;
   }
-  .main-background .main-treat-row .treat-3-cards-box .treat-3-cards {
+  .main-background .main-treat-row .treat-3-cards-parent .treat-3-cards-box .treat-3-cards {
     height: 240px;
     max-width: 60% !important;
   }
-  .main-background .main-treat-row .treat-3-cards-box .treat-1-card {
+  .main-background .main-treat-row .treat-3-cards-parent .treat-3-cards-box .treat-1-card {
     position: absolute;
     left: -100px;
     right: 0;
@@ -102,7 +105,7 @@
     -webkit-transform: rotate(-10deg);
             transform: rotate(-10deg);
   }
-  .main-background .main-treat-row .treat-3-cards-box .treat-2-card {
+  .main-background .main-treat-row .treat-3-cards-parent .treat-3-cards-box .treat-2-card {
     position: absolute;
     left: 109px;
     right: 0;
@@ -110,7 +113,7 @@
     margin-right: auto;
     top: 36px;
   }
-  .main-background .main-treat-row .treat-3-cards-box .treat-3-card {
+  .main-background .main-treat-row .treat-3-cards-parent .treat-3-cards-box .treat-3-card {
     left: -42px;
     right: 0;
     margin-left: auto;
