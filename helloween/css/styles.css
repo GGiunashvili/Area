@@ -80,6 +80,7 @@
   }
   .main-background {
     background-image: url(../image/მობბბ.png);
+    height: 100vh;
   }
   .main-background .main-treat-row {
     width: auto;
