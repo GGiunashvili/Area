@@ -107,18 +107,18 @@
   }
   .main-background .main-treat-row .treat-3-cards-parent .treat-3-cards-box .treat-2-card {
     position: absolute;
-    left: 109px;
+    left: 140px;
     right: 0;
     margin-left: auto;
     margin-right: auto;
     top: 55px;
   }
   .main-background .main-treat-row .treat-3-cards-parent .treat-3-cards-box .treat-3-card {
-    left: -42px;
+    left: -55px;
     right: 0;
     margin-left: auto;
     margin-right: auto;
-    top: 145px;
+    top: 155px;
     -webkit-transform: rotate(-15deg);
             transform: rotate(-15deg);
   }
