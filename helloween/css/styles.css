@@ -36,7 +36,6 @@
 .main-background {
   background-image: url(../image/trick-or-treat-Desktop.png);
   width: 100%;
-  background-attachment: fixed;
   background-size: cover;
   background-repeat: round;
 }
