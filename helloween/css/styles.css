@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   src: url(../fonts/MarkGEO-Bold.ttf);
   font-family: markgeo-bold;
@@ -23,11 +24,94 @@
   font-family: markgeocaps-medium;
 }
 
+@font-face {
+  src: url(../fonts/MarkGEOCAPS-Regular.ttf);
+  font-family: markgeocaps-regular;
+}
+
 .main-background {
   background-image: url(../image/trick-or-treat-Desktop.png);
   height: 100vh;
   width: 100%;
   background-size: cover;
   background-repeat: round;
+}
+
+.main-background .main-treat-row {
+  width: 695px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.main-background .main-treat-row .treat-page-title {
+  color: white;
+  font-family: markgeocaps-regular;
+}
+
+.main-background .main-treat-row .treat-page-card-title {
+  color: white;
+  font-family: markgeocaps-bold;
+}
+
+.main-background .main-treat-row .treat-page-rule-box .treat-page-rule-fist {
+  color: white;
+  font-family: markgeocaps-medium;
+}
+
+.main-background .main-treat-row .treat-page-rule-box .treat-page-rule {
+  color: white;
+  font-family: markgeo-regular;
+}
+
+.main-background .main-treat-row .treat-3-cards {
+  height: 45vh;
+}
+
+@media only screen and (max-width: 768px) {
+  .main-background {
+    background-image: url(../image/მობბბ.png);
+    height: 1000px;
+  }
+  .main-background .main-treat-row {
+    width: auto;
+  }
+  .main-background .main-treat-row .treat-3-cards-box {
+    position: relative;
+    height: 340px;
+  }
+  .main-background .main-treat-row .treat-3-cards-box .treat-3-cards {
+    height: 210px;
+    max-width: 50% !important;
+  }
+  .main-background .main-treat-row .treat-3-cards-box .treat-1-card {
+    position: absolute;
+    left: -100px;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-transform: rotate(-10deg);
+            transform: rotate(-10deg);
+  }
+  .main-background .main-treat-row .treat-3-cards-box .treat-2-card {
+    position: absolute;
+    left: 109px;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 36px;
+  }
+  .main-background .main-treat-row .treat-3-cards-box .treat-3-card {
+    left: -42px;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 130px;
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+  }
 }
 /*# sourceMappingURL=styles.css.map */
