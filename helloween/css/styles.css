@@ -71,12 +71,15 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .treat-page-rule-box {
+    padding-left: 30px;
+  }
   .extra-helloween-title {
     height: 17vh;
   }
   .main-background {
     background-image: url(../image/მობბბ.png);
-    height: 1000px;
+    height: 1150px;
   }
   .main-background .main-treat-row {
     width: auto;
