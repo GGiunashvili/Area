@@ -42,7 +42,7 @@
 }
 
 .main-background .main-treat-row {
-  margin-top: 20px;
+  margin-top: 20px !important;
   width: 695px;
   margin: 0;
 }
