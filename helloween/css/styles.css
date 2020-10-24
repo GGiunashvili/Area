@@ -29,6 +29,10 @@
   font-family: markgeocaps-regular;
 }
 
+.extra-helloween-title {
+  height: 19vh;
+}
+
 .main-background {
   background-image: url(../image/trick-or-treat-Desktop.png);
   height: 100vh;
@@ -57,12 +61,12 @@
   font-family: markgeocaps-bold;
 }
 
-.main-background .main-treat-row .treat-3-cards-parent .treat-page-rule-box .treat-page-rule-fist {
+.main-background .main-treat-row .treat-page-rule-box .treat-page-rule-fist {
   color: white;
   font-family: markgeocaps-medium;
 }
 
-.main-background .main-treat-row .treat-3-cards-parent .treat-page-rule-box .treat-page-rule {
+.main-background .main-treat-row .treat-page-rule-box .treat-page-rule {
   color: white;
   font-family: markgeo-regular;
 }
@@ -72,6 +76,9 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .extra-helloween-title {
+    height: 17vh;
+  }
   .main-background {
     background-image: url(../image/მობბბ.png);
     height: 1000px;
@@ -90,7 +97,7 @@
   }
   .main-background .main-treat-row .treat-3-cards-parent .treat-3-cards-box {
     position: relative;
-    height: 340px;
+    height: 380px;
   }
   .main-background .main-treat-row .treat-3-cards-parent .treat-3-cards-box .treat-3-cards {
     height: 260px;
