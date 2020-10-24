@@ -70,6 +70,12 @@
     height: 1000px;
     .main-treat-row{
       width: auto;
+      margin: 0;
+    position: absolute;
+    top: 0;
+    left: 1px;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(0, -0);
       .treat-3-cards-box{
         position: relative;
         height: 340px;

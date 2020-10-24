@@ -78,6 +78,12 @@
   }
   .main-background .main-treat-row {
     width: auto;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 1px;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(0, 0);
   }
   .main-background .main-treat-row .treat-3-cards-box {
     position: relative;
