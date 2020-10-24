@@ -30,12 +30,12 @@
 }
 .main-background{
   background-image: url(../image/trick-or-treat-Desktop.png);
-  height: 100vh;
+  // height: 100vh;
   width: 100%;
   background-size: cover;
   background-repeat: round;
   .main-treat-row{
-    width: 695px; margin: 0; position: absolute; top: 50%; left: 50%; -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%);
+    width: 695px; margin: 0; ;
     .treat-page-title{
       color: white;
       font-family: markgeocaps-regular;
@@ -53,6 +53,8 @@
       .treat-page-rule{
         color: white;
         font-family: markgeo-regular;
+        margin: 15px 0;
+
   
   
       }
