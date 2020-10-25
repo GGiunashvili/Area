@@ -101,9 +101,10 @@
   
   .main-background{
     background-image: url(https://wallpaperaccess.com/full/1155655.jpg);
-position: absolute;
     height: 100vh;
     background-attachment:unset;
+    background-size: cover!important;
+
 
     .main-treat-row{
       width: auto;
