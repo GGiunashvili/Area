@@ -73,6 +73,9 @@
 
   }
 }
+.modal-content{
+  background-image: url(https://i.pinimg.com/originals/94/3c/f4/943cf4efd9f2d204b31f290ca293d2c7.jpg);
+}
 @media only screen and (max-width: 768px) {
   .treat-page-rule-box{
     padding-left: 30px;
@@ -83,7 +86,7 @@
   }
   .main-background{
     background-image: url(../image/მობბბ.png);
-    height: 100vh;
+    height: 1075px;
     background-attachment:unset;
 
     .main-treat-row{
