@@ -25,10 +25,7 @@
   src: url(../fonts/MarkGEOCAPS-Regular.ttf);
   font-family: markgeocaps-regular;
 }
-body{
-  margin:0;
-  padding: 0;
-}
+
 .extra-helloween-title{
   height: 19vh;
 }
@@ -106,8 +103,9 @@ body{
   
   .main-background{
     background-image: url(../image/მობბბ.png);
-    height: 100vh;
+    min-height: 100vh!important;
     background-attachment:unset;
+
     
 
     .main-treat-row{
