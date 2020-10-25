@@ -30,7 +30,7 @@
 }
 .main-background{
   background-image: url(../image/trick-or-treat-Desktop.png);
-  // height: 100vh;
+  height: 100vh;
   width: 100%;
   // background-attachment:fixed;
   background-size: cover;
@@ -46,21 +46,7 @@
       color: white;
       font-family: markgeocaps-bold;
     }
-    .treat-page-rule-box{
-      .treat-page-rule-fist{
-        color: white;
-        font-family: markgeocaps-medium;
-  
-      }
-      .treat-page-rule{
-        color: white;
-        font-family: markgeo-regular;
-        margin: 15px 0;
-
-  
-  
-      }
-    }
+    
       
     
     
@@ -72,7 +58,21 @@
   
 
 }
+.treat-page-rule-box{
+  .treat-page-rule-fist{
+    color: white;
+    font-family: markgeocaps-medium;
 
+  }
+  .treat-page-rule{
+    color: red;
+    font-family: markgeo-regular;
+    margin: 15px 0;
+
+
+
+  }
+}
 @media only screen and (max-width: 768px) {
   .treat-page-rule-box{
     padding-left: 30px;
@@ -83,7 +83,7 @@
   }
   .main-background{
     background-image: url(../image/მობბბ.png);
-    height: 1075px;
+    height: 100vh;
     background-attachment:unset;
 
     .main-treat-row{

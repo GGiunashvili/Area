@@ -35,6 +35,7 @@
 
 .main-background {
   background-image: url(../image/trick-or-treat-Desktop.png);
+  height: 100vh;
   width: 100%;
   background-size: cover;
   background-repeat: round;
@@ -56,19 +57,19 @@
   font-family: markgeocaps-bold;
 }
 
-.main-background .main-treat-row .treat-page-rule-box .treat-page-rule-fist {
+.main-background .main-treat-row .treat-3-cards {
+  height: 45vh;
+}
+
+.treat-page-rule-box .treat-page-rule-fist {
   color: white;
   font-family: markgeocaps-medium;
 }
 
-.main-background .main-treat-row .treat-page-rule-box .treat-page-rule {
-  color: white;
+.treat-page-rule-box .treat-page-rule {
+  color: red;
   font-family: markgeo-regular;
   margin: 15px 0;
-}
-
-.main-background .main-treat-row .treat-3-cards {
-  height: 45vh;
 }
 
 @media only screen and (max-width: 768px) {
@@ -80,7 +81,7 @@
   }
   .main-background {
     background-image: url(../image/მობბბ.png);
-    height: 1075px;
+    height: 100vh;
     background-attachment: unset;
   }
   .main-background .main-treat-row {
