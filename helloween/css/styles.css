@@ -81,6 +81,10 @@
   margin: 15px 0;
 }
 
+.treat-3-cards-parent {
+  margin-top: 10vh;
+}
+
 .modal-content {
   background-image: url(https://i.pinimg.com/originals/94/3c/f4/943cf4efd9f2d204b31f290ca293d2c7.jpg);
 }
