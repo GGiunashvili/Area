@@ -29,6 +29,11 @@
   font-family: markgeocaps-regular;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .extra-helloween-title {
   height: 19vh;
 }
@@ -46,9 +51,6 @@
   background-image: url(../image/trick-or-treat-Desktop.png);
   height: 100vh;
   width: 100%;
-  height: calc(100vh - 3px);
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
   background-size: cover;
   background-repeat: round;
 }
