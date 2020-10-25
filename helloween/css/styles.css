@@ -100,7 +100,9 @@
   }
   .main-background {
     background-image: url(https://wallpaperaccess.com/full/1155655.jpg);
-    background-size: cover !important;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
     height: 100vh;
     background-attachment: unset;
   }
