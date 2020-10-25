@@ -28,6 +28,14 @@
 .extra-helloween-title{
   height: 19vh;
 }
+.helloween-img-titles{
+  position:absolute;
+      left:0;
+      right:0;
+      margin-left:auto;
+      margin-right:auto;
+      top: 0;
+}
 .main-background{
   background-image: url(../image/trick-or-treat-Desktop.png);
   height: 100vh;
@@ -77,6 +85,9 @@
   background-image: url(https://i.pinimg.com/originals/94/3c/f4/943cf4efd9f2d204b31f290ca293d2c7.jpg);
 }
 @media only screen and (max-width: 768px) {
+  .helloween-img-titles{
+    position: unset;
+  }
   .treat-page-rule-box{
     padding-left: 30px;
 
