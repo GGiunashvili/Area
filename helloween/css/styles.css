@@ -100,10 +100,13 @@
   }
   .main-background {
     background-image: url(https://wallpaperaccess.com/full/1155655.jpg);
-    background-size: 100% 100%;
-    background-position: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    webkit-background-size: cover;
+    background-size: cover;
     height: 100vh;
-    height: 100vh;
+    width: 100%;
     background-attachment: unset;
   }
   .main-background .main-treat-row {
