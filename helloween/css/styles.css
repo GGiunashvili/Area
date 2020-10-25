@@ -85,7 +85,7 @@
   }
   .main-background {
     background-image: url(../image/მობბბ.png);
-    height: 1075px;
+    height: 100vh;
     background-attachment: unset;
   }
   .main-background .main-treat-row {
