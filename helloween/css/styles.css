@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @font-face {
   src: url(../fonts/MarkGEO-Bold.ttf);
   font-family: markgeo-bold;
@@ -100,7 +99,7 @@
     height: 17vh;
   }
   .main-background {
-    background-image: url(../image/მობბბ.png);
+    background-image: url(https://wallpaperaccess.com/full/1155655.jpg);
     height: 100vh;
     background-attachment: unset;
   }
