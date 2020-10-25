@@ -103,6 +103,7 @@
     height: 100vh;
     background-attachment: unset;
     background-size: cover !important;
+    background-size: contain;
   }
   .main-background .main-treat-row {
     width: auto;
