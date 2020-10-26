@@ -157,9 +157,11 @@ text-align: center;
 }
 .modal-header{
   border-bottom: unset;
+  padding: 0;
 }
 .modal-footer{
   border-top: unset;
+  padding: 0;
 }
 .modal-body{
   padding: 0 5rem;
@@ -199,6 +201,12 @@ text-align: center;
   height: 50px;
 }
 @media only screen and (max-width: 768px) {
+  .treat-page-rule{
+    font-size: 10px;
+  }
+  .modal-body{
+    padding: 0 4rem;
+  }
   .modal-content{
     background-image: url(../image/მობილეmetalboard.png);
      padding: 0;
