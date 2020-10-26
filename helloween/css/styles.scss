@@ -195,7 +195,7 @@
   }
   .treat-3-cards{
     height: 210px;
-    max-width: 54%!important;
+    max-width: 52%!important;
 
   }
   .treat-1-card{
@@ -234,4 +234,12 @@
     
     
   
+}
+
+@media only screen and (max-width: 320px) {
+  .treat-3-cards {
+    height: 170px;
+    max-width: 50%!important;
+}
+
 }
