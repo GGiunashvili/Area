@@ -26,6 +26,48 @@
   font-family: markgeocaps-regular;
 }
 
+///facebook////
+
+
+#fb-share-button {
+  border-radius: 3px;
+  font-weight: 600;
+  padding: 5px 8px;
+  display: inline-block;
+  position: static;
+  width: fit-content;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+
+#fb-share-button svg {
+  width: 18px;
+  fill: white;
+  vertical-align: middle;
+  border-radius: 2px
+}
+
+#fb-share-button span {
+  vertical-align: middle;
+  color: white;
+  font-size: 14px;
+  padding: 0 3px
+}
+////fb///
+.detailed-treat-text{
+  color: white;
+  font-family: markgeo-regular;
+
+}
+.fb-share-button{
+  height: 60px;
+}
+.treat-detailed-card-text{
+  display: flex;
+  justify-content: center;
+}
 .extra-helloween-title{
   height: 19vh;
 }
@@ -100,7 +142,20 @@
 
   transform: rotate(7deg);
 }
+
 @media only screen and (max-width: 768px) {
+  .detailed-treat-text-share-box{
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .detailed-treat-card{
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .treat-detailed-card-text{
+    display: inline-block;
+    justify-content: center;
+  }
   .helloween-img-titles{
     position: unset;
   }
@@ -113,7 +168,7 @@
   }
   
   .main-background{
-    background-image: url(../image/მობბბ.png);
+    background-image: url(../image/MOBILE-BACKGROUND.png);
     height: 100vh!important;
     background-attachment:unset;
 
