@@ -301,8 +301,8 @@
             transform: rotate(-15deg);
   }
   .treat-3-cards-detailed {
-    max-width: 90% !important;
-    height: 45vh;
+    max-width: 75% !important;
+    height: 42vh;
   }
 }
 
