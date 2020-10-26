@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   src: url(../fonts/MarkGEO-Bold.ttf);
   font-family: markgeo-bold;
@@ -169,7 +170,49 @@
   padding: 0 5rem;
 }
 
+.show {
+  display: -webkit-inline-box !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+}
+
+.btn-primary {
+  background-color: unset;
+  border-color: unset;
+  border: unset;
+}
+
+.btn-primary:hover {
+  background-color: unset;
+  border-color: unset;
+}
+
+.btn-primary:active {
+  background-color: unset !important;
+  border-color: unset !important;
+  outline: unset !important;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+  background-color: unset;
+  border-color: unset;
+  -webkit-box-shadow: unset;
+          box-shadow: unset;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
+  -webkit-box-shadow: unset;
+          box-shadow: unset;
+}
+
 @media only screen and (max-width: 768px) {
+  .modal-content {
+    background-image: url(../image/მობილეmetalboard.png);
+    padding: 0;
+  }
   .detailed-treat-text-share-box {
     margin-right: auto;
     margin-left: auto;
@@ -188,7 +231,7 @@
     position: unset;
   }
   .treat-page-rule-box {
-    padding-left: 30px;
+    padding-left: 0;
   }
   .extra-helloween-title {
     height: 15vh;
