@@ -172,7 +172,7 @@
     height: 15vh;
   }
   .main-background {
-    background-image: url(../image/MOBILE-BACKGROUND.png);
+    background-image: url(../image/MOBILE.png);
     height: 100vh !important;
     background-attachment: unset;
   }
