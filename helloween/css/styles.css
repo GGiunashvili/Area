@@ -29,6 +29,16 @@
   font-family: markgeocaps-regular;
 }
 
+.moon-div {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.night-moon {
+  height: 200px;
+}
+
 #fb-share-button {
   border-radius: 3px;
   font-weight: 600;
@@ -86,6 +96,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-top: 10vh;
 }
 
 .extra-helloween-title {
@@ -229,7 +240,28 @@
   height: 50px;
 }
 
+.heart-icon {
+  margin: 0 5px;
+  margin-top: 3px;
+}
+
+.close {
+  position: absolute;
+  right: 38px;
+  top: 15px;
+  z-index: 9;
+}
+
 @media only screen and (max-width: 768px) {
+  .heart-icon {
+    margin-top: 0px;
+  }
+  .footer-text {
+    font-size: 12px;
+  }
+  .night-moon {
+    height: 80px;
+  }
   .scroll-height {
     height: 100px;
   }
@@ -279,6 +311,9 @@
     left: 1px;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(0, 0);
+  }
+  .treat-detailed-card-text {
+    margin: 15px 0;
   }
   .treat-3-cards-parent {
     margin: 15px 0;
