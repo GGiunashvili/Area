@@ -222,5 +222,9 @@
     -webkit-transform: rotate(-15deg);
             transform: rotate(-15deg);
   }
+  .treat-3-cards-detailed {
+    max-width: 90% !important;
+    height: 45vh;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

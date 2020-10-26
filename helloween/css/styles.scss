@@ -144,6 +144,7 @@
 }
 
 @media only screen and (max-width: 768px) {
+
   .detailed-treat-text-share-box{
     margin-right: auto;
     margin-left: auto;
@@ -223,6 +224,11 @@
     transform: rotate(-15deg);
 
   }
+  .treat-3-cards-detailed{
+    max-width: 90% !important;
+    height: 45vh;
+}
+
     
       
     
