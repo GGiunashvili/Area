@@ -117,7 +117,11 @@
 .treat-page-rule{
   color: white;
   font-family: markgeo-regular;
-  margin: 15px 0;
+  margin: 3px 0;
+  line-height: 1.1;
+
+  font-size: 12px;
+
 
 
 
@@ -127,7 +131,13 @@
   margin-top: 10vh;
 }
 .modal-content{
-  background-image: url(https://i.pinimg.com/originals/94/3c/f4/943cf4efd9f2d204b31f290ca293d2c7.jpg);
+  background-image: url(../image/metalboard.png);
+  background-repeat: round;
+  background-size: cover;
+  padding: 0 20px;
+  background-color: unset;
+
+
 }
 
 .treat-3-cards-detailed{
@@ -142,7 +152,19 @@
 
   transform: rotate(7deg);
 }
+.modal-dialog {
+  max-width: 660px;
+}
+.modal-header{
+  border-bottom: unset;
+}
+.modal-footer{
+  border-top: unset;
+}
+.modal-body{
+  padding: 0 5rem;
 
+}
 @media only screen and (max-width: 768px) {
 
   .detailed-treat-text-share-box{
@@ -239,7 +261,21 @@
 @media only screen and (max-width: 320px) {
   .treat-3-cards {
     height: 170px;
-    max-width: 50%!important;
+    max-width: 49%!important;
+}
+.treat-3-cards-box {
+  height: 252px;
+}
+.treat-2-card{
+  left: 100px;
+
+  top: 20px;
+}
+.treat-3-card{
+  left: -45px;
+
+  top: 90px;
+
 }
 
 }
