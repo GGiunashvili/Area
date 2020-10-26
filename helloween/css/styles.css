@@ -123,8 +123,9 @@
 .treat-page-rule {
   color: white;
   font-family: markgeo-regular;
-  margin: 3px 0;
+  margin: 10px 0;
   line-height: 1.1;
+  text-align: center;
   font-size: 12px;
 }
 
@@ -206,6 +207,10 @@
 .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
   -webkit-box-shadow: unset;
           box-shadow: unset;
+}
+
+.rules-button {
+  height: 50px;
 }
 
 @media only screen and (max-width: 768px) {
