@@ -38,56 +38,67 @@
       top: 0;
 }
 .main-background{
-  background-image: url(../image/trick-or-treat-Desktop.png);
+  background-image: url(../image/background.png);
   height: 100vh;
   width: 100%;
   
   // background-attachment:fixed;
   background-size: cover;
   background-repeat: round;
-  .main-treat-row{
-    margin-top: 20px!important;
-    width: 695px; margin: 0; 
-    .treat-page-title{
-      color: white;
-      font-family: markgeocaps-regular;
-    }
-    .treat-page-card-title{
-      color: white;
-      font-family: markgeocaps-bold;
-    }
-    
-      
-    
-    
-    .treat-3-cards{
-      height: 45vh;
-    }
-  }
+
+}
+.main-treat-row{
+  margin-top: 20px!important;
+  width: 695px; margin: 0; 
+}
+.treat-page-title{
+  color: white;
+  font-family: markgeocaps-regular;
+}
+.treat-page-card-title{
+  color: white;
+  font-family: markgeocaps-bold;
+}
 
   
+.treat-3-cards{
+  height: 45vh;
+}
+
+
+
+.treat-page-rule-fist{
+  color: white;
+  font-family: markgeocaps-medium;
 
 }
-.treat-page-rule-box{
-  .treat-page-rule-fist{
-    color: white;
-    font-family: markgeocaps-medium;
-
-  }
-  .treat-page-rule{
-    color: white;
-    font-family: markgeo-regular;
-    margin: 15px 0;
+.treat-page-rule{
+  color: white;
+  font-family: markgeo-regular;
+  margin: 15px 0;
 
 
 
-  }
 }
+
 .treat-3-cards-parent{
   margin-top: 10vh;
 }
 .modal-content{
   background-image: url(https://i.pinimg.com/originals/94/3c/f4/943cf4efd9f2d204b31f290ca293d2c7.jpg);
+}
+
+.treat-3-cards-detailed{
+  max-width: 80%!important;
+}
+.treat-1-card{
+
+  transform: rotate(-7deg);
+}
+
+.treat-3-card{
+
+  transform: rotate(7deg);
 }
 @media only screen and (max-width: 768px) {
   .helloween-img-titles{
@@ -103,58 +114,63 @@
   
   .main-background{
     background-image: url(../image/მობბბ.png);
-    min-height: 100vh!important;
+    height: 100vh!important;
     background-attachment:unset;
 
-    
+  }
 
-    .main-treat-row{
-      width: auto;
-      margin: 0;
-      position: absolute;
-      top: 0;
-      left: 1px;
-      -webkit-transform: translate(-50%, -50%);
-      transform: translate(0, -0);
-    .treat-3-cards-parent{
-      margin: 15px 0;
-      .treat-3-cards-box{
-        position: relative;
-        height: 350px;
-        .treat-3-cards{
-          height: 220px;
-          max-width: 55%!important;
-  
-        }
-        .treat-1-card{
-          position: absolute;
-          left: -100px;
-          right: 0;
-          margin-left: auto;
-          margin-right: auto;
-          transform: rotate(-10deg);
-        }
-        .treat-2-card{
-          position: absolute;
-          left: 140px;
-          right: 0;
-          margin-left: auto;
-          margin-right: auto;
-          top: 55px;
-        }
-        .treat-3-card{
-          left: -55px;
-          right: 0;
-          margin-left: auto;
-          margin-right: auto;
-          top: 155px;
-          transform: rotate(-15deg);
-        }
-      }
-    }
-      
-      
-    }
+  .main-treat-row{
+    width: auto;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 1px;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(0, -0);
+  }
+  .treat-3-cards-parent{
+    margin: 15px 0;
     
   }
+  .treat-3-cards-box{
+    position: relative;
+    height: 350px;
+    
+  }
+  .treat-3-cards{
+    height: 220px;
+    max-width: 55%!important;
+
+  }
+  .treat-1-card{
+    position: absolute;
+    left: -100px;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    transform: rotate(-15deg);
+
+  }
+  .treat-2-card{
+    position: absolute;
+    left: 140px;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 55px;
+  }
+  .treat-3-card{
+    left: -55px;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 155px;
+    transform: rotate(-15deg);
+
+  }
+    
+      
+    
+    
+  
 }
