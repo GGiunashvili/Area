@@ -265,6 +265,9 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .index-card-description-two{
+    text-align: right;
+  }
   .index-main-component{
     margin-top: unset;
   }
@@ -274,7 +277,8 @@
   .mobile-index-card-text{
     display: block;
     margin-top: 65px;
-
+    top: -55px;
+    position: absolute;
   }
   .index-card-descriptions{
     font-size: 8px;
