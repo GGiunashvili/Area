@@ -114,7 +114,7 @@
       top: 0;
 }
 .main-background{
-  background-image: url(../image/background.png);
+  background-image: url(../image/webbackground.png);
   height: 100vh;
   width: 100%;
   
@@ -171,7 +171,7 @@
   background-size: cover;
   padding: 0 20px;
   background-color: unset;
-
+  border: unset;
 
 }
 
@@ -236,7 +236,7 @@
   height: 70px;
 }
 .heart-icon{
-  margin:0 5px; margin-top:3px;
+  margin:0 5px; 
 }
 .close{
   position: absolute;
@@ -263,8 +263,18 @@
 .index-main-component{
   margin-top: 22vh;
 }
+.footer-text{
+  font-family: markgeocaps-medium;
+
+}
 
 @media only screen and (max-width: 768px) {
+  .money-card {
+    max-height: 238px;
+  }
+  .soul-card{
+    max-height: 238px;
+  }
   .index-card-description-two{
     text-align: right;
   }
@@ -326,6 +336,7 @@
   }
   .footer-text{
     font-size: 12px;
+    
   }
   .night-moon{
     height: 80px;
