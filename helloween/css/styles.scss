@@ -25,6 +25,9 @@
   src: url(../fonts/MarkGEOCAPS-Regular.ttf);
   font-family: markgeocaps-regular;
 }
+
+
+
 .rules-pop-up-title{
   font-family: markgeocaps-regular;
   font-size: 20px;
@@ -152,7 +155,6 @@
   font-family: markgeo-regular;
   margin: 10px 0;
   line-height: 1.1;
-text-align: center;
   font-size: 12px;
 
 
@@ -245,7 +247,54 @@ text-align: center;
 .treat-page-rule-last{
   padding-bottom: 20px;
 }
+.index-cards-box{
+  width: 650px; 
+}
+.index-card-descriptions{
+  text-align: center;
+  color: white; 
+  font-size: 12px;
+  line-height: 1.5;
+  font-family: markgeocaps-bold;
+}
+.mobile-index-card-text{
+  display: none;
+}
+
 @media only screen and (max-width: 768px) {
+  .desktop-index-card-text{
+    display: none;
+  }
+  .mobile-index-card-text{
+    display: block;
+    margin-top: 65px;
+
+  }
+  .index-card-descriptions{
+    font-size: 8px;
+    margin-top: 65px;
+
+  }
+  .index-cards-box{
+     padding: 20px;
+     height: 340px;
+     position: relative;
+  }
+  .treat-trick-div-one{
+    position: absolute;
+    left: 15px;
+  }
+  .treat-trick-div-two{
+    position: absolute;
+    right:15px;
+    top:100px;
+  }
+  .treat-trick-divs{
+    padding:0;
+  }
+  .hide-col{
+    display: none;
+  }
   .moon-div{
     z-index: -1;
     right: 10px;
@@ -373,7 +422,9 @@ text-align: center;
     
 }
 
-    
+.index-helloween-img-title{
+  position: absolute;
+}
       
     
     

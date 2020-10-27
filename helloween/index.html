@@ -82,46 +82,128 @@
    </script>
 </head>
 
-<body class="main-background d-flex align-items-center">
+<body>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel"></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="treat-page-rule-box">
+              <div class="treat-page-rule d-flex justify-content-center align-items-end">
+                <img src="image/candle.png" alt="">
+                <p class="rules-pop-up-title">წესები და პირობები</p>
+                <img src="image/candle.png" alt="">
   
- 
-  <div class="container">
-    <div class="row justify-content-between">
-      <div class="helloween-img-titles" >
-        <div class="w-100" style="text-align: center;">
-          <img class="extra-helloween-title"  src="image/extra-horror.png" alt="">
-        </div>
+              </div>
   
-        <div class="w-100 text-center">
-          <p class="treat-page-title">როგორც ჩანს, შენთვის შიში დაბრკოლებას არ წარმოადგენს და არც ალქაჯების ხსენებაზე იწყებ კანკალს</p>
-          <p class="treat-page-card-title">ამიტომ აირჩიე დავალება</p>
-        </div>
-
-        <div class="moon-div">
-          <img class="night-moon"  src="image/moon.png" alt="">
-        </div>
-        
-      </div>
+              <p class="treat-page-rule">შენს სულს დავალების შესრულებამდე ალქაჯი დაამწყვდევს.</p>
+              <p class="treat-page-rule"> დავალებები დაყოფილია სირთულეების მიხედვით, მარტივი, საშუალო და რთული.  </p>
+              <p class="treat-page-rule" >მარტივ დავალებაზე ექსტრას ანგარიშზე დაგერიცხება 20 ლარი, საშუალოზე - 50, რთულზე - 100. არ დაგავიწყდეს:  </p>
+              <p class="treat-page-rule">დავალების არჩევის შემდეგ, დავალება უნდა გადააზიარო შენს Facebook პროფილზე საჯაროდ (Public) სპეციალური ჰეშთეგით #Extrahalloween. </p>
+              <p class="treat-page-rule">დავალების შესრულების ბოლო ვადაა 2 ნოემბერი. </p>
       
-
-      <div class="d-flex">
-        <div class="col-4">
-          <img class="w-100" style="height: 40vh;" src="image/ფული@2x.png" alt="">
-        </div>
-        <div class="col-4">
-          <img src="image/აირჩიე.png" alt="">
-        </div>
-
-        <div class="col-4">
-          <img class="w-100" style="height: 40vh;" src="image/სული@2x.png" alt="">
+      
+              <p class="treat-page-rule">შესრულებული დავალების ამსახველი ფოტო-მასალა უნდა განათავსო შენს Facebook პროფაილზე საჯაროდ (Public) ასევე სპეციალური ჰეშთეგით #Extrahalloween. </p>
+              <p class="treat-page-rule"> სულის დასაბრუნებლად გამოგვიგზავნე პოსტის ბმული და Extra.ge-ს ანგარიშის ID, სადაც მოხდება თანხის დარიცხვა.  </p>
+              <p class="treat-page-rule" >დარიცხული თანხით შეძლებ შეიძინო Extra.ge-ზე განთავსებული ნებისმიერი ნივთი.  </p>
+              <p class="treat-page-rule treat-page-rule-last">ერთ ადამიანს შეუძლია შეასრულოს ერთი დავალება. </p>
+            </div>
+          </div>
+          <div class="modal-footer" style="visibility: hidden;">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
         </div>
       </div>
-
-
-
     </div>
-  </div>
+ 
+    <div  class="main-background d-flex align-items-center">
+      <div class="container">
+        <div class="row justify-content-between ">
 
+          <div class="helloween-img-titles index-helloween-img-title" >
+            <div class="w-100" style="text-align: center;">
+              <img class="extra-helloween-title"  src="image/extra-horror.png" alt="">
+            </div>
+      
+            <!-- <div class="w-100 text-center">
+              <p class="treat-page-title">როგორც ჩანს, შენთვის შიში დაბრკოლებას არ წარმოადგენს და არც ალქაჯების ხსენებაზე იწყებ კანკალს</p>
+              <p class="treat-page-card-title">ამიტომ აირჩიე დავალება</p>
+            </div> -->
+    
+            <div class="moon-div">
+              <img class="night-moon"  src="image/moon.png" alt="">
+            </div>
+            
+          </div>
+          
+    
+          <div class="w-100 d-flex align-items-center justify-content-center">
+            <div class="d-flex align-items-center index-cards-box">
+              <div class="col-md-4 col-6 treat-trick-divs treat-trick-div-one">
+                <p class="index-card-descriptions mobile-index-card-text">თუ ალქაჯების და ჭინკების გეშინია, <br> აირჩიე ფული, სადაც ეშაკებმა 5 სხვადასხვა <br> ნივთზე ფასდაკლება მოგიმზადეს</p>
+
+                <img class="w-100" style="height: 40vh;" src="image/ფული@2x.png" alt="">
+                <!-- <p>თუ ალქაჯების და ჭინკების გეშინია,<br> აირჩიე ფული, სადაც ეშაკებმა 5 სხვადასხვა <br> ნივთზე ფასდაკლება მოგიმზადეს</p> -->
+              </div>
+              <div class="col-md-4 col-6 hide-col" >
+                <img class="w-100" src="image/აირჩიე.png" alt="">
+              </div>
+      
+              <div class="col-md-4 col-6 treat-trick-divs treat-trick-div-two">
+                <img class="w-100" style="height: 40vh;" src="image/სული@2x.png" alt="">
+              </div>
+            </div>
+          </div>
+          
+          <div class="w-100 d-flex align-items-center justify-content-center">
+            <div class="d-flex align-items-center" style="width: 750px;">
+              <div class="col-md-5 col-6" style="padding: 0;">
+                <p class="index-card-descriptions desktop-index-card-text">თუ ალქაჯების და ჭინკების გეშინია, <br> აირჩიე ფული, სადაც ეშაკებმა 5 სხვადასხვა <br> ნივთზე ფასდაკლება მოგიმზადეს</p>
+                <!-- <p>თუ ალქაჯების და ჭინკების გეშინია,<br> აირჩიე ფული, სადაც ეშაკებმა 5 სხვადასხვა <br> ნივთზე ფასდაკლება მოგიმზადეს</p> -->
+              </div>
+              <div class="col-md-2 col-6 hide-col">
+                <p style="text-align: center;">sss</p>
+              </div>
+      
+              <div class="col-md-5 col-6" style="padding: 0;">
+                <p class="index-card-descriptions">თუ მთვარე გაგიჟებს და ალქაჯებისაც <br> არ გეშინია, აირჩიე სული, წინ ბევრი <br> ჯადოქრობა და შიშით სავსე გზა გელის</p>
+              </div>
+            </div>
+          </div>
+    
+    
+    
+            <!-- Button trigger modal -->
+            <button  style="left: 0;     margin-top: 10px; right: 0; padding: 0; margin-left: auto; margin-right: auto;" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+              <img class="rules-button" src="image/წესები და პირობები.png" alt="">
+            </button>
+    
+        </div>
+    
+      </div>
+    </div>
+
+
+
+    <div style="position: relative; ">
+      <div class="d-flex align-items-center justify-content-between footer-main-box" style="padding:14px; bottom: 0; position: absolute; width: 100%; ">
+        <p class="d-flex footer-text" style="color: white; font-family: markgeocapscaps-medium;">© 2020 designed with <a href=""><img class="heart-icon" src="image/Heart.svg" alt=""></a>
+            <span class="extra-footer" style="margin-right: 5px;  font-family: markgeocapscaps-medium;">by </span>
+            <a href="https://extra.ge/?utm_source=visa" class="extra-footer" style="font-family: markgeocapscaps-medium; color:white;">extra.ge</a></p>
+        <div>
+            <a href="https://www.facebook.com/Extramarketplace/ "><img style="height: 20px;" src="image/facebook (1).svg" alt="" width="20" class="CToWUd"> </a>
+            <a href="https://www.linkedin.com/company/extra-ge " target="_blank"><img class=" linkedin-icon" style="height: 20px; " src="image/linkedin.svg" alt="" width="20"></a>
+            <a href="https://www.instagram.com/extra__ge/ " target="_blank"><img style="height: 20px; padding-top: 3px;" src="image/instagram.svg" alt="" width="20" class="CToWUd"> </a>
+        </div>
+      </div>
+     </div>
   
   <script  src="./main.js"></script>
 
