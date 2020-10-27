@@ -102,7 +102,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 10vh;
+  margin-top: 25vh;
 }
 
 .extra-helloween-title {
@@ -162,7 +162,7 @@
 }
 
 .treat-3-cards-parent {
-  margin-top: 18vh;
+  margin-top: 25vh;
 }
 
 .modal-content {
