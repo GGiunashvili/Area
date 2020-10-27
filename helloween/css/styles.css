@@ -253,6 +253,12 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .treat-rule-button {
+    margin-top: 30px;
+  }
+  .detailed-treat-text {
+    margin: 10px 0;
+  }
   .heart-icon {
     margin-top: 0px;
   }
@@ -300,7 +306,7 @@
   }
   .main-background {
     background-image: url(../image/MOBILE.png);
-    height: 100vh !important;
+    height: 812px !important;
     background-attachment: unset;
   }
   .main-treat-row {
