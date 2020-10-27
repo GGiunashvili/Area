@@ -150,7 +150,7 @@ body {
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: #161E3F;
+  background-color: #7e91dd;
 }
 
 a:hover {
@@ -435,15 +435,34 @@ a {
   height: 180px;
 }
 
-.last-bat {
+.last-bat-1 {
   height: 130px;
 }
 
+.last-bat {
+  display: none;
+}
+
+.bat-for-mobile-first {
+  display: none;
+}
+
+.drop-scroll-bat {
+  height: 125px;
+}
+
 @media only screen and (max-width: 992px) {
+  .sss {
+    display: none;
+  }
+  .last-bat-1 {
+    display: none;
+  }
   .last-bat {
+    display: block;
     position: absolute;
-    bottom: -42px;
-    right: -110px;
+    bottom: -55px;
+    right: -0;
     height: 75px;
   }
   .main-text-one {
@@ -483,6 +502,20 @@ a {
 }
 
 @media only screen and (max-width: 768px) {
+  .img-row-1 {
+    width: 85%;
+  }
+  .drop-scroll-bat {
+    height: 75px;
+  }
+  .bat-for-mobile-first {
+    display: block;
+    height: 42px;
+    position: absolute;
+    right: 0;
+    height: 50px;
+    top: -10px;
+  }
   .start-shopping {
     height: 125px;
   }
