@@ -29,14 +29,20 @@
   font-family: markgeocaps-regular;
 }
 
+.rules-pop-up-title {
+  font-family: markgeocaps-regular;
+  font-size: 20px;
+}
+
 .moon-div {
   position: absolute;
-  right: 0;
-  top: 0;
+  right: 20px;
+  top: 20px;
+  z-index: 9;
 }
 
 .night-moon {
-  height: 200px;
+  height: 150px;
 }
 
 #fb-share-button {
@@ -101,6 +107,7 @@
 
 .extra-helloween-title {
   height: 19vh;
+  z-index: 9999;
 }
 
 .helloween-img-titles {
@@ -134,6 +141,7 @@
 .treat-page-card-title {
   color: white;
   font-family: markgeocaps-bold;
+  line-height: 2.4;
 }
 
 .treat-3-cards {
@@ -155,7 +163,7 @@
 }
 
 .treat-3-cards-parent {
-  margin-top: 10vh;
+  margin-top: 18vh;
 }
 
 .modal-content {
@@ -237,7 +245,7 @@
 }
 
 .rules-button {
-  height: 50px;
+  height: 70px;
 }
 
 .heart-icon {
@@ -252,7 +260,19 @@
   z-index: 9;
 }
 
+.treat-page-rule-last {
+  padding-bottom: 20px;
+}
+
 @media only screen and (max-width: 768px) {
+  .moon-div {
+    z-index: -1;
+    right: 10px;
+    top: 10px;
+  }
+  .rules-pop-up-title {
+    font-size: 13px;
+  }
   .treat-rule-button {
     margin-top: 30px;
   }
