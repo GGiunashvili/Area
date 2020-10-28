@@ -340,7 +340,51 @@
   height: 130px;
 }
 
+.card-one-div {
+  width: 140px;
+  -webkit-transform: rotate(-12deg);
+          transform: rotate(-12deg);
+}
+
+.card-three-div {
+  width: 140px;
+  -webkit-transform: rotate(-12deg);
+          transform: rotate(-12deg);
+}
+
+.card-five-div {
+  width: 140px;
+  -webkit-transform: rotate(-12deg);
+          transform: rotate(-12deg);
+}
+
 @media only screen and (max-width: 768px) {
+  .five-card-main-box {
+    position: relative;
+    height: 500px;
+    text-align: center;
+  }
+  .two-cards-last {
+    position: absolute;
+    top: 60px;
+  }
+  .two-cards-first {
+    position: absolute;
+    bottom: 60px;
+  }
+  .card-three-div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  .card-five-images {
+    width: 110px !important;
+  }
+  .desktop-ghosts {
+    display: none;
+  }
   .ghost-mobile-right {
     display: block;
   }
@@ -509,6 +553,9 @@
     height: 42vh;
   }
   .index-helloween-img-title {
+    position: absolute;
+  }
+  .titles {
     position: absolute;
   }
 }
