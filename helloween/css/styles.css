@@ -359,6 +359,9 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .moon-moon {
+    margin-top: 85px;
+  }
   .five-card-main-box {
     position: relative;
     height: 500px;
