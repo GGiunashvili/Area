@@ -356,6 +356,7 @@
   width: 140px;
   -webkit-transform: rotate(-12deg);
           transform: rotate(-12deg);
+  margin-top: 10px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -404,6 +405,7 @@
   .card-two-div {
     margin-left: 15px;
     z-index: 10;
+    margin-top: 15px;
   }
   .desktop-ghosts {
     display: none;
