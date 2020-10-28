@@ -457,6 +457,10 @@ a {
   font-size: 37px;
 }
 
+.drop-scroll-bat {
+  height: 125px;
+}
+
 @media only screen and (max-width: 992px) {
   .sss {
     display: none;
@@ -508,6 +512,9 @@ a {
 }
 
 @media only screen and (max-width: 768px) {
+  .drop-scroll-bat {
+    height: 70px;
+  }
   .img-row-1 {
     width: 85%;
   }
@@ -535,7 +542,7 @@ a {
     padding: 0;
   }
   .add-text-mobile {
-    font-size: 47px !important;
+    font-size: 24px !important;
   }
   .rules-conditions {
     font-size: 16px;
@@ -554,7 +561,7 @@ a {
     font-size: 27px;
   }
   .add-text-mobile {
-    font-size: 27px !important;
+    font-size: 24px !important;
   }
 }
 
@@ -653,7 +660,7 @@ a {
     font-size: 35px;
   }
   .add-text-mobile {
-    font-size: 36px !important;
+    font-size: 24px !important;
   }
   .footer-text {
     font-size: 10px;
