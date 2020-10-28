@@ -327,12 +327,12 @@
   }
   .five-card-main-box{
     position: relative;
-    height: 500px;
+    height: 370px;
     text-align: center;
   }
   .two-cards-last{
     position: absolute;
-    top:85px;
+    top:15px;
   }
   .card-three-img{
     transform: rotate(-12deg);
@@ -341,7 +341,7 @@
 
   .two-cards-first{
     position: absolute;
-    bottom:85px;
+    bottom:15px;
     z-index: 9;
 
   }
