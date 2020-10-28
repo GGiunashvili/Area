@@ -329,12 +329,18 @@
   }
   .two-cards-last{
     position: absolute;
-    top:60px;
+    top:85px;
+  }
+  .card-three-img{
+    transform: rotate(-12deg);
+
   }
 
   .two-cards-first{
     position: absolute;
-    bottom:60px;
+    bottom:85px;
+    z-index: 9;
+
   }
   .card-three-div{
     position: absolute;
@@ -342,23 +348,28 @@
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    z-index: 9;
+
   }
   .card-five-images{
     width: 110px!important;
   }
-// .card-four-div{
-//   margin-right: 15px;
-// }
-// .card-five-div{
-//   margin-left: 15px;
-// }
+.card-four-div{
+  margin-right: 15px;
+}
+.card-five-div{
+  margin-left: 15px;
+  z-index: 10;
+}
 
-// .card-one-div{
-//   margin-right: 15px;
-// }
-// .card-two-div{
-//   margin-left: 15px;
-// }
+.card-one-div{
+  margin-right: 15px;
+}
+.card-two-div{
+  margin-left: 15px;
+  z-index: 10;
+
+}
 
 
 
@@ -400,7 +411,7 @@
   }
   .index-card-descriptions{
     font-size: 8px;
-    margin-top: 65px;
+    margin-top: 80px;
 
   }
   .index-cards-box{
@@ -411,6 +422,8 @@
   .treat-trick-div-one{
     position: absolute;
     left: 25px;
+    margin-top: 30px;
+
   }
   .treat-trick-div-two{
     position: absolute;
