@@ -287,7 +287,28 @@
   font-family: markgeocaps-medium;
 }
 
+.ghost-mobile-left {
+  display: none;
+  position: absolute;
+  left: 0%;
+  z-index: 9;
+}
+
+.ghost-mobile-right {
+  display: none;
+  position: absolute;
+  right: 0%;
+  bottom: 34vh;
+  z-index: 9;
+}
+
 @media only screen and (max-width: 768px) {
+  .ghost-mobile-right {
+    display: block;
+  }
+  .ghost-mobile-left {
+    display: block;
+  }
   .money-card {
     max-height: 238px;
   }
@@ -308,6 +329,7 @@
     margin-top: 65px;
     top: -55px;
     position: absolute;
+    text-align: left;
   }
   .index-card-descriptions {
     font-size: 8px;
@@ -326,6 +348,7 @@
     position: absolute;
     right: 25px;
     top: 170px;
+    z-index: 999;
   }
   .hide-col {
     display: none;
@@ -449,6 +472,15 @@
   }
   .index-helloween-img-title {
     position: absolute;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .money-card {
+    max-height: unset;
+  }
+  .soul-card {
+    max-height: unset;
   }
 }
 
