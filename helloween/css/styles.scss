@@ -232,6 +232,35 @@
   box-shadow: unset;
 }
 
+
+.btn-secondary {
+  color: #fff;
+  background-color: unset;
+  border-color: unset;
+  border: none;
+}
+
+.btn-secondary:hover {
+  background-color: unset;
+  border-color: unset;
+}
+.btn-secondary:active {
+  background-color: unset!important;
+  border-color: unset!important;
+  outline: unset!important;
+}
+
+.btn-secondary.focus, .btn-secondary:focus {
+  background-color: unset;
+  border-color: unset;
+  box-shadow: unset;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active:focus, .btn-secondary:not(:disabled):not(.disabled):active:focus, .show>.btn-secondary.dropdown-toggle:focus {
+  box-shadow: unset;
+}
+
+
 .rules-button{
   height: 70px;
 }
@@ -245,7 +274,7 @@
   z-index: 9;
 }
 .treat-page-rule-last{
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 .index-cards-box{
   width: 650px; 
@@ -274,6 +303,12 @@
 .ghost-mobile-right{
   display: none;
   position: absolute; right: 0%; bottom: 34vh; z-index: 9;;
+}
+.ghost-mobile-right-img{
+  height: 160px;
+}
+.ghost-mobile-left-img{
+  height: 130px;
 }
 @media only screen and (max-width: 768px) {
   .ghost-mobile-right{
@@ -475,6 +510,18 @@
 }
 
 @media only screen and (max-width: 320px) {
+  .ghost-mobile-right {
+    bottom: 45vh;
+
+  }
+
+  .ghost-mobile-right-img{
+    height: 135px;
+  }
+  .ghost-mobile-left-img{
+    height: 105px;
+  }
+
   .treat-3-cards {
     height: 170px;
     max-width: 49%!important;
