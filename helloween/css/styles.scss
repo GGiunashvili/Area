@@ -323,7 +323,20 @@
   margin-top: 10px;
 
 }
+.buy-not-btn{
+  height: 60px;
+}
 @media only screen and (max-width: 768px) {
+  .fb-share-btn-detailedtrick{
+    margin-right: unset!important;
+    margin-left: unset!important;
+  }
+  .btn-for-trickdetailed{
+    height: 50px;
+  }
+  .buy-not-btn{
+    height: 50px;
+  }
   .moon-moon{
     margin-top: 85px;
   }
