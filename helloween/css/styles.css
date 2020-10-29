@@ -543,10 +543,11 @@
   .treat-3-cards-box {
     position: relative;
     height: 325px;
+    left: -40px;
   }
   .treat-3-cards {
     height: 210px;
-    max-width: 50% !important;
+    max-width: unset !important;
   }
   .treat-1-card {
     position: absolute;
@@ -559,7 +560,6 @@
   }
   .treat-2-card {
     position: absolute;
-    left: 140px;
     right: 0;
     margin-left: auto;
     margin-right: auto;
