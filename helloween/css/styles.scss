@@ -25,6 +25,10 @@
   src: url(../fonts/MarkGEOCAPS-Regular.ttf);
   font-family: markgeocaps-regular;
 }
+@font-face {
+  src: url(../fonts/MarkGEO-Medium.ttf);
+  font-family: markgeo-medium;
+}
 
 
 
@@ -325,6 +329,33 @@
 }
 .buy-not-btn{
   height: 60px;
+}
+.success-title{
+  color: white;
+  font-size: 50px;
+  font-family: markgeocaps-medium;
+  font-weight: bold;
+
+
+}
+.success-first-text{
+  color: white;
+  font-size: 25px;
+  font-family: markgeo-semibold;
+  margin: 5vh 0;
+
+
+}
+.success-secont-text{
+  font-family: markgeo-medium;
+  font-size: 18px;
+  line-height: 1.6;
+  color: white;
+  padding: 0 20px;
+}
+.success-box{
+  margin-top: 65px;
+  text-align: center;
 }
 @media only screen and (max-width: 768px) {
   .fb-share-btn-detailedtrick{
