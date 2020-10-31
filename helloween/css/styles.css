@@ -412,7 +412,34 @@
           justify-content: center;
 }
 
+.sad {
+  height: 250px;
+  margin: 10px 0;
+}
+
+.end-title {
+  color: white;
+  font-size: 30px;
+  font-family: markgeo-semibold;
+}
+
+.end-text {
+  color: white;
+  font-family: markgeo-semibold;
+  font-size: 20px;
+}
+
 @media only screen and (max-width: 768px) {
+  .sad {
+    height: 250px;
+    margin: 10px 0;
+  }
+  .end-title {
+    font-size: 17px;
+  }
+  .end-text {
+    font-size: 13px;
+  }
   .fb-share-btn-detailedtrick {
     margin-right: unset !important;
     margin-left: unset !important;
