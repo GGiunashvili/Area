@@ -99,7 +99,7 @@ a:hover{
   padding: 7px 15px;
 
   .join-us-text{
-    padding:7px 8px;
+    padding:5px 25px;
     color: white;
     font-family: markgeocapscaps-medium;
   }
@@ -355,7 +355,7 @@ input[type=text]:focus {
     .designator-child{
       background: white;
       border-radius:20px;
-      width:60%;
+      // width:60%;
       padding: 20px 35px;
       padding-bottom: 15px;
 
@@ -421,6 +421,19 @@ input[type=text]:focus {
 }
 .last-full-component{
   margin-bottom:30px;
+}
+.designator-2{
+  padding: 20px 40px!important;
+}
+.sale-date{
+  color: black;
+    font-family: markgeo-semibold;
+    font-size: 18px;
+    line-height: 1.2;
+    margin-bottom: 35px;
+}
+.last-tiele{
+  margin-bottom:10px!important;
 }
 @media only screen and (max-width: 992px) {
  
