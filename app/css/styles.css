@@ -520,6 +520,14 @@ input[type=text]:focus {
   margin-bottom: 10px !important;
 }
 
+.box-one-two {
+  margin-top: 120px;
+}
+
+.box-one-one {
+  margin-top: 120px;
+}
+
 @media only screen and (max-width: 992px) {
   .footer-text {
     font-size: 14px !important;
@@ -544,6 +552,9 @@ input[type=text]:focus {
 }
 
 @media only screen and (max-width: 768px) {
+  .box-one-two {
+    margin-top: 40px;
+  }
   .last-line {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
