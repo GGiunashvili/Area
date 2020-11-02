@@ -463,7 +463,9 @@ input[type=text]:focus {
 }
 }
 @media only screen and (max-width: 768px) {
-  
+  .app-store-div{
+    padding: unset;
+  }
   .box-one-two{
     margin-top: 40px;
   }
