@@ -436,8 +436,9 @@ input[type=text]:focus {
 .degisnator-parent .designator .designator-child {
   background: white;
   border-radius: 20px;
-  padding: 20px 35px;
   padding-bottom: 15px;
+  width: 245px;
+  height: 260px;
 }
 
 .degisnator-parent .designator .designator-child .designator-text {
@@ -505,6 +506,14 @@ input[type=text]:focus {
 }
 
 .designator-2 {
+  padding: 20px 40px !important;
+}
+
+.designator-1 {
+  padding: 20px 40px !important;
+}
+
+.designator-3 {
   padding: 20px 40px !important;
 }
 
@@ -576,6 +585,7 @@ input[type=text]:focus {
   }
   .designator-child {
     width: 70% !important;
+    height: unset;
   }
   .last-top-houndred-mobile {
     display: block;

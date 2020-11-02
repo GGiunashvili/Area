@@ -356,8 +356,10 @@ input[type=text]:focus {
       background: white;
       border-radius:20px;
       // width:60%;
-      padding: 20px 35px;
+      // padding: 20px 35px;
       padding-bottom: 15px;
+      width:245px;
+      height: 260px;
 
       .designator-text{
         color: #161E3F;
@@ -425,6 +427,12 @@ input[type=text]:focus {
 .designator-2{
   padding: 20px 40px!important;
 }
+.designator-1{
+  padding: 20px 40px!important;
+}
+.designator-3{
+  padding: 20px 40px!important;
+}
 .sale-date{
   color: black;
     font-family: markgeo-semibold;
@@ -485,6 +493,7 @@ input[type=text]:focus {
   }
   .designator-child{
     width: 70%!important;
+    height: unset;
   }
   .last-top-houndred-mobile{
     display: block;
