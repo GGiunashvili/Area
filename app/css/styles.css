@@ -1,0 +1,708 @@
+@font-face {
+  src: url(../fonts/MarkGEO-Bold.ttf);
+  font-family: markgeo-bold;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEO-Regular.ttf);
+  font-family: markgeo-regular;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEO-SemiBold.ttf);
+  font-family: markgeo-semibold;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEOCAPS-Bold.ttf);
+  font-family: markgeocaps-bold;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEO-Medium.ttf);
+  font-family: markgeocaps-medium;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEOCAPS-Medium.ttf);
+  font-family: markgeocapscaps-medium;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.main-header-parent {
+  padding: 0 20px;
+  background-color: white;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+}
+
+.main-header-parent .main-header {
+  padding: 20px 0;
+}
+
+.main-header-parent .main-header .header-logo {
+  height: 45px;
+}
+
+.main-header-parent .main-header .header-ticks {
+  margin: 10px 15px;
+  font-family: markgeo-bold;
+}
+
+.header-ticks:hover {
+  color: #7A1DFF;
+}
+
+.first-ambasador-box-one {
+  border-radius: 10px;
+}
+
+.first-ambasador-box-one .first-ambasador-box-one-child {
+  padding: 20px 50px;
+  border-radius: 20px;
+}
+
+.first-ambasador-box-one .first-ambasador-box-one-child .first-text-component .first-ambasador-box-one-title {
+  margin-top: 10px;
+  margin-bottom: 35px;
+  color: black;
+  font-family: markgeocaps-bold;
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+.first-ambasador-box-one .first-ambasador-box-one-child .first-text-component .first-ambasador-box-one-text {
+  color: black;
+  font-family: markgeo-semibold;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.first-ambasador-box-one-text-sec {
+  margin-bottom: 20px;
+}
+
+.join-us-box {
+  -webkit-box-shadow: 0px 3px 6px #00000029;
+          box-shadow: 0px 3px 6px #00000029;
+  display: inline-block;
+  background: #7A1DFF;
+  border-radius: 30px;
+  padding: 7px 15px;
+}
+
+.join-us-box .join-us-text {
+  padding: 7px 8px;
+  color: white;
+  font-family: markgeocapscaps-medium;
+}
+
+.scroll-join-us-box {
+  display: inline-block;
+  background: #7A1DFF;
+  border-radius: 30px;
+  padding: 7px 15px;
+}
+
+.scroll-join-us-box .scroll-join-img {
+  height: 25px;
+}
+
+.scroll-join-us-box .scroll-join-us-text {
+  padding: 7px 8px;
+  color: white;
+  font-family: markgeocapscaps-medium;
+}
+
+.ambasador-box-one {
+  background: white;
+  border-radius: 10px;
+}
+
+.ambasador-box-one .ambasador-box-one-title {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: markgeocaps-bold;
+  font-size: 40px;
+}
+
+.ambasador-box-one .ambasador-box-one-text {
+  margin-top: 0;
+  margin-bottom: 50px;
+  line-height: 1.6;
+  font-family: markgeo-semibold;
+  font-size: 1.1vw;
+}
+
+.ambasadot-natura {
+  padding-left: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.wondering-main-title {
+  font-family: markgeocaps-bold;
+  font-size: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.offer-img-text {
+  text-align: center;
+  font-family: markgeocaps-bold;
+  line-height: 1.3;
+  font-size: 24px;
+}
+
+.offer-img-1 {
+  height: 175px;
+}
+
+.offer-img-2 {
+  height: 200px;
+}
+
+.offer-img-3 {
+  height: 175px;
+}
+
+.wondering {
+  text-align: center;
+}
+
+.wondering .wondering-img {
+  margin-bottom: 20px;
+}
+
+.wondering .wondering-text {
+  line-height: 1.3;
+  font-family: markgeocaps-bold;
+  font-size: 11px;
+}
+
+.wondering .wondering-text-second {
+  margin-bottom: 40px;
+}
+
+.footer-title {
+  color: #7A1DFF;
+  font-family: markgeocaps-bold;
+  font-size: 40px;
+  line-height: 1.3;
+  text-align: left;
+}
+
+.footer-text {
+  color: white;
+  font-size: 16px;
+  line-height: 1.6;
+  font-family: markgeo-semibold;
+  text-align: left;
+}
+
+.mrg-top {
+  padding-top: 150px !important;
+}
+
+.mrg-top {
+  padding-top: 115px !important;
+}
+
+.hidden {
+  display: none;
+}
+
+.offer-box {
+  background-color: white;
+}
+
+.blue-line-parent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  width: 100% !important;
+  margin-bottom: 10px;
+}
+
+.blue-line-parent .blue-line {
+  width: 80px;
+  background: #F72163;
+  height: 4px;
+}
+
+.blue-line-hide {
+  display: none;
+}
+
+.yleoba {
+  position: absolute;
+  right: 0;
+  height: 600px;
+  top: 0;
+  z-index: -1;
+}
+
+.ui-widget-content {
+  background: #7A1DFF !important;
+  height: 2px !important;
+}
+
+.ui-slider-handle {
+  top: -0.6em !important;
+}
+
+.ui-slider-handle {
+  content: url("../image/slide.png");
+}
+
+.financ-interest {
+  color: black;
+  font-size: 30px;
+  font-family: markgeocaps-bold;
+  text-align: center;
+}
+
+.value-title {
+  margin: 15px 0;
+}
+
+.value-title .value1 {
+  width: 75px;
+  text-align: center;
+  background: white;
+  border-radius: 9px;
+  display: inline-block;
+  padding: 9px 20px;
+  font-family: markgeocaps-bold;
+}
+
+.value-title .sold-product {
+  font-family: markgeocaps-bold;
+}
+
+.value-title-2 {
+  margin: 15px 0;
+}
+
+.value-title-2 .value2 {
+  width: 75px;
+  text-align: center;
+  background: white;
+  border-radius: 9px;
+  display: inline-block;
+  padding: 9px 20px;
+  font-family: markgeocaps-bold;
+}
+
+.value-title-2 .sold-product-vl2 {
+  font-family: markgeocaps-bold;
+}
+
+.your-cost-box {
+  text-align: center;
+  font-family: markgeocaps-bold;
+}
+
+.your-cost-box .result {
+  color: #7A1DFF;
+  font-size: 35px;
+}
+
+.ui-slider-handle {
+  border: none !important;
+  background: none !important;
+  color: none !important;
+}
+
+input[type=text]:focus {
+  border: 3px solid red;
+}
+
+.dropd-icon {
+  height: 25px;
+}
+
+.first-simple {
+  max-height: 200px;
+}
+
+.top-houndred {
+  margin-top: 150px;
+}
+
+.join-us-frst {
+  margin-left: 5px;
+}
+
+.mrg-top-last-sec {
+  margin-top: 30px;
+}
+
+.another-blue-line {
+  width: 100px;
+  height: 4px;
+  background-color: #FFC208;
+}
+
+.first-line {
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+.video-emb {
+  border-radius: 25px;
+}
+
+.join-us-frst {
+  background-color: #F72163 !important;
+}
+
+.app-stores {
+  height: 50px;
+}
+
+.app-store-div {
+  padding-left: 0px;
+}
+
+.first-blue-line {
+  margin-bottom: 35px;
+}
+
+.app-one {
+  margin-right: 5%;
+}
+
+.base-img {
+  max-height: 470px;
+  height: 330px;
+}
+
+.secont-lst-component {
+  text-align: right;
+}
+
+.last-line {
+  margin-bottom: 25px;
+}
+
+.last-top-houndred-mobile {
+  display: none;
+}
+
+.degisnator-parent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.degisnator-parent .designator {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.degisnator-parent .designator .designator-child {
+  background: white;
+  border-radius: 20px;
+  width: 60%;
+  padding: 20px 35px;
+  padding-bottom: 15px;
+}
+
+.degisnator-parent .designator .designator-child .designator-text {
+  color: #161E3F;
+  font-family: markgeocaps-bold;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.degisnator-parent .designator .designator-child .designator-img {
+  height: 110px;
+  width: 90px;
+}
+
+.degisnator-parent .designator .designator-child .img-odd {
+  width: 50px;
+}
+
+.degisnator-parent .designator .designator-1 {
+  -webkit-box-shadow: 0px 3px 57px #F7216329;
+          box-shadow: 0px 3px 57px #F7216329;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+.degisnator-parent .designator .designator-2 {
+  -webkit-box-shadow: 0px 3px 57px #00AAFF29;
+          box-shadow: 0px 3px 57px #00AAFF29;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+.degisnator-parent .designator .designator-3 {
+  -webkit-box-shadow: 0px 3px 57px #FFC20829;
+          box-shadow: 0px 3px 57px #FFC20829;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+.degisnator-parent .designator .designator-4 {
+  -webkit-box-shadow: 0px 7px 25px #9DE41129;
+          box-shadow: 0px 7px 25px #9DE41129;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+.designator-title {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  text-align: center;
+  font-family: markgeocaps-bold;
+  font-size: 5vh;
+}
+
+.designator-3-texts {
+  font-size: 15px;
+  line-height: 1.4;
+  font-family: markgeocaps-medium;
+}
+
+@media only screen and (max-width: 992px) {
+  .footer-text {
+    font-size: 14px !important;
+  }
+  .yleoba {
+    display: none;
+  }
+  .top-houndred {
+    margin-top: 30px;
+  }
+  .first-ambasador-box-one-child {
+    padding: 0 !important;
+    text-align: center;
+  }
+  .blue-line-parent {
+    visibility: unset !important;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .designator-second {
+    margin: 30px 0;
+  }
+  .designator-child {
+    width: 70% !important;
+  }
+  .last-top-houndred-mobile {
+    display: block;
+  }
+  .last-top-houndred {
+    display: none;
+  }
+  .first-blue-line {
+    margin-bottom: 20px;
+  }
+  .app-stores {
+    height: 48px;
+  }
+  .base-img {
+    width: 100%;
+    height: unset;
+    max-height: unset;
+  }
+  .ambasador-img-light {
+    height: 290px;
+    margin-bottom: 15px;
+  }
+  .video-emb {
+    border-radius: 0;
+    margin: 0 15px;
+  }
+  .first-line {
+    display: none;
+  }
+  .mrg-top-last-sec {
+    margin-top: 15px;
+  }
+  .join-us-frst {
+    margin-bottom: 0 !important;
+  }
+  .value-title .value1 {
+    width: 60px;
+    padding: 9px 12px;
+  }
+  .value-title-2 .value2 {
+    width: 60px;
+    padding: 9px 12px;
+  }
+  .ambasador-box-one-text {
+    margin-bottom: 20px !important;
+  }
+  .join-us-box {
+    margin-top: 0 !important;
+    margin-bottom: 20px;
+  }
+  .financ-interest {
+    font-size: 24px;
+  }
+  .first-ambasador-box-one {
+    background-color: unset;
+  }
+  .blue-line-last {
+    display: none;
+  }
+  .sold-product {
+    font-size: 12px;
+  }
+  .sold-product-vl2 {
+    font-size: 12px;
+  }
+  .join-us-text {
+    font-size: 12px;
+  }
+  .blue-line-hide {
+    display: none;
+    width: 100%;
+  }
+  .footer-title {
+    color: #7A1DFF;
+    font-family: markgeocaps-bold;
+    font-size: 20px;
+    text-align: center;
+  }
+  .footer-text {
+    color: white;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-top: 0px;
+    margin-bottom: px;
+    text-align: left;
+  }
+  .offer-box {
+    background: #EEEEEE;
+  }
+  .wondering-main-title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  .offer-img-1 {
+    height: auto;
+  }
+  .offer-img-2 {
+    height: auto;
+  }
+  .offer-img-3 {
+    height: auto;
+  }
+  .offer-img-text {
+    font-size: 10px;
+  }
+  .wondering-text {
+    font-size: 10px;
+  }
+  .wondering-img {
+    margin-top: 15px;
+    height: 65px;
+  }
+  .first-simple {
+    height: 100px;
+  }
+  .wondering-main-title {
+    font-size: 24px !important;
+  }
+  .header-logo {
+    width: 95px !important;
+  }
+  .join-font-mobile {
+    font-size: 9px !important;
+  }
+  .ambasador-box-one {
+    background: none !important;
+    text-align: center;
+  }
+  .unhidden {
+    display: none;
+  }
+  .hidden {
+    display: block !important;
+  }
+  .mrg-top {
+    padding-top: 100px !important;
+  }
+  .first-ambasador-box-one-title {
+    font-size: 18px !important;
+    margin-bottom: 0px !important;
+  }
+  .first-ambasador-box-one-text {
+    font-size: 18px !important;
+    color: black !important;
+  }
+  .ambasador-box-one-title {
+    font-size: 24px !important;
+    text-align: center;
+    margin-top: 0 !important;
+  }
+  .ambasador-box-one-text {
+    font-size: 4.1vw !important;
+    text-align: center;
+    white-space: pre-line !important;
+    overflow: auto !important;
+  }
+  .mrg-top-sec {
+    padding-top: 0 !important;
+  }
+  .ambasadot-natura {
+    padding-top: 0;
+  }
+  .header-ticks {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .footer-text {
+    font-size: 12px !important;
+  }
+  .app-stores {
+    height: 36px;
+  }
+  .first-ambasador-box-one-text {
+    font-size: 15px !important;
+  }
+  .first-ambasador-box-one-title {
+    font-size: 15px !important;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
