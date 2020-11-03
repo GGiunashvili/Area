@@ -41,7 +41,6 @@ a:hover{
 }
 .main-header-parent{
   padding:0 20px; background-color: white;
-  position: fixed;
   z-index: 99;
   width:100%;
   .main-header{
@@ -475,6 +474,17 @@ input[type=text]:focus {
   margin-top: 20px;
   margin-right: 20px;
   margin-bottom: 28px;
+}
+.modal{
+  padding-right: unset!important;
+
+}
+body{
+  padding-right: unset!important;
+
+}
+.modal-open {
+  overflow: visible;
 }
 .modal-content{
   border-radius: 20px;
