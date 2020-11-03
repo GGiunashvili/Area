@@ -347,6 +347,7 @@ input[type=text]:focus {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  align-items: center;
   .designator{
     text-align: center;
     display: flex;
@@ -521,7 +522,9 @@ button:focus {
   border-color: unset;
 }
 @media only screen and (max-width: 992px) {
- 
+  .designator-3-texts{
+    font-size: 11px;
+  }
   .footer-text{
     font-size: 14px!important;
   }
@@ -566,9 +569,7 @@ button:focus {
   .pop-up-text{
     font-size: 16px;
   }
-  .designator-3-texts{
-    font-size: 13px;
-  }
+  
   .app-store-div{
     padding: unset;
   }
@@ -587,7 +588,6 @@ button:focus {
     margin:30px 0;
   }
   .designator-child{
-    width: 70%!important;
     height: unset;
   }
   .last-top-houndred-mobile{
@@ -773,6 +773,15 @@ button:focus {
       display: none;
     }
 }
+@media only screen and (max-width: 575px) {
+  .designator-3-texts{
+    font-size: 13px;
+  }
+  .designator-child{
+    width: 70%!important;
+  }
+}
+
 @media only screen and (max-width: 320px) {
   .footer-text{
     font-size: 12px!important;
@@ -787,3 +796,5 @@ button:focus {
     font-size: 15px!important;
   }
 }
+
+

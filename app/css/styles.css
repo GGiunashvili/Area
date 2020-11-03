@@ -420,6 +420,9 @@ input[type=text]:focus {
       justify-content: space-around;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .degisnator-parent .designator {
@@ -624,6 +627,9 @@ button:focus {
 }
 
 @media only screen and (max-width: 992px) {
+  .designator-3-texts {
+    font-size: 11px;
+  }
   .footer-text {
     font-size: 14px !important;
   }
@@ -668,9 +674,6 @@ button:focus {
   .pop-up-text {
     font-size: 16px;
   }
-  .designator-3-texts {
-    font-size: 13px;
-  }
   .app-store-div {
     padding: unset;
   }
@@ -691,7 +694,6 @@ button:focus {
     margin: 30px 0;
   }
   .designator-child {
-    width: 70% !important;
     height: unset;
   }
   .last-top-houndred-mobile {
@@ -855,6 +857,15 @@ button:focus {
   }
   .header-ticks {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .designator-3-texts {
+    font-size: 13px;
+  }
+  .designator-child {
+    width: 70% !important;
   }
 }
 
