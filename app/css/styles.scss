@@ -795,6 +795,12 @@ button:focus {
   .designator-child{
     width: 70%!important;
   }
+ 
+}
+@media only screen and (max-width: 380px) {
+  .sale-date{
+    font-size: 17px!important;
+  }
 }
 
 @media only screen and (max-width: 320px) {
