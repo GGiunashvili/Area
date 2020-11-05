@@ -807,6 +807,12 @@ button:focus {
 }
 
 @media only screen and (max-width: 320px) {
+  .designator-text{
+    margin-bottom:5px!important;
+  }
+  .app-one{
+    margin-right: unset;
+  }
   .footer-text{
     font-size: 12px!important;
   }
