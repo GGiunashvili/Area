@@ -40,13 +40,13 @@ a:hover{
 
 }
 .main-header-parent{
-  padding:0 20px; background-color: white;
+  padding:0 100px; background-color: white;
   z-index: 99;
   width:100%;
   .main-header{
     padding:20px 0;
     .header-logo{
-      height: 45px;
+      height: 40px;
     }
     .header-ticks{
       margin: 10px 15px;
@@ -472,9 +472,9 @@ input[type=text]:focus {
 
 }
 .pop-up-x{
-  margin-top: 20px;
+  // margin-top: 20px;
   margin-right: 20px;
-  margin-bottom: 28px;
+  // margin-bottom: 28px;
 }
 .modal{
   padding-right: unset!important;
@@ -521,7 +521,20 @@ button:focus {
 .btn-primary:hover {
   border-color: unset;
 }
+.modal-head-own{
+  margin-top: 20px;
+  margin-bottom: 28px;
+}
+.img-logo{
+  height: 35px;
+}
 @media only screen and (max-width: 992px) {
+  .header-ticks{
+    display: none;
+  }
+  .main-header-parent{
+    padding:0 20px;
+  }
   .designator-3-texts{
     font-size: 11px;
   }
@@ -543,8 +556,12 @@ button:focus {
   justify-content: center;
   margin-top: 20px;
 }
+
 }
 @media only screen and (max-width: 768px) {
+  .img-logo{
+    height: 21px;
+  }
   .pop-up-x {
     margin-top: 15px;
     margin-right: 15px;
@@ -769,9 +786,7 @@ button:focus {
   .ambasadot-natura{
     padding-top: 0;
   }
-    .header-ticks{
-      display: none;
-    }
+  
 }
 @media only screen and (max-width: 575px) {
   .designator-3-texts{
