@@ -405,6 +405,12 @@
 
         
     </script>
+    <script>
+        screen.orientation.lock();   // webkit only
+        screen.lockOrientation("orientation");
+        screen.lockOrientationUniversal = screen.lockOrientation || screen.mozLockOrientation || screen.msLockOrientation;
+
+    </script>
 </body>
 
 </html>
