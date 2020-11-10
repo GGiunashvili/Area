@@ -1,0 +1,114 @@
+@font-face {
+  src: url(../fonts/MarkGEO-Bold.ttf);
+  font-family: markgeo-bold;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEO-Regular.ttf);
+  font-family: markgeo-regular;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEO-SemiBold.ttf);
+  font-family: markgeo-semibold;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEOCAPS-Bold.ttf);
+  font-family: markgeocaps-bold;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEO-Medium.ttf);
+  font-family: markgeocaps-medium;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEOCAPS-Medium.ttf);
+  font-family: markgeocapscaps-medium;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.header-back {
+  background-image: url(../image/1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.header-back .vans-head {
+  margin-top: 17px;
+  margin-bottom: 10px;
+}
+
+.header-back .head-title {
+  color: white;
+  font-family: markgeocapscaps-medium;
+  font-size: 25px;
+}
+
+.button-a {
+  text-decoration: none;
+  background: #F72163;
+  display: inline-block;
+  color: white;
+  padding: 25px 20px;
+  font-size: 25px;
+  font-family: markgeo-semibold;
+  margin-top: 15px;
+  margin-bottom: 22px;
+  border-radius: 2px;
+}
+
+.button-p {
+  color: white;
+  font-size: 20px;
+  font-family: markgeo-regular;
+}
+
+.img-1 {
+  height: 288px;
+}
+
+.img-2 {
+  height: 288px;
+}
+
+.vans-section-text-first {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-family: markgeocaps-bold;
+  text-align: center;
+  font-size: 25px;
+  line-height: 1.3;
+}
+
+.vans-section-text-second {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-family: markgeocaps-bold;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  line-height: 1.3;
+}
+/*# sourceMappingURL=styles.css.map */
