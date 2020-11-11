@@ -103,4 +103,25 @@ a:hover {
   font-size: 25px;
   line-height: 1.3;
 }
+
+.col-pp {
+  padding: 0 8px;
+}
+
+.slick-prev:before {
+  content: url(../image/left.png) !important;
+}
+
+.slick-next:before {
+  content: url(../image/rig.png) !important;
+}
+
+.slick-prev {
+  left: 0 !important;
+  z-index: 9;
+}
+
+.slick-next {
+  right: 0 !important;
+}
 /*# sourceMappingURL=styles.css.map */
