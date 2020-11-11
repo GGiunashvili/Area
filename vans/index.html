@@ -108,18 +108,24 @@
         
       </div>
     </div> -->
+    <div class="text-center">
+      <img class="logo" src="image/LOGO.png" alt="">
+    </div>
 
 
     <div class="row" style="margin-top:10px;">
-
-      <div class="col-6">
+      <div class="col-6 man-category">
         <img class="w-100 img-1" src="image/2.png" alt="">
+        <img class="w-100 img-1 img-11" src="image/888 (1).png" alt="">
+
         <p class="vans-section-text-first">მამაკაცის <br> ფეხსაცმელი</p>
 
       </div>
 
-      <div class="col-6">
+      <div class="col-6 woman-category">
         <img class="w-100 img-2" src="image/3.png" alt="">
+        <img class="w-100 img-2 img-22" src="image/881.png" alt="">
+
         <p class="vans-section-text-second">ქალის <br> ფეხსაცმელი</p>
       </div>
       
@@ -137,47 +143,50 @@
 
 
 <div class="container">
-  <div class="row slider" style="padding:0 15px;"> 
+  <p class="col-12 text-center inspection-category">დაათვალიერე:</p>
+
+  <div class="row slider my-row"> 
+    
 
     <div class=" col-pp">
       <div class="details">
-        <img  class="w-100" src="image/Mask Group 3.png" alt="">
-      </div>
-    </div>
-
-    <div class=" col-pp">
-      <div class="details">
-        <img  class="w-100" src="image/Mask Group 4.png" alt="">
-      </div>
-    </div>
-
-    <div class=" col-pp">
-      <div class="details" >
-        <img  class="w-100" src="image/Mask Group 5.png" alt="">
-      </div>
-    </div>
-
-    <div class=" col-pp">
-      <div class="details" >
-        <img class="w-100" src="image/Mask Group 6.png" alt="">
-      </div>
-    </div>
-
-    <div class=" col-pp">
-      <div class="details" >
-        <img  class="w-100" src="image/Mask Group 12.png" alt="">
+        <img  class="w-100 category-img" src="image/Mask Group 3.png" alt="">
       </div>
     </div>
 
     <div class=" col-pp">
       <div class="details">
-        <img class="w-100" src="image/Mask Group 4.png" alt="">
+        <img  class="w-100 category-img" src="image/Mask Group 4.png" alt="">
       </div>
     </div>
 
     <div class=" col-pp">
       <div class="details" >
-        <img class="w-100" src="image/Mask Group 5.png" alt="">
+        <img  class="w-100 category-img" src="image/Mask Group 5.png" alt="">
+      </div>
+    </div>
+
+    <div class=" col-pp">
+      <div class="details" >
+        <img class="w-100 category-img" src="image/Mask Group 6.png" alt="">
+      </div>
+    </div>
+
+    <div class=" col-pp">
+      <div class="details" >
+        <img  class="w-100 category-img" src="image/Mask Group 12.png" alt="">
+      </div>
+    </div>
+
+    <div class=" col-pp">
+      <div class="details">
+        <img class="w-100 category-img" src="image/Mask Group 4.png" alt="">
+      </div>
+    </div>
+
+    <div class=" col-pp">
+      <div class="details" >
+        <img class="w-100 category-img" src="image/Mask Group 5.png" alt="">
       </div>
     </div>
 
@@ -216,10 +225,12 @@
 <script>
   $('.slider').slick({
   dots: true,
-  infinite: false,
-  speed: 300,
+  infinite: true,
+  speed: 500,
   slidesToShow: 5,
   slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 3000,
   responsive: [
     {
       breakpoint: 1024,
