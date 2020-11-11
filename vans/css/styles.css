@@ -109,11 +109,11 @@ a:hover {
 }
 
 .slick-prev:before {
-  content: url(../image/left.png) !important;
+  content: url(../image/rig.svg) !important;
 }
 
 .slick-next:before {
-  content: url(../image/rig.png) !important;
+  content: url(../image/left.svg) !important;
 }
 
 .slick-prev {
