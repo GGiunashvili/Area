@@ -65,7 +65,7 @@ a:hover {
   background: #F72163;
   display: inline-block;
   color: white;
-  padding: 25px 20px;
+  padding: 20px 25px;
   font-size: 25px;
   font-family: markgeo-semibold;
   margin-top: 15px;
@@ -75,7 +75,7 @@ a:hover {
 
 .button-p {
   color: white;
-  font-size: 20px;
+  font-size: 30px;
   font-family: markgeocapscaps-medium;
 }
 
@@ -255,6 +255,15 @@ a:hover {
 }
 
 @media only screen and (max-width: 768px) {
+  .button-a {
+    padding: 12px 18px;
+  }
+  .last-component {
+    padding: 0 42px;
+  }
+  .button-p {
+    font-size: 12px;
+  }
   .desk {
     display: none;
   }
