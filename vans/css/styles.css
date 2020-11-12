@@ -284,6 +284,12 @@ a:hover {
 }
 
 @media only screen and (max-width: 768px) {
+  .img-heart {
+    margin-top: 0;
+  }
+  .footer-text {
+    font-size: 12px;
+  }
   .button-a {
     padding: 12px 18px;
   }
@@ -300,7 +306,7 @@ a:hover {
     display: block;
   }
   .buy-now-p {
-    font-size: 12px;
+    font-size: 10px;
   }
   .dogtown-p {
     font-size: 10px;
@@ -369,9 +375,6 @@ a:hover {
 }
 
 @media only screen and (max-width: 320px) {
-  .footer-text {
-    font-size: 12px;
-  }
   .img-heart {
     margin: 0 3px;
   }
