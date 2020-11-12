@@ -230,6 +230,13 @@ a:hover{
   max-height: 290px;
   max-width: 290px;
 }
+.slick-track{
+  // transform: (-348px, 0px, 0px)!important;
+}
+.posts-hero-carousel .slick-track {
+	transform: translate3d(0px, 0px, 0px) !important;
+}
+
 @media only screen and (max-width: 1100px) {
   .dogtown-p{
     font-size: 28px;
