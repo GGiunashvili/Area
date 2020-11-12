@@ -219,7 +219,7 @@ a:hover {
 }
 
 .linkedin-icon {
-  margin: 0 15px;
+  margin: 0 10px;
 }
 
 .footer-main-box {
@@ -377,6 +377,9 @@ a:hover {
   }
   .buy-now-p {
     font-size: 9px;
+  }
+  .dogtown-p {
+    font-size: 8px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
