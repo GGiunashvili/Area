@@ -208,6 +208,24 @@ a:hover{
 .mob{
   display: none;
 }
+.linkedin-icon{
+  margin:0 15px;
+}
+.footer-main-box{
+  padding:14px;
+}
+.img-heart{
+  margin:0 5px; margin-top:3px;
+
+}
+.vans-1{
+  max-height: 290px;
+  max-width: 290px;
+}
+.vans-2{
+  max-height: 290px;
+  max-width: 290px;
+}
 @media only screen and (max-width: 1100px) {
   .dogtown-p{
     font-size: 28px;
@@ -239,6 +257,13 @@ a:hover{
 }
 }
 @media only screen and (max-width: 992px) {
+  .footer-main-box{
+    padding:11px;
+  }
+  
+  .linkedin-icon{
+    margin:0;
+  }
   .dogtown-p{
     font-size: 18px;
   }
@@ -351,5 +376,14 @@ a:hover{
 }
 
 
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 320px) {
+  .footer-text{
+    font-size: 12px;
+  }
+  .img-heart{
+    margin: 0 3px;
+  }
+  .buy-now-p {
+    font-size: 9px;
+}
 }
