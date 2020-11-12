@@ -76,7 +76,7 @@ a:hover {
 .button-p {
   color: white;
   font-size: 20px;
-  font-family: markgeo-regular;
+  font-family: markgeocapscaps-medium;
 }
 
 .vans-section-text-first {
@@ -178,7 +178,50 @@ a:hover {
   left: -15px !important;
 }
 
+.dogtown-p {
+  font-family: markgeocaps-bold;
+  font-size: 36px;
+  font-size: 1.6;
+  padding: 10px 30px;
+}
+
+.dognwotn-p-parent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background: #9de411;
+}
+
+.dogtown-box {
+  position: relative;
+}
+
+.buy-now-box-first {
+  margin-right: 62px;
+}
+
+.buy-now-box-second {
+  margin-left: 62px;
+}
+
+.buy-now-p {
+  font-family: markgeocaps-medium;
+  font-size: 20px;
+  margin-top: 14px;
+  margin-bottom: 7px;
+  font-weight: 600;
+}
+
+.mob {
+  display: none;
+}
+
 @media only screen and (max-width: 1100px) {
+  .dogtown-p {
+    font-size: 28px;
+  }
   .slick-next {
     right: -5px !important;
   }
@@ -199,7 +242,32 @@ a:hover {
   }
 }
 
+@media only screen and (max-width: 992px) {
+  .dogtown-p {
+    font-size: 18px;
+  }
+  .buy-now-box-first {
+    margin-right: unset;
+  }
+  .buy-now-box-second {
+    margin-left: unset;
+  }
+}
+
 @media only screen and (max-width: 768px) {
+  .desk {
+    display: none;
+  }
+  .mob {
+    display: block;
+  }
+  .buy-now-p {
+    font-size: 12px;
+  }
+  .dogtown-p {
+    font-size: 10px;
+    padding: 10px 10px;
+  }
   .inspection-category {
     font-size: 12px;
     margin: 15px 0;
