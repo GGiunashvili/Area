@@ -128,6 +128,11 @@ a:hover {
 
 .slick-prev {
   z-index: 9;
+  top: 45% !important;
+}
+
+.slick-next {
+  top: 45% !important;
 }
 
 .my-row {
@@ -266,6 +271,13 @@ a:hover {
 }
 
 @media only screen and (max-width: 992px) {
+  .slick-prev {
+    z-index: 9;
+    top: 50% !important;
+  }
+  .slick-next {
+    top: 50% !important;
+  }
   .footer-main-box {
     padding: 11px;
   }
