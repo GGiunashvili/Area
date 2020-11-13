@@ -104,8 +104,34 @@ a:hover{
   padding:0 8px;
 }
 
+.swiper-button-prev:after{
+  display: none;
+}
+.swiper-button-next:after{
+  display: none;
+}
+.swiper-button-prev{
+  background-image: url(../image/rig.svg)!important;
+  // z-index: 9!important;
+  background-size: 32px 47px!important;
+    display: inline-block!important;
+    width: 32px!important; 
+    height: 47px!important;
+    content:""!important;
+    color: #EEEEEE!important;
 
+}
+.swiper-button-next{
+  background-image: url(../image/left.svg)!important;
+  // z-index: 9!important;
+  background-size: 32px 47px!important;
+    display: inline-block!important;
+    width: 32px!important; 
+    height: 47px!important;
+    content:""!important;
+    color: #EEEEEE!important;
 
+}
 .slick-prev:before {
   background-image: url(../image/rig.svg)!important;
   background-size: 32px 47px;
@@ -234,16 +260,23 @@ a:hover{
 .swiper-button-prev{
   z-index: 999!important;
   overflow: visible!important;
+  left: -45px!important;
 }
 .swiper-button-next{
+
   top:unset!important;
   margin-top: unset!important;
+  right: -45px!important;
+
   
 }
 .swiper-button-prev{
   top:unset!important;
   margin-top: unset!important;
   
+}
+.swiper-pagination{
+  visibility: hidden;
 }
 
 @media only screen and (max-width: 1100px) {
@@ -408,6 +441,46 @@ a:hover{
 
   
 }
+
+@media only screen and (max-width: 570px) {
+  .swiper-button-next{
+    background-image: url(../image/left.svg)!important;
+    // z-index: 9!important;
+    background-size: 12px 27px!important;
+      display: inline-block!important;
+      width: 12px!important; 
+      height: 27px!important;
+      content:""!important;
+      color: #EEEEEE!important;
+  
+  }
+  .swiper-button-prev{
+    background-image: url(../image/rig.svg)!important;
+    // z-index: 9!important;
+    background-size: 12px 27px!important;
+      display: inline-block!important;
+      width: 12px!important; 
+      height: 27px!important;
+      content:""!important;
+      color: #EEEEEE!important;
+  
+  }
+  .swiper-button-prev{
+    z-index: 999!important;
+    overflow: visible!important;
+    left: -15px!important;
+  }
+  .swiper-button-next{
+  
+    top:unset!important;
+    margin-top: unset!important;
+    right: -15px!important;
+  
+    
+  }
+}
+
+
 
 
 @media only screen and (max-width: 320px) {
