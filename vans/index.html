@@ -154,8 +154,8 @@
               <div class="swiper-slide">
                 
                 <picture>
-                  <source style="width: 100%;" srcset="image/72.webp" type="image/webp">
-                  <img style="width: 100%;" src="image/72.png">
+                  <source style="width: 100%;" srcset="image/72.png" type="image/webp">
+                  <img style="width: 100%;" src="image/72.webp">
               </picture>
               
               </div>
@@ -163,8 +163,8 @@
 
                 <!-- <img class="w-100" src="image/76.png" alt=""> -->
                 <picture>
-                  <source style="width: 100%;" srcset="image/76.webp" type="image/webp">
-                  <img style="width: 100%;" src="image/76.png">
+                  <source style="width: 100%;" srcset="image/76.png" type="image/webp">
+                  <img style="width: 100%;" src="image/76.webp">
                </picture>
               
               </div>
@@ -172,8 +172,8 @@
               <div class="swiper-slide">
                 <!-- <img class="w-100" src="image/77.png" alt=""> -->
                 <picture>
-                  <source style="width: 100%;" srcset="image/77.webp" type="image/webp">
-                  <img style="width: 100%;" src="image/77.png">
+                  <source style="width: 100%;" srcset="image/77.png" type="image/webp">
+                  <img style="width: 100%;" src="image/77.webp">
               </picture>
               
               </div>
@@ -181,54 +181,59 @@
               <div class="swiper-slide">
                 <!-- <img class="w-100" src="image/710.png" alt=""> -->
                 <picture>
-                  <source style="width: 100%;" srcset="image/710.webp" type="image/webp">
-                  <img style="width: 100%;" src="image/710.png">
+                  <source style="width: 100%;" srcset="image/710.png" type="image/webp">
+                  <img style="width: 100%;" src="image/710.webp">
               </picture>
               </div>
 
               <div class="swiper-slide">
                 <!-- <img class="w-100" src="image/74.png" alt=""> -->
                 <picture>
-                  <source style="width: 100%;" srcset="image/74.webp" type="image/webp">
-                  <img style="width: 100%;" src="image/74.png">
+                  <source style="width: 100%;" srcset="image/74.png" type="image/webp">
+                  <img style="width: 100%;" src="image/74.webp">
               </picture>
               </div>
 
               <div class="swiper-slide">
                 <!-- <img class="w-100" src="image/701.png" alt=""> -->
                 <picture>
-                  <source style="width: 100%;" srcset="image/701.webp" type="image/webp">
-                  <img style="width: 100%;" src="image/701.png">
+                  <source style="width: 100%;" srcset="image/701.png" type="image/webp">
+                  <img style="width: 100%;" src="image/701.webp">
               </picture>
               </div>
 
               <div class="swiper-slide">
                 <!-- <img class="w-100" src="image/75.png" alt=""> -->
                 <picture>
-                  <source style="width: 100%;" srcset="image/75.webp" type="image/webp">
-                  <img style="width: 100%;" src="image/75.png">
+                  <source style="width: 100%;" srcset="image/75.png" type="image/webp">
+                  <img style="width: 100%;" src="image/75.webp">
               </picture>
               </div>
               <div class="swiper-slide">
                 <img class="w-100" src="image/79.png" alt="">
                 <picture>
-                  <source style="width: 100%;" srcset="image/79.webp" type="image/webp">
-                  <img style="width: 100%;" src="image/79.png">
+                  <source style="width: 100%;" srcset="image/79.png" type="image/webp">
+                  <img style="width: 100%;" src="image/79.webp">
               </picture>
               </div>
+
+
+
+
               <div class="swiper-slide">
                 <!-- <img class="w-100" src="image/78.png" alt=""> -->
                 <picture>
-                  <source style="width: 100%;" srcset="image/78.webp" type="image/webp">
-                  <img style="width: 100%;" src="image/78.png">
+                  <source style="width: 100%;" srcset="image/78.png" type="image/webp">
+                  <img style="width: 100%;" src="image/78.webp">
               </picture>
               </div>
+
 
               <div class="swiper-slide">
                 <!-- <img class="w-100" src="image/73.png" alt=""> -->
                 <picture>
-                  <source style="width: 100%;" srcset="image/73.webp" type="image/webp">
-                  <img style="width: 100%;" src="image/73.png">
+                  <source style="width: 100%;" srcset="image/73.png" type="image/webp">
+                  <img style="width: 100%;" src="image/73.webp">
               </picture>
               </div>
             </div>
@@ -329,6 +334,33 @@
   
     
   });
+</script>
+
+
+<script>
+  document.deepCss= function(who, css){
+  if(!who || !who.style) return '';
+  var sty= css.replace(/\-([a-z])/g, function(a, b){
+    return b.toUpperCase();
+  });
+  if(who.currentStyle){
+    return who.style[sty] || who.currentStyle[sty] || '';
+  }
+  var dv= document.defaultView || window;
+  return who.style[sty] ||
+      dv.getComputedStyle(who,"").getPropertyValue(css) || '';
+};
+var elms = document.getElementsByTagName('*');
+for (var i=0;i<elms.length;i++) {
+  var url = document.deepCss(elms[i], 'background-image');
+  if (url) {
+    url=/url\(['"]?([^")]+)/.exec(url);
+
+    if (url && url[1]) {
+      elms[i].style.backgroundImage = "url("+url.replace('.webp', '.jpeg')+")"
+    }
+  }
+}
 </script>
 
 
