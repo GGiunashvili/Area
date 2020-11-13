@@ -126,6 +126,14 @@ a:hover {
   color: #EEEEEE !important;
 }
 
+.swiper-button-next:focus {
+  outline: none !important;
+}
+
+.swiper-button-prev:focus {
+  outline: none !important;
+}
+
 .swiper-button-next {
   background-image: url(../image/left.svg) !important;
   background-size: 32px 47px !important;
