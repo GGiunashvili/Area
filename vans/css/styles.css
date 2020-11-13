@@ -295,6 +295,15 @@ a:hover {
   visibility: hidden;
 }
 
+.my-own-carousel {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.swiper-slide {
+  background: unset !important;
+}
+
 @media only screen and (max-width: 1100px) {
   .dogtown-p {
     font-size: 28px;
