@@ -128,11 +128,11 @@ a:hover {
 
 .slick-prev {
   z-index: 9;
-  top: 45% !important;
+  top: 40% !important;
 }
 
 .slick-next {
-  top: 45% !important;
+  top: 40% !important;
 }
 
 .my-row {
