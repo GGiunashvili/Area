@@ -230,11 +230,20 @@ a:hover{
   max-height: 290px;
   max-width: 290px;
 }
-.slick-track{
-  // transform: (-348px, 0px, 0px)!important;
+
+.swiper-button-prev{
+  z-index: 999!important;
+  overflow: visible!important;
 }
-.posts-hero-carousel .slick-track {
-	transform: translate3d(0px, 0px, 0px) !important;
+.swiper-button-next{
+  top:unset!important;
+  margin-top: unset!important;
+  
+}
+.swiper-button-prev{
+  top:unset!important;
+  margin-top: unset!important;
+  
 }
 
 @media only screen and (max-width: 1100px) {
