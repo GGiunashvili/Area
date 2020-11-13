@@ -337,32 +337,6 @@
 </script>
 
 
-<script>
-  document.deepCss= function(who, css){
-  if(!who || !who.style) return '';
-  var sty= css.replace(/\-([a-z])/g, function(a, b){
-    return b.toUpperCase();
-  });
-  if(who.currentStyle){
-    return who.style[sty] || who.currentStyle[sty] || '';
-  }
-  var dv= document.defaultView || window;
-  return who.style[sty] ||
-      dv.getComputedStyle(who,"").getPropertyValue(css) || '';
-};
-var elms = document.getElementsByTagName('*');
-for (var i=0;i<elms.length;i++) {
-  var url = document.deepCss(elms[i], 'background-image');
-  if (url) {
-    url=/url\(['"]?([^")]+)/.exec(url);
-
-    if (url && url[1]) {
-      elms[i].style.backgroundImage = "url("+url.replace('.webp', '.jpeg')+")"
-    }
-  }
-}
-</script>
-
 
 </body>
 </html>
