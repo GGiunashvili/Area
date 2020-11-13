@@ -1,837 +1,119 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 
-<head prefix="og: http://ogp.me/ns#">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:url" content="https://promo.extra.ge/apple/" />
-    <meta property="og:type" content="article" />
-    <meta property="og:title" content="200₾ ფასდაკლება VISA ბარათით" />
-    <meta property="og:description" content="რაც გაგიხარდება და სხვა მრავალი..." />
-    <meta property="og:image" content="https://promo.extra.ge/apple/image/banner3.png" />
-    <title>🌈 Apple-ის და VISA-ს ერთობლივი აქცია ექსტრაზე!</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="scss/styles.css">
+<head>
+  <meta charset="utf-8">
+  <title>Swiper demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
-    <link rel="icon" href="image/extra_tab_logo-01.svg" type="image/gif">
-    <!-- Hotjar Tracking Code for https://extra.ge/ -->
+  <!-- Link Swiper's CSS -->
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <!-- CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css'>
+<!-- jQuery and JS bundle w/ Popper.js -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  <!-- Demo styles -->
+  <style>
+    /* html,
+    body {
+      position: relative;
+      height: 100%;
+    } */
 
-    <style>
-        
-        .wrapper {
-            display: grid;
-            /* grid-template-columns:1fr 1fr 1fr;*/
-            grid-template-columns: repeat(3, 1fr);
-            grid-gap: 1em;
-            /* grid-auto-rows:100px; */
-            grid-auto-rows: minmax(100px, auto);
-        }
-        
-        .nested {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            grid-auto-rows: 70px;
-            grid-gap: 1em;
-        }
-        
-        .wrapper>div {
-            background: #eee;
-            padding: 1em;
-        }
-        
-        .wrapper>div:nth-child(odd) {
-            background: #ddd;
-        }
-        
-        .nested>div {
-            border: #333 1px solid;
-            padding: 1em;
-        }
-    </style>
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
 
+    /* .swiper-container {
+      width: 100%;
+      height: 100%;
+    } */
 
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      /* max-height: 290px;
+      max-width: 290px; */
 
-
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.5/fullpage.min.css">
-    <script>
-        (function(h, o, t, j, a, r) {
-            h.hj = h.hj || function() {
-                (h.hj.q = h.hj.q || []).push(arguments)
-            };
-            h._hjSettings = {
-                hjid: 1418341,
-                hjsv: 6
-            };
-            a = o.getElementsByTagName('head')[0];
-            r = o.createElement('script');
-            r.async = 1;
-            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-            a.appendChild(r);
-        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
-    </script>
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+  </style>
 </head>
 
-<body style="background: #F9E2EB;">
-    <script>
-        var finished_rendering = function() {
-          console.log("finished rendering plugins");
-          var spinner = document.getElementById("spinner");
-          spinner.removeAttribute("style");
-          spinner.removeChild(spinner.childNodes[0]);
-        }
-        FB.Event.subscribe('xfbml.render', finished_rendering);
-        </script>
-        <div id="spinner"
-            style="
-                background: #4267b2;
-                border-radius: 5px;
-                color: white;
-                height: 40px;
-                text-align: center;
-                width: 250px;">
-            Loading
-            <div
-            class="fb-login-button"
-            data-max-rows="1"
-            data-size="large"
-            data-button-type="continue_with"
-            data-use-continue-as="true"
-            ></div>
-        </div>
-
-    <div id="fullPage">
-
-
-        <div class="section s1 b1" style="padding-top: 5px; padding-bottom: 5px;">
-
-         <!-- Write your comments here -->
-         <div class="container block-first">
-             <div class="row">
-                <div style="text-align: center;" >
-                    <img style="height: 80px;" src="image/logos.png" alt="">
-
-                     <img style=" " width="100%;" src="image/texti.png" alt="">
-
-                     <img width="100%" src="image/Mask Group 8.png" alt="">
-
-                     <div class="d-flex justify-content-center" style="margin-top: 50px;">
-                        <a class="button-a" href="https://extra.ge/">შეიძინე</a>
-                    </div>
-                </div>
-             </div>
-
-         </div>
-            
-        <!-- Write your comments here -->
-
-            <div class="container-fluid none-first">
-                <div class="row   justify-content-center">
-                    <div class="first-container">
-                        <img class="img-fluid header-logo" src="image/logos.png" alt="">
-
-                    </div>
-                    <div class="d-flex" style="padding: 0 100px;">
-                        <div class="col-6" style="display: flex;align-items: center;">
-
-                            <div class="w-100">
-                                
-                                <div >
-                                    <img class="w-100" src="image/texti.png" alt="">
-                                    <!-- <p class="main-text-one">EXTRA-ორდინალური ფასები <br> VISA ბარათით გადახდისას</p> -->
-                                    <div class="d-flex justify-content-center">
-                                        <a class="button-a" href="https://extra.ge/">შეიძინე</a>
-                                    </div>
-                                  
-
-                                </div>
-                                
-                            </div>
-
-                        </div>
-
-
-                        <div class="col-6" style="height:100%">
-                            <img class="img-fluid" style=" float: right;" src="image/Mask Group 8.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="section s1 b2" style="padding-top: 5px; padding-bottom: 5px;">
-        <!-- Write your comments here -->
-
-            <div >
-                <div class="contaner-fluid block ">
-
-                    <section class="m2" style="height: 100vh; ">
-                        <p class="main-text-one">მობილური ტელეფონები <br> და აქსესუარები</p>
-
-    
-                        
-                        <div class="slider" >
-                            <div class="ss" style="display: flex; justify-content: center;">
-                                <article>
-                                    <div class=" img-box">
-                                        <img style="width: 230px;" src="image/Group 210.png"
-                                            alt="" />
-                                            <div style="display: flex; justify-content: center;">
-                                                <a style="margin-top:30px;" class="button-a" href="https://extra.ge/">შეიძინე</a>
-
-                                            </div>
-                                    </div>
-    
-                                </article>
-                            </div>
-                            <div class="ss" style="display: flex; justify-content: center;">
-                                <article>
-                                    <div class=" img-box">
-                                        <img style="width: 230px;" src="image/Group 207.png" alt="" />
-                                        <div style="display: flex; justify-content: center;">
-                                            <a style="margin-top:30px;" class="button-a" href="https://extra.ge/">შეიძინე</a>
-
-                                        </div>                                    </div>
-    
-                                </article>
-                            </div>
-    
-                            <div class="ss" style="display: flex; justify-content: center;">
-                                <article>
-                                    <div class=" img-box">
-                                        <img style="width: 230px;" src="image/Group 211.png" alt="" />
-                                        <div style="display: flex; justify-content: center;">
-                                            <a style="margin-top:30px;" class="button-a" href="https://extra.ge/">შეიძინე</a>
-
-                                        </div>                                    </div>
-    
-                                </article>
-                            </div>
-                            <div class="ss" style="display: flex; justify-content: center;">
-                                <article>
-                                    <div class=" img-box">
-                                        <img style="width: 230px;" src="image/Group 213.png" alt="" />
-                                        <div style="display: flex; justify-content: center;">
-                                            <a style="margin-top:30px;" class="button-a" href="https://extra.ge/">შეიძინე</a>
-
-                                        </div>                                    </div>
-    
-                                </article>
-                            </div>
-                            <div class="ss" style="display: flex; justify-content: center;">
-                                <article>
-                                    <div class=" img-box">
-                                        <img style="width: 230px;" src="image/Group 213.png" alt="" />
-                                        <div style="display: flex; justify-content: center;">
-                                            <a style="margin-top:30px;" class="button-a" href="https://extra.ge/">შეიძინე</a>
-
-                                        </div>                                    </div>
-    
-                                </article>
-                            </div>
-                        </div>
-                    </section>
-                    
-                </div>
-            </div>
-<!-- Write your comments here -->
-
-
-
-            
-            <div class="container none">
-                <div class="row   justify-content-center">
-                    <div class="d-flex align-items-center main-box-div " >
-
-
-                        <div class="col-6 " >
-
-                            <div class="d-flex">
-                                <div class="col-6">
-                                    <a href="https://xd.adobe.com/view/907be047-b2cd-42a0-a7eb-0530885d1da0-c528/specs/">
-                                        <img class="w-100 img-fluid"  src="image/Group 188.png" alt="">
-
-                                    </a>
-                                </div>
-                                <div class="col-6">
-                                    <a href="https://xd.adobe.com/view/907be047-b2cd-42a0-a7eb-0530885d1da0-c528/specs/">
-                                        <img class="w-100 img-fluid"  src="image/watch.png" alt="">
-
-                                    </a>                                </div>
-                            </div>
-                            <div class="col-12" style="margin-top:20px; margin-bottom:20px;">
-                                <a href="https://pbs.twimg.com/profile_images/823569976342773760/c2RLAG7h_400x400.jpg">
-                                    <img class="w-100 img-fluid"  src="image/Group 186.png" alt="">
-
-                                </a>
-                            </div>
-                            <div class="d-flex">
-                                <div class="col-6">
-                                    <a href="https://xd.adobe.com/view/907be047-b2cd-42a0-a7eb-0530885d1da0-c528/specs/">
-                                        <img class="w-100 img-fluid"  src="image/Group 188.png" alt="">
-
-                                    </a>                                </div>
-                                <div class="col-6">
-                                    <a href="https://xd.adobe.com/view/907be047-b2cd-42a0-a7eb-0530885d1da0-c528/specs/">
-                                        <img class="w-100 img-fluid"  src="image/watch.png" alt="">
-
-                                    </a>                                </div>
-                            </div>
-
-                        </div>
-
-
-
-
-                        <div class="col-6" style="display: flex;align-items: center;">
-
-                            <div class="w-100">
-                                
-                                <div >
-                                    <p class="main-text-one" style="text-align: right;">მობილური ტელეფონები და აქსესუარები</p>
-                                    <div class="d-flex justify-content-center">
-                                        <a class="button-a" href="https://extra.ge/">შეიძინე</a>
-                                    </div>
-                                  
-
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="section s1 b1" style="padding-top: 5px; padding-bottom: 5px;">
-            <!-- Write your comments here -->
-
-            <div >
-                <div class="contaner-fluid block ">
-
-                    <section class="m2" style="height: 100vh; ">
-                        <p class="main-text-one">სამზარეულოს <br> ტექნიკა</p>
-
-    
-                        
-                        <div class="slider" >
-                            <div class="ss" style="display: flex; justify-content: center;">
-                                <article>
-                                    <div class=" img-box">
-                                        <img style="width: 230px;" src="image/Group 223.png"
-                                            alt="" />
-                                            <div style="display: flex; justify-content: center;">
-                                                <a style="margin-top:30px;" class="button-a" href="https://extra.ge/">შეიძინე</a>
-
-                                            </div>
-                                    </div>
-    
-                                </article>
-                            </div>
-                            <div class="ss" style="display: flex; justify-content: center;">
-                                <article>
-                                    <div class=" img-box">
-                                        <img style="width: 230px;" src="image/Group 219.png" alt="" />
-                                        <div style="display: flex; justify-content: center;">
-                                            <a style="margin-top:30px;" class="button-a" href="https://extra.ge/">შეიძინე</a>
-
-                                        </div>                                    </div>
-    
-                                </article>
-                            </div>
-    
-                            <div class="ss" style="display: flex; justify-content: center;">
-                                <article>
-                                    <div class=" img-box">
-                                        <img style="width: 230px;" src="image/Group 221.png" alt="" />
-                                        <div style="display: flex; justify-content: center;">
-                                            <a style="margin-top:30px;" class="button-a" href="https://extra.ge/">შეიძინე</a>
-
-                                        </div>                                    </div>
-    
-                                </article>
-                            </div>
-                            <div class="ss" style="display: flex; justify-content: center;">
-                                <article>
-                                    <div class=" img-box">
-                                        <img style="width: 230px;" src="image/Group 222.png" alt="" />
-                                        <div style="display: flex; justify-content: center;">
-                                            <a style="margin-top:30px;" class="button-a" href="https://extra.ge/">შეიძინე</a>
-
-                                        </div>                                    </div>
-    
-                                </article>
-                            </div>
-                            <div class="ss" style="display: flex; justify-content: center;">
-                                <article>
-                                    <div class=" img-box">
-                                        <img style="width: 230px;" src="image/Group 220.png" alt="" />
-                                        <div style="display: flex; justify-content: center;">
-                                            <a style="margin-top:30px;" class="button-a" href="https://extra.ge/">შეიძინე</a>
-
-                                        </div>                                    </div>
-    
-                                </article>
-                            </div>
-                        </div>
-                    </section>
-                    
-                </div>
-            </div>
-<!-- Write your comments here -->
-            <div class="container none">
-                <div class="row   justify-content-center">
-                    <div class="d-flex align-items-center main-box-div" >
-
-
-
-
-
-                        <div class="col-6" style="display: flex;align-items: center;">
-
-                            <div class="w-100">
-                                
-                                <div >
-                                    <p class="main-text-one" style="text-align: left;">სამზარეულოს <br> ტექნიკა</p>
-                                    <div class="d-flex justify-content-center">
-                                        <a class="button-a" href="https://extra.ge/">შეიძინე</a>
-                                    </div>
-                                  
-
-                                </div>
-                            </div>
-
-                        </div>
-
-
-                        <div class="col-6 " >
-
-                            <div class="d-flex">
-                                <div class="col-6">
-                                    <a href="https://xd.adobe.com/view/907be047-b2cd-42a0-a7eb-0530885d1da0-c528/specs/">
-                                        <img class="w-100 img-fluid"  src="image/Group 189.png" alt="">
-
-                                    </a>
-                                </div>
-                                <div class="col-6">
-                                    <a href="https://xd.adobe.com/view/907be047-b2cd-42a0-a7eb-0530885d1da0-c528/specs/">
-                                        <img class="w-100 img-fluid"  src="image/Group 190.png" alt="">
-
-                                    </a>                                </div>
-                            </div>
-                            <div class="col-12" style="margin-top:20px; margin-bottom:20px;">
-                                <a href="https://pbs.twimg.com/profile_images/823569976342773760/c2RLAG7h_400x400.jpg">
-                                    <img class="w-100 img-fluid"  src="image/Group 191.png" alt="">
-
-                                </a>
-                            </div>
-                            <div class="d-flex">
-                                <div class="col-6">
-                                    <a href="https://xd.adobe.com/view/907be047-b2cd-42a0-a7eb-0530885d1da0-c528/specs/">
-                                        <img class="w-100 img-fluid"  src="image/Group 192.png" alt="">
-
-                                    </a>                                </div>
-                                <div class="col-6">
-                                    <a href="https://xd.adobe.com/view/907be047-b2cd-42a0-a7eb-0530885d1da0-c528/specs/">
-                                        <img class="w-100 img-fluid"  src="image/Group 193.png" alt="">
-
-                                    </a>                                </div>
-                            </div>
-
-                        </div>
-
-
-
-
-                        
-                    </div>
-                </div>
-            </div>
-        </div>   
-
-
-
-
-
-
-        <div class="section s1 b2" style="padding-top: 5px; padding-bottom: 5px;">
-            <!-- Write your comments here -->
-
-            <div >
-                <div class="contaner-fluid block ">
-
-                    <section class="m2" style="height: 100vh; ">
-                        <p class="main-text-one">აუდიო სისტემები და <br> სხვა მრავალი</p>
-
-    
-                        
-                        <div class="slider" >
-                            <div class="ss" style="display: flex; justify-content: center;">
-                                <article>
-                                    <div class=" img-box">
-                                        <img style="width: 230px;" src="image/Group 230.png"
-                                            alt="" />
-                                            <div style="display: flex; justify-content: center;">
-                                                <a style="margin-top:30px;" class="button-a" href="https://extra.ge/">შეიძინე</a>
-
-                                            </div>
-                                    </div>
-    
-                                </article>
-                            </div>
-                            <div class="ss" style="display: flex; justify-content: center;">
-                                <article>
-                                    <div class=" img-box">
-                                        <img style="width: 230px;" src="image/Group 231.png" alt="" />
-                                        <div style="display: flex; justify-content: center;">
-                                            <a style="margin-top:30px;" class="button-a" href="https://extra.ge/">შეიძინე</a>
-
-                                        </div>                                    </div>
-    
-                                </article>
-                            </div>
-    
-                            <div class="ss" style="display: flex; justify-content: center;">
-                                <article>
-                                    <div class=" img-box">
-                                        <img style="width: 230px;" src="image/Group 232.png" alt="" />
-                                        <div style="display: flex; justify-content: center;">
-                                            <a style="margin-top:30px;" class="button-a" href="https://extra.ge/">შეიძინე</a>
-
-                                        </div>                                    </div>
-    
-                                </article>
-                            </div>
-                            <div class="ss" style="display: flex; justify-content: center;">
-                                <article>
-                                    <div class=" img-box">
-                                        <img style="width: 230px;" src="image/Group 233.png" alt="" />
-                                        <div style="display: flex; justify-content: center;">
-                                            <a style="margin-top:30px;" class="button-a" href="https://extra.ge/">შეიძინე</a>
-
-                                        </div>                                    </div>
-    
-                                </article>
-                            </div>
-                            <div class="ss" style="display: flex; justify-content: center;">
-                                <article>
-                                    <div class=" img-box">
-                                        <img style="width: 230px;" src="image/Group 229.png" alt="" />
-                                        <div style="display: flex; justify-content: center;">
-                                            <a style="margin-top:30px;" class="button-a" href="https://extra.ge/">შეიძინე</a>
-
-                                        </div>                                    </div>
-    
-                                </article>
-                            </div>
-                        </div>
-                    </section>
-                    
-                </div>
-            </div>
-<!-- Write your comments here -->
-            <div class="container none">
-                <div class="row   justify-content-center">
-                    <div class="d-flex align-items-center main-box-div" >
-
-
-                        <div class="col-6 " >
-
-                            <div class="d-flex">
-                                <div class="col-6">
-                                    <a href="https://xd.adobe.com/view/907be047-b2cd-42a0-a7eb-0530885d1da0-c528/specs/">
-                                        <img class="w-100 img-fluid"  src="image/Group 194.png" alt="">
-
-                                    </a>
-                                </div>
-                                <div class="col-6">
-                                    <a href="https://xd.adobe.com/view/907be047-b2cd-42a0-a7eb-0530885d1da0-c528/specs/">
-                                        <img class="w-100 img-fluid"  src="image/Group 195.png" alt="">
-
-                                    </a>                                </div>
-                            </div>
-                            <div class="col-12" style="margin-top:20px; margin-bottom:20px;">
-                                <a href="https://pbs.twimg.com/profile_images/823569976342773760/c2RLAG7h_400x400.jpg">
-                                    <img class="w-100 img-fluid"  src="image/Group 196.png" alt="">
-
-                                </a>
-                            </div>
-                            <div class="d-flex">
-                                <div class="col-6">
-                                    <a href="https://xd.adobe.com/view/907be047-b2cd-42a0-a7eb-0530885d1da0-c528/specs/">
-                                        <img class="w-100 img-fluid"  src="image/Group 197.png" alt="">
-
-                                    </a>                                </div>
-                                <div class="col-6">
-                                    <a href="https://xd.adobe.com/view/907be047-b2cd-42a0-a7eb-0530885d1da0-c528/specs/">
-                                        <img class="w-100 img-fluid"  src="image/Group 198.png" alt="">
-
-                                    </a>                                </div>
-                            </div>
-
-                        </div>
-
-
-
-
-                        <div class="col-6" style="display: flex;align-items: center;">
-
-                            <div class="w-100">
-                                
-                                <div >
-                                    <p class="main-text-one" style="text-align: right;">აუდიო სისტემები და სხვა მრავალი</p>
-                                    <div class="d-flex justify-content-center">
-                                        <a class="button-a" href="https://extra.ge/">შეიძინე</a>
-                                    </div>
-                                  
-
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-
-
-        <div class="section s1 b2" style="padding-top: 5px; padding-bottom: 5px;">
-            <!-- Write your comments here -->
-
-            <div >
-                <div class="contaner-fluid block ">
-
-                    <section class="m2" style="height: 100vh; ">
-                        <p class="main-text-one">მობილური ტელეფონები <br> და აქსესუარები</p>
-
-    
-                        
-                        <div class="slider" >
-                            <div class="ss" style="display: flex; justify-content: center;">
-                                <article>
-                                    <div class=" img-box">
-                                        <img style="width: 230px;" src="image/Group 210.png"
-                                            alt="" />
-                                            <div style="display: flex; justify-content: center;">
-                                                <a style="margin-top:30px;" class="button-a" href="https://extra.ge/">შეიძინე</a>
-
-                                            </div>
-                                    </div>
-    
-                                </article>
-                            </div>
-                            <div class="ss" style="display: flex; justify-content: center;">
-                                <article>
-                                    <div class=" img-box">
-                                        <img style="width: 230px;" src="image/Group 207.png" alt="" />
-                                        <div style="display: flex; justify-content: center;">
-                                            <a style="margin-top:30px;" class="button-a" href="https://extra.ge/">შეიძინე</a>
-
-                                        </div>                                    </div>
-    
-                                </article>
-                            </div>
-    
-                            <div class="ss" style="display: flex; justify-content: center;">
-                                <article>
-                                    <div class=" img-box">
-                                        <img style="width: 230px;" src="image/Group 211.png" alt="" />
-                                        <div style="display: flex; justify-content: center;">
-                                            <a style="margin-top:30px;" class="button-a" href="https://extra.ge/">შეიძინე</a>
-
-                                        </div>                                    </div>
-    
-                                </article>
-                            </div>
-                            <div class="ss" style="display: flex; justify-content: center;">
-                                <article>
-                                    <div class=" img-box">
-                                        <img style="width: 230px;" src="image/Group 213.png" alt="" />
-                                        <div style="display: flex; justify-content: center;">
-                                            <a style="margin-top:30px;" class="button-a" href="https://extra.ge/">შეიძინე</a>
-
-                                        </div>                                    </div>
-    
-                                </article>
-                            </div>
-                            <div class="ss" style="display: flex; justify-content: center;">
-                                <article>
-                                    <div class=" img-box">
-                                        <img style="width: 230px;" src="image/Group 213.png" alt="" />
-                                        <div style="display: flex; justify-content: center;">
-                                            <a style="margin-top:30px;" class="button-a" href="https://extra.ge/">შეიძინე</a>
-
-                                        </div>                                    </div>
-    
-                                </article>
-                            </div>
-                        </div>
-                    </section>
-                    
-                </div>
-            </div>
-<!-- Write your comments here -->
-            <div class="container none">
-                <div class="row   justify-content-center">
-                    <div class="d-flex align-items-center main-box-div" >
-
-
-
-
-                        <div class="col-6" style="display: flex;align-items: center;">
-
-                            <div class="w-100">
-                                
-                                <div >
-                                    <p class="main-text-one" style="text-align: left;">GAMING <br> განყოფილება</p>
-                                    <div class="d-flex justify-content-center">
-                                        <a class="button-a" href="https://extra.ge/">შეიძინე</a>
-                                    </div>
-                                  
-
-                                </div>
-                            </div>
-
-                        </div>
-
-
-
-
-
-
-
-                        <div class="col-6 " >
-
-                            <div class="d-flex">
-                                <div class="col-6">
-                                    <a href="https://xd.adobe.com/view/907be047-b2cd-42a0-a7eb-0530885d1da0-c528/specs/">
-                                        <img class="w-100 img-fluid"  src="image/Group 238.png" alt="">
-
-                                    </a>
-                                </div>
-                                <div class="col-6">
-                                    <a href="https://xd.adobe.com/view/907be047-b2cd-42a0-a7eb-0530885d1da0-c528/specs/">
-                                        <img class="w-100 img-fluid"  src="image/Group 239.png" alt="">
-
-                                    </a>                                </div>
-                            </div>
-                            <div class="col-12" style="margin-top:20px; margin-bottom:20px;">
-                                <a href="https://pbs.twimg.com/profile_images/823569976342773760/c2RLAG7h_400x400.jpg">
-                                    <img class="w-100 img-fluid"  src="image/Group 240.png" alt="">
-
-                                </a>
-                            </div>
-                            <div class="d-flex">
-                                <div class="col-6">
-                                    <a href="https://xd.adobe.com/view/907be047-b2cd-42a0-a7eb-0530885d1da0-c528/specs/">
-                                        <img class="w-100 img-fluid"  src="image/Group 241.png" alt="">
-
-                                    </a>                                </div>
-                                <div class="col-6">
-                                    <a href="https://xd.adobe.com/view/907be047-b2cd-42a0-a7eb-0530885d1da0-c528/specs/">
-                                        <img class="w-100 img-fluid"  src="image/Group 242.png" alt="">
-
-                                    </a>                                </div>
-                            </div>
-
-                        </div>
-
-
-
-
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-
-
-
-
-        <div class="section s1 b2" style="padding-top: 5px; padding-bottom: 5px;">
-            
-            <div class="container ">
-                <div class="row   justify-content-center">
-                    <div class="text-center align-items-center main-box-div" >
-
-
-                        <div class="dropdown">
-                            <p onclick="myFunction()" class="real-dropbtn">შემთხვევითად გენერირებული ტექსტი <img   class="dropbtn " style="" src="image/Group 169.svg" alt=""></p>
-                            <div id="myDropdown" class="dropdown-content">
-                              <a href="#home">Home</a>
-                              <a href="#about">About</a>
-                              <a href="#contact">Contact</a>
-                            </div>
-                          </div>
-                          
-
-
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-
+<body>
+  <!-- Swiper -->
+  <div class="container">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img class="w-100" src="image/73.png" alt=""></div>
+        <div class="swiper-slide"><img class="w-100" src="image/73.png" alt=""></div>
+        <div class="swiper-slide"><img class="w-100" src="image/73.png" alt=""></div>
+        <div class="swiper-slide"><img class="w-100" src="image/73.png" alt=""></div>
+        <div class="swiper-slide"><img class="w-100" src="image/73.png" alt=""></div>
+        <div class="swiper-slide"><img class="w-100" src="image/73.png" alt=""></div>
+        <div class="swiper-slide"><img class="w-100" src="image/73.png" alt=""></div>
+        <div class="swiper-slide"><img class="w-100" src="image/73.png" alt=""></div>
+        <div class="swiper-slide"><img class="w-100" src="image/73.png" alt=""></div>
+        <div class="swiper-slide"><img class="w-100" src="image/73.png" alt=""></div>
+      </div>
+      <!-- Add Pagination -->
+      <div class="swiper-pagination"></div>
     </div>
+  </div>
 
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js " integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj " crossorigin="anonymous "></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js " integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN " crossorigin="anonymous "></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js " integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV " crossorigin="anonymous "></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.5/fullpage.min.js"></script>
-
-
-
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js'></script>
-
-    <script src="./sscript.js"></script>
-
-
-    <script>
-        new fullpage('#fullPage', {
-            autoScrolling: true,
-            navigation: true,
-            scrollingSpeed: 1000
-        })
-
-
-
-
-
-
-
-
-        /////////////////////dropdown
-        function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
-
-        // Close the dropdown if the user clicks outside of it
-        window.onclick = function(event) {
-        if (!event.target.matches('.dropbtn')) {
-            var dropdowns = document.getElementsByClassName("dropdown-content");
-            var i;
-            for (i = 0; i < dropdowns.length; i++) {
-            var openDropdown = dropdowns[i];
-            if (openDropdown.classList.contains('show')) {
-                openDropdown.classList.remove('show');
-            }
-            }
-        }
-}
-    </script>
-
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 4,
+          spaceBetween: 30,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 4,
+          spaceBetween: 0,
+        },
+        768: {
+          slidesPerView: 4,
+          spaceBetween: 10,
+        },
+        1024: {
+          slidesPerView: 5,
+          spaceBetween: 30,
+        },
+      }
     
+      
+    });
+  </script>
 </body>
 
 </html>
