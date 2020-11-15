@@ -353,166 +353,166 @@ a:hover{
 
 }
 
-// @media only screen and (max-width: 768px) {
-//   .swiper-container{
-//     margin: 0!important;
+@media only screen and (max-width: 768px) {
+  .swiper-container{
+    margin: 0!important;
   
-//   }
-//   .img-heart{
-//    margin-top:0;
+  }
+  .img-heart{
+   margin-top:0;
   
-//   }
-//   .footer-text{
-//     font-size: 12px;
-//   }
-//   .button-a{
-//     padding: 12px 18px;
+  }
+  .footer-text{
+    font-size: 12px;
+  }
+  .button-a{
+    padding: 12px 18px;
 
-//   }
-//   .last-component{
-//     padding: 0 42px;
+  }
+  .last-component{
+    padding: 0 42px;
 
-//   }
-//   .button-p{
-//     font-size: 12px;
-//   }
-//   .desk{
-//     display: none;
-//   }
-//   .mob{
-//     display: block;
-//   }
-//   .buy-now-p{
-//     font-size: 10px;
-//   }
-//   .dogtown-p{
-//     font-size: 10px;
-//     padding: 10px 10px;
-//   }
-//   .inspection-category {
-//     font-size: 12px;
-//     margin: 15px 0;
-//   }
+  }
+  .button-p{
+    font-size: 12px;
+  }
+  .desk{
+    display: none;
+  }
+  .mob{
+    display: block;
+  }
+  .buy-now-p{
+    font-size: 10px;
+  }
+  .dogtown-p{
+    font-size: 10px;
+    padding: 10px 10px;
+  }
+  .inspection-category {
+    font-size: 12px;
+    margin: 15px 0;
+  }
 
-//   .vans-section-text-first{
-//     font-size: 15px;
-//   }
-//   .vans-section-text-second{
-//     font-size: 15px;
-//   }
+  .vans-section-text-first{
+    font-size: 15px;
+  }
+  .vans-section-text-second{
+    font-size: 15px;
+  }
 
-//   .man-category{
-//     padding-right: 5px;
-//   }
-//   .woman-category{
-//     padding-left: 5px;
-//   }
-//   .logo{
-//     height:49px;
-//     margin-top: 10px;
-//   }
-//   .img-1{
-//     display: none;
-//   }
-//   .img-2{
-//     display: none;
-//   }
-//   .img-11{
-//     display: block;
-//   }
-//   .img-22{
-//     display: block;
-//   }
-//   .container{
-//     padding-right: 30px;
-//     padding-left: 30px;
-//   }
-//   .slick-prev:before {
+  .man-category{
+    padding-right: 5px;
+  }
+  .woman-category{
+    padding-left: 5px;
+  }
+  .logo{
+    height:49px;
+    margin-top: 10px;
+  }
+  .img-1{
+    display: none;
+  }
+  .img-2{
+    display: none;
+  }
+  .img-11{
+    display: block;
+  }
+  .img-22{
+    display: block;
+  }
+  .container{
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .slick-prev:before {
 
-//       width: 12px; 
-//       height: 18px;
+      width: 12px; 
+      height: 18px;
     
      
-//   }
+  }
   
   
-//   .slick-next:before {
+  .slick-next:before {
 
-//       width: 12px; 
-//       height: 18px;
+      width: 12px; 
+      height: 18px;
      
 
-//   }
-//   .my-row{
-//     padding:0;
-//   }
-//   .slick-prev{
-//     left: -15px!important;
-//     z-index: 9;
-//   }
-//   .slick-next{
-//     right: -15px!important;
-//   }
-//   .vans-section-text-first{
-//     font-size: 15px;
-//   }
-//   .vans-section-text-second{
-//     font-size: 15px;
-//   }
+  }
+  .my-row{
+    padding:0;
+  }
+  .slick-prev{
+    left: -15px!important;
+    z-index: 9;
+  }
+  .slick-next{
+    right: -15px!important;
+  }
+  .vans-section-text-first{
+    font-size: 15px;
+  }
+  .vans-section-text-second{
+    font-size: 15px;
+  }
 
   
-// }
+}
 
-// @media only screen and (max-width: 570px) {
-//   .swiper-button-next{
-//     background-image: url(../image/left.svg)!important;
-//     // z-index: 9!important;
-//     background-size: 12px 27px!important;
-//       display: inline-block!important;
-//       width: 12px!important; 
-//       height: 27px!important;
-//       content:""!important;
-//       color: #EEEEEE!important;
+@media only screen and (max-width: 570px) {
+  .swiper-button-next{
+    background-image: url(../image/left.svg)!important;
+    // z-index: 9!important;
+    background-size: 12px 27px!important;
+      display: inline-block!important;
+      width: 12px!important; 
+      height: 27px!important;
+      content:""!important;
+      color: #EEEEEE!important;
   
-//   }
-//   .swiper-button-prev{
-//     background-image: url(../image/rig.svg)!important;
-//     // z-index: 9!important;
-//     background-size: 12px 27px!important;
-//       display: inline-block!important;
-//       width: 12px!important; 
-//       height: 27px!important;
-//       content:""!important;
-//       color: #EEEEEE!important;
+  }
+  .swiper-button-prev{
+    background-image: url(../image/rig.svg)!important;
+    // z-index: 9!important;
+    background-size: 12px 27px!important;
+      display: inline-block!important;
+      width: 12px!important; 
+      height: 27px!important;
+      content:""!important;
+      color: #EEEEEE!important;
   
-//   }
-//   .swiper-button-prev{
-//     z-index: 999!important;
-//     overflow: visible!important;
-//     left: -15px!important;
-//   }
-//   .swiper-button-next{
+  }
+  .swiper-button-prev{
+    z-index: 999!important;
+    overflow: visible!important;
+    left: -15px!important;
+  }
+  .swiper-button-next{
   
-//     top:unset!important;
-//     margin-top: unset!important;
-//     right: -15px!important;
+    top:unset!important;
+    margin-top: unset!important;
+    right: -15px!important;
   
     
-//   }
-// }
+  }
+}
 
 
 
 
-// @media only screen and (max-width: 320px) {
+@media only screen and (max-width: 320px) {
   
-//   .img-heart{
-//     margin: 0 3px;
-//   }
-//   .buy-now-p {
-//     font-size: 9px;
-// }
-//   .dogtown-p {
-//     font-size: 8px;
-//   }
-// }
+  .img-heart{
+    margin: 0 3px;
+  }
+  .buy-now-p {
+    font-size: 9px;
+}
+  .dogtown-p {
+    font-size: 8px;
+  }
+}
