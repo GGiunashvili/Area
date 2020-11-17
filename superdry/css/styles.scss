@@ -145,11 +145,16 @@ a:hover{
   position: relative;
 }
 .percent-p{
-  background: red;
+  background: #fd561f;
   width: fit-content;
   position: absolute;
   top: 0;
   right: 0;
+  font-size: 16px;
+  font-family: markgeocaps-medium;
+  padding: 2px 4px;
+  color: white;
+
 }
 
 @media only screen and (max-width: 992px) {
