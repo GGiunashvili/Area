@@ -1,0 +1,158 @@
+@font-face {
+  src: url(../fonts/MarkGEO-Bold.ttf);
+  font-family: markgeo-bold;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEO-Regular.ttf);
+  font-family: markgeo-regular;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEO-SemiBold.ttf);
+  font-family: markgeo-semibold;
+}
+@font-face {
+  src: url(../fonts/MarkGEOCAPS-Bold.ttf);
+  font-family: markgeocaps-bold;
+
+}
+@font-face {
+  src: url(../fonts/MarkGEOCAPS-Bold.ttf);
+  font-family: markgeocapsboldsemi-bold;
+
+}
+@font-face {
+  src: url(../fonts/MarkGEO-Medium.ttf);
+  font-family: markgeocaps-medium;
+
+}
+@font-face {
+  src: url(../fonts/MarkGEOCAPS-Medium.ttf);
+  font-family: markgeocapscaps-medium;
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  text-decoration: none;
+  color: black;
+
+}
+.min-header{
+  background-color: #FD561F;
+  .min-header-text{
+    color: white;
+    text-align: center;
+    font-family: markgeo-regular;
+    font-size: 20px;
+    padding: 9px 0;
+
+  }
+}
+.logo-box{
+  text-align: center;
+  margin-top: 23px;
+  margin-bottom: 14px;
+}
+.superdry-logo{
+  max-width: 469px;
+}
+.man-category{
+  padding-right: 0px;
+}
+.woman-category{
+  padding-left: 0;
+}
+.buy-category-man{
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(0, 70%);
+  background-color: white;
+  text-align: center;
+  padding: 7px 41px 10px 41px;
+  line-height: 1.4;
+  font-size: 15px;
+  font-family: markgeocapsboldsemi-bold;
+
+}
+.buy-category-woman{
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(0, 70%);
+  background-color: white;
+  text-align: center;
+  padding: 7px 41px 10px 41px;
+  line-height: 1.4;
+  font-size: 15px;
+  font-family: markgeocapsboldsemi-bold;
+}
+.second-content{
+  margin-top: 40px;
+  background-color: black;
+  margin-right: 16px;
+  margin-left: 15px;
+}
+.secont-contwnt-text{
+  color: white;
+  font-family: markgeocapsboldsemi-bold;
+
+}
+.text-one{
+  font-size: 50px;
+}
+.text-two{
+  font-size: 70px;
+}
+.text-three{
+  font-size: 35px;
+}
+.section-two-img {
+  margin: 20px 0;
+}
+@media only screen and (max-width: 768px) {
+  .second-content{
+    margin-right: unset;
+    margin-left: unset;
+  }
+
+  .logo-box{
+    margin: 13px 0;
+  }
+  .min-header .min-header-text{
+    font-size: 8px;
+  }
+  .superdry-logo {
+    max-width: 167px;
+}
+  .man-category{
+    padding-left: 0;
+  }
+  .woman-category{
+    padding-right: 0;
+  }
+  .buy-category-man{
+    font-size: 6px;
+    padding: 2px 4px 2px 4px;
+    transform: translate(0, 50%);
+
+  
+  }
+  .buy-category-woman{
+    font-size: 6px;
+    padding: 2px 4px 2px 4px;
+    transform: translate(0, 50%);
+
+  
+  }
+}
