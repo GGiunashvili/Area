@@ -118,22 +118,79 @@ a:hover {
 }
 
 .text-one {
-  font-size: 50px;
+  font-size: 7vw;
 }
 
 .text-two {
-  font-size: 70px;
+  font-size: 11vw;
+  margin: 30px 0;
 }
 
 .text-three {
-  font-size: 35px;
+  font-size: 5vw;
 }
 
 .section-two-img {
   margin: 20px 0;
 }
 
+.product-name {
+  font-family: markgeocaps-medium;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.product-div {
+  background: #f72163;
+}
+
+.product-main-box {
+  margin-top: 30px;
+  margin-bottom: 17px;
+  padding: 0;
+}
+
+.second-product-main-box {
+  margin-bottom: 17px;
+  padding: 0;
+}
+
+.sale-categories {
+  position: relative;
+}
+
+.percent-p {
+  background: red;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+@media only screen and (max-width: 992px) {
+  .text-one {
+    font-size: 5vw;
+  }
+  .text-two {
+    font-size: 8vw;
+  }
+  .text-three {
+    font-size: 4vw;
+  }
+}
+
 @media only screen and (max-width: 768px) {
+  .product-name {
+    font-size: 8px;
+    padding: 12px 0;
+  }
+  .sec-cont-img-box {
+    padding: 0;
+  }
   .second-content {
     margin-right: unset;
     margin-left: unset;
@@ -164,6 +221,19 @@ a:hover {
     padding: 2px 4px 2px 4px;
     -webkit-transform: translate(0, 50%);
             transform: translate(0, 50%);
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .text-one {
+    font-size: 7vw;
+  }
+  .text-two {
+    font-size: 11vw;
+    margin: 8px 0;
+  }
+  .text-three {
+    font-size: 5vw;
   }
 }
 /*# sourceMappingURL=styles.css.map */
