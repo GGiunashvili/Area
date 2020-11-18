@@ -145,7 +145,7 @@ a:hover{
   padding: 0;
 }
 .second-product-main-box{
-  margin-bottom: 17px;
+  margin-bottom: 26px;
   padding:0;
 }
 .sale-categories{
@@ -195,6 +195,12 @@ a:hover{
 
 }
 @media only screen and (max-width: 768px) {
+  .sale-categories-lst-two{
+    margin-top: 10px;
+  }
+  .second-product-main-box{
+    margin-bottom: 10px;
+  }
   .footer-text{
     font-size: 12px;
   }

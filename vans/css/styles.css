@@ -560,5 +560,9 @@ a:hover {
   .dogtown-p {
     font-size: 8px;
   }
+  .img-2 {
+    height: 60px !important;
+    width: 60px !important;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
