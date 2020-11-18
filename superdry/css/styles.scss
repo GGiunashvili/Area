@@ -107,8 +107,8 @@ a:hover{
 .second-content{
   margin-top: 32px;
   background-color: black;
-  margin-right: 16px;
-  margin-left: 15px;
+  // margin-right: 16px;
+  // margin-left: 15px;
 }
 .secont-contwnt-text{
   color: white;
@@ -195,6 +195,15 @@ a:hover{
 
 }
 @media only screen and (max-width: 768px) {
+  .product-main-box{
+    padding: 0 10px;
+  }
+  .second-product-main-box{
+    padding: 0 10px;
+  }
+  .percent-p{
+    font-size: 10px;
+  }
   .category-a-href{
     padding: 0 5px;
   }
@@ -263,7 +272,7 @@ a:hover{
 
 @media only screen and (max-width: 575px) {
   .cont{
-    margin:0 30px;
+    margin:0 20px;
   }
   
   .text-one{
