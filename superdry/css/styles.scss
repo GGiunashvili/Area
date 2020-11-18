@@ -60,6 +60,13 @@ a:hover{
   text-align: center;
   margin-top: 23px;
   margin-bottom: 14px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.extra-logo{
+  height: 39px;
+  margin-bottom: 20px;
 }
 .superdry-logo{
   max-width: 469px;
@@ -72,10 +79,10 @@ a:hover{
 }
 .buy-category-man{
   position: absolute;
-  top: 50%;
+  top: 45%;
   right: 10px;
   -ms-transform: translate(-50%, -50%);
-  transform: translate(0, 70%);
+  transform: translate(0, 0%);
   background-color: white;
   text-align: center;
   padding: 7px 41px 10px 41px;
@@ -86,10 +93,10 @@ a:hover{
 }
 .buy-category-woman{
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 10px;
   -ms-transform: translate(-50%, -50%);
-  transform: translate(0, 70%);
+  transform: translate(0, 0%);
   background-color: white;
   text-align: center;
   padding: 7px 41px 10px 41px;
@@ -98,7 +105,7 @@ a:hover{
   font-family: markgeocapsboldsemi-bold;
 }
 .second-content{
-  margin-top: 40px;
+  margin-top: 32px;
   background-color: black;
   margin-right: 16px;
   margin-left: 15px;
@@ -130,7 +137,7 @@ a:hover{
 
 }
 .product-div{
-  background: #f72163;
+  background: #fd561f;
 }
 .product-main-box{
   margin-top: 30px;
@@ -156,8 +163,25 @@ a:hover{
   color: white;
 
 }
+.footer-main-box{
+  margin-top: 17px;
+  padding:14px;
+}
+.img-heart{
+  margin:0 5px; margin-top:3px;
 
+}
+.linkedin-icon{
+  margin:0 10px;
+}
 @media only screen and (max-width: 992px) {
+  .linkedin-icon{
+    margin:0;
+  }
+  .footer-main-box{
+    margin-top: 13px;
+    padding:11px;
+  }
   .text-one{
     font-size: 5vw;
   }
@@ -171,6 +195,17 @@ a:hover{
 
 }
 @media only screen and (max-width: 768px) {
+  .footer-text{
+    font-size: 12px;
+  }
+  .img-heart{
+    margin-top:0;
+   
+   }
+  .extra-logo{
+    height: 20px;
+    margin-bottom: 7px;
+  }
   .product-name{
     font-size: 8px;
     padding: 12px 0;
@@ -180,6 +215,7 @@ a:hover{
     padding:0;
   }
   .second-content{
+    margin-top: 15px;
     margin-right: unset;
     margin-left: unset;
   }
@@ -202,14 +238,14 @@ a:hover{
   .buy-category-man{
     font-size: 6px;
     padding: 2px 4px 2px 4px;
-    transform: translate(0, 50%);
+    transform: translate(0, 0%);
 
   
   }
   .buy-category-woman{
     font-size: 6px;
     padding: 2px 4px 2px 4px;
-    transform: translate(0, 50%);
+    transform: translate(0, 0%);
 
   
   }
@@ -228,6 +264,14 @@ a:hover{
     font-size: 5vw;
   }
 
+}
+
+
+@media only screen and (max-width: 320px) {
+  
+  .img-heart{
+    margin: 0 3px;
+  }
 }
 
 
