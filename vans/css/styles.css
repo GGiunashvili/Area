@@ -80,16 +80,33 @@ a:hover {
 }
 
 .vans-section-text-first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 50px;
+  width: 100%;
+  background-color: #000000;
   color: white;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  bottom: 0;
   font-family: markgeocaps-bold;
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
   line-height: 1.3;
+  opacity: 0;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+}
+
+.picture-tag:hover .vans-section-text-first {
+  opacity: 1;
 }
 
 .vans-section-text-second {
@@ -363,6 +380,10 @@ a:hover {
   }
 }
 
+.picture-tag {
+  position: relative;
+}
+
 @media only screen and (max-width: 992px) {
   .img-1 {
     height: 168px !important;
@@ -442,6 +463,7 @@ a:hover {
   }
   .vans-section-text-first {
     font-size: 15px;
+    opacity: 1;
   }
   .vans-section-text-second {
     font-size: 15px;
@@ -489,7 +511,8 @@ a:hover {
     right: -15px !important;
   }
   .vans-section-text-first {
-    font-size: 8px;
+    font-size: 6px;
+    height: 18px;
   }
   .vans-section-text-second {
     font-size: 15px;

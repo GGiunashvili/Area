@@ -76,15 +76,24 @@ a:hover{
 
 
 .vans-section-text-first{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 50px;
+  width: 100%;
+  background-color: #000000;
   color: white;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  bottom: 0;
   font-family: markgeocaps-bold;
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
   line-height: 1.3;
+  opacity: 0;
+  transition: .5s ease;
+
+
   // bottom:0;
   // left:0;
   // right:0;
@@ -94,6 +103,12 @@ a:hover{
 
 
 }
+
+.picture-tag:hover .vans-section-text-first {
+  opacity: 1;
+}
+
+
 .vans-section-text-second{
   position: absolute;
   top: 50%;
@@ -360,6 +375,10 @@ a:hover{
 
 }
 }
+
+.picture-tag{
+  position: relative;
+}
 @media only screen and (max-width: 992px) {
   .img-1{
     height: 168px!important;
@@ -449,6 +468,7 @@ a:hover{
 
   .vans-section-text-first{
     font-size: 15px;
+    opacity: 1;
   }
   .vans-section-text-second{
     font-size: 15px;
@@ -514,8 +534,9 @@ a:hover{
     right: -15px!important;
   }
   .vans-section-text-first{
-    font-size: 8px;
-  }
+    font-size: 6px;
+    height: 18px;
+    }
   .vans-section-text-second{
     font-size: 15px;
   }
