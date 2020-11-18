@@ -224,6 +224,9 @@ a:hover {
 }
 
 @media only screen and (max-width: 768px) {
+  .category-a-href {
+    padding: 0 5px;
+  }
   .sale-categories-lst-two {
     margin-top: 10px;
   }
@@ -282,15 +285,18 @@ a:hover {
 }
 
 @media only screen and (max-width: 575px) {
+  .cont {
+    margin: 0 30px;
+  }
   .text-one {
-    font-size: 7vw;
+    font-size: 6vw;
   }
   .text-two {
-    font-size: 11vw;
+    font-size: 9.5vw;
     margin: 8px 0;
   }
   .text-three {
-    font-size: 5vw;
+    font-size: 4vw;
   }
 }
 
