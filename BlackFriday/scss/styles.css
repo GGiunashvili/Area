@@ -23,6 +23,10 @@
   font-family: markgeo-medium;
 }
 
+.mobile-look {
+  display: none;
+}
+
 body, html, .app {
   height: 100%;
 }
@@ -551,7 +555,7 @@ a {
     font-size: 65px;
   }
   .mg-head-text {
-    font-size: 12px;
+    font-size: 8px;
   }
   .how-use-sale-div {
     padding: 0;
@@ -575,6 +579,9 @@ a {
 }
 
 @media only screen and (max-width: 575px) {
+  .mg-head-text {
+    font-size: 8px;
+  }
   .see-all-product-p {
     font-size: 20px;
   }
@@ -643,6 +650,15 @@ a {
   }
 }
 
+@media only screen and (max-width: 560px) {
+  .mobile-look {
+    display: block;
+  }
+  .desktop-look {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 414px) {
   .component-text {
     font-size: 22px !important;
@@ -652,6 +668,9 @@ a {
   }
   .mobile-arrow {
     height: 20px;
+  }
+  .mg-head-text {
+    font-size: 12px;
   }
 }
 
@@ -669,7 +688,7 @@ a {
     font-size: 35px;
   }
   .add-text-mobile {
-    font-size: 36px !important;
+    font-size: 12px !important;
   }
   .footer-text {
     font-size: 10px;

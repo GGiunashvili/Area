@@ -12,227 +12,220 @@
     src: url(../fonts/MarkGEO-SemiBold.ttf);
     font-family: markgeo-semibold;
 }
-
-@font-face {
-    src: url(../fonts/MarkGEOCAPS-Regular.ttf);
-    font-family: markgeocaps-regular;
-}
-
 @font-face {
     src: url(../fonts/MarkGEOCAPS-Bold.ttf);
     font-family: markgeocaps-bold;
 }
-a:hover {
-    text-decoration: none;
-    color: white!important;
-}
-button {
-    z-index: 102;
-    display: none!important;
-}
-/////////////////////////////dropdown////////////
-.dropbtn {
-    // background-color:#016CDE;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    // background: transparent linear-gradient(267deg, #016CDE 0%, #003674 100%) 0% 0% no-repeat padding-box;
-  }
-  .real-dropbtn{
-       background-color:#016CDE;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    background: transparent linear-gradient(267deg, #016CDE 0%, #003674 100%) 0% 0% no-repeat padding-box;
-  }
-  .dropbtn-icon{
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .dropbtn:hover, .dropbtn:focus {
-    background-color: none;
-  }
-  
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #016CDE;
-    min-width: 160px;
-    overflow: auto;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    width: 100%;
-    background: transparent linear-gradient(267deg, #016CDE 0%, #003674 100%) 0% 0% no-repeat padding-box;
-
-  }
-  
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .dropdown a:hover {background-color: #ddd;}
-  
-  .show {display: block;}
-/////////////////dropdownend///////////////////////
-
-section {
-    position: relative;
-    background: #FAFAFA;
+@font-face {
+    src: url(../fonts/MarkGEO-Medium.ttf);
+    font-family: markgeo-medium;
 }
 
-.slick-slide {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-transition: 0.3s ease-in-out all;
-    transition: 0.3s ease-in-out all;
-}
-
-.slick-slide.slick-center {
-    opacity: 1;
-    -webkit-transform: scale(1.08);
-    transform: scale(1.08);
-}
-
-.switch {
-    background: #000;
-}
-
-.slider {
-    margin: 0 auto;
-    position: relative;
-}
-
-.slider:after,
-.slider:before {
-    content: "";
-    // background: #FAFAFA;
-    position: absolute;
-    top: 0;
+body, html, .app {
     height: 100%;
-    width: 12%;
-    z-index: 100;
-}
-
-// .slider:after {
-//     right: 0;
-//     background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), to(#ffffff));
-//     background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, #ffffff 100%);
-// }
-
-// .slider:before {
-//     background: -webkit-gradient(linear, left top, right top, from(#ffffff), to(rgba(255, 255, 255, 0)));
-//     background: linear-gradient(to right, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
-// }
-
-.img-box {
-    padding: 0;
-}
-
-.img-box img {
-    width: 100%;
-}
-
-article {
-    /* border: 1px solid; */
-    float: left;
-    margin: 30px 15px;
-    font-size: 0.8vw;
-}
-
-h1 {
-    font-size: 2vw;
-}
-
-#fp-nav {
+  }
+.hidden-row{
     display: none;
 }
-
-// html {
-//     scroll-behavior: smooth;
-// }
-// .fp-tableCell{
-// 	vertical-align: unset!important;
-// }
-.b1 {
-    background-image: url(../image/1111.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-
+.bog-inside-text{
+    padding-left:55px;
 }
-.b2 {
-    background-image: url(../image/meore.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+.text-description-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
-.m2{
-    background-image: url(../image/MaskGroup2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+.main-texts{
+    line-height: 1.1;
 }
-// body{
-//     background-image: url(../image/meore.png);
-//     background-repeat: no-repeat;
-//     background-size: cover;
-
-// }
-a:hover {
-    text-decoration: none;
-    color: black;
+.mob-img-w85{
+    width: 85%;
 }
-
-a {
-    color: black;
-}
+.see-all-product{
+    display: flex; justify-content: center;    
+    margin-top: 50px;
+    .see-all-product-div{
+        background-color: #9FC224;
+        display: flex;
+        align-items: center;
+        padding: 23px 36px; 
 
 
-.first-container {
-    text-align: initial;
-    .header-logo {
-        // margin-bottom: 135px;
-        // margin-top: 40px;
-        width: 460px;
-        position: absolute;
-        top: 50px;
-        left: 100px;
+        .see-all-product-p{
+            font-size: 23px;
+            color: white;
+            font-family: markgeocaps-bold;
+    
+        }
+        .extra-svg{
+            height: 45px;
+            margin-right: 10px;
+        }
     }
 }
-
-.main-text-one {
-    font-size: 30px;
-    font-weight: bold;
+.main-text-one{
+    font-size: 40px;
     font-family: markgeocaps-bold;
-    color: #FFFFFF;
-    
+    color: white;
+    text-align: left;
+
+}
+.hire-img{
+    margin-right: 10px;
+}
+.hire-img-mob{
+    display: none;
+}
+.main-text-one-first{
+    margin-left: 25px!important;
+}
+.main-text-one-second{
+    font-size: 20px;
+    margin-left: 25px!important;
+
+}
+.add-text-desktop{
+    font-size: 40px;
+    color:#9DE311;
+
+
 }
 
-.line-section {
+.main-texts-mobile{
+    line-height: 1.1;
+    // display: none;
+}
+.main-text-one-mobile{
+    font-size: 65px;
+    font-family: markgeocaps-bold;
+    color: white;
     text-align: center;
-    background: #205299;
-    width: 100px;
-    height: 4px;
-    border-radius: 5px;
-    margin: 40px 30%;
-    margin-bottom: 70px;
+    // display: none;
+
+}
+.footer-text{
+    font-size: 14px;
+    font-family: markgeo-medium;
+
+}
+.extra-footer{
+    font-family: markgeo-regular;
+
+}
+.span-messenger{
+    font-family: markgeo-semibold;
+    text-decoration:underline; 
+}
+.mg-head-text{
+    text-align: left;
+    color: white;
+    font-family: markgeocaps-bold;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    font-size: 20px;
+}
+p{
+    text-decoration: none!important;
+}
+button:hover{
+    box-shadow: none !important;
+    text-decoration: none!important;
+}
+button:focus{
+    box-shadow: none !important;
+    text-decoration: none!important;
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url(..//image/background.png);
+    width: 100%;
+    height: 100%!important;
+    background-size: cover;
+
 }
 
-.button-a {
-    float: left;
+.sec-two-textss{
+    color: white;
+    font-size: 20px;
+    font-family: markgeocaps-bold;
+    text-align: left;
+    line-height: 1.3;
+
+}
+.textss-sec{
+    margin:10px 0;
+}
+.sec-two-little-texts{
+    color: white;
+    font-size: 18px;
+    font-family: markgeocaps-bold;
+    line-height: 1.3;
+    margin:5px 0;
+    text-align: left;
+}
+.sec-two-little-text-fire{
+    margin-right: 10px;
+}
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+a {
+    color: white;
+}
+.logo-first{
+    height: 45px;
+}
+.logo-second{
+    height: 45px;
+}
+.checked-icon{
+    height: 20px;
+}
+.visa-setting-title{
+    font-family: markgeocaps-bold;
+    color: white;
+    text-align: left;
+}
+.last-child{
+    align-items: flex-start!important;
+}
+.bog-native-arrow{
+    height: 12px;
+    margin-left: 5px;
+}
+.tbc-native-arrow{
+    height: 12px;
+    margin-left: 5px;
+}
+.checked-icon-box {
+    line-height: 1.9;
+    align-items: center;
+    // margin: 10px 0;
+}
+.second-visa-use{
+    line-height: 2.0!important;
+}
+.visa-use{
+    font-family: markgeo-semibold;
+    text-align: start;
+    line-height: 1.7;
+    margin-left: 7px;
+}
+////btst////dropwowm///@at-root
+.card-header{
+    background: transparent linear-gradient(267deg, black 0%, #4a3926 100%) 0% 0% no-repeat padding-box;
+    border-bottom: none;
+}
+///////////////////////////////
+
+.main-header-text{
+    font-size: 2vw!important;
+}
+.button-a{
+    text-align: center;
     text-decoration: none;
     background: #9FC224;
     display: inline-block;
@@ -241,55 +234,354 @@ a {
     font-size: 30px;
     font-family: markgeocaps-bold;
 }
-
-.sec-two-title {
-    font-size: 35px;
+.component-text{
+    font-size: 34px;
+    color: white;
     font-family: markgeocaps-bold;
+    margin-bottom: 20px;
+    line-height: 1.2;
 }
-
-.sec-two-text {
-    font-size: 30px;
+.how-use-sale-div{
+    text-align: center;
+    margin-top: 40px;
+    .how-use-sale{
+        font-family: markgeocaps-bold;
+        font-size: 30px;
+        color: white;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+.mobile-full-page{
+    display: none;
+}
+.footer-paddings{
+    padding: 25px 25px;
+}
+/////bootstrapclasses//////@at-root
+.card-header{
+    padding: 0;
+}
+.card{
+    border: none;
+    // background-color: #fff0!important;
+}
+////////////////////////////////
+.my-card{
+    margin: 20px 0;
+}
+.dropdown-icon-footer{
+    width: 46px;
+}
+.color{
+    background:red;
+    -ms-transform: rotate(180deg); /* IE 9 */
+    transform: rotate(180deg)!important;
+}
+.dropdown-icon-footer-1{
+    height: 35px;
+}
+.dropdown-icon-footer-2{
+    height: 35px;
+}
+.dropdown-icon-footer-3{
+    height: 35px;
+}
+.dropdown-icon-footer-4{
+    height: 35px;
+}
+.dropdown-icon-footer-5{
+    height: 35px;
+}
+.dropdown-icon-footer-6{
+    height: 35px;
+}
+.tbc-clps{
+    display: inline-flex;
+    justify-content: center;
+}
+.bog{
+    background:#FE6410!important;
+    border-color: #FE6410!important;
     font-family: markgeo-semibold;
 }
-.main-box-div{
-    padding: 0 100px;
+.btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: none;
+}
+.bog:focus{
+    box-shadow: none;
+}
+.bog:focus-within{
+    box-shadow: none;
+}
+.bog:visited{
+    box-shadow: none;
+}
+.bog{
+    background:#FE6410!important;
+    border-color: #FE6410!important;
+    padding: 15px;
+    margin-right: 5px;
+}
+.tbc{
+    background:#00A3E0!important;
+    border-color: #00A3E0!important;
+    padding: 15px;
+    font-family: markgeo-semibold;
+    margin-left: 5px;
+}
+.btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: none;
+}
+.tbc:focus{
+    box-shadow: none;
+}
+.tbc:focus-within{
+    box-shadow: none;
+}
+.tbc:visited{
+    box-shadow: none;
+}
+.tbc-clps{
+    display: inline-flex;
+    justify-content: center;
+}
+
+.category-description{
+    text-align: center;
+    font-size: 17x;
+    font-family: markgeo-bold;
+    color: white;
+    line-height: 1.3;
+}
+.category-title{
+    color: white;
+    font-family: markgeocaps-bold;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.second-category-row{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.information{
+    height: 30px;
+    margin-right: 15px;
+}
+.rules-conditions{
+    color: white;
+    font-size: 18px;
+    font-family: markgeo-semibold;
+    line-height: 1.5;
 
 }
-.block{
+.linkedin-icon{
+    margin: 0 10px;
+}
+.card-for-respo{
     display: none;
 }
-.block-first{
-    display: none;
-}
-@media only screen and (max-width: 768px){
-    .main-box-div{
-        padding: 1px!important;
+@media only screen and (max-width: 992px) {
+    .main-text-one{
+        font-size: 14px;
+        font-family: markgeocaps-bold;
+        color: white;
+        text-align: center;
+    
     }
-    .block-first{
-        display: block;
+    .add-text-desktop{
+        font-size: 14px;
+    
     }
-    .none-first{
+    .mg-head-text{
+        font-size: 12px;
+    }
+    .bog-inside-text{
+        padding-left:0!important;
+    }
+    .hidden-category-div{
         display: none;
     }
-} 
-
-
-@media only screen and (max-width: 500px){
-  .none{
-      display: none;
-  }
-  .block{
-    display: block;
-}
-.main-text-one {
-    padding-top: 25%;
-    font-size: 20px;
-   text-align: center;
-    
-}
-
-    .button-a{
-        font-size: 20px;
-        padding: 12px 30px;
+    .hidden-row{
+        display: flex;
     }
-} 
+    .tbc{
+        margin-top: 10px;
+    }
+    .bog{
+        width: 100%;
+        margin-right: 0;
+    }
+    .tbc{
+        width: 100%;
+        margin-left: 0;
+    }
+    .category-div{
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .main-text-one-second{
+        margin-left:unset!important;
+    }
+    .sec-two-textss{
+        font-size: 13px;
+    }
+    .sec-two-little-texts{
+        font-size: 14px;
+    }
+    .paddinggs{
+        margin:0 10px;
+    }
+    .main-text-one-first{
+        color: #9DE311;
+        margin-left: unset!important;
+    }
+    
+    .hire-img-mob{
+        display: block;
+    }
+    .logo-first{
+        height: 35px;
+    }
+    .logo-second{
+        height: 35px;
+    }
+   
+    .main-text-one-mobile{
+       font-size: 65px;
+    
+    }
+    .mg-head-text{
+        font-size: 12px;
+    }
+    .how-use-sale-div{
+        padding:0;
+    }
+    .add-text-mobile{
+        font-size: 18px!important;
+    }
+    .rules-conditions{
+        font-size: 16px;
+    }
+    .category-title{
+        
+        margin-top: 75px;
+        margin-bottom: 0px;
+    }
+    .second-category-row{
+        margin: 0;
+    }
+    .categoty-div-lst-two-child{
+        margin-bottom: 20px;
+    }    
+}
+
+@media only screen and (max-width: 575px) {
+    .see-all-product-p{
+        font-size: 20px;
+    }
+    .extra-svg{
+        height: 30px!important;
+    }
+    .footer-text{
+        font-size: 12px;
+    }
+    .linkedin-icon{
+        margin: 0 5px;
+    }
+    .mobile-img{
+        padding: 0 20px;
+    }
+    .component-text{
+        margin-bottom: 0;
+    }
+    .main-header-text{
+        margin-top: 0px;
+        margin-bottom: 10px;
+
+    }
+    .checked-icon-box {
+        align-items: flex-start;
+    }
+    .button-a{
+        font-size: 19px;
+    }
+    .footer-paddings {
+        padding: 20px 5px;
+    }
+    .how-use-sale{
+        font-size: 28px!important;
+        margin: 20px 0;
+        line-height: 1.3;
+        padding:0 15px;
+    }
+    .visa-setting-title{
+        font-size: 15px!important;
+    }
+    .dropdown-icon-footer-1{
+        height: 30px!important;
+    }
+    .dropdown-icon-footer-2{
+        height: 30px!important;
+    }
+    .dropdown-icon-footer-3{
+        height: 30px!important;
+    }
+    .dropdown-icon-footer-4{
+        height: 30px!important;
+    }
+    .dropdown-icon-footer-5{
+        height: 30px!important;
+    }
+    .dropdown-icon-footer-6{
+        height: 30px!important;
+    }
+    .dsp-none-for-mb{
+        display: none;
+    }
+    .card-for-respo{
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .component-text {
+        font-size: 22px!important;
+    }
+    .main-header-text{
+        font-size: 20px!important;
+    }
+    .mobile-arrow{
+        height: 20px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .main-header-text{
+        font-size: 16px!important;
+    }
+    .footer-paddings{
+        font-size: 12px;
+    }
+    .mg-head-text {
+        font-size: 10px;
+    }
+    .main-text-one-mobile {
+        font-size: 35px;
+    }
+    .add-text-mobile{
+        font-size: 36px!important;
+    }
+    .footer-text {
+        font-size: 10px;
+    }
+    .see-all-product-div {
+        padding: 26px 30px!important;
+    }
+    .see-all-product-p{
+        font-size: 19px!important;
+    }
+}
