@@ -385,15 +385,18 @@ a {
 }
 @media only screen and (max-width: 992px) {
     .main-text-one{
-        font-size: 50px;
+        font-size: 20px;
         font-family: markgeocaps-bold;
         color: white;
         text-align: center;
     
     }
     .add-text-desktop{
-        font-size: 52px;
+        font-size: 20px;
     
+    }
+    .mg-head-text{
+        font-size: 12px;
     }
     .bog-inside-text{
         padding-left:0!important;
