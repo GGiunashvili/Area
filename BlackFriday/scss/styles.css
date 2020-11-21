@@ -483,13 +483,13 @@ a {
 
 @media only screen and (max-width: 992px) {
   .main-text-one {
-    font-size: 20px;
+    font-size: 14px;
     font-family: markgeocaps-bold;
     color: white;
     text-align: center;
   }
   .add-text-desktop {
-    font-size: 20px;
+    font-size: 14px;
   }
   .mg-head-text {
     font-size: 12px;
