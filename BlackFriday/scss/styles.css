@@ -23,6 +23,10 @@
   font-family: markgeo-medium;
 }
 
+.houndred-eight-percent {
+  width: 100%;
+}
+
 .mobile-look {
   display: none;
 }
@@ -486,6 +490,9 @@ a {
 }
 
 @media only screen and (max-width: 992px) {
+  .houndred-eight-percent {
+    width: 80%;
+  }
   .main-text-one {
     font-size: 14px;
     font-family: markgeocaps-bold;
