@@ -433,6 +433,9 @@ a {
 }
 
 @media only screen and (max-width: 768px) {
+    .mg-head-extra{
+        margin-bottom: 0px!important;
+    }
     .main-text-one-second{
         margin-left:unset!important;
         color: #9DE311;
@@ -494,6 +497,9 @@ a {
 }
 
 @media only screen and (max-width: 575px) {
+    .mg-head-extra{
+        margin-bottom: 0px!important;
+    }
     .mg-head-text{
         font-size: 8px;
         margin-bottom: 10px;
