@@ -688,6 +688,9 @@
 }
 
 @media only screen and (max-width: 320px) {
+  .moon-moon {
+    margin-top: 20px !important;
+  }
   .ghost-mobile-right {
     bottom: 180px;
   }
