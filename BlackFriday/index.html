@@ -492,6 +492,12 @@
           $(window).bind('orientationchange', function (event) {
             location.reload(true);
         });
+
+
+        screen.orientation.lock();   // webkit only
+
+        screen.lockOrientation("orientation");
+
       </script>
 
 
