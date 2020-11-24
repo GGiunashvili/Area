@@ -1,0 +1,14 @@
+<html>
+<head>
+<title>ფუნქციის გამოძახება ხდომილობით</title>
+</head>
+<body>
+თქვენ დოკუმენტზე დააწკაპუნეთ <input id="clicked"  value="0">-ჯერ. <script type="text/javascript">
+var clickCount = 100;
+function documentClick(){
+document.getElementById('clicked').value = ++clickCount;
+}
+document.onclick = documentClick;
+</script>
+<body>
+<html>
