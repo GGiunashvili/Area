@@ -445,7 +445,7 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 812px) {
   .sad {
     height: 250px;
     margin: 10px 0;
