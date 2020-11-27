@@ -237,14 +237,17 @@
   outline: unset !important;
 }
 
-.btn-primary.focus, .btn-primary:focus {
+.btn-primary.focus,
+.btn-primary:focus {
   background-color: unset;
   border-color: unset;
   -webkit-box-shadow: unset;
           box-shadow: unset;
 }
 
-.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
   -webkit-box-shadow: unset;
           box-shadow: unset;
 }
@@ -267,14 +270,17 @@
   outline: unset !important;
 }
 
-.btn-secondary.focus, .btn-secondary:focus {
+.btn-secondary.focus,
+.btn-secondary:focus {
   background-color: unset;
   border-color: unset;
   -webkit-box-shadow: unset;
           box-shadow: unset;
 }
 
-.btn-secondary:not(:disabled):not(.disabled).active:focus, .btn-secondary:not(:disabled):not(.disabled):active:focus, .show > .btn-secondary.dropdown-toggle:focus {
+.btn-secondary:not(:disabled):not(.disabled).active:focus,
+.btn-secondary:not(:disabled):not(.disabled):active:focus,
+.show > .btn-secondary.dropdown-toggle:focus {
   -webkit-box-shadow: unset;
           box-shadow: unset;
 }
@@ -605,6 +611,7 @@
   }
   .helloween-img-titles {
     position: unset;
+    margin-top: 15px;
   }
   .treat-page-rule-box {
     padding-left: 0;
@@ -688,6 +695,12 @@
 }
 
 @media only screen and (max-width: 320px) {
+  .main-background {
+    height: 700px !important;
+  }
+  .helloween-img-titles {
+    margin-top: 50px;
+  }
   .moon-moon {
     margin-top: 20px !important;
   }
