@@ -435,6 +435,16 @@
   font-size: 20px;
 }
 
+.index-helloween-img-title {
+  margin-top: 25px;
+}
+
+@media only screen and (max-width: 992px) {
+  .desktop-ghosts {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .sad {
     height: 250px;
@@ -682,15 +692,6 @@
   }
   .titles {
     position: absolute;
-  }
-}
-
-@media only screen and (max-width: 575px) {
-  .money-card {
-    max-height: unset;
-  }
-  .soul-card {
-    max-height: unset;
   }
 }
 
