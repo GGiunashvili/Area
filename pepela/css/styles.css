@@ -171,5 +171,11 @@ a:hover {
   .main-image-box {
     margin: 10px 0;
   }
+  .category-section {
+    padding: 0 1px;
+  }
+  .category-section-box {
+    padding: 0 2px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
