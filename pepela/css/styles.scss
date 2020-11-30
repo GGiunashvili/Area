@@ -55,6 +55,7 @@ a:hover {
       font-size: 20px;
       color: white;
       height: 68px;
+      line-height: 1.3;
     }
   }
 }
@@ -69,6 +70,7 @@ a:hover {
     font-family: markgeocaps-medium;
     font-weight: bold;
     font-size: 25px;
+    line-height: 1.6;
   }
 }
 .header-div {
@@ -130,12 +132,21 @@ a:hover {
 
 @media only screen and (min-width: 1200px) {
   .container {
-    max-width: 1245px !important;
+    max-width: 1200px !important;
   }
 }
 @media only screen and (max-width: 992px) {
   .category-p {
     font-size: 12px !important;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .category-section-title {
+    font-size: 20px;
+  }
+  .category-section .category-section-p {
+    font-size: 17px;
+    line-height: 1.2;
   }
 }
 @media only screen and (max-width: 575px) {
