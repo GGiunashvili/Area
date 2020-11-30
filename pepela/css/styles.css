@@ -1,0 +1,175 @@
+@font-face {
+  src: url(../fonts/MarkGEO-Bold.ttf);
+  font-family: markgeo-bold;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEO-Regular.ttf);
+  font-family: markgeo-regular;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEO-SemiBold.ttf);
+  font-family: markgeo-semibold;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEOCAPS-Bold.ttf);
+  font-family: markgeocaps-bold;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEO-Medium.ttf);
+  font-family: markgeocaps-medium;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEOCAPS-Medium.ttf);
+  font-family: markgeocapscaps-medium;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.category-section-title {
+  font-family: markgeocaps-medium;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+.category-box {
+  padding: 0 5px;
+  margin: 5px 0;
+}
+
+.category-box .category-div {
+  background: #f72163;
+}
+
+.category-box .category-div .category-p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  font-family: markgeocaps-medium;
+  font-size: 20px;
+  color: white;
+  height: 68px;
+}
+
+.main-image-box {
+  padding: 0 5px;
+  margin: 20px 0;
+}
+
+.category-section {
+  padding: 0 5px;
+}
+
+.category-section .category-section-p {
+  text-align: center;
+  font-family: markgeocaps-medium;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.header-div {
+  background: #fec22d;
+  height: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header-div .header-text {
+  color: white;
+  font-family: markgeo-regular;
+  font-size: 20px;
+  text-align: center;
+}
+
+.pepela-logo {
+  height: 66px;
+  margin-right: 12px;
+}
+
+.extra-logo {
+  height: 54px;
+  margin-left: 12px;
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1245px !important;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .category-p {
+    font-size: 12px !important;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .row {
+    padding: 0 12px;
+  }
+  .category-section .category-section-p {
+    font-size: 8px;
+  }
+  .category-box .category-div .category-p {
+    font-size: 8px !important;
+    height: 28px;
+    line-height: 1.3;
+  }
+  .category-box {
+    padding: 0 2px;
+    margin: 2px 0;
+  }
+  .pepela-logo {
+    height: 22px;
+    margin-right: 4px;
+  }
+  .extra-logo {
+    height: 18px;
+    margin-left: 4px;
+  }
+  .header-div .header-text {
+    font-size: 10px;
+  }
+  .header-div {
+    height: 30px;
+  }
+  .category-section-title {
+    font-size: 8px;
+    margin-bottom: 6px;
+  }
+  .main-image-box {
+    margin: 10px 0;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
