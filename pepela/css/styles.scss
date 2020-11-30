@@ -93,6 +93,41 @@ a:hover {
   margin-left: 12px;
 }
 
+.footer-main-box {
+  margin-top: 112px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #161e3f;
+  padding: 14px;
+  .footer-text {
+    display: flex;
+    color: white;
+    font-family: markgeocapscaps-medium;
+    font-size: 18px;
+    .heart-icon {
+      margin: 0 5px;
+    }
+    .extra-footer {
+      margin-right: 5px;
+      font-family: markgeocapscaps-medium;
+      font-family: markgeocapscaps-medium;
+      color: white;
+    }
+  }
+  .facebook-icon {
+    height: 20px;
+  }
+  .linkedin-icon {
+    margin: 0 10px;
+    height: 20px;
+  }
+  .instagram-icon {
+    height: 20px;
+    padding-top: 3px;
+  }
+}
+
 @media only screen and (min-width: 1200px) {
   .container {
     max-width: 1245px !important;
@@ -106,6 +141,15 @@ a:hover {
 @media only screen and (max-width: 575px) {
   .row {
     padding: 0 12px;
+  }
+  .footer-main-box {
+    margin-top: unset;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  .footer-text {
+    font-size: 12px !important;
   }
   .category-section .category-section-p {
     font-size: 8px;
@@ -145,5 +189,11 @@ a:hover {
   }
   .category-section-box {
     padding: 0 2px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .footer-text {
+    font-size: 10px !important;
   }
 }
