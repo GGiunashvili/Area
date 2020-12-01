@@ -35,27 +35,6 @@ a:hover {
   text-decoration: none;
   color: black;
 }
-
-.slick-slider {
-  margin: unset;
-}
-// .slick-slide {
-//   padding: 10px;
-// }
-// .slick-center {
-//   padding: 5px;
-// }
-.slick-track {
-  display: flex;
-  align-items: center;
-}
-
-.slick-next {
-  background-color: red;
-}
-.slick-prev {
-  background-color: red;
-}
 .category-section-title {
   font-family: markgeocaps-medium;
   font-weight: bold;
@@ -174,7 +153,6 @@ a:hover {
   .row {
     padding: 0 12px;
   }
-
   .footer-main-box {
     margin-top: unset;
     position: absolute;
