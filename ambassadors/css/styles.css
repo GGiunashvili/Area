@@ -866,6 +866,15 @@ body {
   opacity: 1;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+}
+
 @media only screen and (max-width: 992px) {
   .footer-text {
     font-size: 14px !important;
