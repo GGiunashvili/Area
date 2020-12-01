@@ -539,13 +539,26 @@ button:focus {
     margin-top: 20px;
   }
 }
-
+html,
 body {
-  margin: 0;
-  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+body {
   overflow-x: hidden;
 }
 
+.ex-body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden !important;
+  position: relative !important;
+}
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden !important;
+  position: relative !important;
+}
 // .site-logo {
 //   font-weight: 900;
 //   font-size: 0.8rem;

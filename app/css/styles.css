@@ -670,10 +670,27 @@ button:focus {
   }
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.ex-body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden !important;
+  position: relative !important;
+}
+
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  overflow-x: hidden;
+  overflow-x: hidden !important;
+  position: relative !important;
 }
 
 .nav-scrolled {
