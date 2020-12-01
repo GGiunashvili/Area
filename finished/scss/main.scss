@@ -138,13 +138,8 @@ header {
 .more-stuff-grid {
   background: #f4f4f4;
   padding: 4em 0;
-  display: grid;
-  grid-gap: 2em;
+  display: flex;
   align-items: center;
-  grid-template-columns: minmax(1em, 1fr) repeat(2, minmax(200px, 400px)) minmax(
-      1em,
-      1fr
-    );
 }
 
 .from-left {
