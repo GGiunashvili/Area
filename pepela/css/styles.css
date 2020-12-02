@@ -133,7 +133,7 @@ a:hover {
 }
 
 .footer-main-box {
-  margin-top: 112px;
+  margin-top: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -378,7 +378,6 @@ a:hover {
 
 .my-own-carousel {
   position: relative;
-  margin-bottom: 30px;
 }
 
 .swiper-button-prev:after,
@@ -393,6 +392,7 @@ a:hover {
 
 .sec-cont {
   margin-top: 50px;
+  padding: 20px 0;
 }
 
 @media only screen and (max-width: 992px) {
