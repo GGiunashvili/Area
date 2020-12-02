@@ -286,6 +286,9 @@ a:hover {
   }
 }
 @media only screen and (max-width: 575px) {
+  .sec-cont {
+    padding: 0 !important;
+  }
   .age-p {
     font-size: 8px;
   }
