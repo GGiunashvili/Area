@@ -102,12 +102,14 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #161e3f;
+  background-color: black;
   padding: 14px;
   .footer-text {
     display: flex;
     color: white;
     font-family: markgeocapscaps-medium;
+    align-items: center;
+
     font-size: 18px;
     .heart-icon {
       margin: 0 5px;
@@ -178,6 +180,9 @@ a:hover {
 .gift-img {
   margin-left: 10px;
 }
+.gift-box {
+  margin: 30px 0;
+}
 @media only screen and (min-width: 1200px) {
   .container {
     max-width: 1200px !important;
@@ -198,6 +203,9 @@ a:hover {
   }
 }
 @media only screen and (max-width: 575px) {
+  .gift-box {
+    margin: 20px 0 !important;
+  }
   .gift-img {
     max-height: 138px;
   }

@@ -137,7 +137,7 @@ a:hover {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background-color: #161e3f;
+  background-color: black;
   padding: 14px;
 }
 
@@ -147,6 +147,9 @@ a:hover {
   display: flex;
   color: white;
   font-family: markgeocapscaps-medium;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-size: 18px;
 }
 
@@ -243,6 +246,10 @@ a:hover {
   margin-left: 10px;
 }
 
+.gift-box {
+  margin: 30px 0;
+}
+
 @media only screen and (min-width: 1200px) {
   .container {
     max-width: 1200px !important;
@@ -266,6 +273,9 @@ a:hover {
 }
 
 @media only screen and (max-width: 575px) {
+  .gift-box {
+    margin: 20px 0 !important;
+  }
   .gift-img {
     max-height: 138px;
   }
