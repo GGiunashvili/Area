@@ -47,6 +47,7 @@ a:hover {
   font-weight: bold;
   margin-bottom: 20px;
   font-size: 25px;
+  color: white;
 }
 
 .category-box {
@@ -56,6 +57,7 @@ a:hover {
 
 .category-box .category-div {
   background: #f72163;
+  border-radius: 10px;
 }
 
 .category-box .category-div .category-p {
@@ -70,7 +72,7 @@ a:hover {
           align-items: center;
   text-align: center;
   font-family: markgeocaps-medium;
-  font-size: 20px;
+  font-size: 17px;
   color: white;
   height: 68px;
   line-height: 1.3;
@@ -94,7 +96,7 @@ a:hover {
 }
 
 .header-div {
-  background: #fec22d;
+  background: #61934c;
   height: 48px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -220,6 +222,27 @@ a:hover {
           align-items: center;
 }
 
+.gift-card-order {
+  color: white;
+  text-align: center;
+  margin-right: 10px;
+  font-size: 55px;
+  font-family: markgeocapscaps-medium;
+}
+
+.gift-card-text {
+  color: white;
+  text-align: center;
+  margin-right: 10px;
+  font-size: 18px;
+  font-family: markgeocaps-medium;
+  line-height: 1.3;
+}
+
+.gift-img {
+  margin-left: 10px;
+}
+
 @media only screen and (min-width: 1200px) {
   .container {
     max-width: 1200px !important;
@@ -243,6 +266,9 @@ a:hover {
 }
 
 @media only screen and (max-width: 575px) {
+  .gift-img {
+    max-height: 138px;
+  }
   .imgg {
     height: 150px;
     text-align: center;
@@ -264,6 +290,9 @@ a:hover {
     font-size: 8px !important;
     height: 28px;
     line-height: 1.3;
+  }
+  .category-div {
+    border-radius: 5px !important;
   }
   .category-box {
     padding: 0 2px;
