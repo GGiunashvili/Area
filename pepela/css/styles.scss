@@ -227,9 +227,11 @@ a:hover {
 .age-count {
   color: #5a644d;
   font-family: markgeocaps-medium;
+  text-align: center;
 }
 .price-count {
   margin: 10px 0;
+  text-align: center;
 }
 .price-p {
   background-color: #f5ecd2;
@@ -271,6 +273,35 @@ a:hover {
 .by-age-second {
   padding-right: 0;
 }
+
+.swiper-button-next {
+  background-image: url(../image/left.svg) !important;
+  background-size: 32px 47px !important;
+  display: inline-block !important;
+  width: 32px !important;
+  height: 47px !important;
+  content: '' !important;
+  color: #eeeeee !important;
+}
+.swiper-button-prev {
+  background-image: url(../image/rig.svg) !important;
+  background-size: 32px 47px !important;
+  display: inline-block !important;
+  width: 32px !important;
+  height: 47px !important;
+  content: '' !important;
+  color: #eeeeee !important;
+}
+.swiper-container {
+  margin: 0 60px !important;
+}
+.swiper-pagination {
+  display: none;
+}
+.my-own-carousel {
+  position: relative;
+  margin-bottom: 30px;
+}
 @media only screen and (max-width: 992px) {
   .age-p {
     font-size: 14px;
@@ -288,10 +319,22 @@ a:hover {
     line-height: 1.2;
   }
 }
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 768px) {
   .sec-cont {
     padding: 0 !important;
   }
+  .swiper-container {
+    margin: unset !important;
+  }
+  .swiper-button-prev {
+    display: none !important;
+  }
+  .swiper-button-next {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 575px) {
   .age-p {
     font-size: 8px;
   }
