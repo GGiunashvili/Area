@@ -199,12 +199,6 @@ a:hover {
   .row {
     padding: 0 12px;
   }
-  .footer-main-box {
-    margin-top: unset;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-  }
   .footer-text {
     font-size: 12px !important;
   }
