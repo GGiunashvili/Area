@@ -205,14 +205,12 @@ a:hover {
 .gift-card-order {
   color: #5a644d;
   text-align: center;
-  margin-right: 10px;
   font-size: 55px;
   font-family: markgeocaps-bold;
 }
 .gift-card-text {
   color: #5a644d;
   text-align: center;
-  margin-right: 10px;
 
   font-size: 18px;
   font-family: markgeocaps-medium;
@@ -228,14 +226,17 @@ a:hover {
   color: #5a644d;
   font-family: markgeocaps-medium;
   text-align: center;
+  margin-bottom: 16px;
+  font-size: 25px;
 }
 .price-count {
-  margin: 10px 0;
+  margin: 14px 0;
+
   text-align: center;
 }
 .price-p {
   background-color: #f5ecd2;
-  border-radius: 10px;
+  border-radius: 34px;
   display: inline;
   padding: 7px 18px;
   color: #9f442d;
@@ -302,6 +303,18 @@ a:hover {
   position: relative;
   margin-bottom: 30px;
 }
+.swiper-button-prev:after,
+.swiper-container-rtl .swiper-button-next:after {
+  content: none !important;
+}
+.swiper-button-next:after,
+.swiper-container-rtl .swiper-button-next:after {
+  content: none !important;
+}
+.sec-cont {
+  margin-top: 50px;
+}
+
 @media only screen and (max-width: 992px) {
   .age-p {
     font-size: 14px;
@@ -335,6 +348,10 @@ a:hover {
 }
 
 @media only screen and (max-width: 575px) {
+  .gift-main {
+    max-width: 105px;
+    margin-right: 10px;
+  }
   .age-p {
     font-size: 8px;
   }
