@@ -250,6 +250,24 @@ a:hover {
   margin: 30px 0;
 }
 
+.age-count {
+  color: white;
+  font-family: markgeocaps-medium;
+}
+
+.price-count {
+  margin: 10px 0;
+}
+
+.price-p {
+  background-color: #f5ecd2;
+  border-radius: 10px;
+  display: inline;
+  padding: 6px 15px;
+  color: #9f442d;
+  font-family: markgeocaps-medium;
+}
+
 @media only screen and (min-width: 1200px) {
   .container {
     max-width: 1200px !important;
