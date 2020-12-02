@@ -196,6 +196,9 @@ a:hover {
   height: 250px !important;
 }
 .slick-track {
+  width: fit-content !important;
+}
+.slick-track {
   display: flex;
   align-items: center;
 }
