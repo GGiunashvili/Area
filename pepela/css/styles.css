@@ -173,6 +173,53 @@ a:hover {
   padding-top: 3px;
 }
 
+.center .slick-slide h3 {
+  background-color: red;
+}
+
+.slick-slide {
+  padding: 5px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.slick-initialized .slick-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.imgg {
+  height: 200px;
+  text-align: center;
+  padding: 10px;
+}
+
+.slick-current img {
+  height: 250px !important;
+}
+
+.slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 @media only screen and (min-width: 1200px) {
   .container {
     max-width: 1200px !important;
@@ -196,6 +243,14 @@ a:hover {
 }
 
 @media only screen and (max-width: 575px) {
+  .imgg {
+    height: 150px;
+    text-align: center;
+    padding: 10px;
+  }
+  .slick-current img {
+    height: 200px !important;
+  }
   .row {
     padding: 0 12px;
   }

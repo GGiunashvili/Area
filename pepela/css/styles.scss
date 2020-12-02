@@ -130,6 +130,33 @@ a:hover {
   }
 }
 
+.center .slick-slide h3 {
+  background-color: red;
+}
+.slick-slide {
+  padding: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.slick-initialized .slick-slide {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.imgg {
+  height: 200px;
+  text-align: center;
+  padding: 10px;
+}
+.slick-current img {
+  height: 250px !important;
+}
+.slick-track {
+  display: flex;
+  align-items: center;
+}
 @media only screen and (min-width: 1200px) {
   .container {
     max-width: 1200px !important;
@@ -150,6 +177,14 @@ a:hover {
   }
 }
 @media only screen and (max-width: 575px) {
+  .imgg {
+    height: 150px;
+    text-align: center;
+    padding: 10px;
+  }
+  .slick-current img {
+    height: 200px !important;
+  }
   .row {
     padding: 0 12px;
   }
