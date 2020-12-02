@@ -24,8 +24,14 @@
   src: url(../fonts/MarkGEOCAPS-Medium.ttf);
   font-family: markgeocapscaps-medium;
 }
+
 html {
   scroll-behavior: smooth;
+}
+body {
+  background-image: url(../image/BG.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 a {
   text-decoration: none;
@@ -102,7 +108,7 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: black;
+  background-color: #d12e2e;
   padding: 14px;
   .footer-text {
     display: flex;
@@ -133,7 +139,35 @@ a:hover {
     padding-top: 3px;
   }
 }
-
+// .slick-next::before {
+//   background: url('../image/Path\ 110.svg') no-repeat;
+//   content: '';
+//   display: block;
+//   height: 30px;
+//   font-size: 0;
+//   background-size: contain;
+//   width: 41px;
+// }
+.slick-prev {
+  background: url('../image/Path\ 110.svg') no-repeat;
+  content: '';
+  display: block;
+  height: 30px;
+  font-size: 0;
+  background-size: contain;
+  width: 41px;
+  border: none;
+}
+.slick-next {
+  background: url('../image/Path\ 109.svg') no-repeat;
+  content: '';
+  display: block;
+  height: 30px;
+  font-size: 0;
+  background-size: contain;
+  width: 41px;
+  border: none;
+}
 .center .slick-slide h3 {
   background-color: red;
 }
@@ -142,6 +176,10 @@ a:hover {
   text-align: center;
   display: flex;
   justify-content: center;
+}
+.slick-slider {
+  display: flex;
+  align-items: center;
 }
 .slick-initialized .slick-slide {
   display: flex;
@@ -162,14 +200,14 @@ a:hover {
   align-items: center;
 }
 .gift-card-order {
-  color: white;
+  color: #5a644d;
   text-align: center;
   margin-right: 10px;
   font-size: 55px;
-  font-family: markgeocapscaps-medium;
+  font-family: markgeocaps-bold;
 }
 .gift-card-text {
-  color: white;
+  color: #5a644d;
   text-align: center;
   margin-right: 10px;
 
@@ -184,7 +222,7 @@ a:hover {
   margin: 30px 0;
 }
 .age-count {
-  color: white;
+  color: #5a644d;
   font-family: markgeocaps-medium;
 }
 .price-count {
@@ -194,16 +232,46 @@ a:hover {
   background-color: #f5ecd2;
   border-radius: 10px;
   display: inline;
-  padding: 6px 15px;
+  padding: 7px 18px;
   color: #9f442d;
   font-family: markgeocaps-medium;
+  box-shadow: 0px 3px 6px #00000080;
 }
-@media only screen and (min-width: 1200px) {
-  .container {
-    max-width: 1200px !important;
-  }
+// @media only screen and (min-width: 1200px) {
+//   .container {
+//     max-width: 1200px !important;
+//   }
+// }
+.by-age {
+  background: #61934c;
+  border-radius: 5px;
+  box-shadow: 0px 3px 6px #00000080;
+}
+.age-p {
+  padding: 10px;
+  color: white;
+  font-family: markgeocapscaps-medium;
+  font-weight: bold;
+  font-size: 25px;
+}
+.sect {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.two-row {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.by-age-first {
+  padding-left: 0;
+}
+.by-age-second {
+  padding-right: 0;
 }
 @media only screen and (max-width: 992px) {
+  .age-p {
+    font-size: 14px;
+  }
   .category-p {
     font-size: 12px !important;
   }
@@ -218,6 +286,9 @@ a:hover {
   }
 }
 @media only screen and (max-width: 575px) {
+  .age-p {
+    font-size: 8px;
+  }
   .gift-box {
     margin: 20px 0 !important;
   }
