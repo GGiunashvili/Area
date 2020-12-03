@@ -324,10 +324,10 @@ a:hover {
   border-style: solid;
   border-width: 53px;
 
-  -moz-border-image-source: url(../image/frame.png) 53 53 repeat !important;
-  -webkit-border-image-source: url(../image/frame.png) 53 53 repeat !important;
-  -o-border-image-source: url(../image/frame.png) 53 53 repeat !important;
-  border-image-source: url(../image/frame.png) 53 53 repeat !important;
+  -moz-border-image: url(../image/frame.png) 53 53 round !important;
+  -webkit-border-image: url(../image/frame.png) 53 53 round !important;
+  -o-border-image: url(../image/frame.png) 53 53 round !important;
+  border-image: url(../image/frame.png) 53 53 round !important;
 
   // -o-border-image: url(../image/frame.png) 53 53 round !important;
   // border-image: url(../image/frame.png) 53 53 round !important;
@@ -338,7 +338,7 @@ a:hover {
   border-style: solid;
 }
 #borderimg {
-  // border-image-source: url(/pepela/image/frame.png) !important;
+  border-image-source: url(/pepela/image/frame.png) !important;
   border-image-slice: 30 !important;
   border-color: transparent;
   border-style: solid;
@@ -348,10 +348,10 @@ a:hover {
   border-style: solid;
   border-width: 13px;
 
-  -moz-border-image-source: url(../image/99.png) 13 13 repeat !important;
-  -webkit-border-image-source: url(../image/99.png) 13 13 repeat !important;
-  -o-border-image-source: url(../image/99.png) 13 13 repeat !important;
-  border-image-source: url(../image/99.png) 13 13 repeat !important;
+  -moz-border-image: url(../image/99.png) 13 13 round !important;
+  -webkit-border-image: url(../image/99.png) 13 13 round !important;
+  -o-border-image: url(../image/99.png) 13 13 round !important;
+  border-image: url(../image/99.png) 13 13 round !important;
 
   // -o-border-image: url(../image/99.png) 13 13 round !important;
   // border-image: url(../image/99.png) 13 13 round !important;
@@ -362,7 +362,7 @@ a:hover {
   border-style: solid;
 }
 #borderimg-1 {
-  // border-image-source: url(/pepela/image/99.png) !important;
+  border-image-source: url(/pepela/image/99.png) !important;
   border-image-slice: 30 !important;
   border-color: transparent;
   border-style: solid;
