@@ -401,7 +401,7 @@ a:hover {
   border-style: solid !important;
   border-width: 53px !important;
   -o-border-image: url("https://promo.extra.ge/pepela//image/frame.png") !important;
-     border-image: url("https://promo.extra.ge/pepela//image/frame.png") !important;
+  border-image: url("https://promo.extra.ge/pepela//image/frame.png") !important;
   border-color: transparent;
   border-color: initial;
   border-image-slice: 16% !important;
