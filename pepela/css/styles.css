@@ -404,15 +404,17 @@ a:hover {
   border-image-slice: 16% !important;
   background: white !important;
   border-radius: 21px !important;
-  border-color: transparent;
-  border-style: solid;
+  border-color: transparent !important;
+  border-style: solid !important;
+  border-width: 16px !important;
 }
 
 #borderimg {
   border-image-source: url(/pepela/image/frame.png) !important;
   border-image-slice: 30 !important;
-  border-color: transparent;
-  border-style: solid;
+  border-color: transparent !important;
+  border-style: solid !important;
+  border-width: 16px !important;
 }
 
 .inline-svg-1 {
@@ -422,15 +424,17 @@ a:hover {
   border-image-slice: 6% !important;
   background: white !important;
   border-radius: 8px !important;
-  border-color: transparent;
-  border-style: solid;
+  border-color: transparent !important;
+  border-style: solid !important;
+  border-width: 16px !important;
 }
 
 #borderimg-1 {
   border-image-source: url(/pepela/image/99.png) !important;
   border-image-slice: 30 !important;
-  border-color: transparent;
-  border-style: solid;
+  border-color: transparent !important;
+  border-style: solid !important;
+  border-width: 16px !important;
 }
 
 @media only screen and (max-width: 992px) {
