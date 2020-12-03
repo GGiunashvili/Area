@@ -408,6 +408,13 @@ a:hover {
   border-radius: 21px !important;
   border-color: transparent;
   border-style: solid;
+  border-style: inset;
+  display: block;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
 }
 
 #borderimg {
