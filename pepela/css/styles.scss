@@ -324,10 +324,10 @@ a:hover {
   border-style: solid !important;
   border-width: 53px !important;
 
-  -moz-border-image: url(../image/frame.png) 53 53 stretch !important;
-  -webkit-border-image: url(../image/frame.png) 53 53 stretch !important;
-  -o-border-image: url(../image/frame.png) 53 53 stretch !important;
-  border-image: url(../image/frame.png) 53 53 stretch !important;
+  -moz-border-image: url(../image/frame.png) 53 53 fill stretch !important;
+  -webkit-border-image: url(../image/frame.png) 53 53 fill stretch !important;
+  -o-border-image: url(../image/frame.png) 53 53 fill stretch !important;
+  border-image: url(../image/frame.png) 53 53 fill stretch !important;
 
   // -o-border-image: url(../image/frame.png) 53 53 round !important;
   // border-image: url(../image/frame.png) 53 53 round !important;
@@ -348,10 +348,10 @@ a:hover {
   border-style: solid !important;
   border-width: 13px !important;
 
-  -moz-border-image: url(../image/99.png) 13 13 stretch !important;
-  -webkit-border-image: url(../image/99.png) 13 13 stretch !important;
-  -o-border-image: url(../image/99.png) 13 13 stretch !important;
-  border-image: url(../image/99.png) 13 13 stretch !important;
+  -moz-border-image: url(../image/99.png) 13 13 fill stretch !important;
+  -webkit-border-image: url(../image/99.png) 13 13 fill stretch !important;
+  -o-border-image: url(../image/99.png) 13 13 fill stretch !important;
+  border-image: url(../image/99.png) 13 13 fill stretch !important;
 
   // -o-border-image: url(../image/99.png) 13 13 round !important;
   // border-image: url(../image/99.png) 13 13 round !important;
