@@ -404,6 +404,8 @@ a:hover {
   border-image-slice: 16% !important;
   background: white !important;
   border-radius: 21px !important;
+  border-color: transparent;
+  border-style: solid;
 }
 
 #borderimg {
@@ -420,6 +422,8 @@ a:hover {
   border-image-slice: 6% !important;
   background: white !important;
   border-radius: 8px !important;
+  border-color: transparent;
+  border-style: solid;
 }
 
 #borderimg-1 {

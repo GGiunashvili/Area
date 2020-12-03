@@ -326,6 +326,8 @@ a:hover {
   border-image-slice: 16% !important;
   background: white !important;
   border-radius: 21px !important;
+  border-color: transparent;
+  border-style: solid;
 }
 #borderimg {
   border-image-source: url(/pepela/image/frame.png) !important;
@@ -340,6 +342,8 @@ a:hover {
   border-image-slice: 6% !important;
   background: white !important;
   border-radius: 8px !important;
+  border-color: transparent;
+  border-style: solid;
 }
 #borderimg-1 {
   border-image-source: url(/pepela/image/99.png) !important;
