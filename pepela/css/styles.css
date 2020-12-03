@@ -400,8 +400,7 @@ a:hover {
 .inline-svg {
   border-style: solid !important;
   border-width: 53px !important;
-  -o-border-image: url(../image/frame.png) !important;
-  border-image: url(../image/frame.png) !important;
+  border-image-source: url(../image/frame.png) !important;
   border-color: transparent;
   border-color: initial;
   border-image-slice: 16% !important;
