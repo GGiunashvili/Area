@@ -320,7 +320,10 @@ a:hover {
 }
 
 .inline-svg {
-  border: 53px solid transparent !important;
+  // border: 53px solid transparent !important;
+  border-style: solid;
+  border-width: 53px;
+
   -o-border-image: url(../image/frame.png) !important;
   border-image: url(../image/frame.png) !important;
   border-image-slice: 16% !important;
@@ -336,7 +339,9 @@ a:hover {
   border-style: solid;
 }
 .inline-svg-1 {
-  border: 13px solid transparent !important;
+  // border: 13px solid transparent !important;
+  border-style: solid;
+  border-width: 13px;
   -o-border-image: url(../image/99.png) !important;
   border-image: url(../image/99.png) !important;
   border-image-slice: 6% !important;
