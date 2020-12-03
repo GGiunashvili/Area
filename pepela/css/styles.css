@@ -429,6 +429,7 @@ a:hover {
   border-radius: 12px;
   -o-border-image: url("https://promo.extra.ge/pepela//image/frame.png") 15% round;
      border-image: url("https://promo.extra.ge/pepela//image/frame.png") 15% round;
+  border-image-width: 15%;
   border-style: inset;
   display: block;
   margin: 0 auto;
