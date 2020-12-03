@@ -465,14 +465,6 @@ a:hover {
   color: #777;
 }
 
-body {
-  background: #777;
-  display: -ms-grid;
-  display: grid;
-  place-items: center;
-  min-height: 100vh;
-}
-
 .inline-svg-1 {
   border-style: solid !important;
   border-width: 13px !important;
