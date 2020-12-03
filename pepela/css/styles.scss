@@ -423,6 +423,29 @@ a:hover {
   place-items: center;
   transition: all 0.4s;
 }
+.box-4 {
+  background: white;
+  // border: 100px;
+  border-width: 44px;
+  border-radius: 12px;
+  border-image: url('https://promo.extra.ge/pepela//image/94.png') 17% round;
+  border-image-width: 15%;
+  border-color: #f4be52;
+  border-style: inset;
+  // border-width: 16px;
+  display: block;
+  // width: calc(80vw - 100px);
+  // height: calc(60vh - 100px);
+  // background-color: #ffe;
+  margin: 0 auto;
+  display: grid;
+  place-items: center;
+  transition: all 0.4s;
+}
+.boxes {
+  max-width: 350px;
+  margin-left: 20px;
+}
 .inline-svg-1 {
   // border: 13px solid transparent !important;
   border-style: solid !important;
