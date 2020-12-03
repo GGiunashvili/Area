@@ -440,31 +440,6 @@ a:hover {
   transition: all 0.4s;
 }
 
-.box .hoverme {
-  color: #444;
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-}
-
-.box .explanation {
-  color: #777;
-  -webkit-transition: all 1.5s;
-  transition: all 1.5s;
-}
-
-.box:hover {
-  -webkit-transform: skew(-5deg) rotate(5deg) scale(1.2);
-          transform: skew(-5deg) rotate(5deg) scale(1.2);
-}
-
-.box:hover .explanation {
-  color: #fff;
-}
-
-.box:hover .hoverme {
-  color: #777;
-}
-
 .inline-svg-1 {
   border-style: solid !important;
   border-width: 13px !important;

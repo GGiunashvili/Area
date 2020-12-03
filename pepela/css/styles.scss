@@ -363,24 +363,6 @@ a:hover {
   display: grid;
   place-items: center;
   transition: all 0.4s;
-
-  .hoverme {
-    color: #444;
-    transition: all 0.5s;
-  }
-  .explanation {
-    color: #777;
-    transition: all 1.5s; //cubic-bezier( 0.15, 0.47, 0.59, 0.97);
-  }
-  &:hover {
-    transform: skew(-5deg) rotate(5deg) scale(1.2);
-    .explanation {
-      color: #fff;
-    }
-    .hoverme {
-      color: #777;
-    }
-  }
 }
 
 .inline-svg-1 {
