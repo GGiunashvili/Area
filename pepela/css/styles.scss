@@ -334,6 +334,9 @@ a:hover {
   border-radius: 21px !important;
   border-color: transparent;
   border-style: inset;
+  border-style: solid;
+  display: grid;
+  place-items: center;
 }
 #borderimg {
   // border-image-source: url('https://promo.extra.ge/pepela//image/frame.png') !important;

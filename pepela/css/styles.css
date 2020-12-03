@@ -407,6 +407,10 @@ a:hover {
   border-radius: 21px !important;
   border-color: transparent;
   border-style: inset;
+  border-style: solid;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
 }
 
 #borderimg {
