@@ -321,27 +321,25 @@ a:hover {
 
 .inline-svg {
   // border: 53px solid transparent !important;
-  border-style: solid !important;
+  border-style: inset;
   border-width: 53px !important;
 
   -moz-border-image: url('https://promo.extra.ge/pepela//image/frame.png') !important;
   -webkit-border-image: url('https://promo.extra.ge/pepela//image/frame.png') !important;
   -o-border-image: url('https://promo.extra.ge/pepela//image/frame.png') !important;
   border-image: url('https://promo.extra.ge/pepela//image/frame.png') !important;
-  border-color: transparent;
-  border-color: initial;
 
   border-image-slice: 16% !important;
   background: white !important;
   border-radius: 21px !important;
   border-color: transparent;
-  border-style: solid;
+  border-style: inset;
 }
 #borderimg {
   border-image-source: url('https://promo.extra.ge/pepela//image/frame.png') !important;
   border-image-slice: 30 !important;
   border-color: transparent;
-  border-style: solid;
+  border-style: inset;
 }
 .inline-svg-1 {
   // border: 13px solid transparent !important;
