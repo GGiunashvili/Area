@@ -417,6 +417,10 @@ a:hover {
   border-image-slice: 30 !important;
   border-color: transparent;
   border-style: inset;
+  border-style: solid;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
 }
 
 .inline-svg-1 {
