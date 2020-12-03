@@ -52,14 +52,15 @@ a:hover {
   padding: 0 5px;
   margin: 5px 0;
   .category-div {
-    background: #f72163;
+    background: #d12e2e;
+    box-shadow: 0px 0px 10px #d12e2e80;
     border-radius: 10px;
     .category-p {
       display: flex;
       justify-content: center;
       align-items: center;
       text-align: center;
-      font-family: markgeocaps-medium;
+      font-family: markgeo-regular;
       font-size: 17px;
       color: white;
       height: 68px;
@@ -240,7 +241,7 @@ a:hover {
   display: inline;
   padding: 7px 18px;
   color: #9f442d;
-  font-family: markgeocaps-medium;
+  font-family: markgeocapscaps-medium;
   box-shadow: 0px 3px 6px #00000080;
 }
 // @media only screen and (min-width: 1200px) {
@@ -314,7 +315,9 @@ a:hover {
   margin-top: 50px;
   padding: 20px 0;
 }
-
+.gift-main {
+  width: 110px;
+}
 @media only screen and (max-width: 992px) {
   .age-p {
     font-size: 14px;
