@@ -402,6 +402,8 @@ a:hover {
   border-width: 53px !important;
   -o-border-image: url(../image/frame.png) !important;
   border-image: url(../image/frame.png) !important;
+  border-color: transparent;
+  border-color: initial;
   border-image-slice: 16% !important;
   background: white !important;
   border-radius: 21px !important;
@@ -419,6 +421,8 @@ a:hover {
 .inline-svg-1 {
   border-style: solid !important;
   border-width: 13px !important;
+  border-color: transparent;
+  border-color: initial;
   -o-border-image: url(../image/99.png) !important;
   border-image: url(../image/99.png) !important;
   border-image-slice: 6% !important;
