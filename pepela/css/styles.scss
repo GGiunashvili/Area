@@ -318,6 +318,26 @@ a:hover {
 .gift-main {
   width: 110px;
 }
+// .inline-svg {
+//   border: 35px solid transparent;
+//   padding: 15px;
+//   border-image-source: url(/pepela/image/frame.svg);
+//   border-image-slice: 19%;
+// }
+.inline-svg {
+  border: 53px solid transparent;
+  -o-border-image: url(../image/frame.png);
+  border-image: url(../image/frame.png);
+  border-image-slice: 16%;
+  background: white;
+  border-radius: 21px;
+}
+#borderimg {
+  // border: 10px solid transparent;
+  // padding: 15px;
+  border-image-source: url(/pepela/image/frame.png);
+  border-image-slice: 30;
+}
 @media only screen and (max-width: 992px) {
   .age-p {
     font-size: 14px;
