@@ -400,8 +400,10 @@ a:hover {
 .inline-svg {
   border-style: solid;
   border-width: 53px;
-  -o-border-image: url(../image/frame.png) 53 53 repeat !important;
-  border-image: url(../image/frame.png) 53 53 repeat !important;
+  -moz-border-image-source: url(../image/frame.png) 53 53 repeat !important;
+  -webkit-border-image-source: url(../image/frame.png) 53 53 repeat !important;
+  -o-border-image-source: url(../image/frame.png) 53 53 repeat !important;
+  border-image-source: url(../image/frame.png) 53 53 repeat !important;
   border-image-slice: 16% !important;
   background: white !important;
   border-radius: 21px !important;
@@ -410,7 +412,6 @@ a:hover {
 }
 
 #borderimg {
-  border-image-source: url(/pepela/image/frame.png) !important;
   border-image-slice: 30 !important;
   border-color: transparent;
   border-style: solid;
@@ -419,8 +420,10 @@ a:hover {
 .inline-svg-1 {
   border-style: solid;
   border-width: 13px;
-  -o-border-image: url(../image/99.png) 13 13 repeat !important;
-  border-image: url(../image/99.png) 13 13 repeat !important;
+  -moz-border-image-source: url(../image/99.png) 13 13 repeat !important;
+  -webkit-border-image-source: url(../image/99.png) 13 13 repeat !important;
+  -o-border-image-source: url(../image/99.png) 13 13 repeat !important;
+  border-image-source: url(../image/99.png) 13 13 repeat !important;
   border-image-slice: 6% !important;
   background: white !important;
   border-radius: 8px !important;
@@ -429,7 +432,6 @@ a:hover {
 }
 
 #borderimg-1 {
-  border-image-source: url(/pepela/image/99.png) !important;
   border-image-slice: 30 !important;
   border-color: transparent;
   border-style: solid;
