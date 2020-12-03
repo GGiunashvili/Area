@@ -400,7 +400,8 @@ a:hover {
 .inline-svg {
   border-style: solid !important;
   border-width: 53px !important;
-  border-image-source: url(../image/frame.png) !important;
+  -o-border-image: url("https://promo.extra.ge/pepela//image/frame.png") !important;
+     border-image: url("https://promo.extra.ge/pepela//image/frame.png") !important;
   border-color: transparent;
   border-color: initial;
   border-image-slice: 16% !important;
@@ -408,13 +409,6 @@ a:hover {
   border-radius: 21px !important;
   border-color: transparent;
   border-style: solid;
-  border-style: inset;
-  display: block;
-  display: -ms-grid;
-  display: grid;
-  place-items: center;
-  -webkit-transition: all 0.4s;
-  transition: all 0.4s;
 }
 
 #borderimg {
