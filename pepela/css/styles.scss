@@ -348,16 +348,17 @@ a:hover {
   place-items: center;
 }
 .box {
+  background: white;
   // border: 100px;
-  border-width: 46px;
+  border-width: 44px;
   border-radius: 12px;
-  border-image: url('https://promo.extra.ge/pepela//image/frame.png') 38% round;
+  border-image: url('https://promo.extra.ge/pepela//image/frame.png') 15% round;
   // border-color: #f4be52;
   border-style: inset;
   // border-width: 16px;
   display: block;
-  width: calc(80vw - 100px);
-  height: calc(60vh - 100px);
+  // width: calc(80vw - 100px);
+  // height: calc(60vh - 100px);
   // background-color: #ffe;
   margin: 0 auto;
   display: grid;
