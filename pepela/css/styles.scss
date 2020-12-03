@@ -322,10 +322,15 @@ a:hover {
 .inline-svg {
   // border: 53px solid transparent !important;
   border-style: solid;
-  border: 53px;
+  border-width: 53px;
 
+  -moz-border-image: url(../image/frame.png) 53 53 round !important;
+  -webkit-border-image: url(../image/frame.png) 53 53 round !important;
   -o-border-image: url(../image/frame.png) 53 53 round !important;
   border-image: url(../image/frame.png) 53 53 round !important;
+
+  // -o-border-image: url(../image/frame.png) 53 53 round !important;
+  // border-image: url(../image/frame.png) 53 53 round !important;
   border-image-slice: 16% !important;
   background: white !important;
   border-radius: 21px !important;
@@ -341,10 +346,15 @@ a:hover {
 .inline-svg-1 {
   // border: 13px solid transparent !important;
   border-style: solid;
-  border: 13px;
+  border-width: 13px;
 
+  -moz-border-image: url(../image/99.png) 13 13 round !important;
+  -webkit-border-image: url(../image/99.png) 13 13 round !important;
   -o-border-image: url(../image/99.png) 13 13 round !important;
   border-image: url(../image/99.png) 13 13 round !important;
+
+  // -o-border-image: url(../image/99.png) 13 13 round !important;
+  // border-image: url(../image/99.png) 13 13 round !important;
   border-image-slice: 6% !important;
   background: white !important;
   border-radius: 8px !important;
