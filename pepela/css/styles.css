@@ -409,6 +409,8 @@ a:hover {
 #borderimg {
   border-image-source: url(/pepela/image/frame.png) !important;
   border-image-slice: 30 !important;
+  border-color: transparent;
+  border-style: solid;
 }
 
 .inline-svg-1 {
@@ -423,6 +425,8 @@ a:hover {
 #borderimg-1 {
   border-image-source: url(/pepela/image/99.png) !important;
   border-image-slice: 30 !important;
+  border-color: transparent;
+  border-style: solid;
 }
 
 @media only screen and (max-width: 992px) {
