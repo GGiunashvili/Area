@@ -423,6 +423,56 @@ a:hover {
   place-items: center;
 }
 
+.box {
+  border-width: 46px;
+  border-radius: 12px;
+  -o-border-image: url("https://promo.extra.ge/pepela//image/frame.png") 38% round;
+     border-image: url("https://promo.extra.ge/pepela//image/frame.png") 38% round;
+  border-style: inset;
+  display: block;
+  width: calc(80vw - 100px);
+  height: calc(60vh - 100px);
+  margin: 0 auto;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.box .hoverme {
+  color: #444;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.box .explanation {
+  color: #777;
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
+}
+
+.box:hover {
+  -webkit-transform: skew(-5deg) rotate(5deg) scale(1.2);
+          transform: skew(-5deg) rotate(5deg) scale(1.2);
+}
+
+.box:hover .explanation {
+  color: #fff;
+}
+
+.box:hover .hoverme {
+  color: #777;
+}
+
+body {
+  background: #777;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
 .inline-svg-1 {
   border-style: solid !important;
   border-width: 13px !important;
