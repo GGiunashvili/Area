@@ -398,8 +398,8 @@ a:hover {
 }
 
 .inline-svg {
-  border-style: solid;
-  border-width: 53px;
+  border-style: solid !important;
+  border-width: 53px !important;
   -o-border-image: url(../image/frame.png) 53 53 round !important;
   border-image: url(../image/frame.png) 53 53 round !important;
   border-image-slice: 16% !important;
@@ -417,8 +417,8 @@ a:hover {
 }
 
 .inline-svg-1 {
-  border-style: solid;
-  border-width: 13px;
+  border-style: solid !important;
+  border-width: 13px !important;
   -o-border-image: url(../image/99.png) 13 13 round !important;
   border-image: url(../image/99.png) 13 13 round !important;
   border-image-slice: 6% !important;
