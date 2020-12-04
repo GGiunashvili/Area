@@ -56,6 +56,14 @@ a:hover {
   color: white;
 }
 
+.swiper-button-next:focus {
+  outline: none !important;
+}
+
+.swiper-button-prev:focus {
+  outline: none !important;
+}
+
 .category-box {
   padding: 0 5px;
   margin: 5px 0;
