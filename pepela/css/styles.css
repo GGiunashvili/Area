@@ -576,17 +576,17 @@ a:hover {
 }
 
 @media only screen and (max-width: 575px) {
-  .box1 {
-    border-width: 12px;
+  .box-1 {
+    border-width: 12px !important;
   }
-  .box2 {
-    border-width: 12px;
+  .box-2 {
+    border-width: 12px !important;
   }
-  .box3 {
-    border-width: 12px;
+  .box-3 {
+    border-width: 12px !important;
   }
-  .box4 {
-    border-width: 12px;
+  .box-4 {
+    border-width: 12px !important;
   }
   .price-count {
     font-size: 14px;
