@@ -148,6 +148,28 @@ a:hover {
     }
   }
 }
+.banner-box {
+  position: relative;
+  margin: 40px 0;
+  .banner-img {
+    height: auto;
+  }
+  .banner-text-box {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #ffffff80;
+    padding: 10px;
+    .banner-text {
+      font-size: 55px;
+      font-family: markgeocapscaps-medium;
+      padding-left: 110px;
+      line-height: 1.2;
+      padding-right: 20px;
+    }
+  }
+}
+
 @media only screen and (max-width: 992px) {
   .product-name-category {
     .product-name {
@@ -159,6 +181,9 @@ a:hover {
   }
   .buy-best-price {
     font-size: 24px;
+  }
+  .banner-text {
+    font-size: 25px !important;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -174,6 +199,10 @@ a:hover {
     margin-top: 8px;
     margin-bottom: 8px;
     font-size: 15px;
+  }
+  .banner-text {
+    font-size: 15px !important;
+    padding-left: 10px !important;
   }
 
   .product-box .product-rows .sale-price-count-box {
@@ -227,5 +256,11 @@ a:hover {
   .product-box .product-rows .product-name-category {
     margin-bottom: 6px;
     line-height: 1.4;
+  }
+  .banner-box {
+    margin: 6px 0;
+  }
+  .slider-cont {
+    margin-bottom: 50px !important;
   }
 }

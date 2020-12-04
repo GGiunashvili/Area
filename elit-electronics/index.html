@@ -21,6 +21,8 @@
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/reset.css">
   <meta name="google-site-verification" content="Jo-kqQ4sf0QrL4SgjxhFxsslxlsYKmqOWFfTPB7PBNE" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
   
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -280,10 +282,76 @@
       </div>
     </div>
   
+    <div class="banner-box">
+      <img class="w-100 banner-img" src="image/banner.png" alt="">
+      <div class="banner-text-box">
+        <p class="banner-text"><span style="font-weight: bold;">40%</span>-მდე </p>
+        <p class="banner-text">ფასდაკლება</p>
+        <p class="banner-text">შერჩეულ </p>
+        <p class="banner-text">კოლექციაზე </p>
+      </div>
+    </div>
+
+    <div class="slider-cont">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img class="w-100" src="image/Image 5.png" alt=""></div>
+          <div class="swiper-slide"><img class="w-100" src="image/Image 6.png" alt=""></div>
+          <div class="swiper-slide"><img class="w-100" src="image/Image 7.png" alt=""></div>
+          <div class="swiper-slide"><img class="w-100" src="image/Image 8.png" alt=""></div>
+          <div class="swiper-slide"><img class="w-100" src="image/Image 10.png" alt=""></div>
+  
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  
 
   <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script> -->
   
   <script  src="./main.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+	<script>
+    var swiper = new Swiper('.swiper-container', {
+      
+      slidesPerView: 1.8,
+      centeredSlides: true,
+      spaceBetween: 20,
+    loop: true,
+    autoplay: {
+      delay: 4000,
+    },
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 1.3,
+    centeredSlides: true,
+      spaceBetween: 10,
+        },
+        768: {
+          slidesPerView: 3,
+    centeredSlides: true,
+      spaceBetween: 10,
+        },
+        1024: {
+          slidesPerView: 5.5,
+    centeredSlides: true,
+      spaceBetween: 40,
+        },
+      }
+
+  
+});
+	</script>
 
 
 </body>
