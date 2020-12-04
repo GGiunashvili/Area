@@ -65,6 +65,8 @@ a:hover {
 
 .extra-logo {
   max-width: 234px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .elit-logo {
@@ -100,7 +102,8 @@ a:hover {
 .buy-best-price {
   font-family: markgeocapscaps-medium;
   font-size: 35px;
-  margin-top: 35px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .product-box {
@@ -191,6 +194,8 @@ a:hover {
     font-size: 8px !important;
   }
   .buy-best-price {
+    margin-top: 8px;
+    margin-bottom: 8px;
     font-size: 15px;
   }
   .product-box .product-rows .sale-price-count-box {
@@ -230,9 +235,20 @@ a:hover {
   }
   .extra-logo {
     height: 23px;
+    margin-bottom: 5px;
   }
   .elit-logo {
     height: 23px;
+  }
+  .header-div .header-text {
+    font-size: 8px;
+  }
+  .header-div {
+    height: 17px;
+  }
+  .product-box .product-rows .product-name-category {
+    margin-bottom: 6px;
+    line-height: 1.4;
   }
 }
 /*# sourceMappingURL=styles.css.map */
