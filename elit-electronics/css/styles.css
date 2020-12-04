@@ -200,6 +200,23 @@ a:hover {
   padding-right: 20px;
 }
 
+.slider-cont {
+  background: #d91e261a;
+  margin-bottom: 50px !important;
+  padding: 40px 0;
+}
+
+.swiper-container {
+  position: relative;
+}
+
+.carousel-count-price {
+  padding: 7px 12px;
+  font-size: 21px;
+  font-family: markgeo-regular;
+  color: white;
+}
+
 @media only screen and (max-width: 992px) {
   .product-name-category .product-name {
     font-size: 14px !important;
@@ -285,9 +302,6 @@ a:hover {
   }
   .banner-box {
     margin: 6px 0;
-  }
-  .slider-cont {
-    margin-bottom: 50px !important;
   }
 }
 /*# sourceMappingURL=styles.css.map */
