@@ -100,6 +100,7 @@ a:hover {
 }
 
 .buy-best-price {
+  text-align: center;
   font-family: markgeocapscaps-medium;
   font-size: 35px;
   margin-top: 24px;
