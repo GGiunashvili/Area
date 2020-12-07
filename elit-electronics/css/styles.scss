@@ -183,6 +183,42 @@ a:hover {
   font-family: markgeo-regular;
   color: white;
 }
+.footer-main-box {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #161e3f;
+  padding: 14px;
+  .footer-text {
+    display: flex;
+    color: white;
+    font-family: markgeocapscaps-medium;
+    align-items: center;
+
+    font-size: 18px;
+    .heart-icon {
+      margin: 0 5px;
+    }
+    .extra-footer {
+      margin-right: 5px;
+      font-family: markgeocapscaps-medium;
+      font-family: markgeocapscaps-medium;
+      color: white;
+    }
+  }
+  .facebook-icon {
+    height: 20px;
+  }
+  .linkedin-icon {
+    margin: 0 10px;
+    height: 20px;
+  }
+  .instagram-icon {
+    height: 20px;
+    padding-top: 3px;
+  }
+}
 @media only screen and (max-width: 992px) {
   .product-name-category {
     .product-name {
@@ -200,6 +236,9 @@ a:hover {
   }
 }
 @media only screen and (max-width: 768px) {
+  .footer-text {
+    font-size: 12px !important;
+  }
   .product-name-category {
     .product-name {
       font-size: 8px !important;
@@ -272,5 +311,10 @@ a:hover {
   }
   .banner-box {
     margin: 6px 0;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .footer-text {
+    font-size: 10px !important;
   }
 }
