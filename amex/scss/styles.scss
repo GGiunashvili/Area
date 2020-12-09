@@ -485,6 +485,12 @@ a {
 .footer-logo {
   height: 35px;
 }
+.footer {
+  margin-top: 130px;
+}
+.extra-footer-text {
+  visibility: hidden;
+}
 @media only screen and (max-width: 992px) {
   .mg-head-text {
     font-size: 13px;
@@ -533,6 +539,32 @@ a {
 }
 
 @media only screen and (max-width: 768px) {
+  .new-heart-icon {
+    height: 8px;
+  }
+  .footer-text {
+    font-size: 8px;
+  }
+  .extra-footer-text {
+    display: none;
+  }
+  .footer {
+    margin-top: 40px;
+  }
+  .call-button {
+    font-size: 9px;
+  }
+  .msng-p {
+    font-size: 9px;
+  }
+
+  .msng-icon {
+    height: 19px;
+  }
+  .soc-media {
+    height: 41px;
+    margin: 0 4px;
+  }
   .footer-logo {
     height: 8px;
   }
@@ -650,9 +682,7 @@ a {
   .extra-svg {
     height: 30px !important;
   }
-  .footer-text {
-    font-size: 12px;
-  }
+
   .linkedin-icon {
     margin: 0 5px;
   }
