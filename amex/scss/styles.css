@@ -955,18 +955,6 @@ a {
 }
 
 @media only screen and (max-width: 575px) {
-  .girch-1 {
-    display: block;
-  }
-  .girch-2 {
-    display: block;
-  }
-  .girch-3 {
-    display: block;
-  }
-  .girch-4 {
-    display: block;
-  }
   .mg-head-extra {
     margin-bottom: 0px !important;
   }
@@ -1035,6 +1023,21 @@ a {
     display: none;
   }
   .card-for-respo {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  .girch-1 {
+    display: block;
+  }
+  .girch-2 {
+    display: block;
+  }
+  .girch-3 {
+    display: block;
+  }
+  .girch-4 {
     display: block;
   }
 }
