@@ -704,6 +704,10 @@ a {
   margin-top: 35px;
 }
 
+.s-4 {
+  display: none;
+}
+
 .s-3 {
   display: none;
 }
