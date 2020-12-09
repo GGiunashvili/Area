@@ -868,6 +868,12 @@ a {
 }
 
 @media only screen and (max-width: 414px) {
+  .s-3 {
+    right: 0;
+    position: absolute;
+    bottom: -75px;
+    height: 69px;
+  }
 }
 
 // @media only screen and (max-width: 560px) {
