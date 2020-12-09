@@ -29,7 +29,7 @@
 }
 
 .houndred-eight-percent {
-  max-height: 500px;
+  max-height: 450px;
 }
 
 .mobile-look {
@@ -202,14 +202,19 @@ body {
           justify-content: center;
   width: 100%;
   background: #0a475b;
-  margin-bottom: 10px;
+  margin-bottom: 60px;
 }
 
 .header-text {
   color: white;
-  padding: 40px 20px;
+  padding: 30px 20px;
   font-family: markgeocaps-regular;
   font-size: 16px;
+  opacity: 0.7;
+}
+
+.text01 {
+  opacity: 1;
 }
 
 .logos {
@@ -348,7 +353,7 @@ a {
   margin-top: 40px;
 }
 
-.how-use-sale-div .how-use-sale {
+.how-use-sale {
   font-family: markgeocaps-bold;
   font-size: 30px;
   color: black;
@@ -506,7 +511,7 @@ a {
   font-family: markgeocaps-bold;
   font-size: 28px;
   text-align: center;
-  margin-top: 70px;
+  margin-top: 155px;
   margin-bottom: 30px;
 }
 
@@ -603,6 +608,7 @@ a {
 
 .category-img-box {
   padding-right: 0;
+  margin: 10px 0;
 }
 
 .info-icon {
@@ -641,6 +647,59 @@ a {
 
 .extra-footer-text {
   visibility: hidden;
+}
+
+.girch-1 {
+  position: absolute;
+  top: 95px;
+  height: 129px;
+}
+
+.girch-2 {
+  position: absolute;
+  top: 620px;
+  right: 0;
+  height: 165px;
+}
+
+.girch-3 {
+  position: absolute;
+  top: 1870px;
+  right: 0;
+  height: 181px;
+}
+
+.girch-4 {
+  position: absolute;
+  top: 1785px;
+  left: 0;
+  height: 181px;
+}
+
+.textt {
+  color: white;
+  font-family: markgeocaps-regular;
+  text-align: left;
+  line-height: 1.4;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.p-box {
+  margin: 70px 0;
+}
+
+.textt-mob {
+  display: none;
+}
+
+.last-text {
+  margin-top: 80px;
+  margin-bottom: 70px;
+}
+
+.first-text {
+  margin-top: 35px;
 }
 
 @media only screen and (max-width: 992px) {
@@ -690,20 +749,86 @@ a {
   .img-for-mob {
     display: block;
   }
+  .girch-1 {
+    display: none;
+  }
+  .girch-2 {
+    display: none;
+  }
+  .girch-3 {
+    display: none;
+  }
+  .girch-4 {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 768px) {
+  .header {
+    margin-bottom: 20px !important;
+  }
+  .girch-4 {
+    height: 69px;
+  }
+  .last-text {
+    margin-top: 35px !important;
+  }
+  .girch-3 {
+    top: 1921px;
+    height: 69px;
+  }
+  .p-box {
+    margin: 25px 0;
+  }
+  .textt {
+    display: none;
+  }
+  .textt-mob {
+    display: block;
+    color: white;
+    font-family: markgeocaps-regular;
+    text-align: left;
+    line-height: 1.4;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0 20px;
+  }
+  .girch-2 {
+    top: 545px;
+    height: 85px;
+  }
+  .shop-p {
+    font-size: 9px;
+  }
+  .shop-btn {
+    width: 178px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 47px;
+  }
+  .shop-logo {
+    height: 20px;
+    margin-right: 5px;
+  }
+  .girch-1 {
+    height: 69px;
+    top: 50px;
+  }
+  .girch {
+    height: 100px !important;
+  }
   .new-heart-icon {
-    height: 8px;
+    height: 10px;
   }
   .footer-text {
-    font-size: 8px;
+    font-size: 10px;
   }
   .extra-footer-text {
     display: none;
   }
   .footer {
-    margin-top: 40px;
+    margin-top: 94px;
   }
   .call-button {
     font-size: 9px;
@@ -719,7 +844,7 @@ a {
     margin: 0 4px;
   }
   .footer-logo {
-    height: 8px;
+    height: 11px;
   }
   .category-img-div-p {
     height: 26px;
@@ -825,6 +950,18 @@ a {
 }
 
 @media only screen and (max-width: 575px) {
+  .girch-1 {
+    display: block;
+  }
+  .girch-2 {
+    display: block;
+  }
+  .girch-3 {
+    display: block;
+  }
+  .girch-4 {
+    display: block;
+  }
   .mg-head-extra {
     margin-bottom: 0px !important;
   }
@@ -863,7 +1000,7 @@ a {
     padding: 20px 5px;
   }
   .how-use-sale {
-    font-size: 28px !important;
+    font-size: 16px !important;
     margin: 20px 0;
     line-height: 1.3;
     padding: 0 15px;
@@ -894,6 +1031,15 @@ a {
   }
   .card-for-respo {
     display: block;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .new-heart-icon {
+    height: 8px;
+  }
+  .footer-text {
+    font-size: 8px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
