@@ -541,6 +541,9 @@ a {
 .first-text {
   margin-top: 35px;
 }
+.s-3 {
+  display: none;
+}
 @media only screen and (max-width: 992px) {
   .mg-head-text {
     font-size: 13px;
@@ -868,7 +871,16 @@ a {
 }
 
 @media only screen and (max-width: 414px) {
+  .s-4 {
+    display: block;
+    left: 0;
+    position: absolute;
+    top: -37px;
+    height: 69px;
+  }
+
   .s-3 {
+    display: block;
     right: 0;
     position: absolute;
     bottom: -75px;
