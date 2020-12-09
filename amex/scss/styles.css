@@ -1023,9 +1023,6 @@ a {
   .card-for-respo {
     display: block;
   }
-}
-
-@media only screen and (max-width: 390px) {
   .girch-1 {
     display: block;
   }
