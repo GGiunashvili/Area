@@ -620,6 +620,7 @@ a {
 .call-button {
   color: white;
   margin-left: 10px;
+  font-family: markgeocaps-regular;
 }
 
 .soc-media {
@@ -637,6 +638,7 @@ a {
 .msng-p {
   font-size: 16px;
   margin-left: 10px;
+  font-family: markgeocaps-regular;
 }
 
 .footer-logo {
