@@ -24,6 +24,11 @@
   src: url(../fonts/MarkGEOCAPS-Regular.ttf);
   font-family: markgeocaps-regular;
 }
+@font-face {
+  src: url(../fonts/MARKGEOCAPS-SEMIBOLD.TTF);
+  font-family: MARKGEOCAPS-semibold;
+}
+
 .houndred-eight-percent {
   max-height: 450px;
 }
@@ -122,10 +127,11 @@ html,
 .mg-head-text {
   text-align: left;
   color: black;
-  font-family: markgeocaps-bold;
+  font-family: MARKGEOCAPS-semibold;
   margin-bottom: 20px;
   line-height: 1.2;
   font-size: 24px;
+  font-weight: bold;
 }
 p {
   text-decoration: none !important;
@@ -448,6 +454,7 @@ a {
   position: relative;
   margin: 10px 0;
 }
+
 .category-img-div-p {
   width: 100%;
   text-align: center;
@@ -554,7 +561,7 @@ a {
 }
 @media only screen and (max-width: 992px) {
   .mg-head-text {
-    font-size: 13px;
+    font-size: 14px;
   }
   .houndred-eight-percent {
     width: 100% !important;
@@ -799,7 +806,7 @@ a {
     margin-bottom: 0px !important;
   }
   .mg-head-text {
-    font-size: 13px;
+    font-size: 14px;
     margin-bottom: 10px;
   }
   .see-all-product-p {
