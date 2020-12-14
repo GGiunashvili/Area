@@ -1,0 +1,82 @@
+@font-face {
+  src: url(../fonts/MarkGEO-Bold.ttf);
+  font-family: markgeo-bold;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEO-Regular.ttf);
+  font-family: markgeo-regular;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEO-SemiBold.ttf);
+  font-family: markgeo-semibold;
+}
+@font-face {
+  src: url(../fonts/MarkGEOCAPS-Bold.ttf);
+  font-family: markgeocaps-bold;
+}
+@font-face {
+  src: url(../fonts/MarkGEO-Medium.ttf);
+  font-family: markgeocaps-medium;
+}
+@font-face {
+  src: url(../fonts/MarkGEOCAPS-Medium.ttf);
+  font-family: markgeocapscaps-medium;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+.intro-text {
+  font-family: markgeo-regular;
+  line-height: 1.3;
+  margin-top: 30px;
+  font-size: 16px;
+}
+.extra-logo {
+  height: 60px;
+  margin-top: 30px;
+}
+.shop-now-first {
+  margin-top: 30px;
+  display: inline-block;
+  background: #81a97e;
+  border-radius: 13px;
+  .shop-now-p-first {
+    padding: 20px 35px;
+    font-size: 35px;
+    font-family: markgeo-semibold;
+
+    color: white;
+  }
+}
+.countdown-text {
+  font-family: markgeocaps-bold;
+  font-size: 24px;
+}
+.countdown-ind {
+  background-color: black;
+  margin: 10px;
+  padding: 10px;
+}
+#demo1,
+#demo2,
+#demo3,
+#demo4 {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
+.count-time {
+  color: white;
+  text-align: center;
+}
