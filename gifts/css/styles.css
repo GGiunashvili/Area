@@ -76,7 +76,9 @@ a:hover {
 .countdown-ind {
   background-color: black;
   margin: 10px;
-  padding: 10px;
+  height: 90px;
+  width: 100px;
+  border-radius: 15px;
 }
 
 #demo1,
@@ -85,11 +87,94 @@ a:hover {
 #demo4 {
   color: white;
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
+  font-family: markgeo-semibold;
 }
 
 .count-time {
   color: white;
   text-align: center;
+  font-family: markgeo-regular;
+}
+
+.countdown-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  padding: 10px 0;
+}
+
+.container-fluid {
+  max-width: 1920px !important;
+}
+
+.home-main-content {
+  padding-right: 0;
+}
+
+.mobile-img {
+  display: none;
+}
+
+@media only screen and (max-width: 992px) {
+  .intro-text {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .count-time {
+    font-size: 7px;
+  }
+  .countdown-text {
+    font-size: 8px;
+  }
+  .countdown-ind {
+    height: 39px;
+    width: 39px;
+    border-radius: 6px;
+    margin: 3px;
+  }
+  #demo1,
+  #demo2,
+  #demo3,
+  #demo4 {
+    font-size: 16px;
+  }
+  .mobile-img {
+    display: block;
+    height: 209px;
+  }
+  .desktop-img {
+    display: none;
+  }
+  .intro-text {
+    margin-top: 5px;
+    line-height: 1.2;
+    font-size: 7px;
+  }
+  .shop-now-first {
+    border-radius: 4px;
+    margin-top: 6px;
+  }
+  .shop-now-first .shop-now-p-first {
+    font-size: 10px;
+    padding: 10px 25px;
+  }
+  .extra-logo {
+    height: 18px;
+    margin-top: 6px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
