@@ -217,6 +217,10 @@ a:hover {
   display: none;
 }
 
+.countdown-main-box {
+  margin: 36px 0;
+}
+
 @media only screen and (max-width: 992px) {
   .gift-text {
     font-size: 13px;
@@ -238,6 +242,9 @@ a:hover {
 }
 
 @media only screen and (max-width: 768px) {
+  .countdown-main-box {
+    margin: 14px 0;
+  }
   .gift-text-extra {
     left: 15px !important;
     position: absolute;
