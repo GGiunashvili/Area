@@ -63,6 +63,12 @@ a:hover {
   white-space: pre-line;
 }
 
+.gift-text-title2 {
+  border-bottom: 3px solid #e24e24;
+  font-family: markgeocaps-bold;
+  font-size: 25px;
+}
+
 .first-extra-p-txt {
   font-size: 25px;
   position: absolute;
@@ -232,6 +238,15 @@ a:hover {
 }
 
 @media only screen and (max-width: 768px) {
+  .gift-text-extra {
+    left: 15px !important;
+    position: absolute;
+    top: -30px;
+    border-bottom: 3px solid #e24e24;
+    font-family: markgeocaps-bold;
+    font-size: 10px;
+    left: -134px;
+  }
   .gift-text-title6 {
     position: absolute;
     font-size: 10px;
@@ -256,8 +271,8 @@ a:hover {
   .gift-text-title2 {
     position: absolute;
     font-size: 10px;
-    left: 15px;
-    top: -20px;
+    right: -45px;
+    top: -30px;
     font-size: 9px !important;
   }
   .gift-text-desk {
@@ -291,7 +306,7 @@ a:hover {
   }
   .first-extra-p-txt {
     font-size: 10px;
-    left: -95px;
+    left: -134px;
   }
   .gift-text {
     font-size: 8px;
