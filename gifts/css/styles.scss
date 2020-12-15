@@ -46,6 +46,63 @@ a:hover {
   height: 60px;
   margin-top: 30px;
 }
+.gift-text {
+  font-size: 22px;
+  font-family: markgeo-regular;
+  line-height: 1.2;
+  overflow: hidden;
+  text-align: left;
+  white-space: pre-line;
+}
+.first-extra-p-txt {
+  font-size: 25px;
+  position: absolute;
+  top: -30px;
+  left: -70px;
+  border-bottom: 3px solid #e24e24;
+  font-family: markgeocaps-bold;
+}
+.second-extra-p-txt {
+  font-size: 25px;
+  position: absolute;
+  top: -30px;
+  right: -75px;
+  border-bottom: 3px solid #e24e24;
+  font-family: markgeocaps-bold;
+}
+
+.gift-text-titles {
+  font-size: 25px;
+  border-bottom: 3px solid #e24e24;
+  font-family: markgeocaps-bold;
+  inline-size: fit-content;
+}
+.box-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1110px;
+  margin-top: 61px;
+}
+.texts-block {
+  height: 100%;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+}
+.shop-now {
+  margin-top: 30px;
+  display: inline-block;
+  background: #81a97e;
+  border-radius: 13px;
+  .shop-now-p {
+    padding: 15px 20px;
+    font-size: 30px;
+    font-family: markgeo-semibold;
+
+    color: white;
+  }
+}
 .shop-now-first {
   margin-top: 30px;
   display: inline-block;
@@ -139,6 +196,7 @@ a:hover {
 
     font-size: 7px;
   }
+
   .shop-now-first {
     border-radius: 4px;
     margin-top: 6px;

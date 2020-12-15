@@ -54,6 +54,84 @@ a:hover {
   margin-top: 30px;
 }
 
+.gift-text {
+  font-size: 22px;
+  font-family: markgeo-regular;
+  line-height: 1.2;
+  overflow: hidden;
+  text-align: left;
+  white-space: pre-line;
+}
+
+.first-extra-p-txt {
+  font-size: 25px;
+  position: absolute;
+  top: -30px;
+  left: -70px;
+  border-bottom: 3px solid #e24e24;
+  font-family: markgeocaps-bold;
+}
+
+.second-extra-p-txt {
+  font-size: 25px;
+  position: absolute;
+  top: -30px;
+  right: -75px;
+  border-bottom: 3px solid #e24e24;
+  font-family: markgeocaps-bold;
+}
+
+.gift-text-titles {
+  font-size: 25px;
+  border-bottom: 3px solid #e24e24;
+  font-family: markgeocaps-bold;
+  inline-size: -webkit-fit-content;
+  inline-size: -moz-fit-content;
+  inline-size: fit-content;
+}
+
+.box-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1110px;
+  margin-top: 61px;
+}
+
+.texts-block {
+  height: 100%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.shop-now {
+  margin-top: 30px;
+  display: inline-block;
+  background: #81a97e;
+  border-radius: 13px;
+}
+
+.shop-now .shop-now-p {
+  padding: 15px 20px;
+  font-size: 30px;
+  font-family: markgeo-semibold;
+  color: white;
+}
+
 .shop-now-first {
   margin-top: 30px;
   display: inline-block;
