@@ -332,14 +332,14 @@ a:hover {
     position: absolute;
     font-size: 10px;
     left: -15px;
-    top: -20px;
+    top: -25px;
     width: 218px;
     font-size: 9px !important;
   }
   .gift-text-title3 {
     position: absolute;
     font-size: 10px;
-    left: 0;
+    right: 6px;
     top: -20px;
     font-size: 9px !important;
   }
