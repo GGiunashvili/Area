@@ -343,7 +343,7 @@ a:hover {
   .gift-text-title2 {
     position: absolute;
     font-size: 10px;
-    right: -45px;
+    right: -40px;
     top: -30px;
     font-size: 9px !important;
   }
@@ -369,7 +369,7 @@ a:hover {
     height: unset;
   }
   .second-extra-p-txt {
-    right: -105px;
+    right: -103px;
     top: -17px;
     font-size: 10px;
   }
