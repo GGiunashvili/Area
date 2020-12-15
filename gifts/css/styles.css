@@ -221,6 +221,58 @@ a:hover {
   margin: 36px 0;
 }
 
+.footer-main-box {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #161e3f;
+  padding: 14px;
+}
+
+.footer-main-box .footer-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  font-family: markgeocaps-medium;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 18px;
+}
+
+.footer-main-box .footer-text .heart-icon {
+  margin: 0 5px;
+}
+
+.footer-main-box .footer-text .extra-footer {
+  margin-right: 5px;
+  font-family: markgeocapscaps-medium;
+  font-family: markgeocapscaps-medium;
+  color: white;
+}
+
+.footer-main-box .facebook-icon {
+  height: 20px;
+}
+
+.footer-main-box .linkedin-icon {
+  margin: 0 10px;
+  height: 20px;
+}
+
+.footer-main-box .instagram-icon {
+  height: 20px;
+  padding-top: 3px;
+}
+
 @media only screen and (max-width: 992px) {
   .gift-text {
     font-size: 13px;
@@ -242,6 +294,9 @@ a:hover {
 }
 
 @media only screen and (max-width: 768px) {
+  .footer-text {
+    font-size: 12px !important;
+  }
   .countdown-main-box {
     margin: 14px 0;
   }
@@ -360,6 +415,12 @@ a:hover {
   .extra-logo {
     height: 18px;
     margin-top: 6px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .footer-text {
+    font-size: 10px !important;
   }
 }
 /*# sourceMappingURL=styles.css.map */
