@@ -28,6 +28,11 @@
   font-family: markgeocapscaps-medium;
 }
 
+@font-face {
+  src: url(../fonts/MarkGEOCAPS-SemiBold.ttf);
+  font-family: markgeocapscaps-semibold;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -73,16 +78,17 @@ a:hover {
   font-size: 25px;
   position: absolute;
   top: -35px;
-  left: -192px;
+  left: -200px;
   border-bottom: 3px solid #e24e24;
   font-family: markgeocaps-bold;
+  max-width: 810px;
 }
 
 .second-extra-p-txt {
   font-size: 25px;
   position: absolute;
   top: -30px;
-  right: -192px;
+  right: -200px;
   border-bottom: 3px solid #e24e24;
   font-family: markgeocaps-bold;
 }
@@ -112,9 +118,8 @@ a:hover {
 
 .texts-block {
   height: 100%;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -137,7 +142,7 @@ a:hover {
 .shop-now .shop-now-p {
   padding: 15px 20px;
   font-size: 30px;
-  font-family: markgeo-semibold;
+  font-family: markgeocapscaps-semibold;
   color: white;
 }
 
@@ -151,7 +156,7 @@ a:hover {
 .shop-now-first .shop-now-p-first {
   padding: 20px 35px;
   font-size: 35px;
-  font-family: markgeo-semibold;
+  font-family: markgeocapscaps-semibold;
   color: white;
 }
 
@@ -273,6 +278,10 @@ a:hover {
   padding-top: 3px;
 }
 
+.avatars {
+  max-height: 315px;
+}
+
 @media only screen and (max-width: 992px) {
   .gift-text {
     font-size: 13px;
@@ -304,7 +313,7 @@ a:hover {
     left: 15px !important;
     position: absolute;
     top: -30px;
-    border-bottom: 3px solid #e24e24;
+    border-bottom: 2px solid #e24e24;
     font-family: markgeocaps-bold;
     font-size: 10px;
     left: -134px;
@@ -366,10 +375,12 @@ a:hover {
   }
   .gift-text-titles {
     font-size: 10px;
+    border-bottom: 2px solid #e24e24;
   }
   .first-extra-p-txt {
     font-size: 10px;
     left: -134px;
+    border-bottom: 2px solid #e24e24;
   }
   .gift-text {
     font-size: 8px;
