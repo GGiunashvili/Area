@@ -282,8 +282,12 @@ a:hover {
     display: block;
   }
   .box-two {
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .container {
+    padding-left: unset !important;
+    padding-right: unset !important;
   }
   .shop-now {
     border-radius: 4px;
