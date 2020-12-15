@@ -235,28 +235,28 @@ a:hover {
   .gift-text-title6 {
     position: absolute;
     font-size: 10px;
-    left: 15px;
+    left: 0;
     top: -20px;
     font-size: 9px !important;
   }
   .gift-text-title5 {
     position: absolute;
     font-size: 10px;
-    left: -8px;
+    left: 0;
     top: -20px;
     font-size: 9px !important;
   }
   .gift-text-title3 {
     position: absolute;
     font-size: 10px;
-    left: 6px;
+    left: 0;
     top: -20px;
     font-size: 9px !important;
   }
   .gift-text-title2 {
     position: absolute;
     font-size: 10px;
-    right: -6px;
+    right: 0;
     top: -20px;
     font-size: 9px !important;
   }
