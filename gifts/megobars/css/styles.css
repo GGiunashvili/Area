@@ -130,7 +130,11 @@ a:hover {
 }
 
 .first-box {
-  margin-top: 40px;
+  margin-top: 40px !important;
+}
+
+.last-box {
+  margin-bottom: 40px !important;
 }
 
 .two-boxes {
@@ -197,6 +201,12 @@ a:hover {
 }
 
 @media only screen and (max-width: 768px) {
+  .first-box {
+    margin-top: 20px !important;
+  }
+  .last-box {
+    margin-bottom: 20px !important;
+  }
   .title-first {
     font-size: 13px;
   }
@@ -224,6 +234,7 @@ a:hover {
   }
   .back-page {
     border-radius: 4px;
+    margin-bottom: 40px;
   }
   .back-page .back-page-p {
     font-size: 15px !important;
@@ -234,6 +245,9 @@ a:hover {
   }
   .mob {
     padding-left: 0;
+  }
+  .extra-logo {
+    height: 18px;
   }
 }
 

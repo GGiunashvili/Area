@@ -106,7 +106,10 @@ a:hover {
   font-size: 40px;
 }
 .first-box {
-  margin-top: 40px;
+  margin-top: 40px !important;
+}
+.last-box {
+  margin-bottom: 40px !important;
 }
 .two-boxes {
   display: flex;
@@ -152,6 +155,12 @@ a:hover {
   }
 }
 @media only screen and (max-width: 768px) {
+  .first-box {
+    margin-top: 20px !important;
+  }
+  .last-box {
+    margin-bottom: 20px !important;
+  }
   .title-first {
     font-size: 13px;
   }
@@ -179,6 +188,7 @@ a:hover {
   }
   .back-page {
     border-radius: 4px;
+    margin-bottom: 40px;
     .back-page-p {
       font-size: 15px !important;
       padding: 18px 14px;
@@ -189,6 +199,9 @@ a:hover {
   }
   .mob {
     padding-left: 0;
+  }
+  .extra-logo {
+    height: 18px;
   }
 }
 
