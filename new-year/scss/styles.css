@@ -927,6 +927,7 @@ a {
   }
   .logo-box {
     text-align: center;
+    margin-bottom: 10px;
   }
   .logos {
     height: 25px;
