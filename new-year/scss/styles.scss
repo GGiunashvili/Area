@@ -563,6 +563,21 @@ a {
   width: 100%;
   background-size: cover;
 }
+.santa-1 {
+  position: absolute;
+  bottom: -50px;
+  left: 0;
+  max-height: 268px;
+}
+.santa-2 {
+  position: absolute;
+  bottom: -50px;
+  max-height: 268px;
+  right: 0;
+}
+.text-mob {
+  display: none;
+}
 @media only screen and (max-width: 992px) {
   .mg-head-text {
     font-size: 14px;
@@ -623,6 +638,23 @@ a {
 }
 
 @media only screen and (max-width: 768px) {
+  .see-all-product {
+    margin-top: 40px;
+  }
+  .text-mob {
+    display: block;
+  }
+  .text-desk {
+    display: none;
+  }
+  .santa-1 {
+    height: 90px;
+    bottom: 50px;
+  }
+  .santa-2 {
+    height: 90px;
+    bottom: 50px;
+  }
   .fifq {
     background: url(../image/2bannerd.png) !important;
     width: 100%;
