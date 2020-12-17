@@ -210,10 +210,6 @@ a:hover {
   max-width: 1300px !important;
 }
 
-.home-main-content {
-  padding-right: 0;
-}
-
 .mobile-img {
   display: none;
 }
@@ -303,6 +299,9 @@ a:hover {
 }
 
 @media only screen and (max-width: 768px) {
+  .home-main-content-1 {
+    padding-right: 0;
+  }
   .extra {
     width: 223px;
   }
@@ -410,9 +409,6 @@ a:hover {
   .mobile-img {
     display: block;
     height: 209px;
-  }
-  .desktop-img {
-    display: none;
   }
   .intro-text {
     margin-top: 5px;

@@ -77,9 +77,12 @@ a:hover {
 }
 .shop-now {
   margin-top: 30px;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: #81a97e;
   border-radius: 13px;
+  height: 80px;
   .shop-now-p {
     padding: 15px 20px;
     font-size: 20px;
@@ -153,6 +156,10 @@ a:hover {
     height: 20px;
     padding-top: 3px;
   }
+}
+.see-more {
+  margin-left: 20px;
+  background-color: #e24e24;
 }
 @media only screen and (max-width: 768px) {
   .first-box {
