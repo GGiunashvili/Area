@@ -79,12 +79,10 @@ html,
   }
 }
 .main-text-one {
-  font-size: 34px;
+  font-size: 25px;
   font-family: markgeocaps-bold;
   color: white;
   text-align: left;
-  margin-top: 10px;
-  margin-bottom: 15px;
 }
 .hire-img {
   margin-right: 10px;
@@ -128,7 +126,6 @@ html,
   text-align: left;
   color: black;
   font-family: MARKGEOCAPS-semibold;
-  margin-bottom: 20px;
   line-height: 1.2;
   font-size: 20px;
   font-weight: bold;
@@ -530,16 +527,16 @@ a {
   height: 181px;
 }
 .textt {
-  visibility: hidden;
   color: white;
   font-family: markgeocaps-regular;
   text-align: left;
   line-height: 1.4;
   font-size: 24px;
   font-weight: bold;
+  margin: 20px 0;
 }
 .p-box {
-  margin: 70px 0;
+  margin: 40px 0;
 }
 .textt-mob {
   display: none;
@@ -577,6 +574,21 @@ a {
 .text-mob {
   display: none;
 }
+.ho-img {
+  margin-right: 10px;
+  height: 34px;
+}
+.camp-desc {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.shop-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 75px;
+}
 @media only screen and (max-width: 992px) {
   .mg-head-text {
     font-size: 14px;
@@ -585,9 +597,7 @@ a {
     width: 100% !important;
   }
   .main-text-one {
-    font-size: 24px;
     font-family: markgeocaps-bold;
-    margin-top: 14px;
   }
   .add-text-desktop {
     font-size: 14px;
@@ -621,6 +631,7 @@ a {
   }
   .img-for-mob {
     display: block;
+    margin-top: 20px;
   }
   .girch-1 {
     display: none;
@@ -637,6 +648,13 @@ a {
 }
 
 @media only screen and (max-width: 768px) {
+  .mastercard {
+    margin: 17px 0;
+  }
+  .ho-img {
+    height: 22px;
+    margin-right: 4px;
+  }
   .see-all-product {
     margin-top: 40px;
   }
@@ -654,12 +672,12 @@ a {
     height: 90px;
     bottom: 50px;
   }
-  .fifq {
-    background: url(../image/2bannerd.png) !important;
-    width: 100%;
-    background-size: cover;
-    height: 110px;
-  }
+  // .fifq {
+  //   background: url(../image/2bannerd.png) !important;
+  //   width: 100%;
+  //   background-size: cover;
+  //   height: 110px;
+  // }
   .header {
     margin-bottom: 20px !important;
   }
@@ -678,19 +696,22 @@ a {
     margin: 25px 0;
   }
   .textt {
-    display: none;
+    font-size: 14px;
+    line-height: 1.5;
   }
-  .textt-mob {
-    visibility: hidden;
-    display: block;
-    color: white;
-    font-family: markgeocaps-regular;
-    text-align: left;
-    line-height: 1.4;
-    font-size: 15px;
-    font-weight: bold;
-    padding: 0 20px;
-  }
+  // .textt {
+  //   display: none;
+  // }
+  // .textt-mob {
+  //   display: block;
+  //   color: white;
+  //   font-family: markgeocaps-regular;
+  //   text-align: left;
+  //   line-height: 1.4;
+  //   font-size: 15px;
+  //   font-weight: bold;
+  //   padding: 0 20px;
+  // }
   .girch-2 {
     top: 565px;
     height: 85px;
@@ -803,7 +824,7 @@ a {
   }
   .main-text-one-first {
     margin-left: unset !important;
-    display: none;
+    font-size: 15px;
   }
 
   .hire-img-mob {
@@ -850,8 +871,7 @@ a {
     margin-bottom: 0px !important;
   }
   .mg-head-text {
-    font-size: 14px;
-    margin-bottom: 10px;
+    font-size: 13px;
   }
   .see-all-product-p {
     font-size: 20px;
