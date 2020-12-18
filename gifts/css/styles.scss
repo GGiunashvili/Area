@@ -213,7 +213,13 @@ a:hover {
 .avatars {
   max-height: 315px;
 }
+.family-box {
+  margin-top: 125px;
+}
 @media only screen and (max-width: 992px) {
+  .family-box {
+    margin-top: 61px;
+  }
   .gift-text {
     font-size: 13px;
   }
