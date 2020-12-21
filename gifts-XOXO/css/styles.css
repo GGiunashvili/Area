@@ -1,0 +1,444 @@
+@font-face {
+  src: url(../fonts/MarkGEO-Bold.ttf);
+  font-family: markgeo-bold;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEO-Regular.ttf);
+  font-family: markgeo-regular;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEO-SemiBold.ttf);
+  font-family: markgeo-semibold;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEOCAPS-Bold.ttf);
+  font-family: markgeocaps-bold;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEO-Medium.ttf);
+  font-family: markgeocaps-medium;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEOCAPS-Medium.ttf);
+  font-family: markgeocapscaps-medium;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEOCAPS-SemiBold.ttf);
+  font-family: markgeocapscaps-semibold;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.intro-text {
+  font-family: markgeo-regular;
+  line-height: 1.3;
+  margin-top: 30px;
+  font-size: 16px;
+}
+
+.extra-logo {
+  height: 60px;
+  margin-top: 30px;
+}
+
+.gift-text {
+  font-size: 18px;
+  font-family: markgeo-regular;
+  line-height: 1.2;
+  overflow: hidden;
+  text-align: left;
+  white-space: pre-line;
+}
+
+.gift-text-title2 {
+  border-bottom: 3px solid #e24e24;
+  font-family: markgeocaps-bold;
+  font-size: 25px;
+}
+
+.first-extra-p-txt {
+  font-size: 25px;
+  position: absolute;
+  top: -35px;
+  left: -200px;
+  border-bottom: 3px solid #e24e24;
+  font-family: markgeocaps-bold;
+  max-width: 810px;
+}
+
+.second-extra-p-txt {
+  font-size: 25px;
+  position: absolute;
+  top: -50px;
+  right: -200px;
+  border-bottom: 3px solid #e24e24;
+  font-family: markgeocaps-bold;
+}
+
+.gift-text-titles {
+  font-size: 25px;
+  border-bottom: 3px solid #e24e24;
+  font-family: markgeocaps-bold;
+  inline-size: -webkit-fit-content;
+  inline-size: -moz-fit-content;
+  inline-size: fit-content;
+}
+
+.box-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1300px;
+  margin-top: 61px;
+}
+
+.texts-block {
+  height: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+
+.shop-now {
+  margin-top: 30px;
+  display: inline-block;
+  background: #81a97e;
+  border-radius: 13px;
+}
+
+.shop-now .shop-now-p {
+  padding: 15px 20px;
+  font-size: 30px;
+  font-family: markgeocapscaps-semibold;
+  color: white;
+}
+
+.shop-now-first {
+  margin-top: 30px;
+  display: inline-block;
+  background: #81a97e;
+  border-radius: 13px;
+}
+
+.shop-now-first .shop-now-p-first {
+  padding: 20px 35px;
+  font-size: 35px;
+  font-family: markgeocapscaps-semibold;
+  color: white;
+}
+
+.countdown-text {
+  font-family: markgeocaps-bold;
+  font-size: 24px;
+}
+
+.countdown-ind {
+  background-color: black;
+  margin: 10px;
+  height: 90px;
+  width: 100px;
+  border-radius: 15px;
+}
+
+#demo1,
+#demo2,
+#demo3,
+#demo4 {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  font-family: markgeo-semibold;
+}
+
+.count-time {
+  color: white;
+  text-align: center;
+  font-family: markgeo-regular;
+}
+
+.countdown-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  padding: 10px 0;
+}
+
+.container-fluid {
+  max-width: 1300px !important;
+}
+
+.mobile-img {
+  display: none;
+}
+
+.gift-text-mob {
+  display: none;
+}
+
+.countdown-main-box {
+  margin: 36px 0;
+}
+
+.footer-main-box {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #161e3f;
+  padding: 14px;
+}
+
+.footer-main-box .footer-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  font-family: markgeocaps-medium;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 18px;
+}
+
+.footer-main-box .footer-text .heart-icon {
+  margin: 0 5px;
+}
+
+.footer-main-box .footer-text .extra-footer {
+  margin-right: 5px;
+  font-family: markgeocapscaps-medium;
+  font-family: markgeocapscaps-medium;
+  color: white;
+}
+
+.footer-main-box .facebook-icon {
+  height: 20px;
+}
+
+.footer-main-box .linkedin-icon {
+  margin: 0 10px;
+  height: 20px;
+}
+
+.footer-main-box .instagram-icon {
+  height: 20px;
+  padding-top: 3px;
+}
+
+.avatars {
+  max-height: 315px;
+}
+
+.family-box {
+  margin-top: 125px;
+}
+
+@media only screen and (max-width: 992px) {
+  .family-box {
+    margin-top: 61px;
+  }
+  .gift-text {
+    font-size: 13px;
+  }
+  .second-extra-p-txt {
+    right: -177px;
+    font-size: 20px;
+  }
+  .gift-text-titles {
+    font-size: 18px;
+  }
+  .first-extra-p-txt {
+    font-size: 20px;
+  }
+  .intro-text {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .home-main-content-1 {
+    padding-right: 0;
+  }
+  .extra {
+    width: 223px;
+  }
+  .footer-text {
+    font-size: 12px !important;
+  }
+  .countdown-main-box {
+    margin: 14px 0;
+  }
+  .gift-text-extra {
+    left: 15px !important;
+    position: absolute;
+    top: -30px;
+    border-bottom: 2px solid #e24e24;
+    font-family: markgeocaps-bold;
+    font-size: 10px;
+    left: -134px;
+  }
+  .gift-text-title6 {
+    position: absolute;
+    font-size: 10px;
+    left: 15px;
+    top: -25px;
+    font-size: 9px !important;
+  }
+  .gift-text-title5 {
+    position: absolute;
+    font-size: 10px;
+    left: -15px;
+    top: -25px;
+    width: 218px;
+    font-size: 9px !important;
+  }
+  .gift-text-title3 {
+    position: absolute;
+    font-size: 10px;
+    right: 6px;
+    top: -20px;
+    font-size: 9px !important;
+  }
+  .gift-text-title2 {
+    position: absolute;
+    font-size: 10px;
+    right: -40px !important;
+    top: -30px;
+    font-size: 9px !important;
+  }
+  .gift-text-desk {
+    display: none;
+  }
+  .gift-text-mob {
+    display: block;
+  }
+  .box-two {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .shop-now {
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+  .shop-now .shop-now-p {
+    font-size: 10px;
+    padding: 10px 12px;
+  }
+  .texts-block {
+    height: unset;
+  }
+  .second-extra-p-txt {
+    right: -103px;
+    top: -25px;
+    font-size: 10px;
+  }
+  .gift-text-titles {
+    font-size: 10px;
+    border-bottom: 2px solid #e24e24;
+  }
+  .first-extra-p-txt {
+    font-size: 9px;
+    left: -102px;
+    border-bottom: 2px solid #e24e24;
+    top: -25px;
+  }
+  .gift-text {
+    font-size: 8px;
+  }
+  .count-time {
+    font-size: 7px;
+  }
+  .countdown-text {
+    font-size: 8px;
+  }
+  .countdown-ind {
+    height: 39px;
+    width: 39px;
+    border-radius: 6px;
+    margin: 3px;
+  }
+  #demo1,
+  #demo2,
+  #demo3,
+  #demo4 {
+    font-size: 16px;
+  }
+  .mobile-img {
+    display: block;
+    height: 209px;
+  }
+  .intro-text {
+    margin-top: 5px;
+    line-height: 1.2;
+    font-size: 7px;
+  }
+  .shop-now-first {
+    border-radius: 4px;
+    margin-top: 6px;
+  }
+  .shop-now-first .shop-now-p-first {
+    font-size: 10px;
+    padding: 10px 25px;
+  }
+  .extra-logo {
+    height: 18px;
+    margin-top: 6px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .footer-text {
+    font-size: 10px !important;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
