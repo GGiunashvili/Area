@@ -297,6 +297,11 @@ a:hover {
     margin-top: 10px;
     font-size: 12px;
   }
+  .extra-logo {
+    height: 18px;
+    margin-top: 12px;
+    margin-bottom: unset;
+  }
 }
 @media only screen and (max-width: 768px) {
   .home-main-content-1 {
@@ -430,10 +435,6 @@ a:hover {
       font-size: 10px;
       padding: 10px 25px;
     }
-  }
-  .extra-logo {
-    height: 18px;
-    margin-top: 6px;
   }
 }
 // @media only screen and (max-width: 375px) {
