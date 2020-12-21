@@ -315,6 +315,9 @@ a:hover {
 }
 
 @media only screen and (max-width: 992px) {
+  .home-main-content-mob {
+    padding-left: 0;
+  }
   .buy-now-box {
     position: absolute;
     bottom: 0;
@@ -492,7 +495,7 @@ a:hover {
   }
   .intro-text {
     margin-top: 5px;
-    line-height: 1.2;
+    line-height: 1.1;
     font-size: 7px;
   }
   .shop-now-first {
@@ -501,7 +504,7 @@ a:hover {
   }
   .shop-now-first .shop-now-p-first {
     font-size: 10px;
-    padding: 10px 25px;
+    padding: 5px 6px;
   }
 }
 
