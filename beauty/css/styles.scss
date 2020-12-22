@@ -239,9 +239,7 @@ a:hover {
 .swiper-container {
   margin: 0 60px !important;
 }
-.swiper-pagination {
-  display: none;
-}
+
 .my-own-carousel {
   position: relative;
 }
@@ -332,6 +330,9 @@ a:hover {
 
     max-width: 1000px;
     width: 100%;
+    .header-pag {
+      display: flex;
+    }
     .header-nav {
       margin: 0 17px;
       font-size: 15px;
@@ -342,18 +343,52 @@ a:hover {
 .extra-logo {
   height: 60px;
 }
-.firs-slide-arrows {
-  display: none !important;
-}
+
 .one {
   margin: 0 !important;
+  padding-bottom: 40px !important;
 }
-.extra {
-  background-image: url(../image/Group\ 2242.png);
-  width: 100%;
-  height: 100px;
+// .extra {
+//   background-image: url(../image/Group\ 2242.png);
+//   width: 100%;
+//   height: 100px;
+// }
+.one-prev {
+  display: none !important;
+}
+.firs-slide-arrows {
+  bottom: 1px !important;
+}
+.swiper-pagination-bullet-active {
+  background-color: #f72163 !important;
+}
+.swiper-pagination-bullet {
+  height: 20px !important;
+  width: 20px !important;
+}
+.first-slide-mob {
+  display: none;
 }
 @media only screen and (max-width: 768px) {
+  .first-slide-desk {
+    display: none;
+  }
+  .first-slide-mob {
+    display: block;
+  }
+  .header-box {
+    height: 80px;
+    .header {
+      justify-content: center !important;
+      .extra-logo {
+        height: 26px;
+      }
+
+      .header-pag {
+        display: none !important;
+      }
+    }
+  }
   .product-carousel-title {
     display: none;
   }
