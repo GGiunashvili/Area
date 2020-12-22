@@ -373,6 +373,13 @@ a:hover {
   display: none;
 }
 @media only screen and (max-width: 768px) {
+  .swiper-pagination-bullet {
+    height: 12px !important;
+    width: 12px !important;
+  }
+  .one {
+    padding-bottom: 30px !important;
+  }
   .first-slide-desk {
     display: none;
   }
