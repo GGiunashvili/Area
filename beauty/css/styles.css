@@ -450,6 +450,10 @@ a:hover {
   display: none;
 }
 
+.product-carousel-pagination {
+  display: none;
+}
+
 @media only screen and (max-width: 768px) {
   .first-slide-desk {
     display: none;
