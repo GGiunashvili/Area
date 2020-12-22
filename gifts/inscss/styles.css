@@ -90,7 +90,6 @@ a:hover {
 }
 
 .shop-now {
-  margin-top: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -124,13 +123,13 @@ a:hover {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .product-description {
   font-family: markgeo-regular;
   font-size: 20px;
-  margin-top: 60px;
-  margin-bottom: 40px;
   line-height: 1.2;
 }
 
@@ -233,7 +232,7 @@ a:hover {
   }
   .product-description {
     font-size: 8px;
-    margin-top: 10px;
+    margin-top: unset;
     margin-bottom: 0;
   }
   .footer-text {
@@ -241,7 +240,7 @@ a:hover {
   }
   .shop-now {
     border-radius: 4px;
-    margin-top: 10px;
+    margin-top: unset;
     height: 30px;
   }
   .shop-now .shop-now-p {
