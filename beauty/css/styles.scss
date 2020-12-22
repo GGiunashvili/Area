@@ -342,6 +342,17 @@ a:hover {
 .extra-logo {
   height: 60px;
 }
+.firs-slide-arrows {
+  display: none !important;
+}
+.one {
+  margin: 0 !important;
+}
+.extra {
+  background-image: url(../image/Group\ 2242.png);
+  width: 100%;
+  height: 100px;
+}
 @media only screen and (max-width: 768px) {
   .product-carousel-title {
     display: none;

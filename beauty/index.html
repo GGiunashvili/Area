@@ -121,7 +121,49 @@
             <div class="swiper-pagination"></div>
         </div>
     </div> -->
+    <div id="section1" style=" background: rgb(255 255 255 / 35%); ">
+        <div class="contaisner sec-cont">
+            <p class="product-carousel-title">საუკეთესო ფასდაკლებები</p>
+            <div class="d-flex align-items-center my-own-carousel" >
 
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+            <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+                <div class="swiper-container one" >
+                  <div class="swiper-wrapper">
+                    <a href="https://extra.ge/detailed/pepela-toy-store-pepelas-satamashoebi/bavshvta-samqaro/satamashoebi/konstruqtorebi/city-transporti-154512" target="_blank"  class="swiper-slide">
+                              <img  class="hoverme w-100 borderimg"  src="image/124780245_3697316956973015_2452351081028416342_o.png" alt="">                
+                        
+                    </a>
+  
+                    
+  
+                    <a href="https://extra.ge/detailed/pepela-toy-store-pepelas-satamashoebi/bavshvta-samqaro/satamashoebi/konstruqtorebi/city-transporti-154512" target="_blank"  class="swiper-slide">
+                              <img  class="hoverme w-100 borderimg"  src="image/124780245_3697316956973015_2452351081028416342_o.png" alt="">                
+                       
+                     </a>
+  
+                     <a href="https://extra.ge/detailed/pepela-toy-store-pepelas-satamashoebi/bavshvta-samqaro/satamashoebi/konstruqtorebi/city-transporti-154512" target="_blank"  class="swiper-slide">
+                              <img  class="hoverme w-100 borderimg"  src="image/124780245_3697316956973015_2452351081028416342_o.png" alt="">                
+                        
+                     </a>
+                    
+                    
+                    
+                  </div>
+                  <!-- Add Pagination -->
+                  <div class="swiper-pagination firs-slide-arrows"></div>
+               
+                </div>
+          </div>
+          <div class="d-flex justify-content-center">
+              <div class="pink-line"></div>
+  
+          </div>
+        </div>
+      </div>
  
 
     <div id="section1" style=" background: rgb(255 255 255 / 35%); ">
@@ -132,7 +174,7 @@
           <div class="swiper-button-prev"></div>
           <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
-              <div class="swiper-container">
+              <div class="swiper-container two">
                 <div class="swiper-wrapper">
                   <a href="https://extra.ge/detailed/pepela-toy-store-pepelas-satamashoebi/bavshvta-samqaro/satamashoebi/konstruqtorebi/city-transporti-154512" target="_blank"  class="swiper-slide">
                         <div class="box w-100">
@@ -150,6 +192,42 @@
                             <p class="shop-now-p">შეიძინე ახლავე</p>
                         </div>
                   </a>
+
+
+                  <a href="https://extra.ge/detailed/pepela-toy-store-pepelas-satamashoebi/bavshvta-samqaro/satamashoebi/konstruqtorebi/city-transporti-154512" target="_blank"  class="swiper-slide">
+                    <div class="box w-100">
+                        <img  class="hoverme w-100 borderimg"  src="image/Group 2242.png" alt="">                
+                    </div>
+                    <div class="price-count">
+                        <p class="price-p">ქალის შარფი</p>
+                    </div>
+                    <div class="price-box">
+                        <p class="before-sale">124 ლარი</p>
+                        <p class="sale-price">49 ლარი</p>
+                    </div>
+
+                    <div class="shop-now-box">
+                        <p class="shop-now-p">შეიძინე ახლავე</p>
+                    </div>
+                 </a>
+
+
+              <a href="https://extra.ge/detailed/pepela-toy-store-pepelas-satamashoebi/bavshvta-samqaro/satamashoebi/konstruqtorebi/city-transporti-154512" target="_blank"  class="swiper-slide">
+                <div class="box w-100">
+                    <img  class="hoverme w-100 borderimg"  src="image/Group 2242.png" alt="">                
+                </div>
+                <div class="price-count">
+                    <p class="price-p">ქალის შარფი</p>
+                </div>
+                <div class="price-box">
+                    <p class="before-sale">124 ლარი</p>
+                    <p class="sale-price">49 ლარი</p>
+                </div>
+
+                <div class="shop-now-box">
+                    <p class="shop-now-p">შეიძინე ახლავე</p>
+                </div>
+              </a>
 
                   
 
@@ -239,15 +317,13 @@
 
 
   <script>
-    var swiper = new Swiper('.swiper-container', {
+    var swiper = new Swiper('.two', {
   
       slidesPerView: 2.4,
     centeredSlides: true,
       spaceBetween: 20,
     loop: true,
-    autoplay: {
-      delay: 4000,
-    },
+ 
     navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
@@ -272,6 +348,7 @@
           slidesPerView: 3,
     centeredSlides: true,
     spaceBetween: 70,
+    
         },
       }
     
@@ -282,29 +359,39 @@
 
 
 
-    var swiper = new Swiper('.swiper-container-one', {
-      slidesPerView: 1,
-      spaceBetween: 10,
-      // init: false,
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-      breakpoints: {
-        640: {
-          slidesPerView: 2,
-          spaceBetween: 20,
-        },
-        768: {
-          slidesPerView: 4,
-          spaceBetween: 40,
-        },
-        1024: {
-          slidesPerView: 1.4,
-          spaceBetween: 50,
-        },
-      }
-    });
+    var swiper = new Swiper('.one', {
+  
+  slidesPerView: 2.4,
+centeredSlides: true,
+  spaceBetween: 20,
+loop: true,
+
+
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  breakpoints: {
+    640: {
+      slidesPerView: 1.3,
+centeredSlides: true,
+  spaceBetween: 10,
+    },
+    768: {
+      slidesPerView: 3,
+centeredSlides: true,
+  spaceBetween: 10,
+    },
+    1024: {
+      slidesPerView: 1.2,
+centeredSlides: true,
+loop: true,
+
+    },
+  }
+
+  
+});
   </script>
     
 
