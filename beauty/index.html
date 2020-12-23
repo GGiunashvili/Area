@@ -94,11 +94,11 @@
                <div class="header">
                     <img class="extra-logo" src="image/extra logo.svg" alt="">
                     <div class="header-pag">
-                        <p class="header-nav">მთავარი</p>
-                        <p class="header-nav">კატეგორიები</p>
-                        <p class="header-nav">ფასდაკლებები</p>
-                        <p class="header-nav">ბრენდები</p>
-                        <p class="header-nav">დახმარება</p>
+                        <a href="#mtavari" class="header-nav">მთავარი</a>
+                        <a href="#category" class="header-nav">კატეგორიები</a>
+                        <a href="#sale"class="header-nav">ფასდაკლებები</a>
+                        <a href="#brand" class="header-nav">ბრენდები</a>
+                        <a href="#help" class="header-nav">დახმარება</a>
                     </div>
                </div>
             </div>
@@ -141,7 +141,9 @@
         </div>
       </div>
 
-    <div>
+    <div id="categoy" style="position: relative;">
+      <img class="gift-1" src="image/Group 1580.png" alt="">
+      <img class="gift-2" src="image/Group 2513.png" alt="">
         <div class="container">
           <div class="row justify-content-center">
             <div class="icon-set">
@@ -175,7 +177,7 @@
     </div>
  
 
-    <div id="section1" style=" background: rgb(255 255 255 / 35%); ">
+    <div id="sale" style=" background: rgb(255 255 255 / 35%); ">
       <div class="container sec-cont">
           <p class="product-carousel-title">საუკეთესო ფასდაკლებები</p>
         <div class="d-flex align-items-center my-own-carousel" >
@@ -291,7 +293,7 @@
 
 
 
-    <div class="container">
+    <div class="container" id="brand">
       <div class="row justify-content-center">
         <p class="product-carousel-title">ბრენდები</p>
 
@@ -309,7 +311,7 @@
     <div class="pink-line pink-line-third"></div>
   </div>
 
- <div class="container">
+ <div class="container" id="help">
    <div class="row justify-content-center">
     <p class="product-carousel-title carousel-block block-0">გვკითხე, რაც გაგიხარდება</p>
     <p class="product-carousel-title carousel-block block-1">გვკითხე, <br> რაც გაგიხარდება</p>
@@ -349,7 +351,7 @@
     <img class="footer-logo" src="image/Group 14.svg" alt="">
     <p class="d-flex footer-text align-items-center" style="color: white;">Designed with<a href=""><img class="new-heart-icon" style="margin:0 5px;" src="image/Path 49 (1).svg" alt=""></a>
         <span class="extra-footer" style="margin-right: 5px;  font-family: markgeo-medium;">by </span>
-        <a href="https://extra.ge/" class="extra-footer">extra.ge <span class="extra-footer-text" style="visibility: hidden;">shs shs</span> </a>
+        <a href="https://extra.ge/" class="extra-footer">extra.ge <span class="extra-footer-text" style="visibility: hidden;">shs shs shs s</span> </a>
     </p>
 
 
@@ -377,9 +379,9 @@
   <script>
     var swiper = new Swiper('.two', {
   
-      slidesPerView: 1.9,
+      slidesPerView: 2.5,
     centeredSlides: true,
-      spaceBetween: 10,
+      spaceBetween: 15,
     loop: true,
  
     navigation: {

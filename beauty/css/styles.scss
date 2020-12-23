@@ -390,15 +390,13 @@ a:hover {
 }
 
 .a {
-  stroke: black !important;
+  stroke: black;
   fill: none;
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-width: 1.5px;
 }
-.icon-set:hover > .a {
-  stroke: red !important;
-}
+
 .icon-set {
   width: 132px;
   height: 158px;
@@ -511,6 +509,21 @@ a:hover {
 }
 .block-1 {
   display: none;
+}
+.icon-set:hover > .a {
+  stroke: red !important;
+}
+.gift-1 {
+  position: absolute;
+  bottom: -80px;
+  left: 15px;
+  height: 150px;
+}
+.gift-2 {
+  position: absolute;
+  top: 65px;
+  right: 15px;
+  height: 150px;
 }
 @media only screen and (max-width: 992px) {
   .header-box {
