@@ -252,7 +252,6 @@ a:hover {
   content: none !important;
 }
 .sec-cont {
-  margin-top: 15px;
   padding: 20px 0;
 }
 .gift-main {
@@ -315,8 +314,15 @@ a:hover {
 .pink-line {
   border-top: 3px solid #f72163;
   width: 90px;
-  margin-top: 70px;
-  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.pink-line-second {
+  margin-bottom: 20px !important;
+}
+.pink-line-third {
+  margin-top: 80px;
+  margin-bottom: 70px;
 }
 .header-box {
   height: 100px;
@@ -372,20 +378,47 @@ a:hover {
 .product-carousel-pagination {
   display: none;
 }
-@media only screen and (max-width: 768px) {
-  .swiper-pagination-bullet {
-    height: 12px !important;
-    width: 12px !important;
+.icon-set:hover {
+  background: #f9e4ec;
+}
+.icon-set:hover > .icon-title {
+  color: #f72163;
+}
+.icon-products {
+  fill: red;
+  stroke: red;
+}
+
+.a {
+  stroke: black !important;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 1.5px;
+}
+.icon-set:hover > .a {
+  stroke: red !important;
+}
+.icon-set {
+  width: 132px;
+  height: 158px;
+  border-radius: 30px;
+  margin: 10px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .icon-title {
+    text-align: center;
+    margin-top: 32px;
+    font-size: 12px;
+    font-family: markgeocapscaps-Semiboldcaps;
   }
-  .one {
-    padding-bottom: 30px !important;
-  }
-  .first-slide-desk {
-    display: none;
-  }
-  .first-slide-mob {
-    display: block;
-  }
+}
+
+@media only screen and (max-width: 992px) {
   .header-box {
     height: 80px;
     .header {
@@ -399,6 +432,34 @@ a:hover {
       }
     }
   }
+}
+
+@media only screen and (max-width: 768px) {
+  .icon-set {
+    height: unset;
+    width: 50px;
+  }
+  .icon-title {
+    font-size: 10px !important;
+    margin-top: 12px !important;
+  }
+  .icon-svg-code {
+    height: 30px !important;
+  }
+  .swiper-pagination-bullet {
+    height: 12px !important;
+    width: 12px !important;
+  }
+  .one {
+    padding-bottom: 30px !important;
+  }
+  .first-slide-desk {
+    display: none;
+  }
+  .first-slide-mob {
+    display: block;
+  }
+
   .product-carousel-title {
     display: none;
   }
