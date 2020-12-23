@@ -606,6 +606,38 @@ a:hover {
   right: 65px;
 }
 
+.footer-text {
+  font-size: 14px;
+  color: white;
+  font-family: markgeocaps-medium;
+}
+
+.extra-footer {
+  font-size: 14px;
+  color: white;
+  font-family: markgeocaps-medium;
+}
+
+.footer-logo {
+  height: 43px;
+}
+
+.linkedin-icon {
+  margin: 0 10px;
+}
+
+.footer {
+  height: 80px;
+}
+
+.green-1 {
+  display: none;
+}
+
+.block-1 {
+  display: none;
+}
+
 @media only screen and (max-width: 992px) {
   .header-box {
     height: 80px;
@@ -624,6 +656,69 @@ a:hover {
 }
 
 @media only screen and (max-width: 768px) {
+  .see-all-product {
+    margin-bottom: 52px;
+    margin-top: 1px;
+  }
+  .pink-line-third {
+    display: none;
+  }
+  .block-0 {
+    display: none !important;
+  }
+  .block-1 {
+    display: block;
+    margin-bottom: 40px;
+    margin-top: 32px;
+  }
+  .green-0 {
+    display: none;
+  }
+  .green-1 {
+    display: block;
+  }
+  .new-year-green-1 {
+    height: 72px;
+    top: 0;
+  }
+  .new-year-green-2 {
+    height: 72px;
+  }
+  .new-year-gift-1 {
+    height: 40px;
+    top: 60px;
+    left: 74px;
+  }
+  .new-year-gift-2 {
+    height: 50px;
+    right: 8px;
+    bottom: 3px;
+  }
+  .extra-footer-text {
+    display: none;
+  }
+  .footer {
+    height: 60px;
+  }
+  .new-heart-icon {
+    height: 10px;
+  }
+  .footer-logo {
+    height: 20px;
+  }
+  .extra-footer {
+    font-size: 12px;
+  }
+  .linkedin-icon {
+    margin: 0 -6px;
+    height: 14px !important;
+  }
+  .ft-icon {
+    height: 14px !important;
+  }
+  .footer-text {
+    font-size: 10px;
+  }
   .carousel-block {
     font-size: 16px;
   }
