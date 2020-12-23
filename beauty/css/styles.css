@@ -670,6 +670,12 @@ a:hover {
 }
 
 @media only screen and (max-width: 768px) {
+  .gift-1 {
+    display: none;
+  }
+  .gift-2 {
+    display: none;
+  }
   .see-all-product {
     margin-bottom: 52px;
     margin-top: 1px;
