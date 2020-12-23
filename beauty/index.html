@@ -117,19 +117,24 @@
                 <div class="swiper-container one" >
                   <div class="swiper-wrapper">
                     <a href="https://extra.ge/detailed/pepela-toy-store-pepelas-satamashoebi/bavshvta-samqaro/satamashoebi/konstruqtorebi/city-transporti-154512" target="_blank"  class="swiper-slide">
-                              <img  class=" first-slide-desk w-100 "  src="image/124780245_3697316956973015_2452351081028416342_o.png" alt="">  
-                              <img class="first-slide-mob w-100 "  src="image/soskini.png" alt="">              
+                              <img  class=" first-slide-desk w-100 "  src="image/21.png" alt="">  
+                              <img class="first-slide-mob w-100 "  src="image/soskin.png" alt="">              
                     </a>                    
   
                     <a href="https://extra.ge/detailed/pepela-toy-store-pepelas-satamashoebi/bavshvta-samqaro/satamashoebi/konstruqtorebi/city-transporti-154512" target="_blank"  class="swiper-slide">
-                        <img  class=" first-slide-desk w-100 "  src="image/124780245_3697316956973015_2452351081028416342_o.png" alt="">  
-                        <img class="first-slide-mob w-100 "  src="image/soskini.png" alt="">                        
+                        <img  class=" first-slide-desk w-100 "  src="image/22.png" alt="">  
+                        <img class="first-slide-mob w-100 "  src="image/image (3).png" alt="">                        
                      </a>
   
                      <a href="https://extra.ge/detailed/pepela-toy-store-pepelas-satamashoebi/bavshvta-samqaro/satamashoebi/konstruqtorebi/city-transporti-154512" target="_blank"  class="swiper-slide">
-                        <img  class=" first-slide-desk w-100 "  src="image/124780245_3697316956973015_2452351081028416342_o.png" alt="">  
-                        <img class="first-slide-mob w-100 "  src="image/soskini.png" alt="">                         
+                        <img  class=" first-slide-desk w-100 "  src="image/23.png" alt="">  
+                        <img class="first-slide-mob w-100 "  src="image/prof.png" alt="">                         
                      </a>
+
+                     <a href="https://extra.ge/detailed/pepela-toy-store-pepelas-satamashoebi/bavshvta-samqaro/satamashoebi/konstruqtorebi/city-transporti-154512" target="_blank"  class="swiper-slide">
+                      <img  class=" first-slide-desk w-100 "  src="image/24.png" alt="">  
+                      <img class="first-slide-mob w-100 "  src="image/guam.png" alt="">                         
+                   </a>
                                    
                   </div>
                   <!-- Add Pagination -->
@@ -302,7 +307,7 @@
   
 
   <div>
-    <img class="w-100" src="https://lh3.googleusercontent.com/proxy/sisTa6NVSP1wkC43mi1adNsB3LpdIzkaXIoTWJGzy5zFv9HSOHg2ICb6Q-Xa1YLN2ejARWs7keSmrIJgwnbTLk7-FtWq8yU3chHobgO0o-mh6leHgjB2KfdtYHWp-qUsifpzlygB0Oc" alt="">
+    <img class="w-100" style="max-height: 600px;" src="https://lh3.googleusercontent.com/proxy/EhegDW2mUdWFp5KwhD--DKcY2lsfvg4D-Rsod1zhzQR8oUI3iewgeM9uI8wsZc4FvwUqeVMfvTBOZXlOJ1JXuAdDOmOX-W_fiai3_EIyC8S65z8uDKvQtmqAuZFXQCzuzoF21C4m8gRdTX21j5Dtj86j8q5ih9SZZvFaui7m3Z3CWhkK0x_HmoNihmv7gcJHoMBvSHSt20FBlTEKj1NBR65PzvXx7bFXIvlym9tVPIVf7YNIhz8xsEYsAPNycVL6YKUk" alt="">
   </div>
 
   
@@ -380,10 +385,12 @@
     var swiper = new Swiper('.two', {
   
       slidesPerView: 2.5,
-    centeredSlides: true,
+      centeredSlides: true,
       spaceBetween: 15,
-    loop: true,
- 
+      loop: true,
+      autoplay: {
+      delay: 8000,
+    },
     navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
@@ -396,18 +403,18 @@
       breakpoints: {
         640: {
           slidesPerView: 1.9,
-    centeredSlides: true,
-      spaceBetween: 10,
+          centeredSlides: true,
+          spaceBetween: 10,
         },
         768: {
           slidesPerView: 3,
-    centeredSlides: true,
-      spaceBetween: 10,
+          centeredSlides: true,
+          spaceBetween: 10,
         },
         1024: {
           slidesPerView: 3,
-    centeredSlides: true,
-    spaceBetween: 70,
+          centeredSlides: true,
+          spaceBetween: 70,
     
         },
       }
@@ -422,10 +429,12 @@
     var swiper = new Swiper('.one', {
   
   slidesPerView: 1.2,
-centeredSlides: true,
+  centeredSlides: true,
   spaceBetween: 10,
-loop: true,
-
+  loop: true,
+  autoplay: {
+      delay: 4000,
+    },
 
   pagination: {
     el: '.swiper-pagination',
@@ -434,18 +443,19 @@ loop: true,
   breakpoints: {
     640: {
       slidesPerView: 1.2,
-centeredSlides: true,
-  spaceBetween: 10,
+      centeredSlides: true,
+      spaceBetween: 10,
     },
     768: {
       slidesPerView: 3,
-centeredSlides: true,
-  spaceBetween: 10,
+      centeredSlides: true,
+      spaceBetween: 10,
     },
     1024: {
-      slidesPerView: 1.1,
-centeredSlides: true,
-loop: true,
+      slidesPerView: 1.2,
+      centeredSlides: true,
+      loop: true,
+      spaceBetween: 35,
 
     },
   }
