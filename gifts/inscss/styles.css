@@ -214,7 +214,45 @@ a:hover {
   background-color: #fc5601;
 }
 
+.price-buy-now {
+  position: absolute;
+  top: 2px;
+  right: 18px;
+  background: white;
+  width: 132px;
+  border-radius: 47px;
+  text-align: center;
+  height: 43px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.price-buy-now .price-buy-now-p {
+  color: #e51010;
+  font-size: 35px;
+  font-family: markgeocapscaps-semibold;
+}
+
 @media only screen and (max-width: 768px) {
+  .price-buy-now {
+    position: absolute;
+    top: 2px;
+    right: 18px;
+    width: 72px;
+    border-radius: 47px;
+    text-align: center;
+    height: 25px;
+  }
+  .price-buy-now .price-buy-now-p {
+    font-size: 20px;
+  }
   .first-box {
     margin-top: 20px !important;
   }
