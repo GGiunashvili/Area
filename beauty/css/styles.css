@@ -372,7 +372,7 @@ a:hover {
   font-size: 40px;
   font-family: markgeocapscaps-Semiboldcaps;
   text-align: center;
-  margin-bottom: 98px;
+  margin-bottom: 35px;
 }
 
 .pink-line {
@@ -515,6 +515,97 @@ a:hover {
   font-family: markgeocapscaps-Semiboldcaps;
 }
 
+.see-all-product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 125px;
+}
+
+.see-all-product .see-all-product-div {
+  background-color: #ffc208;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.see-all-product .see-all-product-div .see-all-product-p {
+  font-size: 23px;
+  color: white;
+  font-family: markgeocaps-bold;
+}
+
+.see-all-product .see-all-product-div .extra-svg {
+  height: 45px;
+  margin-right: 10px;
+}
+
+.info-icon {
+  margin-right: 10px;
+}
+
+.call-button {
+  color: white;
+  margin-left: 10px;
+  font-family: markgeocaps-regular;
+}
+
+.soc-media {
+  margin: 0 20px;
+  width: 303px;
+  height: 80px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: 0px 10px 10px #00000029;
+          box-shadow: 0px 10px 10px #00000029;
+  border-radius: 1px;
+}
+
+.msng-p {
+  font-size: 16px;
+  margin-left: 10px;
+  font-family: markgeocaps-regular;
+  color: white;
+}
+
+.new-year-green-1 {
+  height: 190px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.new-year-green-2 {
+  height: 190px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.new-year-gift-1 {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  height: 137px;
+  left: 125px;
+}
+
+.new-year-gift-2 {
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+  height: 137px;
+  right: 65px;
+}
+
 @media only screen and (max-width: 992px) {
   .header-box {
     height: 80px;
@@ -533,6 +624,23 @@ a:hover {
 }
 
 @media only screen and (max-width: 768px) {
+  .carousel-block {
+    font-size: 16px;
+  }
+  .call-button {
+    font-size: 9px;
+  }
+  .msng-p {
+    font-size: 9px;
+  }
+  .msng-icon {
+    height: 19px;
+  }
+  .soc-media {
+    height: 41px;
+    margin: 0 4px;
+    width: 153px;
+  }
   .icon-set {
     height: unset;
     width: 50px;
@@ -559,6 +667,9 @@ a:hover {
   }
   .product-carousel-title {
     display: none;
+  }
+  .carousel-block {
+    display: block;
   }
   .pink-line {
     margin-top: 30px;
