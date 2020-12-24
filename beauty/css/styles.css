@@ -691,6 +691,88 @@ a:hover {
   padding-top: 20px;
 }
 
+.banner-img:hover > .banner-text {
+  opacity: 1 !important;
+}
+
+.brand-text {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-family: markgeocapscaps-Semiboldcaps;
+  font-size: 26px;
+  text-align: center;
+  display: none;
+  z-index: 999;
+  opacity: 0;
+}
+
+.container2 {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.1;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  background-color: #f8feff;
+}
+
+.container2:hover .overlay {
+  opacity: 0.9;
+}
+
+.container2:hover .text {
+  opacity: 1;
+}
+
+.text {
+  font-family: markgeocapscaps-Semiboldcaps;
+  width: 100%;
+  color: black;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 0;
+}
+
+.swiper-button-prev {
+  opacity: 0.3;
+}
+
+.swiper-button-next {
+  opacity: 0.3;
+}
+
+.swiper-button-prev:hover {
+  opacity: 1;
+}
+
+.swiper-button-next:hover {
+  opacity: 1;
+}
+
 @media only screen and (max-width: 992px) {
   .header-box {
     height: 80px;
@@ -709,6 +791,9 @@ a:hover {
 }
 
 @media only screen and (max-width: 768px) {
+  .text {
+    font-size: 10px;
+  }
   .buy-btn {
     height: 40px;
     bottom: 20px;
@@ -723,7 +808,8 @@ a:hover {
     display: none;
   }
   #brand {
-    margin-bottom: 15px;
+    padding-bottom: 15px;
+    padding-top: 10px;
   }
   .brand-logo {
     height: 30px;
