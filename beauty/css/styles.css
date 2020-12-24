@@ -649,7 +649,7 @@ a:hover {
 .gift-2 {
   position: absolute;
   top: 65px;
-  right: 15px;
+  right: 40px;
   height: 150px;
 }
 
@@ -677,6 +677,10 @@ a:hover {
 .brand-logo {
   height: 50px;
   margin: 12px;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
 }
 
 .buy-btn {
@@ -736,7 +740,7 @@ a:hover {
 }
 
 .container2:hover .overlay {
-  opacity: 0.9;
+  opacity: 0.6;
 }
 
 .container2:hover .text {
@@ -771,6 +775,79 @@ a:hover {
 
 .swiper-button-next:hover {
   opacity: 1;
+}
+
+.gift-2 {
+  -webkit-animation-name: spin;
+          animation-name: spin;
+  -webkit-animation-duration: 80000ms;
+          animation-duration: 80000ms;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+.gift-1 {
+  -webkit-animation-name: spin;
+          animation-name: spin;
+  -webkit-animation-duration: 80000ms;
+          animation-duration: 80000ms;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+.new-year-gift-2 {
+  -webkit-animation-name: spin;
+          animation-name: spin;
+  -webkit-animation-duration: 80000ms;
+          animation-duration: 80000ms;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+.new-year-gift-1 {
+  -webkit-animation-name: spin;
+          animation-name: spin;
+  -webkit-animation-duration: 80000ms;
+          animation-duration: 80000ms;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.brand-logo:hover {
+  /* IE 9 */
+  -webkit-transform: scale(1.2);
+  /* Safari 3-8 */
+  transform: scale(1.2);
 }
 
 @media only screen and (max-width: 992px) {

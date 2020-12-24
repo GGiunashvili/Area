@@ -523,7 +523,7 @@ a:hover {
 .gift-2 {
   position: absolute;
   top: 65px;
-  right: 15px;
+  right: 40px;
   height: 150px;
 }
 .header-nav:hover {
@@ -547,6 +547,7 @@ a:hover {
 .brand-logo {
   height: 50px;
   margin: 12px;
+  transition: transform 0.2s;
 }
 .buy-btn {
   position: absolute;
@@ -601,7 +602,7 @@ a:hover {
 }
 
 .container2:hover .overlay {
-  opacity: 0.9;
+  opacity: 0.6;
 }
 .container2:hover .text {
   opacity: 1;
@@ -632,6 +633,43 @@ a:hover {
 }
 .swiper-button-next:hover {
   opacity: 1;
+}
+.gift-2 {
+  animation-name: spin;
+  animation-duration: 80000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.gift-1 {
+  animation-name: spin;
+  animation-duration: 80000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.new-year-gift-2 {
+  animation-name: spin;
+  animation-duration: 80000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.new-year-gift-1 {
+  animation-name: spin;
+  animation-duration: 80000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.brand-logo:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
 }
 @media only screen and (max-width: 992px) {
   .header-box {
