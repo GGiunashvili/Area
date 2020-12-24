@@ -528,6 +528,32 @@ a:hover {
 .header-nav:hover {
   color: #f72163;
 }
+.banner-title {
+  background-color: #ffc208;
+  font-family: markgeocapscaps-Semiboldcaps;
+  color: white;
+  font-size: 32px;
+  line-height: 1.4;
+  padding: 2px 5px;
+  display: inline;
+}
+.banner-text {
+  font-family: markgeocapscaps-Semiboldcaps;
+  color: white;
+  font-size: 30px;
+  line-height: 1.2;
+}
+.brand-logo {
+  height: 50px;
+  margin: 12px;
+}
+.buy-btn {
+  position: absolute;
+  bottom: 50px;
+  z-index: 999;
+  left: 0;
+}
+
 @media only screen and (max-width: 992px) {
   .header-box {
     height: 80px;
@@ -545,6 +571,26 @@ a:hover {
 }
 
 @media only screen and (max-width: 768px) {
+  .buy-btn {
+    height: 20px;
+    bottom: 20px;
+    left: 20px;
+  }
+  .brands {
+    display: block !important;
+    font-size: 22px;
+    margin-bottom: 10px !important;
+  }
+  .br-lg {
+    display: none;
+  }
+  #brand {
+    margin-bottom: 15px;
+  }
+  .brand-logo {
+    height: 30px;
+    margin: 5px;
+  }
   .gift-1 {
     display: none;
   }
