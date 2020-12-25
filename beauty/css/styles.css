@@ -913,6 +913,12 @@ a:hover {
   .br-lg {
     display: none;
   }
+  .mob-res {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
   #brand {
     padding-bottom: 15px;
     padding-top: 10px;
