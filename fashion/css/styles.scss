@@ -39,7 +39,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background-color: #f9f9fb;
+  background-color: #f4f1ed;
 }
 a {
   text-decoration: none;
@@ -262,8 +262,14 @@ a:hover {
   font-family: markgeocapscaps-Semiboldcaps;
   font-size: 24px;
   text-align: center;
-  margin-top: 45px;
-  margin-bottom: 15px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.sale-price {
+  color: #f72163;
+  font-size: 32px;
+  font-family: markgeocapscaps-Semiboldcaps;
+  padding-bottom: 10px;
 }
 .price-box {
   display: flex;
@@ -674,14 +680,18 @@ a:hover {
   -webkit-transform: scale(1.2); /* Safari 3-8 */
   transform: scale(1.2);
 }
-// .swiper-slide-next {
-//   pointer-events: none !important;
-//   cursor: default !important;
-// }
-// .swiper-slide-prev {
-//   pointer-events: none !important;
-//   cursor: default !important;
-// }
+.swiper-slide-next {
+  pointer-events: none !important;
+  cursor: default !important;
+}
+.swiper-slide-prev {
+  pointer-events: none !important;
+  cursor: default !important;
+}
+.box {
+  background-color: white;
+  border-radius: 10px;
+}
 @media only screen and (max-width: 1200px) {
   .price-p {
     font-size: 15px;
