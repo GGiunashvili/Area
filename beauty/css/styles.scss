@@ -674,6 +674,14 @@ a:hover {
   -webkit-transform: scale(1.2); /* Safari 3-8 */
   transform: scale(1.2);
 }
+.swiper-slide-next {
+  pointer-events: none !important;
+  cursor: default !important;
+}
+.swiper-slide-prev {
+  pointer-events: none !important;
+  cursor: default !important;
+}
 @media only screen and (max-width: 1200px) {
   .price-p {
     font-size: 15px;
