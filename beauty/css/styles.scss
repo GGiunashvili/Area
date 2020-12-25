@@ -288,7 +288,7 @@ a:hover {
 .shop-now-box {
   background-color: #f9cedd;
   border-radius: 10px;
-  box-shadow: 0px 5px 10px #f9cedd;
+  box-shadow: 0px 3px 5px #f9cedd;
   margin-right: 8px;
   margin-left: 8px;
   margin-bottom: 15px;
@@ -445,6 +445,9 @@ a:hover {
   color: white;
   margin-left: 10px;
   font-family: markgeocapscaps-Semiboldcaps;
+}
+.call-button:hover {
+  color: white;
 }
 .soc-media {
   margin: 0 20px;
