@@ -292,9 +292,9 @@ a:hover {
   }
 }
 .shop-now-box {
-  background-color: #f9cedd;
+  background-color: #f72163;
   border-radius: 10px;
-  box-shadow: 0px 3px 5px #f9cedd;
+  box-shadow: 0px 3px 6px #0000004d;
   margin-right: 8px;
   margin-left: 8px;
   margin-bottom: 15px;
@@ -304,13 +304,13 @@ a:hover {
   display: flex;
   justify-content: center;
   height: 80px;
-  margin-top: 40px;
-  width: 50%;
+  margin-top: 30px;
+  width: 77%;
   text-align: center;
 
   .shop-now-p {
-    color: #f73b76;
-    font-family: markgeocapscaps-Semiboldcaps;
+    color: white;
+    font-family: markgeocapscaps-medium;
     font-size: 24px;
   }
 }
@@ -556,7 +556,7 @@ a:hover {
   line-height: 1.2;
 }
 .brand-logo {
-  height: 50px;
+  height: 28px;
   margin: 12px;
   transition: transform 0.2s;
 }
@@ -694,6 +694,27 @@ a:hover {
   background-color: white;
   border-radius: 10px;
 }
+.sex-img-box {
+  background: white;
+  justify-content: center;
+  border-radius: 10px;
+  .sex-category-box {
+    background: white;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 0px 0px 10px 10px;
+    .sex-category-p {
+      text-align: center;
+      font-family: markgeocaps-bold;
+    }
+  }
+}
+.cont-parent {
+  background: #7a1dff;
+  padding: 50px 0;
+}
 @media only screen and (max-width: 1200px) {
   .price-p {
     font-size: 15px;
@@ -730,6 +751,20 @@ a:hover {
 }
 
 @media only screen and (max-width: 768px) {
+  .cont-parent {
+    padding: 10px 0;
+  }
+  .sex-category-box {
+    height: 13px !important;
+    border-radius: 0px 0px 5px 5px !important;
+
+    .sex-category-p {
+      font-size: 4px;
+    }
+  }
+  .caregoryes {
+    padding: 0 3px;
+  }
   .text {
     font-size: 10px;
   }
@@ -754,7 +789,7 @@ a:hover {
     padding-top: 10px;
   }
   .brand-logo {
-    height: 30px;
+    height: 12px;
     margin: 5px;
   }
   .gift-1 {
@@ -870,9 +905,6 @@ a:hover {
     display: block;
   }
 
-  .product-carousel-title {
-    display: none;
-  }
   .carousel-block {
     display: block;
   }
@@ -887,6 +919,9 @@ a:hover {
     .sale-price {
       font-size: 12px;
     }
+  }
+  .sale-price {
+    font-size: 15px;
   }
   .shop-now-box {
     margin-top: 7px;

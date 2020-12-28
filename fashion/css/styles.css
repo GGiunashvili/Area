@@ -349,10 +349,10 @@ a:hover {
 }
 
 .shop-now-box {
-  background-color: #f9cedd;
+  background-color: #f72163;
   border-radius: 10px;
-  -webkit-box-shadow: 0px 3px 5px #f9cedd;
-          box-shadow: 0px 3px 5px #f9cedd;
+  -webkit-box-shadow: 0px 3px 6px #0000004d;
+          box-shadow: 0px 3px 6px #0000004d;
   margin-right: 8px;
   margin-left: 8px;
   margin-bottom: 15px;
@@ -367,14 +367,14 @@ a:hover {
       -ms-flex-pack: center;
           justify-content: center;
   height: 80px;
-  margin-top: 40px;
-  width: 50%;
+  margin-top: 30px;
+  width: 77%;
   text-align: center;
 }
 
 .shop-now-box .shop-now-p {
-  color: #f73b76;
-  font-family: markgeocapscaps-Semiboldcaps;
+  color: white;
+  font-family: markgeocapscaps-medium;
   font-size: 24px;
 }
 
@@ -688,7 +688,7 @@ a:hover {
 }
 
 .brand-logo {
-  height: 50px;
+  height: 28px;
   margin: 12px;
   -webkit-transition: -webkit-transform 0.2s;
   transition: -webkit-transform 0.2s;
@@ -878,6 +878,39 @@ a:hover {
   border-radius: 10px;
 }
 
+.sex-img-box {
+  background: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 10px;
+}
+
+.sex-img-box .sex-category-box {
+  background: white;
+  height: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.sex-img-box .sex-category-box .sex-category-p {
+  text-align: center;
+  font-family: markgeocaps-bold;
+}
+
+.cont-parent {
+  background: #7a1dff;
+  padding: 50px 0;
+}
+
 @media only screen and (max-width: 1200px) {
   .price-p {
     font-size: 15px;
@@ -911,6 +944,19 @@ a:hover {
 }
 
 @media only screen and (max-width: 768px) {
+  .cont-parent {
+    padding: 10px 0;
+  }
+  .sex-category-box {
+    height: 13px !important;
+    border-radius: 0px 0px 5px 5px !important;
+  }
+  .sex-category-box .sex-category-p {
+    font-size: 4px;
+  }
+  .caregoryes {
+    padding: 0 3px;
+  }
   .text {
     font-size: 10px;
   }
@@ -938,7 +984,7 @@ a:hover {
     padding-top: 10px;
   }
   .brand-logo {
-    height: 30px;
+    height: 12px;
     margin: 5px;
   }
   .gift-1 {
@@ -1051,9 +1097,6 @@ a:hover {
   .first-slide-mob {
     display: block;
   }
-  .product-carousel-title {
-    display: none;
-  }
   .carousel-block {
     display: block;
   }
@@ -1068,6 +1111,9 @@ a:hover {
   }
   .price-box .sale-price {
     font-size: 12px;
+  }
+  .sale-price {
+    font-size: 15px;
   }
   .shop-now-box {
     margin-top: 7px;
