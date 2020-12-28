@@ -335,7 +335,7 @@ a:hover {
 }
 .header-box {
   height: 100px;
-  background: white;
+  background-color: #f4f1ed;
   display: flex;
   align-items: center;
   .header {
@@ -463,7 +463,7 @@ a:hover {
   height: 80px;
   justify-content: center;
   box-shadow: 0px 10px 10px #00000029;
-  border-radius: 1px;
+  border-radius: 10px;
 }
 .msng-p {
   font-size: 16px;
@@ -556,7 +556,7 @@ a:hover {
   line-height: 1.2;
 }
 .brand-logo {
-  height: 28px;
+  height: 30px;
   margin: 12px;
   transition: transform 0.2s;
 }
@@ -712,8 +712,92 @@ a:hover {
   }
 }
 .cont-parent {
-  background: #7a1dff;
   padding: 50px 0;
+  background-image: url(../image/mnb.png);
+  background-repeat: no-repeat;
+  // background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.runner {
+  background: white;
+  overflow: hidden;
+  height: 65px;
+  position: relative;
+
+  .div-sllick {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    width: 100%;
+    height: 65px;
+    transform: translate(100%, 0);
+  }
+
+  $duration: 50s;
+
+  .ticker-wrapper__first-half,
+  .ticker-wrapper__second-half {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    animation: ticker $duration infinite linear forwards;
+  }
+
+  .ticker-wrapper__second-half {
+    animation: $duration ticker $duration/2 infinite linear forwards;
+  }
+}
+
+@keyframes ticker {
+  0% {
+    transform: translate(100%, 0);
+  }
+
+  50% {
+    transform: translate(0, 0);
+  }
+
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+.main-title {
+  font-size: 50px;
+  font-family: markgeocapscaps-Semiboldcaps;
+  overflow: hidden;
+}
+.first-container-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+  .start-shopping {
+    background: #f72163;
+    border-radius: 10px;
+    max-width: 370px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 3px 6px #0000004d;
+
+    .start-shopping-p {
+      font-size: 25px;
+      font-family: markgeocapscaps-Semiboldcaps;
+      color: white;
+      margin-left: 10px;
+    }
+  }
+}
+#sale {
+  background-image: url(../image/188.svg);
 }
 @media only screen and (max-width: 1200px) {
   .price-p {
@@ -778,9 +862,7 @@ a:hover {
     font-size: 22px;
     margin-bottom: 10px !important;
   }
-  .br-lg {
-    display: none;
-  }
+
   .mob-res {
     flex-direction: column;
   }
