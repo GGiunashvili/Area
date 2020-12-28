@@ -697,7 +697,7 @@ a:hover {
 .sex-img-box {
   background: white;
   justify-content: center;
-  border-radius: 10px;
+  border-radius: 0 0 10px;
   .sex-category-box {
     background: white;
     height: 50px;
@@ -717,6 +717,7 @@ a:hover {
   background-repeat: no-repeat;
   // background-attachment: fixed;
   background-size: 100% 100%;
+  margin: 45px 0;
 }
 
 .runner {
@@ -724,6 +725,7 @@ a:hover {
   overflow: hidden;
   height: 65px;
   position: relative;
+  margin-bottom: 45px;
 
   .div-sllick {
     display: flex;
@@ -798,6 +800,7 @@ a:hover {
 }
 #sale {
   background-image: url(../image/188.svg);
+  margin: 45px 0;
 }
 @media only screen and (max-width: 1200px) {
   .price-p {

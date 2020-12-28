@@ -883,7 +883,7 @@ a:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  border-radius: 10px;
+  border-radius: 0 0 10px;
 }
 
 .sex-img-box .sex-category-box {
@@ -911,6 +911,7 @@ a:hover {
   background-image: url(../image/mnb.png);
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  margin: 45px 0;
 }
 
 .runner {
@@ -918,6 +919,7 @@ a:hover {
   overflow: hidden;
   height: 65px;
   position: relative;
+  margin-bottom: 45px;
 }
 
 .runner .div-sllick {
@@ -1043,6 +1045,7 @@ a:hover {
 
 #sale {
   background-image: url(../image/188.svg);
+  margin: 45px 0;
 }
 
 @media only screen and (max-width: 1200px) {
