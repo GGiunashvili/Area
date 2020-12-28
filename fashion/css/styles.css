@@ -959,13 +959,13 @@ a:hover {
   position: absolute;
   top: 0;
   right: 0;
-  -webkit-animation: ticker 50s infinite linear forwards;
-          animation: ticker 50s infinite linear forwards;
+  -webkit-animation: ticker 15s infinite linear forwards;
+          animation: ticker 15s infinite linear forwards;
 }
 
 .runner .ticker-wrapper__second-half {
-  -webkit-animation: 50s ticker 25s infinite linear forwards;
-          animation: 50s ticker 25s infinite linear forwards;
+  -webkit-animation: 15s ticker 7.5s infinite linear forwards;
+          animation: 15s ticker 7.5s infinite linear forwards;
 }
 
 @-webkit-keyframes ticker {
