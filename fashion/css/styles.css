@@ -959,13 +959,13 @@ a:hover {
   position: absolute;
   top: 0;
   right: 0;
-  -webkit-animation: ticker 2s infinite linear forwards;
-          animation: ticker 2s infinite linear forwards;
+  -webkit-animation: ticker 30s infinite linear forwards;
+          animation: ticker 30s infinite linear forwards;
 }
 
 .runner .ticker-wrapper__second-half {
-  -webkit-animation: 2s ticker 1s infinite linear forwards;
-          animation: 2s ticker 1s infinite linear forwards;
+  -webkit-animation: 30s ticker 15s infinite linear forwards;
+          animation: 30s ticker 15s infinite linear forwards;
 }
 
 @-webkit-keyframes ticker {
@@ -1064,7 +1064,7 @@ a:hover {
 
 .head-alert .head-alert-p {
   font-size: 20px;
-  font-family: markgeocapscaps-Semiboldcaps;
+  font-family: markgeo-regular;
   color: white;
 }
 
@@ -1107,6 +1107,9 @@ a:hover {
   }
   .header-box .header .header-pag {
     display: none !important;
+  }
+  .main-title {
+    font-size: 30px;
   }
 }
 

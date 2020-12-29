@@ -738,7 +738,7 @@ a:hover {
     transform: translate(100%, 0);
   }
 
-  $duration: 2s;
+  $duration: 30s;
 
   .ticker-wrapper__first-half,
   .ticker-wrapper__second-half {
@@ -811,7 +811,7 @@ a:hover {
 
   .head-alert-p {
     font-size: 20px;
-    font-family: markgeocapscaps-Semiboldcaps;
+    font-family: markgeo-regular;
     color: white;
   }
 }
@@ -855,6 +855,9 @@ a:hover {
         display: none !important;
       }
     }
+  }
+  .main-title {
+    font-size: 30px;
   }
 }
 
