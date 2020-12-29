@@ -738,7 +738,7 @@ a:hover {
     transform: translate(100%, 0);
   }
 
-  $duration: 15s;
+  $duration: 2s;
 
   .ticker-wrapper__first-half,
   .ticker-wrapper__second-half {
@@ -802,6 +802,19 @@ a:hover {
   background-image: url(../image/188.svg);
   margin: 45px 0;
 }
+.head-alert {
+  background: #fc5601;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 48px;
+
+  .head-alert-p {
+    font-size: 20px;
+    font-family: markgeocapscaps-Semiboldcaps;
+    color: white;
+  }
+}
 @media only screen and (max-width: 1200px) {
   .price-p {
     font-size: 15px;
@@ -820,8 +833,16 @@ a:hover {
     }
   }
 }
-
+.carousel-block {
+  margin-top: 65px;
+}
 @media only screen and (max-width: 992px) {
+  .head-alert {
+    height: 17px !important;
+  }
+  .head-alert-p {
+    font-size: 8px !important;
+  }
   .header-box {
     height: 80px;
     .header {
@@ -838,6 +859,24 @@ a:hover {
 }
 
 @media only screen and (max-width: 768px) {
+  .carousel-block {
+    margin-top: 28px;
+  }
+  .first-container-left {
+    padding-bottom: 20px;
+  }
+  .cart-icon {
+    height: 10px;
+  }
+  .start-shopping {
+    height: 30px !important;
+  }
+  .start-shopping-p {
+    font-size: 10px !important;
+  }
+  .main-title {
+    font-size: 14px;
+  }
   .cont-parent {
     padding: 10px 0;
   }
