@@ -208,7 +208,7 @@ a:hover {
 }
 
 .swiper-button-next {
-  top: 24% !important;
+  top: 35% !important;
 
   right: -30px !important;
 
@@ -223,7 +223,7 @@ a:hover {
   color: #eeeeee !important;
 }
 .swiper-button-prev {
-  top: 24% !important;
+  top: 35% !important;
   left: -30px !important;
 
   background-image: url(../image/rig.svg) !important;
@@ -738,7 +738,7 @@ a:hover {
     transform: translate(100%, 0);
   }
 
-  $duration: 2s;
+  $duration: 20s;
 
   .ticker-wrapper__first-half,
   .ticker-wrapper__second-half {
@@ -815,6 +815,12 @@ a:hover {
     color: white;
   }
 }
+.rocher-mob {
+  display: none;
+}
+.rocher-desk {
+  width: 100%;
+}
 @media only screen and (max-width: 1200px) {
   .price-p {
     font-size: 15px;
@@ -862,6 +868,13 @@ a:hover {
 }
 
 @media only screen and (max-width: 768px) {
+  .rocher-mob {
+    display: block;
+    width: 100%;
+  }
+  .rocher-desk {
+    display: none;
+  }
   .header-box {
     height: 20px;
     margin: 14px;
@@ -945,8 +958,8 @@ a:hover {
     display: none;
   }
   .see-all-product {
-    margin-bottom: 52px;
-    margin-top: 1px;
+    margin-bottom: 48px;
+    margin-top: 45px;
   }
   .pink-line-third {
     display: none;
