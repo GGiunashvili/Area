@@ -862,6 +862,15 @@ a:hover {
 }
 
 @media only screen and (max-width: 768px) {
+  .call-sall {
+    height: 14px;
+  }
+  .product-carousel-title {
+    font-size: 22px;
+  }
+  .superdry {
+    display: none;
+  }
   .carousel-block {
     margin-top: 28px;
   }

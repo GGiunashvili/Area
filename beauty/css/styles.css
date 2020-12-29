@@ -897,6 +897,9 @@ a:hover {
 }
 
 @media only screen and (max-width: 768px) {
+  .call-sall {
+    height: 14px;
+  }
   .text {
     font-size: 10px;
   }
