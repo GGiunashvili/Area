@@ -237,6 +237,9 @@ a:hover {
 .family-box {
   margin-top: 125px;
 }
+.container-first {
+  margin-bottom: 30px;
+}
 @media only screen and (max-width: 1200px) {
   .first-logo {
     margin-left: unset;
@@ -307,6 +310,9 @@ a:hover {
   }
 }
 @media only screen and (max-width: 768px) {
+  .container-first {
+    margin-bottom: 10px;
+  }
   .home-main-content-1 {
     padding-right: 0;
   }
