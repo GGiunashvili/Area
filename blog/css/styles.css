@@ -1,0 +1,292 @@
+@font-face {
+  src: url(../fonts/MarkGEO-Bold.ttf);
+  font-family: markgeo-bold;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEO-Regular.ttf);
+  font-family: markgeo-regular;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEO-SemiBold.ttf);
+  font-family: markgeo-semibold;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEOCAPS-Bold.ttf);
+  font-family: markgeocaps-bold;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEO-Medium.ttf);
+  font-family: markgeocaps-medium;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEOCAPS-Medium.ttf);
+  font-family: markgeocapscaps-medium;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEO-SemiBold.ttf);
+  font-family: markgeocapscaps-Semibold;
+}
+
+@font-face {
+  src: url(../fonts/MARKGEOCAPS-SEMIBOLD.TTF);
+  font-family: markgeocapscaps-Semiboldcaps;
+}
+
+.card {
+  border-radius: 10px;
+  padding: 0;
+  margin: 2px;
+  background: transparent url("img/Rectangle 41.png") 0% 0% no-repeat padding-box;
+  -webkit-box-shadow: 0px 5px 10px #00000080;
+          box-shadow: 0px 5px 10px #00000080;
+  border: 1px solid #707070;
+}
+
+.card .card-body {
+  padding: unset;
+}
+
+.card .card-body .card-title {
+  height: 35px;
+  font-size: 16px;
+  font-family: markgeocapscaps-Semiboldcaps;
+  text-align: center;
+  margin-top: 1.25rem;
+  margin-bottom: 0;
+}
+
+.card .card-body .card-text {
+  height: 100px;
+  font-family: markgeocaps-medium;
+  font-size: 16px;
+  line-height: 1.2;
+  padding: 1.25rem;
+  padding-top: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url(../image/bg.png);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.swiper-button-next:focus {
+  outline: none !important;
+}
+
+.swiper-button-prev:focus {
+  outline: none !important;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 65px;
+}
+
+.header__img {
+  height: 50px;
+}
+
+.home-wall {
+  background-image: url(../image/MaskGroup19.png);
+  height: 462px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.home-wall__child {
+  margin-left: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.home-wall__child__btn {
+  width: 240px;
+  height: 80px;
+  margin-top: 35px;
+  background-color: #fd561f;
+  font-size: 20px;
+  font-family: markgeocapscaps-Semiboldcaps;
+  color: white;
+  border-radius: 10px;
+  line-height: 1.3;
+}
+
+.home-wall__child__text__title {
+  font-size: 30px;
+  font-family: markgeocapscaps-Semiboldcaps;
+  width: 667px;
+  line-height: 1.2;
+  color: white;
+}
+
+button,
+input[type='submit'],
+input[type='reset'] {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+button:focus {
+  outline: unset;
+}
+
+.btn,
+input[type='submit'],
+input[type='reset'] {
+  background: none;
+  color: inherit;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.btn:focus {
+  outline: unset;
+}
+
+.product-container {
+  margin: 67px 0;
+}
+
+.product-container__btn-box {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.product-container__btn-box__btn {
+  background-color: #1caafc !important;
+  color: white;
+  border-radius: 10px !important;
+  width: 160px;
+  height: 60px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: 0px 3px 6px #00000029;
+          box-shadow: 0px 3px 6px #00000029;
+  font-family: markgeocapscaps-medium;
+}
+
+.connect-help {
+  width: 100%;
+  margin-bottom: 19px;
+}
+
+.connect-help__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.connect-help__box__p {
+  text-align: center;
+  font-family: markgeocapscaps-Semiboldcaps;
+  font-size: 40px;
+}
+
+.connect-help__box__child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 39px;
+}
+
+.connect-help__box__child__btn-call {
+  background-color: #ffc208;
+  width: 300px;
+  height: 80px;
+  border-radius: 10px;
+  margin-left: 40px;
+}
+
+.connect-help__box__child__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #7a4ff2;
+  -webkit-box-shadow: 0px 3px 6px #0000004d;
+          box-shadow: 0px 3px 6px #0000004d;
+  border-radius: 10px;
+  width: 300px;
+  height: 80px;
+}
+
+.connect-help__box__child__btn__a {
+  font-family: markgeocapscaps-Semiboldcaps;
+  font-size: 16px;
+  color: white;
+  margin-left: 5px;
+}
+/*# sourceMappingURL=styles.css.map */

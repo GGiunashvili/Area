@@ -66,7 +66,7 @@ a:hover {
   height: 66px;
   margin-right: 12px;
 }
-.extra-logo {
+.header__box__extra-logo {
   height: 50px;
   margin-left: 12px;
 }
@@ -325,29 +325,31 @@ a:hover {
   margin-top: 80px;
   margin-bottom: 70px;
 }
-.header-box {
+.header {
   height: 100px;
   background: white;
   display: flex;
   align-items: center;
-  .header {
+
+  &__box {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
     max-width: 1000px;
     width: 100%;
-    .header-pag {
+
+    &__nav-box {
       display: flex;
-    }
-    .header-nav {
-      margin: 0 17px;
-      font-size: 15px;
-      font-family: markgeocapscaps-Semiboldcaps;
+
+      &__header-nav {
+        margin: 0 17px;
+        font-size: 15px;
+        font-family: markgeocapscaps-Semiboldcaps;
+      }
     }
   }
 }
-.extra-logo {
+.header__box__extra-logo {
   height: 60px;
 }
 
@@ -705,15 +707,15 @@ a:hover {
 }
 
 @media only screen and (max-width: 992px) {
-  .header-box {
+  .header {
     height: 80px;
-    .header {
+    &__box {
       justify-content: center !important;
-      .extra-logo {
+      &__extra-logo {
         height: 26px;
       }
 
-      .header-pag {
+      &__nav-box {
         display: none !important;
       }
     }
@@ -949,7 +951,7 @@ a:hover {
     height: 22px;
     margin-right: 4px;
   }
-  .extra-logo {
+  .header__box__extra-logo {
     height: 18px;
     margin-left: 4px;
   }
