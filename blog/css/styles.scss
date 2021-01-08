@@ -37,7 +37,7 @@
 .card {
   border-radius: 10px;
   padding: 0;
-  margin: 2px;
+  // margin: 2px;
   background: transparent url('img/Rectangle 41.png') 0% 0% no-repeat
     padding-box;
   box-shadow: 0px 5px 10px #00000080;
@@ -69,6 +69,9 @@ html {
 body {
   background-image: url(../image/bg.png);
 }
+.container-fluid {
+  max-width: 1900px;
+}
 a {
   text-decoration: none;
   color: black;
@@ -89,6 +92,7 @@ a:hover {
   align-items: center;
   justify-content: center;
   height: 65px;
+  margin: 10px 0;
   &__img {
     height: 50px;
   }
@@ -111,21 +115,29 @@ a:hover {
       width: 240px;
       height: 80px;
       margin-top: 35px;
-      background-color: #fd561f;
+      background-color: #ec4913;
       font-size: 20px;
       font-family: markgeocapscaps-Semiboldcaps;
       color: white;
       border-radius: 10px;
       line-height: 1.3;
+      box-shadow: 0px 3px 6px #00000029;
+      transition: 0.3s;
+    }
+    &__btn:hover {
+      background-color: #fd561f;
     }
 
     &__text {
+      max-width: 700px;
       &__title {
+        width: 570px;
         font-size: 30px;
         font-family: markgeocapscaps-Semiboldcaps;
         width: 667px;
         line-height: 1.2;
         color: white;
+        display: inline;
       }
     }
   }
@@ -160,6 +172,7 @@ input[type='reset'] {
 }
 .product-container {
   margin: 67px 0;
+  display: flex;
   &__btn-box {
     width: 100%;
     display: flex;
@@ -177,6 +190,10 @@ input[type='reset'] {
       justify-content: center;
       box-shadow: 0px 3px 6px #00000029;
       font-family: markgeocapscaps-medium;
+    }
+    &__btn:hover {
+      background-color: #16a2f4 !important;
+      box-shadow: 0px 6px 12px #00000029;
     }
   }
 }
@@ -202,6 +219,17 @@ input[type='reset'] {
         height: 80px;
         border-radius: 10px;
         margin-left: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      &__btn-call:hover {
+        box-shadow: 0px 9px 12px #0000004d;
+        transition: box-shadow 0.2s ease-in-out;
+      }
+      &__btn:hover {
+        box-shadow: 0px 6px 10px #0000004d;
+        transition: box-shadow 0.2s ease-in-out;
       }
       &__btn {
         display: flex;
@@ -220,7 +248,93 @@ input[type='reset'] {
           color: white;
           margin-left: 5px;
         }
+        &__a:hover {
+          color: white !important;
+        }
       }
     }
+  }
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #161e3f;
+  height: 65px;
+  &__media-icon {
+    .linkedin {
+      margin: 0 10px;
+    }
+    &__img {
+      height: 20px;
+    }
+  }
+  &__box {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: markgeo-regular;
+    &__span {
+      display: flex;
+      align-items: center;
+    }
+    &__img {
+      margin: 0 5px;
+    }
+  }
+}
+.extra-card {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .home-wall {
+    height: 135px;
+    &__child {
+      margin-left: 15px;
+      &__btn {
+        margin-top: 10px;
+        font-size: 7px;
+        width: 73px;
+        height: 22px;
+        border-radius: 5px;
+      }
+      &__text {
+        width: 176px;
+
+        text-align: left;
+        &__title {
+          font-size: 8px;
+          line-height: unset;
+        }
+      }
+    }
+  }
+  .hdn-card {
+    display: none;
+  }
+  .extra-card {
+    display: block;
+  }
+  .container-fluid {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 10px;
+  }
+  .product-container {
+    margin: 0;
+    &__box {
+      margin-top: 10px;
+      padding: 5px;
+    }
+  }
+  .card-title {
+    font-size: 14px !important;
+  }
+  .card-text {
+    padding: 2px !important;
   }
 }

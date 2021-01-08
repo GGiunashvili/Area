@@ -92,9 +92,10 @@
     /* customizable snowflake styling */
     .snowflake {
       color: #fff;
-      font-size: 1em;
+      font-size: 1.4em;
       font-family: Arial, sans-serif;
       text-shadow: 0 0 5px black;
+      /* z-index: -1!important; */
     }
     
     @-webkit-keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@-webkit-keyframes snowflakes-shake{0%,100%{-webkit-transform:translateX(0);transform:translateX(0)}50%{-webkit-transform:translateX(80px);transform:translateX(80px)}}@keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@keyframes snowflakes-shake{0%,100%{transform:translateX(0)}50%{transform:translateX(80px)}}.snowflake{position:fixed;top:-10%;z-index:9999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default;-webkit-animation-name:snowflakes-fall,snowflakes-shake;-webkit-animation-duration:10s,3s;-webkit-animation-timing-function:linear,ease-in-out;-webkit-animation-iteration-count:infinite,infinite;-webkit-animation-play-state:running,running;animation-name:snowflakes-fall,snowflakes-shake;animation-duration:10s,3s;animation-timing-function:linear,ease-in-out;animation-iteration-count:infinite,infinite;animation-play-state:running,running}.snowflake:nth-of-type(0){left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s}.snowflake:nth-of-type(1){left:10%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s}.snowflake:nth-of-type(2){left:20%;-webkit-animation-delay:6s,.5s;animation-delay:6s,.5s}.snowflake:nth-of-type(3){left:30%;-webkit-animation-delay:4s,2s;animation-delay:4s,2s}.snowflake:nth-of-type(4){left:40%;-webkit-animation-delay:2s,2s;animation-delay:2s,2s}.snowflake:nth-of-type(5){left:50%;-webkit-animation-delay:8s,3s;animation-delay:8s,3s}.snowflake:nth-of-type(6){left:60%;-webkit-animation-delay:6s,2s;animation-delay:6s,2s}.snowflake:nth-of-type(7){left:70%;-webkit-animation-delay:2.5s,1s;animation-delay:2.5s,1s}.snowflake:nth-of-type(8){left:80%;-webkit-animation-delay:1s,0s;animation-delay:1s,0s}.snowflake:nth-of-type(9){left:90%;-webkit-animation-delay:3s,1.5s;animation-delay:3s,1.5s}.snowflake:nth-of-type(10){left:25%;-webkit-animation-delay:2s,0s;animation-delay:2s,0s}.snowflake:nth-of-type(11){left:65%;-webkit-animation-delay:4s,2.5s;animation-delay:4s,2.5s}
@@ -145,9 +146,9 @@
   <div class="container-fluid">
     <div class="home-wall">
       <div class="home-wall__child">
-        <div class="home-wall__child__text__title">
-          <p class="home-wall__child__title">წინ ცივი ზამთარი გველის. დროის გატარება კი უმეტესად სახლში მოგვიწევს.</p>
-          <p class="home-wall__child__title">ჩვენ შევეცადეთ შეგვერჩია ნივთები, რომელიც შემდგომი 2-3 თვის განმავლობაში გამოგადგება.</p>
+        <div class="home-wall__child__text">
+          <p class="home-wall__child__text__title">წინ ცივი ზამთარი გველის. დროის გატარება კი უმეტესად სახლში მოგვიწევს.<br></p>
+          <p class="home-wall__child__text__title">ჩვენ შევეცადეთ შეგვერჩია ნივთები, რომელიც შემდგომი 2-3 თვის განმავლობაში გამოგადგება.</p>
         </div>
         <button class="home-wall__child__btn">დაათვალიერე <br> პროდუქცია</button>
       </div>
@@ -157,110 +158,142 @@
 
   <div class="container-fluid">
 
-      <div class="product-container d-flex">
-          <div class="col card">
-            <img class="card-img-top w-100" src="image/Mask Group 20.png" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">კონსერვის სახსნელი</h5>
-              <p class="card-text">დილით ჩაისთან გახუხულ პურზე გადასმულ კარაქს და ჯემს რა შეედრება? ... </p>
-              <button class="product-container__btn-box">
-                <a href="#" class="product-container__btn-box__btn btn btn-primary">გაიგე მეტი</a>
-              </button>
+      <div class="product-container row">
+          <div class="col-lg col-6 product-container__box">
+            <div class="card">
+              <img class="card-img-top w-100" src="image/Mask Group 20.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">კონსერვის სახსნელი</h5>
+                <p class="card-text">დილით ჩაისთან გახუხულ პურზე გადასმულ კარაქს და ჯემს რა შეედრება? ... </p>
+                <button class="product-container__btn-box">
+                  <a href="#" class="product-container__btn-box__btn btn btn-primary">გაიგე მეტი</a>
+                </button>
+              </div>
             </div>
           </div>
-          <div class="col card">
-            <img class="card-img-top w-100" src="image/Mask Group 3.png" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">ჰიტლერის საიდუმლო</h5>
-              <p class="card-text">მეგობრულ შეკრებებზე დილამდე საუბარს არაფერი სჯობს, თუმცა სამაგიდო თამაშები …</p>
-              <button class="product-container__btn-box">
-                <a href="#" class="product-container__btn-box__btn btn btn-primary">გაიგე მეტი</a>
-              </button>
+          <div class="col-lg col-6 product-container__box">
+            <div class="card">
+              <img class="card-img-top w-100" src="image/Mask Group 3.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">ჰიტლერის საიდუმლო</h5>
+                <p class="card-text">მეგობრულ შეკრებებზე დილამდე საუბარს არაფერი სჯობს, თუმცა სამაგიდო თამაშები …</p>
+                <button class="product-container__btn-box">
+                  <a href="#" class="product-container__btn-box__btn btn btn-primary">გაიგე მეტი</a>
+                </button>
+              </div>
             </div>
           </div>
-          <div class="col card">
-            <img class="card-img-top w-100" src="image/Mask Group 15.png" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">ჭიქა</h5>
-              <p class="card-text">ჩაის გემრიელად დასალევად, გემრიელი ჭიქა აუცილებელი წინაპირობაა …</p>
-              <button class="product-container__btn-box">
-                <a href="#" class="product-container__btn-box__btn btn btn-primary">გაიგე მეტი</a>
-              </button>
+          <div class="col-lg col-6 product-container__box">
+            <div class="card">
+              <img class="card-img-top w-100" src="image/Mask Group 15.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">ჭიქა</h5>
+                <p class="card-text">ჩაის გემრიელად დასალევად, გემრიელი ჭიქა აუცილებელი წინაპირობაა …</p>
+                <button class="product-container__btn-box">
+                  <a href="#" class="product-container__btn-box__btn btn btn-primary">გაიგე მეტი</a>
+                </button>
+              </div>
             </div>
           </div>
-          <div class="col card">
-            <img class="card-img-top w-100" src="image/Mask Group 2.png" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">წინდები</h5>
-              <p class="card-text">ცივ ამინდში ქუჩაში სიარულისას სითბოს შენარჩუნება თბილი წინდით იწყება …</p>
-              <button class="product-container__btn-box">
-                <a href="#" class="product-container__btn-box__btn btn btn-primary">გაიგე მეტი</a>
-              </button>
+          <div class="col-lg col-6 product-container__box">
+            <div class="card">
+              <img class="card-img-top w-100" src="image/Mask Group 2.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">წინდები</h5>
+                <p class="card-text">ცივ ამინდში ქუჩაში სიარულისას სითბოს შენარჩუნება თბილი წინდით იწყება …</p>
+                <button class="product-container__btn-box">
+                  <a href="#" class="product-container__btn-box__btn btn btn-primary">გაიგე მეტი</a>
+                </button>
+              </div>
             </div>
           </div>
-          <div class="col card">
-            <img class="card-img-top w-100" src="image/Mask Group 16.png" alt="Card image cap">
-            <div class="card-body">
-              <h5 class="card-title">ქუდი</h5>
-              <p class="card-text">თბილად სიარულის აუცილებელი ატრიბუტი წინდასთან ერთად ქუდია …</p>
-              <button class="product-container__btn-box">
-                <a href="#" class="product-container__btn-box__btn btn btn-primary">გაიგე მეტი</a>
-              </button>
+          <div class="col-lg col-6 product-container__box">
+            <div class="card">
+              <img class="card-img-top w-100" src="image/Mask Group 16.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">ქუდი</h5>
+                <p class="card-text">თბილად სიარულის აუცილებელი ატრიბუტი წინდასთან ერთად ქუდია …</p>
+                <button class="product-container__btn-box">
+                  <a href="#" class="product-container__btn-box__btn btn btn-primary">გაიგე მეტი</a>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg col-6 product-container__box extra-card">
+            <div class="card">
+              <img class="card-img-top w-100" src="image/Mask Group 1.png" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">ხელის კრემი</h5>
+                <p class="card-text">სიცივეში ხელებს განსაკუთრებული მოვლა სჭირდებათ, ამ პრობლემასთან გამკლავების …</p>
+                <button class="product-container__btn-box">
+                  <a href="#" class="product-container__btn-box__btn btn btn-primary">გაიგე მეტი</a>
+                </button>
+              </div>
             </div>
           </div>
    
       </div>
       
 
-      <div class="product-container d-flex">
-        <div class="col card">
-          <img class="card-img-top w-100" src="image/Mask Group 20.png" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">კონსერვის სახსნელი</h5>
-            <p class="card-text">დილით ჩაისთან გახუხულ პურზე გადასმულ კარაქს და ჯემს რა შეედრება? ... </p>
-            <button class="product-container__btn-box">
-              <a href="#" class="product-container__btn-box__btn btn btn-primary">გაიგე მეტი</a>
-            </button>
+      <div class="product-container row">
+        <div class="col-lg col-6  product-container__box hdn-card">
+          <div class="card">
+            <img class="card-img-top w-100" src="image/Mask Group 1.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">ხელის კრემი</h5>
+              <p class="card-text">სიცივეში ხელებს განსაკუთრებული მოვლა სჭირდებათ, ამ პრობლემასთან გამკლავების …</p>
+              <button class="product-container__btn-box">
+                <a href="#" class="product-container__btn-box__btn btn btn-primary">გაიგე მეტი</a>
+              </button>
+            </div>
           </div>
         </div>
-        <div class="col card">
-          <img class="card-img-top w-100" src="image/Mask Group 3.png" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">ჰიტლერის საიდუმლო</h5>
-            <p class="card-text">მეგობრულ შეკრებებზე დილამდე საუბარს არაფერი სჯობს, თუმცა სამაგიდო თამაშები …</p>
-            <button class="product-container__btn-box">
-              <a href="#" class="product-container__btn-box__btn btn btn-primary">გაიგე მეტი</a>
-            </button>
+        <div class="col-lg col-6 product-container__box">
+          <div class="card">
+            <img class="card-img-top w-100" src="image/Mask Group 18.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">პორტატული გამათბობელი</h5>
+              <p class="card-text">თუ მეგობრებთან ერთად სოფელში ან აგარაკზე ხარ და ცეცხლის დანთება გეზარება …</p>
+              <button class="product-container__btn-box">
+                <a href="#" class="product-container__btn-box__btn btn btn-primary">გაიგე მეტი</a>
+              </button>
+            </div>
           </div>
         </div>
-        <div class="col card">
-          <img class="card-img-top w-100" src="image/Mask Group 15.png" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">ჭიქა</h5>
-            <p class="card-text">ჩაის გემრიელად დასალევად, გემრიელი ჭიქა აუცილებელი წინაპირობაა …</p>
-            <button class="product-container__btn-box">
-              <a href="#" class="product-container__btn-box__btn btn btn-primary">გაიგე მეტი</a>
-            </button>
+        <div class="col-lg col-6 product-container__box">
+          <div class="card">
+            <img class="card-img-top w-100" src="image/Mask Group 9.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">საშრობი</h5>
+              <p class="card-text">ცივ და ქარიან ამინდში გარეთ სარეცხის გაფენა ნამდვილად ცუდი იდეაა. გარეთ შრობის უფრო სწრაფი …</p>
+              <button class="product-container__btn-box">
+                <a href="#" class="product-container__btn-box__btn btn btn-primary">გაიგე მეტი</a>
+              </button>
+            </div>
           </div>
         </div>
-        <div class="col card">
-          <img class="card-img-top w-100" src="image/Mask Group 2.png" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">წინდები</h5>
-            <p class="card-text">ცივ ამინდში ქუჩაში სიარულისას სითბოს შენარჩუნება თბილი წინდით იწყება …</p>
-            <button class="product-container__btn-box">
-              <a href="#" class="product-container__btn-box__btn btn btn-primary">გაიგე მეტი</a>
-            </button>
+        <div class="col-lg col-6 product-container__box">
+          <div class="card">
+            <img class="card-img-top w-100" src="image/Mask Group 17.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">ანტიფრიზი</h5>
+              <p class="card-text">შეიძლება ძლიერი ყინვები ჯერ არ გვაწუხებს, მაგრამ ეს სულაც არ ნიშნავს იმას, რომ …</p>
+              <button class="product-container__btn-box">
+                <a href="#" class="product-container__btn-box__btn btn btn-primary">გაიგე მეტი</a>
+              </button>
+            </div>
           </div>
         </div>
-        <div class="col card">
-          <img class="card-img-top w-100" src="image/Mask Group 16.png" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">ქუდი</h5>
-            <p class="card-text">თბილად სიარულის აუცილებელი ატრიბუტი წინდასთან ერთად ქუდია …</p>
-            <button class="product-container__btn-box">
-              <a href="#" class="product-container__btn-box__btn btn btn-primary">გაიგე მეტი</a>
-            </button>
+        <div class="col-lg col-6 product-container__box">
+          <div class="card">
+            <img class="card-img-top w-100" src="image/Mask Group 4.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">იოგას ნაკრები</h5>
+              <p class="card-text">და ბოლოს, თუ სახლში დიდ ხანს ყოფნა გიწევს დაგვეთანხმები, რომ …</p>
+              <button class="product-container__btn-box">
+                <a href="#" class="product-container__btn-box__btn btn btn-primary">გაიგე მეტი</a>
+              </button>
+            </div>
           </div>
         </div>
  
@@ -286,24 +319,31 @@
     </div>
   </div>
   
-<div class="footer d-flex align-items-center justify-content-between" style="background: #161E3F;">
+<div class="footer">
 
   <div class="container d-flex justify-content-between align-items-center">
-    <div style="display: flex;">
     
-      <p class="d-flex footer-text align-items-center" style="color: white;">© 2021 Designed with<a href=""><img class="new-heart-icon" style="margin:0 5px;" src="image/Path 49 (1).svg" alt=""></a>
-          <span class="extra-footer" style="margin-right: 5px;  font-family: markgeo-medium;">by </span>
-          <a href="https://extra.ge/" class="extra-footer">extra.ge <span class="extra-footer-text" style="visibility: hidden;">shs shs shs s</span> </a>
-      </p>
-    </div>
+      <div class="footer__box">
+        <span class="footer__box__span">
+          © 2021 Designed with
+        <a class="footer__box__a" href="">
+          <img class="footer__box__img" src="image/Path 49 (1).svg" alt="">
+        </a>
+          by extra.ge
+        </span>
+      </div>
 
-
-  
-    <div>
-        <a href="https://www.facebook.com/Extramarketplace/ "><img class="ft-icon" style="height: 20px;" src="image/facebook (1).svg" alt="" width="20" class="CToWUd"> </a>
-        <a href="https://www.linkedin.com/company/extra-ge " target="_blank"><img class=" linkedin-icon" style="height: 20px; " src="image/linkedin.svg" alt="" width="20"></a>
-        <a href="https://www.instagram.com/extra__ge/ " target="_blank"><img class="ft-icon" style="height: 20px; padding-top: 3px;" src="image/instagram.svg" alt="" width="20" class="CToWUd"> </a>
-    </div>
+      <div class="footer__media-icon">
+          <a class="footer__media-icon__a" href="https://www.facebook.com/Extramarketplace/ ">
+            <img class="footer__media-icon__img" src="image/facebook (1).svg" alt="" width="20" class="CToWUd">
+          </a>
+          <a href="https://www.linkedin.com/company/extra-ge " target="_blank">
+            <img class="footer__media-icon__img linkedin" src="image/linkedin.svg" alt="" width="20">
+          </a>
+          <a href="https://www.instagram.com/extra__ge/ " target="_blank">
+            <img class="footer__media-icon__img" src="image/instagram.svg" alt="" width="20" class="CToWUd"> 
+          </a>
+       </div>
   </div>
 
 </div>
