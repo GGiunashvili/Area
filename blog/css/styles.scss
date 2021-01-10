@@ -42,6 +42,121 @@
     padding-box;
   box-shadow: 0px 5px 10px #00000080;
   border: 1px solid #707070;
+  .snowflake1 {
+    position: absolute;
+    height: 74px;
+    top: -48px;
+    z-index: 99;
+    left: 13px;
+  }
+  .snowflake2 {
+    position: absolute;
+    height: 90px;
+    top: -70px;
+    z-index: 99;
+    right: 71px;
+  }
+  .snowflake3 {
+    position: absolute;
+    height: 88px;
+    top: -68px;
+    z-index: 99;
+    right: -56px;
+  }
+  .snowflake4 {
+    position: absolute;
+    height: 125px;
+    top: -95px;
+    z-index: 99;
+    right: -17px;
+  }
+  .snowflake11 {
+    position: absolute;
+    height: 74px;
+    top: -53px;
+    z-index: 99;
+    left: -31px;
+  }
+  .snowflake22 {
+    position: absolute;
+    height: 60px;
+    top: -85px;
+    z-index: 99;
+    right: 12px;
+  }
+  .snowflake33 {
+    position: absolute;
+    height: 72px;
+    top: -41px;
+    z-index: 99;
+    left: 24px;
+  }
+  .snowflake44 {
+    position: absolute;
+    height: 90px;
+    top: -72px;
+    z-index: 99;
+    right: -17px;
+  }
+  .snowflake111 {
+    position: absolute;
+    height: 90px;
+    bottom: -53px;
+    z-index: 99;
+    left: -59px;
+  }
+  .snowflake222 {
+    position: absolute;
+    height: 74px;
+    bottom: -44px;
+    z-index: 99;
+    left: 0;
+  }
+  .snowflake333 {
+    position: absolute;
+    height: 52px;
+    bottom: -29px;
+    z-index: 99;
+    right: 22px;
+  }
+  // .snowflake1,
+  // .snowflake2,
+  // .snowflake3,
+  // .snowflake4,
+  // .snowflake11,
+  // .snowflake22,
+  // .snowflake33,
+  // .snowflake44,
+  // .snowflake111,
+  // .snowflake222,
+  // .snowflake333,
+  // .snowflake444 {
+  //   animation-name: spin;
+  //   animation-duration: 19000ms;
+  //   animation-iteration-count: infinite;
+  //   animation-timing-function: linear;
+  //   /* transform: rotate(3deg); */
+  //   /* transform: rotate(0.3rad);/ */
+  //   /* transform: rotate(3grad); */
+  //   /* transform: rotate(.03turn);  */
+  // }
+
+  // @keyframes spin {
+  //   from {
+  //     transform: rotate(0deg);
+  //   }
+  //   to {
+  //     transform: rotate(360deg);
+  //   }
+  // }
+  .snowflake444 {
+    position: absolute;
+    height: 52px;
+    bottom: 15px;
+    z-index: 99;
+    right: -19px;
+  }
+
   .card-body {
     padding: unset;
     .card-title {
@@ -171,7 +286,7 @@ input[type='reset'] {
   outline: unset;
 }
 .product-container {
-  margin: 67px 0;
+  margin: 60px 0;
   display: flex;
   &__box {
     padding: 4px !important;
@@ -400,6 +515,79 @@ input[type='reset'] {
   ////////////////////////
   .product-container {
     margin: 0;
+  }
+
+  .card {
+    .snowflake1 {
+      top: -21px;
+      left: -22px;
+    }
+    .snowflake2 {
+      height: 50px;
+      top: -19px;
+      z-index: 99;
+      right: -6px;
+    }
+    .snowflake3 {
+      top: -110px;
+      right: -49px;
+    }
+    .snowflake4 {
+      position: absolute;
+      height: 125px;
+      top: -95px;
+      z-index: 99;
+      right: -17px;
+    }
+    .snowflake11 {
+      position: absolute;
+      height: 74px;
+      top: -53px;
+      z-index: 99;
+      left: -31px;
+    }
+    .snowflake22 {
+      position: absolute;
+      height: 60px;
+      top: -85px;
+      z-index: 99;
+      right: 12px;
+    }
+    .snowflake33 {
+      position: absolute;
+      height: 72px;
+      top: -41px;
+      z-index: 99;
+      left: 24px;
+    }
+    .snowflake44 {
+      position: absolute;
+      height: 90px;
+      top: -72px;
+      z-index: 99;
+      right: -17px;
+    }
+    .snowflake111 {
+      position: absolute;
+      height: 90px;
+      bottom: -53px;
+      z-index: 99;
+      left: -59px;
+    }
+    .snowflake222 {
+      position: absolute;
+      height: 74px;
+      bottom: -44px;
+      z-index: 99;
+      left: 0;
+    }
+    .snowflake333 {
+      position: absolute;
+      height: 52px;
+      bottom: -29px;
+      z-index: 99;
+      right: 22px;
+    }
   }
 }
 @media only screen and (max-width: 425px) {
