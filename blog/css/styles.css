@@ -260,6 +260,10 @@ a:hover {
   color: white;
 }
 
+.home-wall__child__btn__a:hover {
+  color: white;
+}
+
 .home-wall__child__btn:hover {
   background-color: #fa4c13;
 }
