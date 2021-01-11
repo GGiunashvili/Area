@@ -595,10 +595,11 @@ input[type='reset'] {
   }
   .card .snowflake4 {
     position: absolute;
-    height: 125px;
-    top: -95px;
+    height: 72px;
+    top: -233px;
     z-index: 99;
-    right: -17px;
+    right: 0;
+    left: 0;
   }
   .card .snowflake11 {
     position: absolute;
@@ -610,21 +611,21 @@ input[type='reset'] {
   .card .snowflake22 {
     position: absolute;
     height: 60px;
-    top: -85px;
+    top: -120px;
     z-index: 99;
-    right: 12px;
+    right: -5px;
   }
   .card .snowflake33 {
     position: absolute;
     height: 72px;
-    top: -41px;
+    top: 123px;
     z-index: 99;
-    left: 24px;
+    left: -25px;
   }
   .card .snowflake44 {
     position: absolute;
-    height: 90px;
-    top: -72px;
+    height: 61px;
+    top: -97px;
     z-index: 99;
     right: -17px;
   }
@@ -638,16 +639,23 @@ input[type='reset'] {
   .card .snowflake222 {
     position: absolute;
     height: 74px;
-    bottom: -44px;
+    top: 105px;
     z-index: 99;
-    left: 0;
+    left: -23px;
   }
   .card .snowflake333 {
     position: absolute;
-    height: 52px;
-    bottom: -29px;
+    height: 66px;
+    bottom: -63px;
     z-index: 99;
-    right: 22px;
+    left: -20px;
+  }
+  .card .snowflake444 {
+    position: absolute;
+    height: 52px;
+    bottom: 0;
+    z-index: 99;
+    right: -8px;
   }
 }
 
