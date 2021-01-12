@@ -645,6 +645,7 @@ input[type='reset'] {
     font-size: 8px;
     line-height: 1.2;
     display: block;
+    width: 100%;
   }
   .home-wall__child__text__title-desk {
     font-size: 8px;
@@ -794,6 +795,8 @@ input[type='reset'] {
   body {
     background-image: url(..//image/bg-mob.png);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
   }
   .product-container {
     margin: 0;
