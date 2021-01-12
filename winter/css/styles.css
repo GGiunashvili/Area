@@ -601,8 +601,16 @@ input[type='reset'] {
     margin-top: 50px !important;
     margin-bottom: 200px !important;
   }
+  .product-container__box__btn-box__btn__back-btn {
+    width: 140px !important;
+    font-size: 10px !important;
+  }
   .redirect-p {
-    font-size: 12px;
+    font-size: 10px;
+    max-width: 290px;
+  }
+  #section2 {
+    margin-bottom: 20px;
   }
   .redirect-btn-box {
     margin-top: 10px !important;
@@ -669,7 +677,7 @@ input[type='reset'] {
     height: 39px;
   }
   .connect-help {
-    margin-top: 25px;
+    margin-top: 15px;
   }
   .connect-help__box__p {
     font-size: 15px;
