@@ -175,6 +175,7 @@ html {
 
 body {
   background-image: url(../image/bg.png);
+  background-size: cover;
 }
 
 .container-fluid {
@@ -277,7 +278,17 @@ a:hover {
   max-width: 700px;
 }
 
-.home-wall__child__text__title {
+.home-wall__child__text__title-mob {
+  display: none;
+  width: 570px;
+  font-size: 30px;
+  font-family: markgeocapscaps-Semiboldcaps;
+  width: 667px;
+  line-height: 1.2;
+  color: white;
+}
+
+.home-wall__child__text__title-desk {
   width: 570px;
   font-size: 30px;
   font-family: markgeocapscaps-Semiboldcaps;
@@ -622,9 +633,15 @@ input[type='reset'] {
     width: 176px;
     text-align: left;
   }
-  .home-wall__child__text__title {
+  .home-wall__child__text__title-mob {
     font-size: 8px;
-    line-height: unset;
+    line-height: 1.2;
+    display: block;
+  }
+  .home-wall__child__text__title-desk {
+    font-size: 8px;
+    line-height: 0.9;
+    display: none;
   }
   .hdn-card {
     display: none;

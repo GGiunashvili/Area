@@ -186,6 +186,7 @@ html {
 }
 body {
   background-image: url(../image/bg.png);
+  background-size: cover;
 }
 .container-fluid {
   max-width: 1900px;
@@ -258,7 +259,16 @@ a:hover {
 
     &__text {
       max-width: 700px;
-      &__title {
+      &__title-mob {
+        display: none;
+        width: 570px;
+        font-size: 30px;
+        font-family: markgeocapscaps-Semiboldcaps;
+        width: 667px;
+        line-height: 1.2;
+        color: white;
+      }
+      &__title-desk {
         width: 570px;
         font-size: 30px;
         font-family: markgeocapscaps-Semiboldcaps;
@@ -518,9 +528,16 @@ input[type='reset'] {
         width: 176px;
 
         text-align: left;
-        &__title {
+
+        &__title-mob {
           font-size: 8px;
-          line-height: unset;
+          line-height: 1.2;
+          display: block;
+        }
+        &__title-desk {
+          font-size: 8px;
+          line-height: 0.9;
+          display: none;
         }
       }
     }
