@@ -464,6 +464,11 @@ input[type='reset'] {
   transition: box-shadow 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out;
 }
 
+.connect-help__box__child__btn-call:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem #ffc208 !important;
+          box-shadow: 0 0 0 0.2rem #ffc208 !important;
+}
+
 .connect-help__box__child__btn:hover {
   -webkit-box-shadow: 0px 9px 12px #0000004d;
           box-shadow: 0px 9px 12px #0000004d;
@@ -471,6 +476,11 @@ input[type='reset'] {
   transition: -webkit-box-shadow 0.2s ease-in-out;
   transition: box-shadow 0.2s ease-in-out;
   transition: box-shadow 0.2s ease-in-out, -webkit-box-shadow 0.2s ease-in-out;
+}
+
+.connect-help__box__child__btn:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem #7a4ff2 !important;
+          box-shadow: 0 0 0 0.2rem #7a4ff2 !important;
 }
 
 .connect-help__box__child__btn {
@@ -557,7 +567,7 @@ input[type='reset'] {
 }
 
 .redirect-btn {
-  background: red !important;
+  background: #f72163 !important;
 }
 
 .redirect-btn:focus {

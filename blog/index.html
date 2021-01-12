@@ -18,9 +18,11 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/reset.css">
+  
   <meta name="google-site-verification" content="Jo-kqQ4sf0QrL4SgjxhFxsslxlsYKmqOWFfTPB7PBNE" />
 
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
  
 
   
@@ -152,8 +154,9 @@
           <p class="home-wall__child__text__title">წინ ცივი ზამთარი გველის. დროის გატარება კი უმეტესად სახლში მოგვიწევს.<br></p>
           <p class="home-wall__child__text__title">ჩვენ შევეცადეთ შეგვერჩია ნივთები, რომელიც შემდგომი 2-3 თვის განმავლობაში გამოგადგება.</p>
         </div>
-        <button class="home-wall__child__btn">
-          <a href="#" class="home-wall__child__btn__a ">დაათვალიერე <br> პროდუქცია</a>
+        <button  onclick="location.href='#section2'" class="home-wall__child__btn">
+          დაათვალიერე <br> პროდუქცია
+          <!-- <a href="#" class="home-wall__child__btn__a ">დაათვალიერე <br> პროდუქცია</a> -->
         </button>
       </div>
     </div>
@@ -169,7 +172,7 @@
   <img src="image/0.png" alt=""> -->
 
 
-  <div class="container-fluid">
+  <div class="container-fluid" id="section2">
 
       <div class="product-container row" >
           <div class="col-lg col-6 product-container__box" style="position: relative;">
@@ -347,15 +350,15 @@
   </div>
 
 
-  <div class="connect-help">
+  <div class="connect-help" >
     <div class="connect-help__box">
       <p class="connect-help__box__p">გვკითხე, რაც გაგიხარდება</p>
 
       <div class="connect-help__box__child">
-        <a href="https://m.me/Extramarketplace" class="connect-help__box__child__btn">
+        <button href="https://m.me/Extramarketplace" class="connect-help__box__child__btn">
             <img class="connect-help__box__child__btn__icon" src="image/iconmonstr-facebook-messenger-1.svg" alt="">
             <p class="connect-help__box__child__btn__a" >დაგვიკავშირდით</p>
-        </a>
+        </button>
         <button class="connect-help__box__child__btn-call">
           <img class="connect-help__box__child__btn__icon" src="image/call-sall.svg" alt="">
           <a class="connect-help__box__child__btn__a" href="tel:0322 333">+032 2 333 111</a>
