@@ -812,6 +812,111 @@ input[type='reset'] {
   }
 }
 
+.rainbow-box {
+  margin: 0;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: black;
+}
+
+.rainbow {
+  width: 20em;
+  height: 10em;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+}
+
+.rainbow span {
+  position: absolute;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: calc(100% - 2em * (var(--n) - 1));
+  height: calc(200% - 2em * (var(--n) - 1));
+  border: 1em solid;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-radius: 50%;
+  -webkit-transform: translateY(5em) rotate(225deg);
+          transform: translateY(5em) rotate(225deg);
+  -webkit-animation: rotating 3s infinite;
+          animation: rotating 3s infinite;
+  -webkit-animation-delay: calc(0.05s * var(--n));
+          animation-delay: calc(0.05s * var(--n));
+}
+
+.rainbow span:nth-child(1) {
+  --n: 1;
+  color: orangered;
+}
+
+.rainbow span:nth-child(2) {
+  --n: 2;
+  color: orange;
+}
+
+.rainbow span:nth-child(3) {
+  --n: 3;
+  color: yellow;
+}
+
+.rainbow span:nth-child(4) {
+  --n: 4;
+  color: mediumspringgreen;
+}
+
+.rainbow span:nth-child(5) {
+  --n: 5;
+  color: deepskyblue;
+}
+
+.rainbow span:nth-child(6) {
+  --n: 6;
+  color: mediumpurple;
+}
+
+@-webkit-keyframes rotating {
+  0%,
+  20% {
+    -webkit-transform: translateY(5em) rotate(225deg);
+            transform: translateY(5em) rotate(225deg);
+  }
+  80%,
+  100% {
+    -webkit-transform: translateY(5em) rotate(calc(225deg + 360deg));
+            transform: translateY(5em) rotate(calc(225deg + 360deg));
+  }
+}
+
+@keyframes rotating {
+  0%,
+  20% {
+    -webkit-transform: translateY(5em) rotate(225deg);
+            transform: translateY(5em) rotate(225deg);
+  }
+  80%,
+  100% {
+    -webkit-transform: translateY(5em) rotate(calc(225deg + 360deg));
+            transform: translateY(5em) rotate(calc(225deg + 360deg));
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .coffee {
     right: 130px;
