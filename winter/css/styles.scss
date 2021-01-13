@@ -788,6 +788,9 @@ $color-cupBg: #8a795d;
   }
 }
 @media only screen and (max-width: 768px) {
+  .detail-page-extra {
+    height: 580 !important;
+  }
   .personal {
     margin-top: 0;
   }
@@ -1083,5 +1086,11 @@ $color-cupBg: #8a795d;
     font-size: 13px !important;
     padding: 2px !important;
     height: 90px !important;
+  }
+  .detail-page-extra {
+    height: 470px !important;
+  }
+  .antifriz-btns {
+    margin-top: 55px !important;
   }
 }

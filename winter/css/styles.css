@@ -970,6 +970,9 @@ input[type='reset'] {
 }
 
 @media only screen and (max-width: 768px) {
+  .detail-page-extra {
+    height: 580 !important;
+  }
   .personal {
     margin-top: 0;
   }
@@ -1225,6 +1228,12 @@ input[type='reset'] {
     font-size: 13px !important;
     padding: 2px !important;
     height: 90px !important;
+  }
+  .detail-page-extra {
+    height: 470px !important;
+  }
+  .antifriz-btns {
+    margin-top: 55px !important;
   }
 }
 /*# sourceMappingURL=styles.css.map */
