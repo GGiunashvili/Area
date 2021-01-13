@@ -501,7 +501,11 @@ $color-cupBg: #8a795d;
   }
 }
 
+/////////coffee steam animatin////////
 .coffee {
+  position: absolute;
+  right: 450px;
+  top: 100px;
   &-cup {
     width: 250px;
     height: 250px;
@@ -660,8 +664,13 @@ $color-cupBg: #8a795d;
     opacity: 0;
   }
 }
+//////////////////////////////////////
 
 @media only screen and (max-width: 768px) {
+  .coffee {
+    right: 130px;
+    top: 24px;
+  }
   .product-container-detailed-page {
     margin-top: 50px !important;
     margin-bottom: 200px !important;
