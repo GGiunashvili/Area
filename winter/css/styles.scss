@@ -99,7 +99,7 @@
     height: 90px;
     top: -72px;
     z-index: 99;
-    right: -17px;
+    right: -10px !important;
   }
   .snowflake111 {
     position: absolute;
@@ -972,7 +972,7 @@ $color-cupBg: #8a795d;
     .snowflake4 {
       position: absolute;
       height: 72px;
-      top: -282px;
+      top: -312px;
       z-index: 99;
       right: 0;
       left: 0;
@@ -987,9 +987,9 @@ $color-cupBg: #8a795d;
     .snowflake22 {
       position: absolute;
       height: 60px;
-      top: -120px;
+      top: -108px;
       z-index: 99;
-      right: -5px;
+      right: -12px;
     }
     .snowflake33 {
       position: absolute;
@@ -1037,7 +1037,7 @@ $color-cupBg: #8a795d;
 }
 @media only screen and (max-width: 425px) {
   .product-container__box__btn-box__btn__detailed-page {
-    margin-top: 35px !important;
+    margin-top: 65px !important;
   }
   body {
     background-image: url(..//image/bg-mob.png);
@@ -1055,7 +1055,7 @@ $color-cupBg: #8a795d;
         margin-bottom: 10px;
         margin-top: 50px;
         &__extra {
-          margin-top: -40px !important;
+          margin-top: -20px !important;
         }
 
         &__btn {
@@ -1075,10 +1075,10 @@ $color-cupBg: #8a795d;
   }
   .card {
     background-color: #c5e1ea;
-    height: 380px !important;
+    height: 420px !important;
   }
   .detail-page-card {
-    height: 450px !important;
+    height: 490px !important;
     &__body {
       padding: 0 8px !important;
     }
@@ -1088,11 +1088,13 @@ $color-cupBg: #8a795d;
   }
   .card-text {
     font-size: 13px !important;
-    padding: 2px !important;
+    padding: 5px !important;
     height: 90px !important;
+    text-align: left;
+    padding-left: 15px !important;
   }
   .detail-page-extra {
-    height: 470px !important;
+    height: 490px !important;
   }
   .antifriz-btns {
     margin-top: 55px !important;

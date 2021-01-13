@@ -112,7 +112,7 @@
   height: 90px;
   top: -72px;
   z-index: 99;
-  right: -17px;
+  right: -10px !important;
 }
 
 .card .snowflake111 {
@@ -1115,7 +1115,7 @@ input[type='reset'] {
   .card .snowflake4 {
     position: absolute;
     height: 72px;
-    top: -282px;
+    top: -312px;
     z-index: 99;
     right: 0;
     left: 0;
@@ -1130,9 +1130,9 @@ input[type='reset'] {
   .card .snowflake22 {
     position: absolute;
     height: 60px;
-    top: -120px;
+    top: -108px;
     z-index: 99;
-    right: -5px;
+    right: -12px;
   }
   .card .snowflake33 {
     position: absolute;
@@ -1180,7 +1180,7 @@ input[type='reset'] {
 
 @media only screen and (max-width: 425px) {
   .product-container__box__btn-box__btn__detailed-page {
-    margin-top: 35px !important;
+    margin-top: 65px !important;
   }
   body {
     background-image: url(..//image/bg-mob.png);
@@ -1201,7 +1201,7 @@ input[type='reset'] {
     margin-top: 50px;
   }
   .product-container__box__btn-box__extra {
-    margin-top: -40px !important;
+    margin-top: -20px !important;
   }
   .product-container__box__btn-box__btn {
     width: 100px;
@@ -1216,10 +1216,10 @@ input[type='reset'] {
   }
   .card {
     background-color: #c5e1ea;
-    height: 380px !important;
+    height: 420px !important;
   }
   .detail-page-card {
-    height: 450px !important;
+    height: 490px !important;
   }
   .detail-page-card__body {
     padding: 0 8px !important;
@@ -1229,11 +1229,13 @@ input[type='reset'] {
   }
   .card-text {
     font-size: 13px !important;
-    padding: 2px !important;
+    padding: 5px !important;
     height: 90px !important;
+    text-align: left;
+    padding-left: 15px !important;
   }
   .detail-page-extra {
-    height: 470px !important;
+    height: 490px !important;
   }
   .antifriz-btns {
     margin-top: 55px !important;
