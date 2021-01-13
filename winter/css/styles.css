@@ -1207,6 +1207,7 @@ input[type='reset'] {
     width: 100px;
     height: 40px;
     font-size: 12px;
+    z-index: 999;
   }
   .product-container__box__btn-box__btn__detailed-page {
     font-size: 10px;

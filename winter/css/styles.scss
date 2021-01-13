@@ -1062,6 +1062,7 @@ $color-cupBg: #8a795d;
           width: 100px;
           height: 40px;
           font-size: 12px;
+          z-index: 999;
           &__detailed-page {
             font-size: 10px;
           }
