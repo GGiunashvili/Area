@@ -485,6 +485,182 @@ input[type='reset'] {
   font-size: 22px;
   font-family: markgeocapscaps-Semiboldcaps;
 }
+$baseFontSize: 14px;
+$context: $baseFontSize;
+$header-height: 3rem;
+$color-bg: #fff7e0;
+$color-cupBg: #8a795d;
+@mixin clearfix {
+  &:before,
+  &:after {
+    content: ' ';
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+.coffee {
+  &-cup {
+    width: 250px;
+    height: 250px;
+    border: 1px solid inherit;
+    border-radius: 0px 0px 100px 100px;
+    background-color: $color-cupBg;
+    position: relative;
+    top: 40%;
+    z-index: 20;
+    // -webkit-box-shadow: -10px 13px 13px -4px rgba(138,121,93,0.89);
+    // box-shadow: -10px 13px 13px -4px rgba(138,121,93,0.89);
+  }
+  &-holder {
+    width: 100px;
+    height: 150px;
+    background-color: $color-cupBg;
+    position: absolute;
+    left: 210px;
+    top: 45%;
+    display: block;
+    border-radius: 50px;
+    z-index: 3;
+
+    &_white {
+      width: 65px;
+      height: 100px;
+      background-color: $color-bg;
+      border-radius: 50px;
+      position: absolute;
+      left: 15px;
+      top: 15%;
+      z-index: -1;
+    }
+  }
+  &-eye {
+    width: 20px;
+    height: 20px;
+    background-color: #313131;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    z-index: 25;
+    animation: blinking 5s ease-in infinite;
+
+    &__left {
+      left: 20%;
+    }
+    &__right {
+      left: 40%;
+    }
+  }
+  &-smile {
+    width: 48px;
+    height: 18px;
+    position: absolute;
+    top: 70%;
+    left: 28%;
+    overflow: hidden;
+    z-index: 30;
+
+    &:before {
+      content: '';
+      position: absolute;
+      width: 32px;
+      height: 29px;
+      border: 2px solid #1e2200;
+      border-radius: 50%;
+      top: -28px;
+    }
+  }
+  &-cheek {
+    width: 24px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    top: 58%;
+    z-index: 25;
+    &--left {
+      left: 15%;
+    }
+    &--right {
+      left: 44%;
+    }
+  }
+  &-drink {
+    width: 250px;
+    height: 60px;
+    position: absolute;
+    top: 33%;
+    background-color: $color-cupBg;
+    border-radius: 50%;
+    z-index: 40;
+    &_white {
+      width: 220px;
+      height: 40px;
+      border-radius: 50%;
+      top: 10px;
+      position: absolute;
+      z-index: 40;
+      left: 15px;
+      border-top: 7px solid white;
+      background: white;
+    }
+  }
+}
+
+.steam {
+  width: 1rem;
+  height: 1rem;
+  color: white;
+  position: absolute;
+
+  animation: steam-active 3s ease-out infinite;
+  filter: blur(0.5rem);
+  @for $index from 1 through 3 {
+    &:nth-child(#{$index}n) {
+      left: calc(25% - #{($index - 2) * 1.5rem});
+    }
+  }
+  &:before {
+    content: '~';
+    transform: rotate(90deg) scaleX(15) scaleY(10);
+    display: block;
+  }
+  &.large {
+    animation-delay: 0.5s;
+    &:before {
+      transform: rotate(90deg) scaleX(20) scaleY(15);
+    }
+  }
+}
+
+@keyframes blinking {
+  59.5% {
+    height: 20px;
+  }
+  61% {
+    height: 3px;
+  }
+  62.5% {
+    height: 20px;
+  }
+}
+
+@keyframes steam-active {
+  0% {
+    transform: translateY(1rem);
+    opacity: 0;
+  }
+  16% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-5rem);
+    opacity: 0;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .product-container-detailed-page {
     margin-top: 50px !important;
