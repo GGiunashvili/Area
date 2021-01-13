@@ -90,14 +90,25 @@
 </head>
 
 <body>
-  <div class="rainbow-box">
-    <div class="rainbow">
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
-      <span></span>
+  <div class="loader1">
+    <div class="loader">
+      <div class="loader-inner">
+        <div class="loader-line-wrap">
+          <div class="loader-line"></div>
+        </div>
+        <div class="loader-line-wrap">
+          <div class="loader-line"></div>
+        </div>
+        <div class="loader-line-wrap">
+          <div class="loader-line"></div>
+        </div>
+        <div class="loader-line-wrap">
+          <div class="loader-line"></div>
+        </div>
+        <div class="loader-line-wrap">
+          <div class="loader-line"></div>
+        </div>
+      </div>
     </div>
   </div>
   <style>
@@ -443,9 +454,15 @@
 
 
 <script>
-  $(window).on("load",function(){
-     $(".rainbow-box").fadeOut("slow");
+ 
+$(window).on("load",function(){
+     $(".loader-inner").fadeOut("none");
 });
+$(window).on("load",function(){
+     $(".loader1").fadeOut("none");
+});
+
+
 </script>
   <script>
     var swiper = new Swiper('.two', {
