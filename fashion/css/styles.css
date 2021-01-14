@@ -456,16 +456,13 @@ a:hover {
 }
 
 .swiper-pagination-bullet-active {
-  background-color: #f72163 !important;
+  background-color: #d1d1d1 !important;
+  border: 3px solid #f72163;
 }
 
 .swiper-pagination-bullet {
   height: 20px !important;
   width: 20px !important;
-}
-
-.first-slide-mob {
-  display: none;
 }
 
 .product-carousel-pagination {
@@ -1308,12 +1305,6 @@ a:hover {
   }
   .one {
     padding-bottom: 30px !important;
-  }
-  .first-slide-desk {
-    display: none;
-  }
-  .first-slide-mob {
-    display: block;
   }
   .carousel-block {
     display: block;
