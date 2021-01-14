@@ -768,6 +768,8 @@ $color-cupBg: #8a795d;
 }
 
 .personal {
+  display: flex;
+  align-items: center;
   width: 100%;
   text-align: center;
   background: #e6f9ff5c;
@@ -787,7 +789,16 @@ $color-cupBg: #8a795d;
     margin-top: 10px;
   }
 }
+.lana-mob {
+  display: none;
+}
 @media only screen and (max-width: 768px) {
+  .lana-mob {
+    display: block;
+  }
+  .lana-desk {
+    display: none;
+  }
   .detail-page-extra {
     height: 580 !important;
   }

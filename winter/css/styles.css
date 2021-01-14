@@ -948,6 +948,12 @@ input[type='reset'] {
 }
 
 .personal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 100%;
   text-align: center;
   background: #e6f9ff5c;
@@ -969,7 +975,17 @@ input[type='reset'] {
   margin-top: 10px;
 }
 
+.lana-mob {
+  display: none;
+}
+
 @media only screen and (max-width: 768px) {
+  .lana-mob {
+    display: block;
+  }
+  .lana-desk {
+    display: none;
+  }
   .detail-page-extra {
     height: 580 !important;
   }
