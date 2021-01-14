@@ -967,8 +967,9 @@ input[type='reset'] {
   font-family: markgeo-semibold;
   font-size: 22px;
   color: black;
-  text-align: center;
+  text-align: left;
   line-height: 1.3;
+  margin-left: 10px;
 }
 
 .personal__text-one {
