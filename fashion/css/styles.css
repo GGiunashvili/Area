@@ -383,6 +383,7 @@ a:hover {
   font-family: markgeocapscaps-Semiboldcaps;
   text-align: center;
   margin-bottom: 35px;
+  background-image: none !important;
 }
 
 .pink-line {
@@ -1119,6 +1120,9 @@ a:hover {
 }
 
 @media only screen and (max-width: 768px) {
+  .swiper-pagination-bullet-active {
+    border: 2px solid #f72163;
+  }
   .rocher-mob {
     display: block;
     width: 100%;
