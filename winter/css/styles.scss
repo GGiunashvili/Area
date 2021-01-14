@@ -777,6 +777,9 @@ $color-cupBg: #8a795d;
   margin-top: 27px;
   padding: 10px;
   z-index: 999;
+  padding-left: 0;
+  padding-top: 0;
+  padding-bottom: 0;
 
   &__text {
     font-family: markgeo-semibold;
