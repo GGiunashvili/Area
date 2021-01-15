@@ -211,7 +211,7 @@
                   <p class="delivery-cards__box__p">მიწოდება თბილისის მასშტაბით - 5 ლარი</p>
                 </div>
               </div>
-              <div class="ima col-4 delivery-cards__box_parent ">
+              <div class="col-4 delivery-cards__box_parent ">
                 <div class=" delivery-cards__box delivery-cards__middle" >
                   <img  class="delivery-cards__box__img" src="image/Group 825.svg" alt="">
                   <p class="delivery-cards__box__p">რეგიონებში დამოკიდებულია ადგილზე და პრდოდუქტზე</p>
@@ -299,17 +299,38 @@ $(window).on("load",function(){
 
 </script>
 
-    <!-- <script>
-      $('.ima').click(function() {
+    <script>
+      $('.delivery-cards__box_parent').click(function() {
     $(this).removeClass('col-4');
     $(this).addClass('col-12');
 });
     </script>
+
        <script>
-        $('.ima').click(function() {
+        $('.delivery-cards__box_parent').click(function() {
       $(this).addClass('colll');
+      $('.delivery-cards__box').addClass('col4');
+
+     
   });
-      </script> -->
+      </script>
+
+
+
+
+<script>
+  $('.start-shopping ').click(function(){
+    $('.delivery-cards__box_parent').removeClass('col-12');
+    $('.delivery-cards__box_parent').removeClass('colll');
+
+    $('.delivery-cards__box').removeClass('col4');
+
+
+  $('.delivery-cards__box_parent').addClass('col-4');
+});
+</script>
+
+
 
 </body>
 </html>

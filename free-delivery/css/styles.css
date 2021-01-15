@@ -161,7 +161,6 @@ input[type='reset'] {
 }
 
 .delivery-box-two {
-  padding: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -332,6 +331,17 @@ input[type='reset'] {
 .colll {
   position: absolute;
   z-index: 999;
+  right: 5px;
+}
+
+.col4 {
+  -webkit-box-orient: unset !important;
+  -webkit-box-direction: unset !important;
+      -ms-flex-direction: unset !important;
+          flex-direction: unset !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
 }
 
 @media only screen and (max-width: 768px) {

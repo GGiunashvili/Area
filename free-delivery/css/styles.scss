@@ -133,7 +133,6 @@ input[type='reset'] {
   display: flex;
 }
 .delivery-box-two {
-  padding: 20px;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -266,6 +265,11 @@ input[type='reset'] {
 .colll {
   position: absolute;
   z-index: 999;
+  right: 5px;
+}
+.col4 {
+  flex-direction: unset !important;
+  align-items: center !important;
 }
 @media only screen and (max-width: 768px) {
   .delivery-cards__box_parent {
