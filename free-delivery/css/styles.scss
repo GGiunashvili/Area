@@ -126,6 +126,13 @@ input[type='reset'] {
     margin-left: 10px;
   }
 }
+.delivery-cards__box__pp {
+  text-align: left !important;
+}
+.delivery-cards__box__see-btn {
+  text-align: right;
+  margin-right: 10px;
+}
 .delivery-box-one {
   background-image: url(../image/Background.svg);
   height: 500px;
@@ -266,12 +273,31 @@ input[type='reset'] {
   position: absolute;
   z-index: 999;
   right: 5px;
+  background-color: #efefef;
 }
 .col4 {
   flex-direction: unset !important;
   align-items: center !important;
 }
+.close-arrow {
+  display: none;
+}
+.close-arrow {
+  display: none;
+}
+.close-arrow-popup {
+  display: block;
+}
 @media only screen and (max-width: 768px) {
+  .delivery-cards__box__see-btn {
+    height: 13px;
+    position: absolute;
+    bottom: 21px;
+    right: 5px;
+  }
+  .arrow-img {
+    height: 49px;
+  }
   .delivery-cards__box_parent {
     padding: 8px;
   }

@@ -190,7 +190,7 @@
     
 
 
-    <div style="background-color: #eaeaea;">
+    <div >
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-6 col-12 delivery-box-one delivery-box-one-desk">
@@ -208,19 +208,39 @@
               <div class="col-4 delivery-cards__box_parent">
                 <div class=" delivery-cards__box" >
                   <img   class="delivery-cards__box__img" src="image/Group 824.svg" alt="">
-                  <p class="delivery-cards__box__p">მიწოდება თბილისის მასშტაბით - 5 ლარი</p>
+                  <p class="delivery-cards__box__p ">მიწოდება თბილისის მასშტაბით - 5 ლარი</p>
+                  <div class="delivery-cards__box__see-btn">
+                    <img src="image/see more.svg" alt="">
+                  </div>
+                  <a href="" class="close-arrow">
+                    <img class="arrow-img" src="image/Group 830.svg" alt="">
+                  </a>
                 </div>
               </div>
               <div class="col-4 delivery-cards__box_parent ">
                 <div class=" delivery-cards__box delivery-cards__middle" >
                   <img  class="delivery-cards__box__img" src="image/Group 825.svg" alt="">
-                  <p class="delivery-cards__box__p">რეგიონებში დამოკიდებულია ადგილზე და პრდოდუქტზე</p>
+                  <p class="delivery-cards__box__p ">რეგიონებში დამოკიდებულია ადგილზე და პრდოდუქტზე</p>
+                  <div class="delivery-cards__box__see-btn">
+                    <img src="image/see more-1.svg" alt="">
+                  </div>
+                  <a href="" class="close-arrow">
+                    <img class="arrow-img" src="image/Group 830.svg" alt="">
+                  </a>
                 </div>
               </div>
               <div class="col-4 delivery-cards__box_parent">
                 <div class=" delivery-cards__box" >
                   <img class="delivery-cards__box__img" src="image/Group 826.svg" alt="">
-                  <p class="delivery-cards__box__p">გადაიხადე MASTERCARD-ით და ჩამოგიტანთ უფასოდ! </p>
+                  <div>
+                    <p class="delivery-cards__box__p ">გადაიხადე MASTERCARD-ით და ჩამოგიტანთ უფასოდ! </p>
+                    <div class="delivery-cards__box__see-btn">
+                      <img src="image/see more-2.svg" alt="">
+                    </div>
+                  </div>
+                  <a href="" class="close-arrow">
+                    <img class="arrow-img"  src="image/Group 830.svg" alt="">
+                  </a>
                 </div>
               </div>
             </div>
@@ -303,6 +323,10 @@ $(window).on("load",function(){
       $('.delivery-cards__box_parent').click(function() {
     $(this).removeClass('col-4');
     $(this).addClass('col-12');
+    $('.close-arrow').addClass('close-arrow-popup');
+
+
+    
 });
     </script>
 
@@ -310,6 +334,8 @@ $(window).on("load",function(){
         $('.delivery-cards__box_parent').click(function() {
       $(this).addClass('colll');
       $('.delivery-cards__box').addClass('col4');
+      $('.delivery-cards__box__p').addClass('delivery-cards__box__pp');
+
 
      
   });
@@ -319,11 +345,14 @@ $(window).on("load",function(){
 
 
 <script>
-  $('.start-shopping ').click(function(){
+  $('.close-arrow-popup').click(function(){
     $('.delivery-cards__box_parent').removeClass('col-12');
     $('.delivery-cards__box_parent').removeClass('colll');
 
     $('.delivery-cards__box').removeClass('col4');
+    $('.delivery-cards__box__p').removeClass('delivery-cards__box__pp');
+    $('.close-arrow').removeClass('close-arrow-popup');
+
 
 
   $('.delivery-cards__box_parent').addClass('col-4');
