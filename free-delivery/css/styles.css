@@ -164,6 +164,7 @@ input[type='reset'] {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-top: 10px;
 }
 
 .delivery-box-one {
@@ -391,7 +392,9 @@ input[type='reset'] {
     height: 13px;
     position: absolute;
     bottom: 21px;
-    right: 5px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
   }
   .arrow-img {
     height: 49px;
