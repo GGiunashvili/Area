@@ -132,6 +132,8 @@ input[type='reset'] {
 .delivery-cards__box__see-btn {
   text-align: right;
   margin-right: 10px;
+  display: flex;
+  justify-content: center;
 }
 .delivery-box-one {
   background-image: url(../image/Background.svg);
@@ -175,6 +177,12 @@ input[type='reset'] {
       line-height: 1.2;
       font-family: markgeocaps-medium;
       text-align: center;
+    }
+    &__p-box {
+      font-size: 17px;
+      line-height: 1.2;
+      font-family: markgeocaps-medium;
+      text-align: left;
     }
   }
   &__middle {
@@ -275,9 +283,12 @@ input[type='reset'] {
   right: 5px;
   background-color: #efefef;
 }
+
 .col4 {
   flex-direction: unset !important;
   align-items: center !important;
+  box-shadow: unset;
+  overflow: hidden;
 }
 .close-arrow {
   display: none;
@@ -287,6 +298,9 @@ input[type='reset'] {
 }
 .close-arrow-popup {
   display: block;
+}
+.delivery-cards__box__see-btn-none {
+  display: none;
 }
 @media only screen and (max-width: 768px) {
   .delivery-cards__box__see-btn {

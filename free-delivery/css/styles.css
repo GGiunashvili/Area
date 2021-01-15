@@ -158,6 +158,12 @@ input[type='reset'] {
 .delivery-cards__box__see-btn {
   text-align: right;
   margin-right: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .delivery-box-one {
@@ -225,6 +231,13 @@ input[type='reset'] {
   line-height: 1.2;
   font-family: markgeocaps-medium;
   text-align: center;
+}
+
+.delivery-cards__box__p-box {
+  font-size: 17px;
+  line-height: 1.2;
+  font-family: markgeocaps-medium;
+  text-align: left;
 }
 
 .start-shopping {
@@ -352,6 +365,9 @@ input[type='reset'] {
   -webkit-box-align: center !important;
       -ms-flex-align: center !important;
           align-items: center !important;
+  -webkit-box-shadow: unset;
+          box-shadow: unset;
+  overflow: hidden;
 }
 
 .close-arrow {
@@ -364,6 +380,10 @@ input[type='reset'] {
 
 .close-arrow-popup {
   display: block;
+}
+
+.delivery-cards__box__see-btn-none {
+  display: none;
 }
 
 @media only screen and (max-width: 768px) {

@@ -219,21 +219,24 @@ a:hover {
 
 .home-wall {
   background-image: url(../image/1919.png);
+  display: flex;
+  justify-content: center;
+  text-align: center;
   height: 462px;
   background-size: contain;
   background-repeat: no-repeat;
   background-size: 100% 100%;
   &__child {
-    margin-left: 35px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     height: 100%;
     justify-content: center;
 
     &__btn {
       width: 240px;
       height: 80px;
-      margin-top: 35px;
+      margin-top: 75px;
       background-color: #fd561f;
       font-size: 20px;
       font-family: markgeocapscaps-Semiboldcaps;
@@ -258,7 +261,7 @@ a:hover {
     }
 
     &__text {
-      max-width: 700px;
+      max-width: 850px;
       &__title-mob {
         display: none;
         width: 570px;
@@ -890,7 +893,7 @@ $color-cupBg: #8a795d;
     &__child {
       margin-left: 15px;
       &__btn {
-        margin-top: 10px;
+        margin-top: 20px;
         font-size: 7px;
         width: 73px;
         height: 22px;
@@ -898,9 +901,9 @@ $color-cupBg: #8a795d;
       }
 
       &__text {
-        width: 176px;
+        width: 230px;
 
-        text-align: left;
+        text-align: center;
 
         &__title-mob {
           font-size: 15px;

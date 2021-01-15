@@ -207,12 +207,14 @@
             <div class="delivery-cards">
               <div class="col-4 delivery-cards__box_parent">
                 <div class=" delivery-cards__box" >
-                  <img   class="delivery-cards__box__img" src="image/Group 824.svg" alt="">
-                  <p class="delivery-cards__box__p ">მიწოდება თბილისის მასშტაბით - 5 ლარი</p>
-                  <div class="delivery-cards__box__see-btn">
-                    <img src="image/see more.svg" alt="">
-                  </div>
-                  <a href="" class="close-arrow">
+                    <img   class="delivery-cards__box__img" src="image/Group 824.svg" alt="">
+                    <p class="delivery-cards__box__p ">მიწოდება თბილისში</p>
+                    <p class="d-none delivery-cards__box__p-box ">სტანდარტულად შეკვეთა 3 სამუშაო დღეში მოგვაქვს, მაგრამ ქვეყანაში შექმნილი სიტუაციიდან გამომდინარე შეკვეთის მიწოდების ვადა გაიზარდა 3-5 სამუშაო დღემდე;</p>
+                    <div class="delivery-cards__box__see-btn">
+                      <p>გაიგე მეტი</p>
+                      <img src="image/see more.svg" alt="">
+                    </div>
+                  <a href="#" onclick="window.location.reload(false);" class="close-arrow">
                     <img class="arrow-img" src="image/Group 830.svg" alt="">
                   </a>
                 </div>
@@ -220,11 +222,13 @@
               <div class="col-4 delivery-cards__box_parent ">
                 <div class=" delivery-cards__box delivery-cards__middle" >
                   <img  class="delivery-cards__box__img" src="image/Group 825.svg" alt="">
-                  <p class="delivery-cards__box__p ">რეგიონებში დამოკიდებულია ადგილზე და პრდოდუქტზე</p>
+                  <p class="delivery-cards__box__p ">მიწოდება რეგიონებში</p>
+                  <p class="d-none delivery-cards__box__p-box ">რეგიონში მიწოდების საფასური დამოკიდებულია ადგილმდებარეობასა და ნივთის ზომაზე; კონკრეტული ნივთის მიწოდების პირობების შესახებ ინფორმაციის მიღება, რა თქმა უნდა, ჩვენი მრჩეველებისგან შეკვეთამდეც შეგიძლია, თუმცა შეკვეთის განთავსების შემდეგ, მის დასადასტურებლად ის თავადვე დაგიკავშირდება და მოგაწვდის დეტალურ ინფორმაციას შენი შეკვეთის შესახებ.</p>
+
                   <div class="delivery-cards__box__see-btn">
                     <img src="image/see more-1.svg" alt="">
                   </div>
-                  <a href="" class="close-arrow">
+                  <a href="#" onclick="window.location.reload(true);" class="close-arrow">
                     <img class="arrow-img" src="image/Group 830.svg" alt="">
                   </a>
                 </div>
@@ -233,12 +237,14 @@
                 <div class=" delivery-cards__box" >
                   <img class="delivery-cards__box__img" src="image/Group 826.svg" alt="">
                   <div>
-                    <p class="delivery-cards__box__p ">გადაიხადე MASTERCARD-ით და ჩამოგიტანთ უფასოდ! </p>
+                    <p class="delivery-cards__box__p ">მიიღე უფასოდ MASTERCARD-ით</p>
+                    <p class="d-none delivery-cards__box__p-box ">გადაიხადე MASTERCARD-ით და სადაც არ უნდა იყო - ქართლში, კახეთში, იმერეთში, გურიაში, აჭარაში, სამეგრელოში, სვანეთში, რაჭაში, სამცხე-ჯავახეთში თუ მცხეთა-მთიანეთში, შენაძენს მოგიტანთ უფასოდ. გარდა უფასო მიწოდებისა, MASTERCARD-ით გადახდისას 500 ლარამდე შენაძენზე მიიღებ -20% ფასდაკლებას, ხოლო 500 ლარს ზემოთ - 100 ლარის ოდენობით.</p>
+
                     <div class="delivery-cards__box__see-btn">
                       <img src="image/see more-2.svg" alt="">
                     </div>
                   </div>
-                  <a href="" class="close-arrow">
+                  <a href="#" onclick="window.location.reload(true);" class="close-arrow">
                     <img class="arrow-img"  src="image/Group 830.svg" alt="">
                   </a>
                 </div>
@@ -324,11 +330,17 @@ $(window).on("load",function(){
     $(this).removeClass('col-4');
     $(this).addClass('col-12');
     $('.close-arrow').addClass('close-arrow-popup');
+    $('.delivery-cards__box__see-btn').addClass('delivery-cards__box__see-btn-none');
+
+    $('.delivery-cards__box__p').addClass('d-none');
+    $('.delivery-cards__box__p-box').addClass('d-block');
+
 
 
     
 });
     </script>
+ 
 
        <script>
         $('.delivery-cards__box_parent').click(function() {
@@ -352,6 +364,8 @@ $(window).on("load",function(){
     $('.delivery-cards__box').removeClass('col4');
     $('.delivery-cards__box__p').removeClass('delivery-cards__box__pp');
     $('.close-arrow').removeClass('close-arrow-popup');
+    $('.delivery-cards__box__see-btn').removeClass('delivery-cards__box__see-btn-none');
+
 
 
 
