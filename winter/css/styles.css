@@ -264,7 +264,7 @@ a:hover {
           box-shadow: 0px 3px 6px #00000029;
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  z-index: 9999999;
+  z-index: 99;
 }
 
 .home-wall__child__btn__a {
