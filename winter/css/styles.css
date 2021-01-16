@@ -1182,10 +1182,10 @@ input[type='reset'] {
   .card .snowflake4 {
     position: absolute;
     height: 72px;
-    top: -312px;
+    top: -341px;
     z-index: 99;
     right: 0;
-    left: 0;
+    left: -15px;
   }
   .card .snowflake11 {
     position: absolute;
@@ -1251,6 +1251,15 @@ input[type='reset'] {
   }
   .product-container__box__btn-box__btn {
     width: 150px !important;
+  }
+  .card-home {
+    height: 485px;
+  }
+}
+
+@media only screen and (max-width: 555px) {
+  .product-container__box__btn-box__extra {
+    margin-top: 27px;
   }
 }
 

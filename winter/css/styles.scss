@@ -1025,10 +1025,10 @@ $color-cupBg: #8a795d;
     .snowflake4 {
       position: absolute;
       height: 72px;
-      top: -312px;
+      top: -341px;
       z-index: 99;
       right: 0;
-      left: 0;
+      left: -15px;
     }
     .snowflake11 {
       position: absolute;
@@ -1095,6 +1095,14 @@ $color-cupBg: #8a795d;
   }
   .product-container__box__btn-box__btn {
     width: 150px !important;
+  }
+  .card-home {
+    height: 485px;
+  }
+}
+@media only screen and (max-width: 555px) {
+  .product-container__box__btn-box__extra {
+    margin-top: 27px;
   }
 }
 @media only screen and (max-width: 425px) {
