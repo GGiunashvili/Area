@@ -1098,6 +1098,7 @@ $color-cupBg: #8a795d;
   }
   .card-home {
     height: 485px;
+    overflow: hidden;
   }
 }
 @media only screen and (max-width: 555px) {
