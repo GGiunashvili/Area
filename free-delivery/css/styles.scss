@@ -324,6 +324,16 @@ input[type='reset'] {
 .value-title {
   margin-bottom: 15px;
 }
+
+@media only screen and (max-width: 992px) {
+  .delivery-box-one-mob {
+    align-items: center;
+    display: flex;
+  }
+  .delivery-box-one-desk {
+    display: none;
+  }
+}
 @media only screen and (max-width: 768px) {
   .delivery-cards__box__see-btn {
     height: 13px;
@@ -391,12 +401,6 @@ input[type='reset'] {
     &__box {
       height: 124px;
     }
-  }
-  .delivery-box-one-mob {
-    display: block;
-  }
-  .delivery-box-one-desk {
-    display: none;
   }
 
   ///////////////////
