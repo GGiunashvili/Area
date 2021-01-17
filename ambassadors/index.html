@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -46,23 +47,28 @@
       var value1 = 0;
       var value2 = 0;
   
+      var values = [7, 10, 15, 18, 22, 30, 35, 45, 50, 65];
+      var titles = [ "0 - 5", "5 - 10", "10 - 15", "15 - 20", "20 - 25", "25 - 30", "30 - 40", "40 - 50", "50 - 60", "60 - 70"];
+
       function updateResult() {
-        result.text((value1 * value2 * 1 * 1).toFixed() );
+        result.text((values[value1]).toFixed() );
       }
+
+      updateResult();
       var slider1 = $( "#slider1" ).slider({
         min: 0,
-        max: 70,
-        value: 30,
-        step: 5,
+        max: titles.length - 1,
+        value: 0,
+        step: 1,
         create: function() {
           // handle1.text( $( this ).slider( "value" ) );
           value1 = $( this ).slider( "value" );
-          value1div.text( $( this ).slider( "value" ) );
+          value1div.text( values[$( this ).slider( "value" )] );
           
         },
         slide: function( event, ui ) {
           // handle1.text( ui.value );
-          value1div.text( ui.value );
+          value1div.text( titles[ui.value] );
           value1 = ui.value;
           updateResult();
         }
@@ -323,7 +329,7 @@
 <div class="container">
   <div class="row">
     <div  class="col-md-6 col-12 slide-in from-left ambasador-box-one  hidden">
-      <p  class="ambasador-box-one-title" >ჩვენ არ ვითხოვთ გამოცდილებას!</p>
+      <p  class="ambasador-box-one-title" >ჩვენ არ ვითხოვთ გამოცდილებას!</p>
       <p  class="ambasador-box-one-text">ჩვენთვის სრულიად საკმარისია ის უნიკალური უნარები, რომლებიც ისედაც გაქვს, შენივე ყოველდღიურობიდან გამომდინარე! ჩვენთვის მნიშვნელოვანია: ენერგიულობა, პასუხისმგებლობა და სხვების დახმარების სურვილი. სხვა ყველანაირი საჭირო უნარ-ჩვევებითა და ტექნიკით ჩვენ უზრუნველვყოფთ შენს აღჭურვას!</p>
 
       <a href="https://extracareer.typeform.com/to/uHrMTkG7" target="_blank" class="join-us-box" style="margin-bottom:25pxpx;">
@@ -332,7 +338,7 @@
     </div>
     
     <div class="col-md-6 col-12 slide-in from-left ambasador-box-one unhidden">
-      <p class="ambasador-box-one-title">ჩვენ არ ვითხოვთ გამოცდილებას!</p>
+      <p class="ambasador-box-one-title">ჩვენ არ ვითხოვთ გამოცდილებას!</p>
       <p class="ambasador-box-one-text">ჩვენთვის სრულიად საკმარისია ის უნიკალური უნარები, რომლებიც ისედაც გაქვს, შენივე ყოველდღიურობიდან გამომდინარე! ჩვენთვის მნიშვნელოვანია: ენერგიულობა, პასუხისმგებლობა და სხვების დახმარების სურვილი. სხვა ყველანაირი საჭირო უნარ-ჩვევებითა და ტექნიკით ჩვენ უზრუნველვყოფთ შენს აღჭურვას!</p>
       <a href="https://extracareer.typeform.com/to/uHrMTkG7" target="_blank" class="join-us-box" style="margin-bottom:25px;">
         <p class="join-us-text">შემოგვიერთდი</p>
