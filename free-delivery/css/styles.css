@@ -387,6 +387,18 @@ input[type='reset'] {
   display: none;
 }
 
+#slider2 {
+  display: none;
+}
+
+.value-title-2 {
+  display: none !important;
+}
+
+.your-cost-p {
+  display: none;
+}
+
 @media only screen and (max-width: 768px) {
   .delivery-cards__box__see-btn {
     height: 13px;
