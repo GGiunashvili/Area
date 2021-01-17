@@ -316,34 +316,33 @@
               </div>
             </div>
             <div id="section4" class="container">
-              <div class="row align-items-center">
-                <div class="col-12 slide-in from-right top-houndred" >
-                  <p class="financ-interest">ფინანსური ინტერესი</p>
-                  <div class="value-title d-flex justify-content-between align-items-center">
-                    <div id="value1" class="value1"></div>
-                    <p class="sold-product">გაყიდული პროდუქტების რაოდენობა</p>
-                    <div style="visibility: hidden;">s</div>
-                  </div>
-                  <div id="slider1">
-                    <div id="handle1" class="ui-slider-handle"></div>
-                  </div>
-                  <div class="value-title-2 d-flex justify-content-between align-items-center">
-                    <div id="value2" class="value2"></div>
-                     <p class="sold-product-vl2">პროდუქტის საშუალო ღირებულება</p>
-                     <p style="visibility:hidden;">3</p>
-                  </div>
-                  <div id="slider2">
-                    <div id="handle2" class="ui-slider-handle"></div>
-                  </div>
-                    <div class="your-cost-box">
-                      <p class="your-cost-p">თქვენი შემოსავალი იქნება</p>
-                      <div class="d-flex justify-content-center" style="margin-top: 5px;"> 
-                        <p class="your-cost-p" style=" margin-top: 10px; margin-bottom: 6px; font-size: 20px; margin-right: 10px; ">თვეში</p>
-                        <h2 id="result" class="result">30</h2>
-                        <h2 style="color: #7A1DFF;font-size: 35px;"> ₾</h2>
-                      </div>
-                    </div>     
-                </div>
+                <div class="col-12 d-flex justify-content-center slide-in from-right top-houndred" >
+                    <div style="width:450px;">
+                      
+                          <div class="value-title d-flex justify-content-between align-items-center">
+                            <p class="sold-product">ამანათის მასა</p>
+                            <div id="value1" class="value1"></div>
+                          </div>
+                            <div id="slider1">
+                              <div id="handle1" class="ui-slider-handle"></div>
+                            </div>
+                            <div class="value-title-2 d-flex justify-content-between align-items-center">
+                              <div id="value2" class="value2"></div>
+                              <p class="sold-product-vl2">პროდუქტის საშუალო ღირებულება</p>
+                              <p style="visibility:hidden;">3</p>
+                            </div>
+                            <div id="slider2">
+                              <div id="handle2" class="ui-slider-handle"></div>
+                            </div>
+                            <div class="your-cost-box">
+                              <p class="your-cost-p">თქვენი შემოსავალი იქნება</p>
+                              <div class="d-flex justify-content-center" style="margin-top: 5px;"> 
+                                <p class="your-cost-p" style=" margin-top: 10px; margin-bottom: 6px; font-size: 20px; margin-right: 10px; ">თვეში</p>
+                                <h2 id="result" class="result">30</h2>
+                                <h2 style="color: #7A1DFF;font-size: 35px;"> ₾</h2>
+                              </div>
+                            </div> 
+                    </div>
                 </div>
               </div>
               <div class="start-shopping start-shopping-desk">
@@ -359,7 +358,7 @@
           </div>
 
           <div class="col-md-6 col-12 delivery-box-one delivery-box-one-mob ">
-            <img class="w-100" src="image/object.svg" alt="">
+            <img class="w-100" src="image/Object.svg" alt="">
   
           </div>
 
@@ -411,37 +410,22 @@
 
 
 
-  <script>
- 
-    $(window).on("load",function(){
-         $(".loader-inner").fadeOut("none");
-    });
-    $(window).on("load",function(){
-         $(".loader1").fadeOut("none");
-    });
     
-    
-    </script>
-    
-        <script>
-          $('.delivery-cards__box_parent').click(function() {
+<script>
+    $('.delivery-cards__box_parent').click(function() {
         $(this).removeClass('col-4');
         $(this).addClass('col-12');
         $('.close-arrow').addClass('close-arrow-popup');
         $('.delivery-cards__box__see-btn').addClass('delivery-cards__box__see-btn-none');
-    
         $('.delivery-cards__box__p').addClass('d-none');
         $('.delivery-cards__box__p-box').addClass('d-block');
-    
-    
-    
         
     });
-        </script>
+</script>
      
     
-           <script>
-            $('.delivery-cards__box_parent').click(function() {
+<script>
+      $('.delivery-cards__box_parent').click(function() {
           $(this).addClass('colll');
           $('.delivery-cards__box').addClass('col4');
           $('.delivery-cards__box__p').addClass('delivery-cards__box__pp');
@@ -449,13 +433,13 @@
     
          
       });
-          </script>
+</script>
     
     
     
     
-    <script>
-      $('.close-arrow-popup').click(function(){
+<script>
+     $('.close-arrow-popup').click(function(){
         $('.delivery-cards__box_parent').removeClass('col-12');
         $('.delivery-cards__box_parent').removeClass('colll');
     
@@ -469,7 +453,7 @@
     
       $('.delivery-cards__box_parent').addClass('col-4');
     });
-    </script>
+</script>
 
 
 </body>

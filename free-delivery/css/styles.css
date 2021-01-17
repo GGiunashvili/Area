@@ -399,6 +399,24 @@ input[type='reset'] {
   display: none;
 }
 
+#slider1 {
+  background: #969696;
+  height: 6px;
+  border-radius: 3px;
+}
+
+#handle1 {
+  background: #ff96b7;
+  border: 3px solid #f72163;
+  border-radius: 32px;
+  -webkit-box-shadow: rgba(247, 33, 99, 0.604) 0px 0px 5px;
+          box-shadow: rgba(247, 33, 99, 0.604) 0px 0px 5px;
+}
+
+.value-title {
+  margin-bottom: 15px;
+}
+
 @media only screen and (max-width: 768px) {
   .delivery-cards__box__see-btn {
     height: 13px;

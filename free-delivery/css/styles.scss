@@ -312,6 +312,20 @@ input[type='reset'] {
 .your-cost-p {
   display: none;
 }
+#slider1 {
+  background: #969696;
+  height: 6px;
+  border-radius: 3px;
+}
+#handle1 {
+  background: rgb(255, 150, 183);
+  border: 3px solid rgb(247, 33, 99);
+  border-radius: 32px;
+  box-shadow: rgba(247, 33, 99, 0.604) 0px 0px 5px;
+}
+.value-title {
+  margin-bottom: 15px;
+}
 @media only screen and (max-width: 768px) {
   .delivery-cards__box__see-btn {
     height: 13px;
