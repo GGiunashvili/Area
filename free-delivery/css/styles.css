@@ -165,6 +165,7 @@ input[type='reset'] {
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 10px;
+  position: relative;
 }
 
 .delivery-box-one {
@@ -417,6 +418,43 @@ input[type='reset'] {
   margin-bottom: 15px;
 }
 
+.see-more-btn {
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  -webkit-transform: translate(-70%, -50%);
+          transform: translate(-70%, -50%);
+  font-size: 12px;
+  font-family: markgeo-bold;
+}
+
+.delivery-price-title {
+  text-align: center;
+  font-family: markgeocapscaps-Semiboldcaps;
+  font-size: 20px;
+}
+
+.range-box {
+  margin-top: 20px;
+}
+
+.delivery-price-txt {
+  text-align: center;
+  font-family: markgeo-regular;
+  font-size: 11px;
+  line-height: 1.2;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.sold-product {
+  font-family: markgeocapscaps-Semiboldcaps;
+}
+
+.value1 {
+  font-family: markgeocapscaps-Semiboldcaps;
+}
+
 @media only screen and (max-width: 992px) {
   .delivery-box-one-mob {
     -webkit-box-align: center;
@@ -432,13 +470,20 @@ input[type='reset'] {
 }
 
 @media only screen and (max-width: 768px) {
+  .see-more-btn {
+    font-size: 7px;
+  }
+  .see-more-img {
+    height: 36px;
+  }
   .delivery-cards__box__see-btn {
-    height: 13px;
-    position: absolute;
-    bottom: 21px;
+    height: 33px;
+    position: relative;
+    bottom: 0;
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
+    margin-top: unset;
   }
   .arrow-img {
     height: 49px;
