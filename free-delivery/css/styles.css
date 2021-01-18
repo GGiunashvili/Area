@@ -642,7 +642,8 @@ input[type='reset'] {
     margin-top: unset;
   }
   .arrow-img {
-    height: 49px;
+    height: 100%;
+    width: 30px;
   }
   .delivery-cards__box-parent {
     padding: 2px;
