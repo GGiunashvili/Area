@@ -422,6 +422,9 @@ input[type='reset'] {
   }
 }
 @media only screen and (max-width: 768px) {
+  .delivery-cards__box__p-box {
+    font-size: 10px;
+  }
   .see-more-btn {
     font-size: 7px;
   }
