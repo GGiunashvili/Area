@@ -442,6 +442,9 @@ input[type='reset'] {
   bottom: -44px;
   height: 150px;
 }
+.img-mob {
+  display: none;
+}
 @media only screen and (max-width: 992px) {
   .delivery-box-one-mob {
     align-items: center;
@@ -452,6 +455,12 @@ input[type='reset'] {
   }
 }
 @media only screen and (max-width: 768px) {
+  .img-desk {
+    display: none;
+  }
+  .img-mob {
+    display: block;
+  }
   .orange-box {
     left: 0 !important;
     top: 24px;
