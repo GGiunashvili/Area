@@ -181,7 +181,6 @@ input[type='reset'] {
 }
 
 .delivery-box-one {
-  background-image: url(../image/Background.svg);
   background-repeat: no-repeat;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -550,6 +549,22 @@ input[type='reset'] {
 }
 
 @media only screen and (max-width: 768px) {
+  .sold-product {
+    font-size: 12px;
+  }
+  .value1 {
+    font-size: 12px;
+    width: 95px;
+  }
+  .price-and-result-box {
+    width: 95px;
+  }
+  .price-and-result {
+    font-size: 12px;
+  }
+  .your-cost-p {
+    font-size: 12px;
+  }
   .delivery-box-one-mob {
     z-index: -91;
   }
@@ -594,6 +609,7 @@ input[type='reset'] {
   }
   .delivery-cards__box__p {
     font-size: 10px;
+    height: 30px;
   }
   .delivery-cards__box__img {
     height: 46px;
