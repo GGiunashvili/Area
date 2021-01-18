@@ -412,6 +412,10 @@ input[type='reset'] {
 .ui-slider-horizontal .ui-slider-handle {
   top: -8px !important;
 }
+
+.main-content-box {
+  z-index: 9;
+}
 @media only screen and (max-width: 992px) {
   .delivery-box-one-mob {
     align-items: center;
@@ -422,6 +426,12 @@ input[type='reset'] {
   }
 }
 @media only screen and (max-width: 768px) {
+  .snowflake-mob {
+    z-index: -9 !important;
+  }
+  .out-index {
+    display: none;
+  }
   .delivery-price-title {
     font-size: 13px;
   }
