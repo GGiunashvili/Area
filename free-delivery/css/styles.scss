@@ -144,6 +144,7 @@ input[type='reset'] {
   display: flex;
   justify-content: center;
   position: relative;
+  cursor: pointer;
 }
 .delivery-box-one {
   // background-image: url(../image/Background.svg);
@@ -205,7 +206,7 @@ input[type='reset'] {
 .start-shopping {
   width: 100%;
   margin-bottom: 25px;
-
+  cursor: pointer;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -314,6 +315,7 @@ input[type='reset'] {
 }
 .close-arrow-popup {
   display: block;
+  cursor: pointer;
 }
 .delivery-cards__box__see-btn-none {
   display: none;
