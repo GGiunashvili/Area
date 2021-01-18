@@ -143,7 +143,6 @@ input[type='reset'] {
   margin-right: 10px;
   display: flex;
   justify-content: center;
-  margin-top: 10px;
   position: relative;
 }
 .delivery-box-one {
@@ -168,6 +167,9 @@ input[type='reset'] {
 .container-fluid:after {
   background-color: green !important;
 }
+.span {
+  font-weight: bold;
+}
 
 .delivery-cards {
   display: flex;
@@ -187,8 +189,10 @@ input[type='reset'] {
     &__p {
       font-size: 17px;
       line-height: 1.2;
-      font-family: markgeocaps-medium;
+      font-family: markgeo-regular;
       text-align: center;
+      height: 42px;
+      overflow: hidden;
     }
     &__p-box {
       font-size: 17px;

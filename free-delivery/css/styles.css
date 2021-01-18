@@ -177,7 +177,6 @@ input[type='reset'] {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 10px;
   position: relative;
 }
 
@@ -215,6 +214,10 @@ input[type='reset'] {
   background-color: green !important;
 }
 
+.span {
+  font-weight: bold;
+}
+
 .delivery-cards {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -245,8 +248,10 @@ input[type='reset'] {
 .delivery-cards__box__p {
   font-size: 17px;
   line-height: 1.2;
-  font-family: markgeocaps-medium;
+  font-family: markgeo-regular;
   text-align: center;
+  height: 42px;
+  overflow: hidden;
 }
 
 .delivery-cards__box__p-box {
