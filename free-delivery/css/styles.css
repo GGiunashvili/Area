@@ -120,21 +120,29 @@ input[type='reset'] {
   color: white;
 }
 
+.main-content-box {
+  margin-top: 30px;
+}
+
 .header {
-  margin: 10px 0;
+  margin-bottom: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 65px;
 }
 
 .header__icon-box {
   background-color: #00aaff;
   border-radius: 10px;
-  height: 60px;
-  width: 60px;
+  height: 47px;
+  width: 47px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -144,6 +152,11 @@ input[type='reset'] {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.header__icon-box__icon {
+  height: 27px;
+  width: 27px;
 }
 
 .header__icon-box-second {
@@ -170,7 +183,6 @@ input[type='reset'] {
 
 .delivery-box-one {
   background-image: url(../image/Background.svg);
-  height: 500px;
   background-repeat: no-repeat;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -207,6 +219,8 @@ input[type='reset'] {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 23px;
+  margin-bottom: 40px;
 }
 
 .delivery-cards__box {
@@ -244,6 +258,7 @@ input[type='reset'] {
 
 .start-shopping {
   width: 100%;
+  margin-bottom: 25px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -493,12 +508,22 @@ input[type='reset'] {
           align-items: center;
   height: 28px;
   border-radius: 30px;
-  width: 155px;
+  width: 125px;
   border: 1px solid #f72163;
+  margin-left: 5px;
 }
 
 .result {
   margin-right: 5px;
+}
+
+.price-calc {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.ui-slider-horizontal .ui-slider-handle {
+  top: -8px !important;
 }
 
 @media only screen and (max-width: 992px) {
