@@ -426,6 +426,9 @@ input[type='reset'] {
   }
 }
 @media only screen and (max-width: 768px) {
+  .delivery-box-one-mob {
+    z-index: -91;
+  }
   .snowflake-mob {
     z-index: -9 !important;
   }
