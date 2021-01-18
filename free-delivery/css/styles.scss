@@ -308,9 +308,7 @@ input[type='reset'] {
 .value-title-2 {
   display: none !important;
 }
-.your-cost-p {
-  display: none;
-}
+
 #slider1 {
   background: #969696;
   height: 6px;
@@ -352,9 +350,43 @@ input[type='reset'] {
 }
 .sold-product {
   font-family: markgeocapscaps-Semiboldcaps;
+  font-size: 20px;
 }
 .value1 {
   font-family: markgeocapscaps-Semiboldcaps;
+  background-color: white;
+  width: 125px;
+  height: 28px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 19px;
+  font-size: 20px;
+}
+.your-cost-p {
+  font-family: markgeocapscaps-Semiboldcaps;
+  font-size: 20px;
+}
+.price-and-result {
+  font-size: 20px;
+  color: #f72163;
+  font-family: markgeocapscaps-Semiboldcaps;
+  border-radius: 30px;
+}
+.price-and-result-box {
+  display: flex;
+  background-color: #f721630d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 28px;
+  border-radius: 30px;
+  width: 155px;
+  border: 1px solid #f72163;
+}
+.result {
+  margin-right: 5px;
 }
 @media only screen and (max-width: 992px) {
   .delivery-box-one-mob {

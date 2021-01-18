@@ -47,7 +47,7 @@
       var value1 = 0;
       var value2 = 0;
   
-      var titles = ["0 - 5", "5 - 10", "10 - 15", "15 - 20", "20 - 25", "25 - 30", "30 - 40", "40 - 50", "50 - 60", "60 - 70"];
+      var titles = ["0 - 5 კგ", "5 - 10 კგ", "10 - 15 კგ", "15 - 20 კგ", "20 - 25 კგ", "25 - 30 კგ", "30 - 40 კგ", "40 - 50 კგ", "50 - 60 კგ", "60 - 70 კგ"];
       var values = [7, 10, 15, 18, 22, 30, 35, 45, 50, 65];
 
       function updateResult() {
@@ -349,11 +349,12 @@
                       </div>
                       
                       <div class="your-cost-box">
-                        <p class="your-cost-p">თქვენი შემოსავალი იქნება</p>
-                        <div class="d-flex justify-content-center" style="margin-top: 5px;"> 
-                          <p class="your-cost-p" style=" margin-top: 10px; margin-bottom: 6px; font-size: 20px; margin-right: 10px; ">თვეში</p>
-                          <h2 id="result" class="result">30</h2>
-                          <h2 style="color: #7A1DFF;font-size: 35px;"> ₾</h2>
+                        <div class="d-flex justify-content-center align-items-center"> 
+                          <p class="your-cost-p" >ფასი:</p>
+                          <div class="price-and-result-box">
+                            <div id="result" class="result price-and-result">30</div>
+                            <h2 class="price-and-result">ლარი</h2>
+                          </div>
                         </div>
                       </div> 
                       
