@@ -621,6 +621,7 @@ input[type='reset'] {
     position: absolute;
     top: 67px;
     height: 70px;
+    z-index: 99999;
   }
   .sold-product {
     font-size: 12px;
