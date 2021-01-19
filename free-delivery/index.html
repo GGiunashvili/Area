@@ -267,9 +267,17 @@
               <p class="delivery-box-two__div__p">სადაც გაგიხარდება</p>
             </div>
   
-  
+           <div style="position: relative;">
+            <a  class="close-arrow" style="top: 50%;
+            transform: translateY(-50%);
+            position: absolute;
+            z-index: 999999999999999;
+            right: 22px;">
+              <img class="arrow-img" src="image/Group 881.svg" alt="">
+            </a>
             <div class="delivery-cards">
-              <div class="col-4 delivery-cards__box-parent">
+              
+              <div class="col-4 delivery-cards__box-parent box-1">
                 <div class=" delivery-cards__box"  >
                     <img   class="delivery-cards__box__img" src="image/Group 824.svg" alt="">
                     <p class="delivery-cards__box__p ">მიწოდება<br><span class="span">თბილისში</span></p>
@@ -280,12 +288,13 @@
                       <img class="see-more-img img-mob" src="image/mGroup 832.svg" alt="">
                       <p style="color: #1CAAFC;"  class="see-more-btn">გაიგე მეტი</p>
                     </div>
-                  <a  class="close-arrow">
+                  <a  class="close-arrow" style="visibility: hidden;">
                     <img class="arrow-img" src="image/Group 881.svg" alt="">
                   </a>
+                  
                 </div>
               </div>
-              <div class="col-4 delivery-cards__box-parent " >
+              <div class="col-4 delivery-cards__box-parent box-2 " >
                 <div class=" delivery-cards__box delivery-cards__middle" >
                   <img  class="delivery-cards__box__img "  src="image/Group 825.svg" alt="">
                   <p class="delivery-cards__box__p ">მიწოდება <span class="span">რეგიონებში</span></p>
@@ -298,12 +307,12 @@
                     <p style="color:#7A24FB;" class="see-more-btn">გაიგე მეტი</p>
 
                   </div>
-                  <a  class="close-arrow">
+                  <a  class="close-arrow box-2-arrow" style="visibility: hidden;">
                     <img class="arrow-img" src="image/Group 8881.svg" alt="">
                   </a>
                 </div>
               </div>
-              <div class="col-4 delivery-cards__box-parent">
+              <div class="col-4 delivery-cards__box-parent box-3">
                 <div class=" delivery-cards__box" >
                   <img class="delivery-cards__box__img" src="image/Group 826.svg" alt="">
                   <div>
@@ -319,12 +328,13 @@
 
                     </div>
                   </div>
-                  <a class="close-arrow">
+                  <a class="close-arrow" style="visibility: hidden;">
                     <img class="arrow-img"  src="image/Group 830.svg" alt="">
                   </a>
                 </div>
               </div>
             </div>
+           </div>
             <div id="section4" class="container">
               <div style="display: flex; flex-direction: column; justify-content: center;">
                 <p class="delivery-price-title">გამოთვალე რეგიონში მიწოდების საფასური</p>
@@ -367,7 +377,7 @@
                     </div>
                 </div>
               </div>
-              <a href="https://extra.ge/" target="_blank" class="start-shopping start-shopping-desk">
+              <a  target="_blank" class="start-shopping start-shopping-desk">
                 <p class="start-shopping__p">დაიწყე შოპინგი</p>
               </a>
               <img  class="pink-box" src="image/Group 789.svg" alt="">
@@ -439,102 +449,122 @@
 
 
     
-<script>
-    // $('.delivery-cards__box-parent').click(function() {
-    //     // $(this).removeClass('col-4');
-    //     // $(this).addClass('col-12');
-    
 
-    //     $('.close-arrow').addClass('close-arrow-popup');
-    //     $('.delivery-cards__box__see-btn').addClass('delivery-cards__box__see-btn-none');
-    //     $('.delivery-cards__box__p').addClass('d-none');
-    //     $('.delivery-cards__box__p-box').addClass('d-block');
-        
-    // });
-</script>
      
 <script>
-      // $('.delivery-cards__box-parent').click(function() {
-      //     $(this).addClass('colll');
-      //     $('.delivery-cards__box').addClass('col4');
-      //     $('.delivery-cards__box__p').addClass('delivery-cards__box__pp');    
-         
-      // });
-
-
-</script>
-    
-    
-    
-  
-
-<script>
-   $('.delivery-cards__box__see-btn').click(function() {
-
-
-        $('.delivery-cards__box-parent').addClass('col-12');
-        $('.delivery-cards__box-parent').addClass('full-box');
-
-
-
+      $('.box-1').click(function() {
+        $(this).addClass('colll');
+        $('.delivery-cards__box').addClass('col4');
+        $('.delivery-cards__box__p').addClass('delivery-cards__box__pp');    
+        $(this).addClass('col-12');
+        $(this).addClass('full-box');
         $('.close-arrow').addClass('d-block');
-
-        
-      
-
-
-
-
-
-
-
-
         $('.close-arrow').addClass('close-arrow-popup');
         $('.delivery-cards__box__see-btn').addClass('delivery-cards__box__see-btn-none');
         $('.delivery-cards__box__p').addClass('d-none');
         $('.delivery-cards__box__p-box').addClass('d-block');
+        $('.delivery-cards__box').addClass('col4');
+        $('.delivery-cards__box__p').addClass('delivery-cards__box__pp');
+        $('.delivery-cards__box__see-btn').addClass('delivery-cards__box__see-btn-none');  
+        $('.box-1').addClass('extra-1');
 
-          $('.delivery-cards__box').addClass('col4');
-          $('.delivery-cards__box__p').addClass('delivery-cards__box__pp');
-          $('.delivery-cards__box__see-btn').addClass('delivery-cards__box__see-btn-none');
     });
-    $('.arrow-img').click(function() {
+    $('.box-2').click(function() {
+        $(this).addClass('colll');
+        $('.delivery-cards__box').addClass('col4');
+        $('.delivery-cards__box__p').addClass('delivery-cards__box__pp');    
+        $(this).addClass('col-12');
+        $(this).addClass('full-box');
+        $('.close-arrow').addClass('d-block');
+        $('.close-arrow').addClass('close-arrow-popup');
+        $('.delivery-cards__box__see-btn').addClass('delivery-cards__box__see-btn-none');
+        $('.delivery-cards__box__p').addClass('d-none');
+        $('.delivery-cards__box__p-box').addClass('d-block');
+        $('.delivery-cards__box').addClass('col4');
+        $('.delivery-cards__box__p').addClass('delivery-cards__box__pp');
+        $('.delivery-cards__box__see-btn').addClass('delivery-cards__box__see-btn-none');  
+    });
+    $('.box-3').click(function() {
+        $(this).addClass('colll');
+        $('.delivery-cards__box').addClass('col4');
+        $('.delivery-cards__box__p').addClass('delivery-cards__box__pp');    
+        $(this).addClass('col-12');
+        $(this).addClass('full-box');
+        $('.close-arrow').addClass('d-block');
+        $('.close-arrow').addClass('close-arrow-popup');
+        $('.delivery-cards__box__see-btn').addClass('delivery-cards__box__see-btn-none');
+        $('.delivery-cards__box__p').addClass('d-none');
+        $('.delivery-cards__box__p-box').addClass('d-block');
+        $('.delivery-cards__box').addClass('col4');
+        $('.delivery-cards__box__p').addClass('delivery-cards__box__pp');
+        $('.delivery-cards__box__see-btn').addClass('delivery-cards__box__see-btn-none');  
+    });
 
-    
+    $('.close-arrow').click(function() {
+        $('.box-1').removeClass('colll');
+        $('.delivery-cards__box').removeClass('col4');
+        $('.delivery-cards__box__p').removeClass('delivery-cards__box__pp');    
+        $('.box-1').removeClass('col-12');
+        $('.box-1').removeClass('full-box');
         $('.close-arrow').removeClass('d-block');
-        $('.close-arrow').addClass('d-none');
-
-        $('.delivery-cards__box-parent').removeClass('col-12');
-        $('.delivery-cards__box-parent').addClass('col-4');
-
-
-        $('.delivery-cards__box-parent').addClass('col-4');
-
-        
-
-
-
-
-
-
-        $('.delivery-cards__box-parent').removeClass('full-box');
-
-
-
+        $('.close-arrow').removeClass('close-arrow-popup');
         $('.delivery-cards__box__see-btn').removeClass('delivery-cards__box__see-btn-none');
         $('.delivery-cards__box__p').removeClass('d-none');
         $('.delivery-cards__box__p-box').removeClass('d-block');
-
-          $('.delivery-cards__box').removeClass('col4');
-          $('.delivery-cards__box__p').removeClass('delivery-cards__box__pp');
-          $('.delivery-cards__box__see-btn').removeClass('delivery-cards__box__see-btn-none');
-
-
+        $('.delivery-cards__box').removeClass('col4');
+        $('.delivery-cards__box__p').removeClass('delivery-cards__box__pp');
+        $('.delivery-cards__box__see-btn').removeClass('delivery-cards__box__see-btn-none');  
+        
     });
 
-//     $(".delivery-cards__box-parent").click(function () {
-//     $(".col-12").css("display", "none");
-// });
+    $('.close-arrow').click(function() {
+        $('.box-2').removeClass('colll');
+        $('.delivery-cards__box').removeClass('col4');
+        $('.delivery-cards__box__p').removeClass('delivery-cards__box__pp');    
+        $('.box-2').removeClass('col-12');
+        $('.box-2').removeClass('full-box');
+        $('.close-arrow').removeClass('d-block');
+        $('.close-arrow').removeClass('close-arrow-popup');
+        $('.delivery-cards__box__see-btn').removeClass('delivery-cards__box__see-btn-none');
+        $('.delivery-cards__box__p').removeClass('d-none');
+        $('.delivery-cards__box__p-box').removeClass('d-block');
+        $('.delivery-cards__box').removeClass('col4');
+        $('.delivery-cards__box__p').removeClass('delivery-cards__box__pp');
+        $('.delivery-cards__box__see-btn').removeClass('delivery-cards__box__see-btn-none');  
+    });
+    $('.close-arrow').click(function() {
+        $('.box-3').removeClass('colll');
+        $('.delivery-cards__box').removeClass('col4');
+        $('.delivery-cards__box__p').removeClass('delivery-cards__box__pp');    
+        $('.box-3').removeClass('col-12');
+        $('.box-3').removeClass('full-box');
+        $('.close-arrow').removeClass('d-block');
+        $('.close-arrow').removeClass('close-arrow-popup');
+        $('.delivery-cards__box__see-btn').removeClass('delivery-cards__box__see-btn-none');
+        $('.delivery-cards__box__p').removeClass('d-none');
+        $('.delivery-cards__box__p-box').removeClass('d-block');
+        $('.delivery-cards__box').removeClass('col4');
+        $('.delivery-cards__box__p').removeClass('delivery-cards__box__pp');
+        $('.delivery-cards__box__see-btn').removeClass('delivery-cards__box__see-btn-none');  
+    });
+
+
+    // $('.start-shopping').click(function() {
+    //     $('.delivery-cards__box').removeClass('col4');
+    //     $('.delivery-cards__box__p').removeClass('delivery-cards__box__pp');    
+    //     $('.delivery-cards__box-parent').removeClass('col-12');
+    //     $('.delivery-cards__box-parent').removeClass('full-box');
+    //     $('.close-arrow').removeClass('d-block');
+    //     $('.close-arrow').removeClass('close-arrow-popup');
+    //     $('.delivery-cards__box__see-btn').removeClass('delivery-cards__box__see-btn-none');
+    //     $('.delivery-cards__box__p').removeClass('d-none');
+    //     $('.delivery-cards__box__p-box').removeClass('d-block');
+    //     $('.delivery-cards__box').removeClass('col4');
+    //     $('.delivery-cards__box__p').removeClass('delivery-cards__box__pp');
+    //     $('.delivery-cards__box__see-btn').removeClass('delivery-cards__box__see-btn-none');  
+    // });
+    
+
 </script>
 </body>
 </html>
