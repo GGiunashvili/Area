@@ -155,6 +155,7 @@ input[type='reset'] {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  overflow: hidden;
 
   &__div {
     text-align: center;
@@ -176,6 +177,7 @@ input[type='reset'] {
   display: flex;
   margin-top: 23px;
   margin-bottom: 40px;
+
   &__box {
     box-shadow: 0px 5px 10px #00000029;
 
@@ -529,6 +531,7 @@ input[type='reset'] {
   }
   .delivery-cards__box-parent {
     padding: 2px;
+    margin-right: 10px;
   }
   .delivery-cards__middle {
     margin: unset;
