@@ -660,6 +660,8 @@ input[type='reset'] {
   }
   .delivery-cards__box-parent {
     padding: 2px;
+  }
+  .full-box {
     margin-right: 10px;
   }
   .delivery-cards__middle {
