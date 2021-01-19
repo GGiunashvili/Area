@@ -584,6 +584,40 @@ input[type='reset'] {
   right: 22px;
 }
 
+.pink-box,
+.green-box,
+.blue-box,
+.geolab-box {
+  -webkit-animation: sway1 8s infinite;
+          animation: sway1 8s infinite;
+  -webkit-transform-origin: 50% 100% 0;
+          transform-origin: 50% 100% 0;
+}
+
+@-webkit-keyframes sway1 {
+  0%,
+  100% {
+    -webkit-transform: rotate(-8deg);
+            transform: rotate(-8deg);
+  }
+  50% {
+    -webkit-transform: rotate(6deg);
+            transform: rotate(6deg);
+  }
+}
+
+@keyframes sway1 {
+  0%,
+  100% {
+    -webkit-transform: rotate(-8deg);
+            transform: rotate(-8deg);
+  }
+  50% {
+    -webkit-transform: rotate(6deg);
+            transform: rotate(6deg);
+  }
+}
+
 @media only screen and (max-width: 992px) {
   .delivery-box-one-mob {
     -webkit-box-align: center;

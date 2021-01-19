@@ -456,6 +456,23 @@ input[type='reset'] {
   z-index: 999999999999999;
   right: 22px;
 }
+
+.pink-box,
+.green-box,
+.blue-box,
+.geolab-box {
+  animation: sway1 8s infinite;
+  transform-origin: 50% 100% 0;
+}
+@keyframes sway1 {
+  0%,
+  100% {
+    transform: rotate(-8deg);
+  }
+  50% {
+    transform: rotate(6deg);
+  }
+}
 @media only screen and (max-width: 992px) {
   .delivery-box-one-mob {
     align-items: center;
