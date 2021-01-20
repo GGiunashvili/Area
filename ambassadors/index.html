@@ -47,29 +47,23 @@
       var value1 = 0;
       var value2 = 0;
   
-      var titles = ["0 - 5", "5 - 10", "10 - 15", "15 - 20", "20 - 25", "25 - 30", "30 - 40", "40 - 50", "50 - 60", "60 - 70"];
-      var values = [7, 10, 15, 18, 22, 30, 35, 45, 50, 65];
-
       function updateResult() {
-        result.text((values[value1]).toFixed() );
+        result.text((value1 * value2 * 1 * 1).toFixed() );
       }
-
-      value1 = 1;
-      updateResult();
       var slider1 = $( "#slider1" ).slider({
         min: 0,
-        max: titles.length - 1,
-        value: value1,
-        step: 1,
+        max: 70,
+        value: 30,
+        step: 5,
         create: function() {
           // handle1.text( $( this ).slider( "value" ) );
           value1 = $( this ).slider( "value" );
-          value1div.text( titles[$( this ).slider( "value" )] );
+          value1div.text( $( this ).slider( "value" ) );
           
         },
         slide: function( event, ui ) {
           // handle1.text( ui.value );
-          value1div.text( titles[ui.value] );
+          value1div.text( ui.value );
           value1 = ui.value;
           updateResult();
         }
