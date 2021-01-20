@@ -782,4 +782,19 @@ input[type='reset'] {
             transform: translate(-32%, -50%);
   }
 }
+
+@media only screen and (max-width: 320px) {
+  .delivery-box-two__div__p {
+    font-size: 15px;
+  }
+  .see-more-btn {
+    font-size: 7px;
+  }
+  .delivery-price-title {
+    font-size: 11px;
+  }
+  .delivery-cards__box__p {
+    font-size: 8px;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
