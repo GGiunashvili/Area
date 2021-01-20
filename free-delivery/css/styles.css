@@ -693,11 +693,14 @@ input[type='reset'] {
     font-size: 10px;
   }
   .see-more-btn {
-    font-size: 7px;
-    top: 62%;
+    font-size: 10px;
+    top: 40%;
+    left: 33%;
+    -webkit-transform: translate(-32%, -50%);
+            transform: translate(-32%, -50%);
   }
   .see-more-img {
-    height: 45px;
+    height: 30px;
   }
   .delivery-cards__box__see-btn {
     height: 33px;
