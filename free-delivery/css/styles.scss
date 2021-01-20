@@ -145,6 +145,7 @@ input[type='reset'] {
   justify-content: center;
   position: relative;
   cursor: pointer;
+  margin-top: 10px;
 }
 .delivery-box-one {
   // background-image: url(../image/Background.svg);
@@ -348,8 +349,8 @@ input[type='reset'] {
 }
 .see-more-btn {
   position: absolute;
-  top: 48%;
-  left: 50%;
+  top: 44%;
+  left: 54%;
   transform: translate(-70%, -50%);
   font-size: 12px;
   font-family: markgeo-bold;

@@ -179,6 +179,7 @@ input[type='reset'] {
           justify-content: center;
   position: relative;
   cursor: pointer;
+  margin-top: 10px;
 }
 
 .delivery-box-one {
@@ -445,8 +446,8 @@ input[type='reset'] {
 
 .see-more-btn {
   position: absolute;
-  top: 48%;
-  left: 50%;
+  top: 44%;
+  left: 54%;
   -webkit-transform: translate(-70%, -50%);
           transform: translate(-70%, -50%);
   font-size: 12px;
