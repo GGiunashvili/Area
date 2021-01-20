@@ -686,7 +686,7 @@ input[type='reset'] {
     font-size: 13px;
   }
   .delivery-price-txt {
-    font-size: 7px;
+    font-size: 10px;
   }
   .delivery-cards__box__p-box {
     font-size: 10px;
@@ -712,7 +712,7 @@ input[type='reset'] {
     width: 30px;
   }
   .delivery-cards__box-parent {
-    padding: 10px;
+    padding: 5px;
   }
   .delivery-cards__middle {
     margin: unset;
