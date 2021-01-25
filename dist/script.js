@@ -8,11 +8,11 @@ window.onload = function() {
         questions: [{
                 text: "How would you describe your personality?",
                 responses: [{
-                        text: 'Im serious and dark',
+                        text: 'Batman',
                         value: 'Batman'
                     },
                     {
-                        text: 'Arrogant, but charming',
+                        text: 'Superman',
                         value: 'Superman'
                     },
                     {
@@ -28,11 +28,11 @@ window.onload = function() {
                         value: 'The Flash'
                     },
                     {
-                        text: 'For justice',
+                        text: 'Batman',
                         value: 'Batman'
                     },
                     {
-                        text: 'For popularity',
+                        text: 'Superman',
                         value: 'Superman'
                     }
                 ]
@@ -40,7 +40,7 @@ window.onload = function() {
             {
                 text: "Who would you most hang around with?",
                 responses: [{
-                        text: 'Wonder Woman',
+                        text: 'Superman',
                         value: 'Superman'
                     },
                     {
@@ -48,7 +48,7 @@ window.onload = function() {
                         value: 'The Flash'
                     },
                     {
-                        text: 'Robin',
+                        text: 'Batman',
                         value: 'Batman'
                     }
                 ]
@@ -56,7 +56,7 @@ window.onload = function() {
             {
                 text: "What's your favourite colour?",
                 responses: [{
-                        text: 'Black',
+                        text: 'Batman',
                         value: 'Batman'
                     },
                     {
@@ -64,7 +64,7 @@ window.onload = function() {
                         value: 'The Flash'
                     },
                     {
-                        text: 'Blue',
+                        text: 'Superman',
                         value: 'Superman'
                     }
                 ]
@@ -76,12 +76,13 @@ window.onload = function() {
                         value: 'The Flash'
                     },
                     {
-                        text: 'At night',
+                        text: 'Batman',
                         value: 'Batman'
                     },
                     {
-                        text: 'When they need me to',
+                        text: 'Superman',
                         value: 'Superman'
+                        
                     }
                 ]
             },
