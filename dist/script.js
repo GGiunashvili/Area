@@ -12,7 +12,7 @@ window.onload = function() {
                         value: 'Batman'
                     },
                     {
-                        text: 'Superman',
+                        text: '<p>Here, have an Archer</p><img src="https://i.imgur.com/dipkE0v.jpg"/>',
                         value: 'Superman'
                     },
                     {
@@ -21,54 +21,7 @@ window.onload = function() {
                     }
                 ]
             },
-            {
-                text: "Why did you want to become a superhero?",
-                responses: [{
-                        text: 'For the thrills',
-                        value: 'The Flash'
-                    },
-                    {
-                        text: 'Batman',
-                        value: 'Batman'
-                    },
-                    {
-                        text: 'Superman',
-                        value: 'Superman'
-                    }
-                ]
-            },
-            {
-                text: "Who would you most hang around with?",
-                responses: [{
-                        text: 'Superman',
-                        value: 'Superman'
-                    },
-                    {
-                        text: 'Green Arrow',
-                        value: 'The Flash'
-                    },
-                    {
-                        text: 'Batman',
-                        value: 'Batman'
-                    }
-                ]
-            },
-            {
-                text: "What's your favourite colour?",
-                responses: [{
-                        text: 'Batman',
-                        value: 'Batman'
-                    },
-                    {
-                        text: 'Red',
-                        value: 'The Flash'
-                    },
-                    {
-                        text: 'Superman',
-                        value: 'Superman'
-                    }
-                ]
-            },
+          
             {
                 text: "When do you help people?",
                 responses: [{
@@ -80,7 +33,7 @@ window.onload = function() {
                         value: 'Batman'
                     },
                     {
-                        text: 'Superman',
+                        text: '<p>Here, have an Archer</p><img src="https://i.imgur.com/dipkE0v.jpg"/>',
                         value: 'Superman'
                         
                     }
