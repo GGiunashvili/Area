@@ -188,18 +188,22 @@ a:hover {
 }
 .btn:focus {
   box-shadow: unset;
-  text-decoration: unset;
+  text-decoration: none;
 }
 .btn-link:hover {
   color: white;
+  text-decoration: none;
 }
 .cla {
   transform: rotate(45deg) !important;
   transition: 0.3s !important;
 }
+.footer__col-one__title__txt:focus {
+  transform: rotate(45deg);
+}
 @media only screen and (max-width: 992px) {
   .footer__col-one__p-box__txt {
-    font-size: 10px;
+    font-size: 12px;
   }
   .footer__col-one__title {
     margin-bottom: unset;
@@ -267,5 +271,6 @@ a:hover {
   }
   .contact-us-last {
     padding-bottom: 50px;
+    margin-left: 5px;
   }
 }
