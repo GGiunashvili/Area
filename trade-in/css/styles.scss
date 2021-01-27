@@ -66,7 +66,7 @@ a:hover {
   &__box {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
 
     &__nav-box {
@@ -198,9 +198,7 @@ a:hover {
   transform: rotate(45deg) !important;
   transition: 0.3s !important;
 }
-.footer__col-one__title__txt:focus {
-  transform: rotate(45deg);
-}
+
 @media only screen and (max-width: 992px) {
   .footer__col-one__p-box__txt {
     font-size: 12px;
@@ -244,9 +242,9 @@ a:hover {
     align-items: center;
     justify-content: space-between;
   }
-  #accordion {
-    padding: 0;
-  }
+  // #accordion {
+  //   padding: 0;
+  // }
   .bog-icon {
     display: none;
   }
