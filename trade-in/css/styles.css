@@ -1,0 +1,270 @@
+@font-face {
+  src: url(../fonts/MarkGEO-Bold.ttf);
+  font-family: markgeo-bold;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEO-Regular.ttf);
+  font-family: markgeo-regular;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEO-SemiBold.ttf);
+  font-family: markgeo-semibold;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEOCAPS-Bold.ttf);
+  font-family: markgeocaps-bold;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEO-Medium.ttf);
+  font-family: markgeocaps-medium;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEOCAPS-Medium.ttf);
+  font-family: markgeocapscaps-medium;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEO-SemiBold.ttf);
+  font-family: markgeocapscaps-Semibold;
+}
+
+@font-face {
+  src: url(../fonts/MARKGEOCAPS-SEMIBOLD.TTF);
+  font-family: markgeocapscaps-Semiboldcaps;
+}
+
+@font-face {
+  src: url(../fonts/HELVETICANEUELTGEOW82-75BD.TTF);
+  font-family: helve-bold;
+}
+
+@font-face {
+  src: url(../fonts/HELVETICANEUELTGEOW82-55RM.TTF);
+  font-family: helve-bold-rm;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f9f9fb;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.header {
+  height: 80px;
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.header__box__nav-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__box__nav-box__header-nav {
+  margin: 0 10px;
+  font-size: 14px;
+  font-family: markgeocapscaps-Semiboldcaps;
+}
+
+.header__box__extra-logo {
+  height: 40px;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__col-one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__col-one__p-box__txt {
+  font-size: 12px;
+  color: #918f94;
+  font-weight: 300;
+  font-family: helve-bold-rm;
+  line-height: 1.2;
+  height: 36px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__col-one__p-box__txt-parent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5px 0;
+}
+
+.footer__col-one__p-box__txt-parent__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #55525a;
+  border-radius: 10px;
+  height: 36px;
+  width: 36px;
+  margin-right: 10px;
+}
+
+.footer__col-one__p-box__txt-parent__box:hover {
+  background-color: #3655ff;
+}
+
+.footer__col-one__p__txt {
+  color: #918f94;
+  line-height: 1.2;
+}
+
+.footer__col-one__title {
+  height: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.footer__col-one__title__txt {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: helve-bold;
+  font-weight: 400;
+}
+
+.footer__col-one__title__logo {
+  height: 40px;
+}
+
+@media only screen and (max-width: 992px) {
+  .header {
+    height: 80px;
+  }
+  .header__box {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  .header__box__extra-logo {
+    height: 26px;
+  }
+  .header__box__nav-box {
+    display: none !important;
+  }
+}
+
+.responsive-footer {
+  display: none;
+}
+
+@media only screen and (max-width: 992px) {
+  .footer__col-one__p-box__txt {
+    font-size: 10px;
+  }
+  .footer__col-one__title {
+    margin-bottom: unset;
+  }
+  .my-card-header {
+    padding: 0.75rem 0.25rem !important;
+  }
+  .responsive-footer {
+    display: block;
+  }
+  .resposive-footer-icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .connect-us-txt-mobile {
+    display: none !important;
+  }
+  .footer__col-one {
+    display: none;
+  }
+  .my-card {
+    background-color: #2b2731;
+    border-top: 1px solid white;
+    border-radius: 0;
+  }
+  .my-card-body {
+    font-size: 12px;
+    color: #918f94;
+    font-weight: 300;
+    font-family: markgeocapscaps-medium;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .header__box__extra-logo {
+    height: 18px;
+    margin-left: 4px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

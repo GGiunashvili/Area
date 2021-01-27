@@ -1,0 +1,214 @@
+@font-face {
+  src: url(../fonts/MarkGEO-Bold.ttf);
+  font-family: markgeo-bold;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEO-Regular.ttf);
+  font-family: markgeo-regular;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEO-SemiBold.ttf);
+  font-family: markgeo-semibold;
+}
+@font-face {
+  src: url(../fonts/MarkGEOCAPS-Bold.ttf);
+  font-family: markgeocaps-bold;
+}
+@font-face {
+  src: url(../fonts/MarkGEO-Medium.ttf);
+  font-family: markgeocaps-medium;
+}
+@font-face {
+  src: url(../fonts/MarkGEOCAPS-Medium.ttf);
+  font-family: markgeocapscaps-medium;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEO-SemiBold.ttf);
+  font-family: markgeocapscaps-Semibold;
+}
+
+@font-face {
+  src: url(../fonts/MARKGEOCAPS-SEMIBOLD.TTF);
+  font-family: markgeocapscaps-Semiboldcaps;
+}
+@font-face {
+  src: url(../fonts/HELVETICANEUELTGEOW82-75BD.TTF);
+  font-family: helve-bold;
+}
+@font-face {
+  src: url(../fonts/HELVETICANEUELTGEOW82-55RM.TTF);
+  font-family: helve-bold-rm;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #f9f9fb;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.header {
+  height: 80px;
+  background: white;
+  display: flex;
+  align-items: center;
+
+  &__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+    &__nav-box {
+      display: flex;
+
+      &__header-nav {
+        margin: 0 10px;
+        font-size: 14px;
+        font-family: markgeocapscaps-Semiboldcaps;
+      }
+    }
+  }
+}
+.header__box__extra-logo {
+  height: 40px;
+}
+.footer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+
+  &__col-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__p-box {
+      &__txt {
+        font-size: 12px;
+        color: #918f94;
+        font-weight: 300;
+        font-family: helve-bold-rm;
+        line-height: 1.2;
+        height: 36px;
+        display: flex;
+        align-items: center;
+      }
+      &__txt-parent {
+        display: flex;
+        align-items: center;
+        margin: 5px 0;
+
+        &__box {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: #55525a;
+          border-radius: 10px;
+          height: 36px;
+          width: 36px;
+          margin-right: 10px;
+        }
+        &__box:hover {
+          background-color: #3655ff;
+        }
+      }
+    }
+    &__p {
+      &__txt {
+        color: #918f94;
+        line-height: 1.2;
+      }
+    }
+
+    &__title {
+      height: 40px;
+      align-items: center;
+      display: flex;
+      width: 100%;
+      margin-bottom: 20px;
+      &__txt {
+        color: #ffffff;
+        font-size: 14px;
+        font-family: helve-bold;
+
+        font-weight: 400;
+      }
+      &__logo {
+        height: 40px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .header {
+    height: 80px;
+    &__box {
+      justify-content: center !important;
+      &__extra-logo {
+        height: 26px;
+      }
+
+      &__nav-box {
+        display: none !important;
+      }
+    }
+  }
+}
+.responsive-footer {
+  display: none;
+}
+
+@media only screen and (max-width: 992px) {
+  .footer__col-one__p-box__txt {
+    font-size: 10px;
+  }
+  .footer__col-one__title {
+    margin-bottom: unset;
+  }
+  .my-card-header {
+    padding: 0.75rem 0.25rem !important;
+  }
+  .responsive-footer {
+    display: block;
+  }
+  .resposive-footer-icons {
+    display: flex;
+  }
+  .connect-us-txt-mobile {
+    display: none !important;
+  }
+
+  .footer__col-one {
+    display: none;
+  }
+  .my-card {
+    background-color: #2b2731;
+    border-top: 1px solid white;
+    border-radius: 0;
+  }
+  .my-card-body {
+    font-size: 12px;
+    color: #918f94;
+    font-weight: 300;
+    font-family: markgeocapscaps-medium;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .header__box__extra-logo {
+    height: 18px;
+    margin-left: 4px;
+  }
+}
