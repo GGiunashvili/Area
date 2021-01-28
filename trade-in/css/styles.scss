@@ -83,6 +83,43 @@ a:hover {
 .header__box__extra-logo {
   height: 40px;
 }
+.header-alert {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #7a1dff;
+  height: 50px;
+  &__p {
+    color: white;
+    margin-left: 5px;
+    font-size: 12px;
+    font-family: helve-bold-rm;
+  }
+}
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url(..//image//ban.svg);
+  width: 100%;
+  height: 558px;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  background-size: cover;
+  &__h1 {
+    font-size: 32px;
+    color: white;
+    font-family: markgeo-semibold;
+  }
+  &__p {
+    &__text {
+      font-size: 20px;
+      color: white;
+      font-family: markgeo-semibold;
+    }
+  }
+}
 .footer {
   display: flex;
   width: 100%;
