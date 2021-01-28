@@ -304,12 +304,30 @@ button:focus {
 .exchange-img {
   padding: 0;
 }
+.middle {
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+.component-mob {
+  display: none;
+}
+.btn-mob {
+  display: none;
+}
+
 @media only screen and (max-width: 1440px) {
+  .banner-col-1 {
+    height: 300px;
+  }
   .banner-container-head {
     max-width: 1250px;
   }
   .banner-container {
     max-width: 1140px;
+  }
+  .exchange-content__first__h1,
+  .exchange-content__h1 {
+    font-size: 26px;
   }
   .banner {
     height: 400px;
@@ -319,6 +337,13 @@ button:focus {
   }
   .col-8 {
     height: 300px !important;
+  }
+  .exchange__h1 {
+    font-size: 26px;
+  }
+  .exchange-content__first__p,
+  .exchange__p {
+    font-size: 20px;
   }
 }
 @media only screen and (max-width: 992px) {
@@ -414,7 +439,111 @@ button:focus {
     display: none;
   }
 }
-
+@media only screen and (max-width: 768px) {
+  .mob-second-third {
+    margin-top: 20px !important;
+  }
+  .btn-exchange {
+    margin-bottom: 25px;
+  }
+  .content-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .lab-line {
+    width: 45px;
+  }
+  .exchange__h1 {
+    font-size: 16px;
+    font-size: 1.7;
+  }
+  .exchange__p {
+    font-size: 12px;
+    line-height: 2.4;
+  }
+  .header-alert {
+    display: none;
+  }
+  .banner-container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .banner-container-head {
+    padding-left: 30px;
+    padding-right: 29px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+  .banner__p__text-middle {
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+  .btn-mob {
+    display: block;
+    width: 140px;
+    height: 50px;
+  }
+  .banner__btn__a {
+    font-size: 12px;
+  }
+  .btn-desk {
+    display: none;
+  }
+  .banner {
+    height: 570px;
+    padding: 0;
+    &__h1 {
+      font-size: 16px;
+      margin-bottom: 15px;
+    }
+    &__p {
+      &__text {
+        font-size: 12px;
+      }
+    }
+  }
+  .banner-header {
+    flex-direction: column;
+  }
+  .banner_img {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    height: 151px;
+    width: auto !important;
+  }
+  .component-desk {
+    display: none;
+  }
+  .component-mob {
+    display: block;
+  }
+  .component-mob-img {
+    border-radius: 20px 20px 5px 5px;
+  }
+  .exchange-content__first__p {
+    font-size: 16px;
+    line-height: 1.3;
+  }
+  .exchange-content__first {
+    border-radius: 0px 0 12px 12px;
+  }
+  .exchange-content__first__h1 {
+    font-size: 24px;
+  }
+  .content-title {
+    margin-top: 15px;
+  }
+  .lab-line-sec {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .middle {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
 @media only screen and (max-width: 575px) {
   .header__box__extra-logo {
     height: 18px;
