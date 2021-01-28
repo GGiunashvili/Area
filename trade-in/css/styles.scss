@@ -237,7 +237,7 @@ button:focus {
   margin-left: 10px;
 }
 .footer-container {
-  max-width: 1200px;
+  max-width: 1650px;
 }
 .exchange {
   justify-content: center;
@@ -322,7 +322,48 @@ button:focus {
   display: flex;
   flex-direction: column;
 }
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.row-ban {
+  width: 1650px;
+}
+.tick {
+  position: absolute;
+  left: -15px;
+  margin-top: -25px;
+}
+
 @media only screen and (max-width: 1440px) {
+  .row-ban {
+    width: 1140px;
+  }
+  .footer-container {
+    max-width: 1200px;
+  }
   .banner-col-1 {
     height: 300px;
   }

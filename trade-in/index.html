@@ -240,10 +240,80 @@
         <div class="col-12 col-md-6 component-desk p-0">
           <img class="w-100" src="image/Rectangle 2006-1.png" alt="">
         </div>
+
+
+
+
+
+
+
+
+
+
+        
         
       </div>
     </div>
 
+
+    <div style="background-color:#F5F5F5; margin-top: 100px; position: relative; display: flex; height: 558px;">
+      <div class="container banner-container">
+        <div class="row row-ban">
+          <div class="col-12 col-md-7 exchange-content__first" style="background-image: none;" >
+            <div class="content-title">
+              <div class="w-100">
+                <h1 class="exchange-content__first__h1">როგორ გავცვალო?</h1>
+                <h2 class="exchange-content__first__p sec-exchange-p">გაცვლის პროცესი მარტივია და საშუალოდ 1 სამუშაო დღე სჭირდება:</h2>
+              </div>
+             
+              <div>
+                <div class="d-flex align-items-center">
+                  <img class="tick" src="image/Path 17023.svg" alt="">
+                  <p class="exchange-content__first__p sec-exchange-p">ირჩევ რისი გაცვლა გსურს და მიჰყვები მარტივ პროცესს;</p>
+                </div>
+    
+                <div class="d-flex align-items-center">
+                  <img class="tick" src="image/Path 17023.svg" alt="">
+    
+                <p class="exchange-content__first__p sec-exchange-p">სპეციალური ფორმის საშუალებით გვაწვდი ინფორმაციას ნივთის მდგომარეობის შესახებ;</p>
+                </div>
+                
+                <div class="d-flex align-items-center">
+                  <img class="tick" src="image/Path 17023.svg" alt="">
+    
+                  <p class="exchange-content__first__p sec-exchange-p">ტექნიკის წასაღებად გიკავშირდებიან ჩვენი ჩვენი პარტნიორები და ტექნიკური ექსპერტები;</p>
+                </div>
+                
+                <div class="d-flex align-items-center">
+                  <img class="tick" src="image/Path 17023.svg" alt="">
+    
+                   <p class="exchange-content__first__p sec-exchange-p">მიაქვთ ტექნიკა და ღირებულებას იღებ ექსტრას ბალანსზე;</p>
+                </div>
+                
+    
+    
+              </div>
+              <button class="banner__btn btn-exchange">
+                <a class="banner__btn__a btn-exchange__a">დაათვალიერე</a>
+              </button>
+    
+            </div>
+          </div>
+          <div class="col-12 col-md-5 component-desk p-0" style="height: 700; ">
+                <div class="swiper-container" style="position: absolute; top:-80px; height: 700px;">
+                  <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img src="image/Watch_S5_44mm_SpaceGrey+BlackBand_affilliates_800x800.png" alt=""></div>
+                      <div class="swiper-slide"><img src="image/iPhone_SE_White_2-up_Hero_Vertical_GB-EN_PRINT-(2).png" alt=""></div>
+                      <div class="swiper-slide"><img src="image/iPhone_SE_White_2-up_Hero_Vertical_GB-EN_PRINT-(2).png" alt=""></div>
+    
+                  </div>
+                  <!-- Add Pagination -->
+                  <div class="swiper-pagination"></div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
     <div style="background-color: #2B2731;   margin-top: 100px; ">
@@ -523,7 +593,7 @@
       </div>
     </div>
     <div class="extra-footer-box" style="background-color: #413d46;">
-      <div class="container">
+      <div class="container ">
         <div class="row">
           <div class="extra-footer">
             <p class="footer__col-one__p-box__txt">© 2020 Extra.ge ყველა უფლება დაცული</p>
@@ -549,7 +619,18 @@
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+        direction: 'vertical',
+        slidesPerView: 1,
+        spaceBetween: 30,
+        mousewheel: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+    });
+</script>
     
 
 </body>
