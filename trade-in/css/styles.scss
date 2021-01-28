@@ -314,7 +314,14 @@ button:focus {
 .btn-mob {
   display: none;
 }
-
+.soc-media-btn {
+  position: fixed;
+  z-index: 99;
+  right: 20px;
+  bottom: 40px;
+  display: flex;
+  flex-direction: column;
+}
 @media only screen and (max-width: 1440px) {
   .banner-col-1 {
     height: 300px;

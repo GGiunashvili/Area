@@ -433,6 +433,20 @@ button:focus {
   display: none;
 }
 
+.soc-media-btn {
+  position: fixed;
+  z-index: 99;
+  right: 20px;
+  bottom: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 @media only screen and (max-width: 1440px) {
   .banner-col-1 {
     height: 300px;
