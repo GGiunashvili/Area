@@ -674,6 +674,11 @@ button:focus {
 }
 
 @media only screen and (max-width: 768px) {
+  .icon-1,
+  .icon-2,
+  .icon-3 {
+    margin-right: 5px;
+  }
   .banner-slider-box {
     height: 635px;
   }
