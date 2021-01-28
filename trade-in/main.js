@@ -22,6 +22,6 @@ $('.icon-2').click( function() {
 
 $('.icon-3').click( function() {
     $('.icon-1').removeClass('rotate');
-    $('.icon-3').removeClass('rotate'); 
+    $('.icon-2').removeClass('rotate'); 
                                                
 } );
