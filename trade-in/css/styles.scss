@@ -378,6 +378,9 @@ button:focus {
   // margin-right: -46px !important;
   // z-index: 999 !important;
 }
+.rotate {
+  transform: rotate(45deg);
+}
 @media only screen and (max-width: 1440px) {
   .swiper-img {
     width: 100%;
