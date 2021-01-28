@@ -4,7 +4,17 @@
 // } );
 
 $(document).ready(function(){
-    $(".footer__col-one__title__txt").click(function(){
+    $(".icon-1").click(function(){
+        $(this).toggleClass("rotate");
+    });
+});
+$(document).ready(function(){
+    $(".icon-2").click(function(){
+        $(this).toggleClass("rotate");
+    });
+});
+$(document).ready(function(){
+    $(".icon-3").click(function(){
         $(this).toggleClass("rotate");
     });
 });
