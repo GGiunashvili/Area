@@ -438,7 +438,7 @@ button:focus {
 .pop-up-img {
   transition: 0.9s;
 }
-.pop-up-img:hover {
+.pop-up-detail:hover > .pop-up-img {
   position: absolute;
   transform: translate(0px, -20px);
 }
