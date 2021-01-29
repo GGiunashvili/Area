@@ -511,6 +511,106 @@ button:focus {
           transform: rotate(45deg);
 }
 
+.my-modal-content {
+  background-image: url(../image/5000.svg);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 23px;
+}
+
+.swiper-slide {
+  background-color: unset;
+}
+
+.modal-dialog {
+  width: 1200px !important;
+}
+
+.see-all-product {
+  width: 617px;
+  height: 96px;
+  background: #7a1dff;
+  border-radius: 15px;
+}
+
+.pop-up-detail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  border-radius: 15px;
+  position: relative;
+  height: 212px;
+  width: 174px;
+}
+
+.pop-up-img {
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+}
+
+.pop-up-img:hover {
+  position: absolute;
+  -webkit-transform: translate(0px, -20px);
+          transform: translate(0px, -20px);
+}
+
+.pop-up-detail > p {
+  bottom: 17px;
+  font-size: 16px;
+  position: absolute;
+  font-family: markgeocapscaps-Semibold;
+  text-align: center;
+}
+
+.my-modal-header {
+  border-bottom: unset;
+  border-top-left-radius: unset;
+  border-top-right-radius: unset;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.close-x {
+  font-size: 47px;
+  color: white;
+  padding-right: 10px;
+}
+
+.my-modal-title {
+  font-family: markgeocapscaps-Semiboldcaps;
+  position: absolute;
+  color: white;
+  font-size: 32px;
+  margin-top: 7px;
+}
+
+.close-close {
+  padding: 2rem 1rem !important;
+}
+
+.my-modal-footer {
+  border-top: unset;
+  margin-top: 64px;
+  margin-bottom: 59px;
+}
+
+.my-modal-body {
+  margin-top: 34px;
+}
+
 @media only screen and (max-width: 1440px) {
   .swiper-img {
     width: 100%;
@@ -815,6 +915,13 @@ button:focus {
   .contact-us-last {
     padding-bottom: 50px;
     margin-left: 5px;
+  }
+}
+
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 1200px !important;
+    margin: 1.75rem auto;
   }
 }
 /*# sourceMappingURL=styles.css.map */
