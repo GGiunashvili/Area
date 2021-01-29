@@ -405,12 +405,36 @@ button:focus {
   margin-bottom: 30px;
 }
 
+.btn-exchange:hover {
+  background-color: #7a1dff;
+}
+
+.btn-exchange:hover > a {
+  color: white;
+}
+
+.banner-btn-one:hover {
+  background-color: #7a1dff;
+}
+
+.banner-btn-one:hover > a {
+  color: white;
+}
+
+.banner-btn-one {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border: none;
+}
+
 .btn-exchange {
   background: #e4dbf2;
   border-color: #e4dbf2 !important;
   outline: none;
   border: none;
   outline: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 .btn-exchange__a {
@@ -813,6 +837,10 @@ button:focus {
 }
 
 @media only screen and (max-width: 768px) {
+  .exchange-content__h1 {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
   .pop-extra {
     height: 58px !important;
     margin-top: 40px !important;
@@ -876,6 +904,7 @@ button:focus {
   .sec-exchange-p {
     font-size: 15px !important;
     line-height: 2 !important;
+    font-family: markgeo-semibold;
   }
   .tick {
     left: -5px;
