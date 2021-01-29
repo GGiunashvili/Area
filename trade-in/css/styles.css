@@ -406,6 +406,14 @@ button:focus {
   margin-bottom: 30px;
 }
 
+.btn-ex {
+  color: #7a1dff !important;
+}
+
+.btn-exchange:hover > .btn-ex {
+  color: white !important;
+}
+
 .btn-exchange:hover {
   background-color: #7a1dff;
 }
