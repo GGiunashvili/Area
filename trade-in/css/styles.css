@@ -617,6 +617,11 @@ button:focus {
   background-color: unset;
 }
 
+.pop-extra {
+  height: 80px !important;
+  margin-top: 40px;
+}
+
 @media only screen and (max-width: 1440px) {
   .my-modal-body {
     margin-top: unset;
@@ -808,6 +813,10 @@ button:focus {
 }
 
 @media only screen and (max-width: 768px) {
+  .pop-extra {
+    height: 58px !important;
+    margin-top: 40px !important;
+  }
   .see-all-product {
     font-size: 14px;
     width: 282px;
