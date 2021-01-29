@@ -876,3 +876,8 @@ button:focus {
     margin: 1.75rem auto;
   }
 }
+@media (min-width: 320px) {
+  .banner__p__text {
+    font-size: 10px;
+  }
+}
