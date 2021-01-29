@@ -399,6 +399,7 @@ button:focus {
   height: 96px;
   background: #7a1dff;
   border-radius: 15px;
+  font-family: markgeocapscaps-Semiboldcaps;
 }
 .pop-up-detail {
   display: flex;
@@ -409,6 +410,7 @@ button:focus {
   position: relative;
   height: 212px;
   width: 174px;
+  cursor: pointer;
 }
 .pop-up-img {
   transition: 0.9s;
@@ -455,7 +457,39 @@ button:focus {
 .my-modal-body {
   margin-top: 34px;
 }
+.modal-content {
+  background-color: unset;
+}
 @media only screen and (max-width: 1440px) {
+  .my-modal-body {
+    margin-top: unset;
+  }
+  .my-modal-title {
+    font-size: 24px;
+  }
+  .close-x {
+    font-size: 35px;
+  }
+  .see-all-product {
+    width: 425px;
+    height: 76px;
+  }
+  .pop-up-img {
+    width: auto;
+    height: 124px;
+  }
+  .pop-up-detail {
+    height: 180px;
+    width: 160px;
+  }
+  .modal-dialog {
+    width: 1000px !important;
+  }
+
+  .my-modal-footer {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
   .swiper-img {
     width: 100%;
   }
@@ -603,6 +637,55 @@ button:focus {
   }
 }
 @media only screen and (max-width: 768px) {
+  .see-all-product {
+    font-size: 14px;
+    width: 282px;
+    height: 45px;
+    border-radius: 12px;
+  }
+  .close-x {
+    padding-right: 0px;
+    margin: -2rem -1rem -1rem auto !important;
+    top: 45px;
+    right: 33px;
+    position: absolute;
+  }
+  .my-modal-title {
+    text-align: center;
+    margin-top: 50px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    margin-top: 90px;
+  }
+  .my-modal-footer {
+    margin-top: 0;
+  }
+  .my-modal-body {
+    padding-bottom: 0;
+
+    margin-top: 35px;
+  }
+  .pop-up-detail > p {
+    font-size: 11px;
+    line-height: 1.2;
+  }
+  .pop-up-detail {
+    height: 149px;
+    width: 116px;
+  }
+  .pop-up-img {
+    height: 84px;
+    margin-top: 18px;
+  }
+  .pop-content-34 {
+    margin-top: 30px;
+  }
+  .modal-dialog {
+    width: 100% !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0;
+  }
   .icon-1,
   .icon-2,
   .icon-3 {
@@ -727,7 +810,7 @@ button:focus {
 }
 @media only screen and (max-width: 575px) {
   .header__box__extra-logo {
-    height: 18px;
+    height: 32px;
     margin-left: 4px;
   }
   .contact-us-last {
