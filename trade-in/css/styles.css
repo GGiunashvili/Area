@@ -893,14 +893,14 @@ button:focus {
     margin-top: 50px;
     line-height: 1.2;
     margin-bottom: 20px;
-    margin-top: 40px;
+    margin-top: 90px;
   }
   .my-modal-footer {
     margin-top: 0;
   }
   .my-modal-body {
     padding-bottom: 0;
-    margin-top: 35px;
+    margin-top: 55px;
   }
   .pop-up-detail > p {
     font-size: 11px;
