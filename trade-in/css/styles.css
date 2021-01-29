@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   src: url(../fonts/MarkGEO-Bold.ttf);
   font-family: markgeo-bold;
@@ -644,6 +645,14 @@ button:focus {
 .pop-extra {
   height: 80px !important;
   margin-top: 40px;
+}
+
+.btn-exchange__a:after {
+  content: 'შემოთავაზება';
+}
+
+.btn-exchange:hover > .btn-exchange__a:after {
+  content: 'დაათვალიერე';
 }
 
 @media only screen and (max-width: 1440px) {
