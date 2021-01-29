@@ -309,7 +309,7 @@ button:focus {
   border: none;
 }
 .btn-exchange {
-  background: #e4dbf2;
+  background-color: rgba(122, 29, 255, 0.1);
   border-color: #e4dbf2 !important;
   outline: none;
   border: none;
@@ -481,7 +481,12 @@ button:focus {
   height: 80px !important;
   margin-top: 40px;
 }
-
+.btn-exchange__a {
+  transition: 0.3s;
+}
+.btn-exchange {
+  transition: 0.3s;
+}
 .btn-exchange__a:after {
   content: 'შემოთავაზება';
 }
@@ -490,6 +495,9 @@ button:focus {
 }
 
 @media only screen and (max-width: 1440px) {
+  .swiper-slide {
+    width: 96% !important;
+  }
   .my-modal-body {
     margin-top: unset;
   }
