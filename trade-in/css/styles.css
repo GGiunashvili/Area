@@ -658,11 +658,11 @@ button:focus {
 }
 
 .btn-exchange__a:after {
-  content: 'შემოთავაზება';
+  content: 'დაათვალიერე';
 }
 
 .btn-exchange:hover > .btn-exchange__a:after {
-  content: 'დაათვალიერე';
+  content: 'შემოთავაზება';
 }
 
 @media only screen and (max-width: 1440px) {
