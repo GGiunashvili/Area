@@ -353,6 +353,7 @@ button:focus {
   font-family: markgeo-semibold;
   margin-top: 14px;
   margin-bottom: 25px;
+  line-height: 1.2;
 }
 
 .exchange-content {
@@ -675,6 +676,10 @@ button:focus {
 
 .sec-exchange-p-title {
   margin-top: 20px;
+}
+
+.sec-exchange-p {
+  font-family: markgeo-semibold;
 }
 
 @media only screen and (max-width: 1440px) {
