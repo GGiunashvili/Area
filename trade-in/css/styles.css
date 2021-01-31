@@ -165,13 +165,13 @@ a:hover {
 .banner__h1 {
   font-size: 32px;
   color: white;
-  font-family: markgeo-semibold;
+  font-family: markgeo-bold;
 }
 
 .banner__p__text {
   font-size: 20px;
   color: white;
-  font-family: markgeo-semibold;
+  font-family: markgeo-regular;
   line-height: 1.3;
   max-width: 876px;
 }
@@ -345,7 +345,7 @@ button:focus {
 
 .exchange__h1 {
   font-size: 32px;
-  font-family: markgeo-semibold;
+  font-family: markgeo-bold;
 }
 
 .exchange__p {
@@ -378,11 +378,11 @@ button:focus {
 .exchange-content__first__h1 {
   font-size: 32px;
   color: black;
-  font-family: markgeo-semibold;
+  font-family: markgeo-bold;
 }
 
 .exchange-content__first__p {
-  font-family: markgeo-semibold;
+  font-family: markgeo-regular;
   margin-bottom: 30px;
   font-size: 24px;
   line-height: 1.3;
@@ -390,7 +390,7 @@ button:focus {
 
 .exchange-content__h1 {
   font-size: 32px;
-  font-family: markgeo-semibold;
+  font-family: markgeo-bold;
   text-align: center;
   margin-bottom: 30px;
 }
@@ -673,6 +673,10 @@ button:focus {
   content: 'დაათვალიერე';
 }
 
+.sec-exchange-p-title {
+  margin-top: 20px;
+}
+
 @media only screen and (max-width: 1440px) {
   .swiper-slide {
     width: 96% !important;
@@ -721,6 +725,7 @@ button:focus {
   }
   .sec-exchange-p {
     font-size: 17px !important;
+    font-family: markgeo-semibold;
   }
   .row-ban {
     width: 1140px;
