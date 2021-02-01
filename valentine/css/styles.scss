@@ -187,8 +187,57 @@ button:focus {
     }
   }
 }
-
+.gift-btn {
+  border: 3px solid #1caafc;
+  border-radius: 10px;
+  width: 300px;
+  height: 65px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  &__p {
+    font-size: 20px;
+    color: #1caafc;
+    font-family: markgeocapscaps-Semiboldcaps;
+  }
+}
+.another-btn {
+  margin-top: 22px;
+  margin-bottom: 30px;
+}
+.rules {
+  margin-top: 10px;
+  display: flex;
+  align-items: end;
+  &__p {
+    font-family: markgeo-regular;
+    font-size: 13px;
+    line-height: 1.3;
+  }
+  &__img {
+    height: 25px;
+    margin-right: 5px;
+  }
+}
+.rules-box {
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+.footer-hearts {
+  position: relative;
+  &__img {
+    position: absolute;
+    bottom: -217px;
+  }
+}
 @media only screen and (max-width: 768px) {
+  .footer-hearts {
+    &__img {
+      bottom: -54px;
+    }
+  }
+  .heart-mob {
+    display: none;
+  }
   .category-mob {
     display: block;
   }
