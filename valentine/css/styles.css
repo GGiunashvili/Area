@@ -401,7 +401,8 @@ button:focus {
   }
   .pink-heart {
     height: 17px;
-    padding-top: 6px;
+    padding-top: 0px;
+    margin-left: 5px;
   }
   .category__text__p {
     font-size: 15px;
