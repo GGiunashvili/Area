@@ -386,6 +386,8 @@ button:focus {
   .gift-btn {
     width: 200px;
     height: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
   }
   .gift-btn__p {
     font-size: 13px;
