@@ -243,6 +243,10 @@ button:focus {
   margin-top: 5px;
 }
 
+.content__sex__type:hover {
+  background-color: rgba(122, 29, 255, 0.1);
+}
+
 .content__sex__type {
   border: 2px solid #7a1dff;
   border-radius: 10px;
@@ -278,6 +282,13 @@ button:focus {
 .another-btn {
   margin-top: 22px;
   margin-bottom: 30px;
+}
+
+.another-btn:hover {
+  -webkit-box-shadow: 0px 5px 10px #7a24fb33;
+          box-shadow: 0px 5px 10px #7a24fb33;
+  border: 5px solid #fd561f;
+  outline: #fd561f;
 }
 
 .rules {
