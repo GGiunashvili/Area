@@ -128,7 +128,7 @@
           <p class="banner__p">საჩუქრის შერჩევა შოპინგზე არანაკლებ სასიამოვნო პროცესია, მითუმეტეს თუ ამ საჩუქარს საყვარელი ადამიანისთვის არჩევ. </p>
           <p class="banner__p">ჩვენ მიერ შერჩეულ კატეგორიებში, ინტერესთა სფეროების მიხედვით, მარტივად იპოვი იმას, რაც შენს <img class="banner__text-img" src="image/Group 301.png" alt="">-ს გაუხარდება.</p>
           <p class="banner__p">შესაბამისად, თუ საჩუქრის ასარჩევად ჯერ კიდევ ინსპირაციის ძიების პროცესში ხარ, გადაწყვეტილების მიღებაში ჩვენ დაგეხმარებით. Mastercard-ი კი, შენი შენაძენისთვის დამატებით 20% ფასდაკლებას უზრუნველყოფს.</p>
-          <button class="banner__btn" onclick="location.href='#section2'">
+          <button class="banner__btn banner__btn-start" onclick="location.href='#section2'">
             <p class="banner__btn__p">დაწყება</p>
           </button>
         </div>
@@ -288,7 +288,7 @@
 
 
       <div class="col-12 text-center"> 
-        <button  onclick="location.href='https://extra.ge/catalog/sasachuqre-baratebi?fbclid=IwAR1RI0vXkB7d_lgUf76PCY-0MgrhB1TakZDYXYjtIGmdcxBxHQ8PxWoy62k'" target="_blank" class="gift-btn">
+        <button  type="button" onClick="openGiftBox()" target="_blank" class="gift-btn">
           <p class="gift-btn__p">სასაჩუქრე ბარათები</p>
         </button>
 
@@ -298,13 +298,14 @@
 
 
 
-        <button onclick="location.href='https://extra.ge/discount?type=2&current=1&filterByDiscount=true'" target="_blank" class="banner__btn another-btn" style="background-color: #FD561F;" >
-          <p class="banner__btn__p">იხილეთ აქ</p>
+        <button  type="button" onClick="openNewTab()" class="banner__btn another-btn banner__btn__p-here" style="background-color: #FD561F;" >
+          <p type="button" class="banner__btn__p ">იხილეთ აქ</p>
         </button>
       </div>
 
     </div>
   </div>
+  
 
 
   <div class="rules-box" style="background-color: #F72B6A0D;">

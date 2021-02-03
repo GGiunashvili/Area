@@ -35,3 +35,12 @@ $('.icon-3').click( function() {
     $('.icon-2').removeClass('rotate'); 
                                                
 } );
+
+
+
+function openNewTab() {
+    window.open("https://extra.ge/discount?type=2&current=1&filterByDiscount=true");
+}
+function openGiftBox() {
+    window.open("https://extra.ge/catalog/sasachuqre-baratebi?fbclid=IwAR1RI0vXkB7d_lgUf76PCY-0MgrhB1TakZDYXYjtIGmdcxBxHQ8PxWoy62k");
+}

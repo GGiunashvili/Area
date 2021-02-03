@@ -75,6 +75,7 @@ a:hover {
     font-size: 16px;
     line-height: 1.2;
   }
+
   &__btn {
     width: 200px;
     height: 65px;
@@ -83,6 +84,7 @@ a:hover {
     border: none;
     outline: none;
     text-decoration: none;
+
     &__p {
       color: white;
       font-family: markgeocapscaps-medium;
@@ -95,16 +97,26 @@ a:hover {
     margin-left: 5px;
   }
 }
+
 button {
   border: none;
   outline: none;
   text-decoration: none;
+}
+button:active {
+  outline: none;
 }
 button:focus {
   outline: none;
 }
 .banner-img-mob {
   display: none;
+}
+.banner__btn__p-here:active {
+  box-shadow: 0 0 0 0.2rem #fd561f !important;
+}
+.banner__btn-start:active {
+  box-shadow: 0 0 0 0.2rem #7a1dff !important;
 }
 
 .category {
@@ -197,6 +209,9 @@ button:focus {
       justify-content: center;
     }
   }
+}
+.gift-btn:hover {
+  background-color: #d2e7f4;
 }
 .gift-btn {
   border: 2px solid #1caafc;
@@ -315,6 +330,17 @@ button:focus {
   align-items: center;
   margin-top: 10px;
   margin-bottom: 22px;
+}
+@media only screen and (max-width: 992px) {
+  .category__text__p {
+    font-size: 12px;
+  }
+  .banner__p {
+    font-size: 12px;
+  }
+  .banner__h1 {
+    font-size: 16px;
+  }
 }
 @media only screen and (max-width: 768px) {
   .gift-btn {

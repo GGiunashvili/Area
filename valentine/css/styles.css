@@ -129,12 +129,26 @@ button {
   text-decoration: none;
 }
 
+button:active {
+  outline: none;
+}
+
 button:focus {
   outline: none;
 }
 
 .banner-img-mob {
   display: none;
+}
+
+.banner__btn__p-here:active {
+  -webkit-box-shadow: 0 0 0 0.2rem #fd561f !important;
+          box-shadow: 0 0 0 0.2rem #fd561f !important;
+}
+
+.banner__btn-start:active {
+  -webkit-box-shadow: 0 0 0 0.2rem #7a1dff !important;
+          box-shadow: 0 0 0 0.2rem #7a1dff !important;
 }
 
 .category {
@@ -265,6 +279,10 @@ button:focus {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.gift-btn:hover {
+  background-color: #d2e7f4;
 }
 
 .gift-btn {
@@ -405,6 +423,18 @@ button:focus {
           align-items: center;
   margin-top: 10px;
   margin-bottom: 22px;
+}
+
+@media only screen and (max-width: 992px) {
+  .category__text__p {
+    font-size: 12px;
+  }
+  .banner__p {
+    font-size: 12px;
+  }
+  .banner__h1 {
+    font-size: 16px;
+  }
 }
 
 @media only screen and (max-width: 768px) {
