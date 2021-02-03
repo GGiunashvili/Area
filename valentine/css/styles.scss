@@ -106,6 +106,7 @@ button:focus {
 .banner-img-mob {
   display: none;
 }
+
 .category {
   padding: 5px !important;
 
@@ -124,6 +125,9 @@ button:focus {
       font-size: 20px;
     }
   }
+}
+.category:hover > .category__text > .category__text__p {
+  font-weight: bold !important;
 }
 .heart-1 {
   position: absolute;
@@ -247,11 +251,15 @@ button:focus {
 }
 .full-div {
   position: absolute;
-  bottom: -260px;
+  bottom: -230px;
   width: 100%;
 }
 
 .footer {
+  position: absolute;
+  bottom: -61px;
+  width: 100%;
+
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -371,7 +379,7 @@ button:focus {
     font-size: 10px;
   }
   .full-div {
-    bottom: -115px;
+    bottom: -45px;
   }
   .footer-hearts {
     &__img {
