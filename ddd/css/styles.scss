@@ -131,10 +131,14 @@ a:hover {
   margin-top: 10px;
   margin-bottom: 22px;
 }
+
 /////////code/////////////////
 @import url(https://fonts.googleapis.com/css?family=Satisfy|Pathway+Gothic+One);
 * {
   box-sizing: border-box;
+}
+.results-inner {
+  height: 100% !important;
 }
 .quiz-answer {
   z-index: 9;

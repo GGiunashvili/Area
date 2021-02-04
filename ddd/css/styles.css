@@ -155,6 +155,10 @@ a:hover {
           box-sizing: border-box;
 }
 
+.results-inner {
+  height: 100% !important;
+}
+
 .quiz-answer {
   z-index: 9;
 }
