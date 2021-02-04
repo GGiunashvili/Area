@@ -7,14 +7,16 @@ var resultOptions = [
     {   title: 'You Are This Other Thing',
         desc: '<p>2</p><a href="https://www.youtube.com/watch?v=8t9xaWfN5BA" ></p><img src="https://i.imgur.com/NH5cunw.png"/></a>'},
     {   title: 'You Are This One Thing',
-        desc: '<p>3</p><a href="https://www.youtube.com/watch?v=8t9xaWfN5BA" ></p><img src="https://i.imgur.com/NH5cunw.png"/></a>'}
+        desc: '<p>3</p><a href="https://www.youtube.com/watch?v=8t9xaWfN5BA" ></p><img src="https://i.imgur.com/NH5cunw.png"/></a>'},
+    {   title: 'You Are This One Thing',
+        desc: '<p>4</p><a href="https://www.youtube.com/watch?v=8t9xaWfN5BA" ></p><img src="https://i.imgur.com/NH5cunw.png"/></a>'}
 ];
     
 // global variables
 var quizSteps = $('#quizzie .quiz-step'),
     totalScore = 0;
 
-    var answ = [0, 0, 0, 0];
+    var answ = [0, 0, 0, 0, 0];
     var lastUpdate = 0;
 
 // for each step in the quiz, add the selected answer value to the total score
@@ -104,7 +106,7 @@ function calcResults(totalScore) {
                 // populate results
 
                 var max = 0;
-                for (var i = 0; i < 4; i++) {
+                for (var i = 0; i < 5; i++) {
                     if (answ[i] == max && i == lastUpdate) {
                         max = answ[i];
                         n = i;
