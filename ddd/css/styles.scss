@@ -148,12 +148,15 @@ a:hover {
   align-items: center;
   justify-content: space-between;
   height: 75px;
+  color: black;
 }
 
 body {
   color: #fff;
 }
-
+.question {
+  height: 30px !important;
+}
 #quizzie ul {
   list-style: none;
   display: block;
@@ -206,14 +209,15 @@ body {
   border-radius: 10px;
 }
 #quizzie .answer-wrap {
-  background: Turquoise;
+  background: white;
   -moz-transition: background-color 0.5s ease;
   -o-transition: background-color 0.5s ease;
   -webkit-transition: background-color 0.5s ease;
   transition: background-color 0.5s ease;
 }
+
 #quizzie .answer-wrap:hover {
-  background: DarkTurquoise;
+  background: #f72163;
 }
 
 ////////////////
@@ -288,6 +292,14 @@ body {
 }
 .baner-mob {
   display: none;
+}
+.page-number {
+  font-size: 20px;
+  font-family: markgeocapscaps-Semiboldcaps;
+  color: black;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 @media only screen and (max-width: 768px) {
   .baner-desk {

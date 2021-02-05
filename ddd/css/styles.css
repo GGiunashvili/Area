@@ -174,10 +174,15 @@ a:hover {
       -ms-flex-pack: justify;
           justify-content: space-between;
   height: 75px;
+  color: black;
 }
 
 body {
   color: #fff;
+}
+
+.question {
+  height: 30px !important;
 }
 
 #quizzie ul {
@@ -244,13 +249,13 @@ body {
 }
 
 #quizzie .answer-wrap {
-  background: Turquoise;
+  background: white;
   -webkit-transition: background-color 0.5s ease;
   transition: background-color 0.5s ease;
 }
 
 #quizzie .answer-wrap:hover {
-  background: DarkTurquoise;
+  background: #f72163;
 }
 
 .tick-background {
@@ -350,6 +355,15 @@ body {
 
 .baner-mob {
   display: none;
+}
+
+.page-number {
+  font-size: 20px;
+  font-family: markgeocapscaps-Semiboldcaps;
+  color: black;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 @media only screen and (max-width: 768px) {

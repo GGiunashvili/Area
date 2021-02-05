@@ -41,6 +41,9 @@ quizSteps.each(function () {
         var eachOpt = $(this);
      
         eachOpt[0].addEventListener('click', check, false);
+
+       
+
         function check() {
             var $this = $(this),
                 value = $this.attr('data-quizIndex'),
