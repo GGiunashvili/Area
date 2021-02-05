@@ -146,8 +146,8 @@ a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 10px;
-  margin-bottom: 22px;
+  margin-top: 11px;
+  margin-bottom: 13px;
 }
 
 * {
@@ -261,7 +261,150 @@ body {
   position: relative;
 }
 
+.banner-text {
+  color: black;
+  max-width: 1105px;
+  text-align: center;
+  font-size: 18px;
+  font-family: markgeocaps-medium;
+  line-height: 1.3;
+  margin-top: 27px;
+  margin-bottom: 46px;
+}
+
+.main-home-page-title {
+  font-family: markgeocaps-bold;
+  color: black;
+  font-size: 30px;
+  margin-bottom: 45px;
+}
+
+.sex-box {
+  background-color: #ffe6ee;
+  -webkit-box-shadow: 0px 5px 10px #00000026;
+          box-shadow: 0px 5px 10px #00000026;
+  border: 1px solid #f72163;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 200px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 12px;
+}
+
+.sex-box__p {
+  font-family: markgeo-bold;
+  color: #f72163;
+  font-size: 30px;
+}
+
+.sex-box__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 200px;
+  height: 65px;
+  background: #f72163;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  z-index: 999;
+}
+
+.sex-box__btn__p {
+  color: white;
+  font-family: markgeocapscaps-medium;
+  background-color: unset !important;
+  font-size: 20px;
+}
+
+.sex-box__btn:active {
+  -webkit-box-shadow: 0 0 0 0.2rem #fd561f !important;
+          box-shadow: 0 0 0 0.2rem #fd561f !important;
+}
+
+.messenger-btn {
+  margin-right: 21px;
+}
+
+.sex-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.baner-mob {
+  display: none;
+}
+
 @media only screen and (max-width: 768px) {
+  .baner-desk {
+    display: none;
+  }
+  .baner-mob {
+    display: block;
+  }
+  .messenger-btn {
+    margin-right: -7px;
+  }
+  .sex-box-middle-mob {
+    margin-top: 19px;
+    margin-bottom: 19px;
+  }
+  .banner-text {
+    font-size: 12px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+  }
+  .main-home-page-title {
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+  .sex-box-last-mobb {
+    margin-bottom: 70px;
+  }
+  .sex-box {
+    height: 50px;
+    -webkit-box-orient: unset;
+    -webkit-box-direction: unset;
+        -ms-flex-direction: unset;
+            flex-direction: unset;
+    padding-right: 17px;
+    padding-left: 17px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    border-radius: 8px;
+  }
+  .sex-box__p {
+    font-size: 15px;
+  }
+  .sex-box__btn {
+    width: 100px;
+    height: 35px;
+    border-radius: 8px;
+  }
+  .sex-box__btn__p {
+    font-size: 12px;
+  }
+  .sex-content {
+    display: block;
+  }
   .banner__text-img {
     height: 14px;
   }
