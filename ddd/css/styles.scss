@@ -139,15 +139,28 @@ a:hover {
 }
 .results-inner {
   height: 100% !important;
+  color: black;
 }
 .quiz-answer {
   z-index: 9;
 }
+.question-wrap {
+  p {
+    color: black;
+  }
+}
 .answer-wrap {
+  width: 100%;
   display: flex !important;
   align-items: center;
   justify-content: space-between;
   height: 75px;
+  color: black;
+  border: 1px solid #a2a0a0;
+}
+.answer-text {
+  font-size: 20px;
+  font-family: markgeocapscaps-Semiboldcaps;
   color: black;
 }
 
@@ -156,14 +169,14 @@ body {
 }
 .question {
   height: 30px !important;
-  overflow: hidden !important;
+  // overflow: hidden !important;
 }
 #quizzie ul {
   list-style: none;
   display: block;
   width: auto;
 
-  overflow: auto;
+  // overflow: auto;
   display: none;
   /* Step Questions and Answer Options */
 }
@@ -177,7 +190,7 @@ body {
   float: left;
   height: 85px;
   width: 60%;
-  overflow: auto;
+  // overflow: auto;
   text-align: center;
 }
 #quizzie ul li.quiz-answer {
@@ -191,11 +204,11 @@ body {
   text-align: center;
   margin: 0;
 }
-#quizzie ul li.results-inner {
-  padding: 5% 2%;
-}
+// #quizzie ul li.results-inner {
+//   padding: 5% 2%;
+// }
 #quizzie ul li.results-inner img {
-  width: 250px;
+  max-width: 429px;
 }
 #quizzie ul li:last-child {
   margin-right: 0;
@@ -217,8 +230,11 @@ body {
   transition: background-color 0.5s ease;
 }
 
-#quizzie .answer-wrap:hover {
-  background: #f72163;
+.answer-wrap:focus {
+  background: #f72163 !important;
+  outline: none;
+  text-decoration: none;
+  border: none;
 }
 
 ////////////////
@@ -302,7 +318,64 @@ body {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+.result-button-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  &__second-btn {
+    background-color: #7a1dff;
+    margin-left: 10px;
+  }
+  .sex-box__btn__p {
+    font-size: 16px;
+  }
+}
+.product-name-title {
+  font-family: markgeocapscaps-Semiboldcaps;
+
+  font-size: 30px;
+}
+.product-name {
+  font-family: markgeocapscaps-Semiboldcaps;
+
+  font-size: 35px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.question-wrap {
+  max-width: 1000px;
+  p {
+    font-size: 27px;
+    font-family: markgeocapscaps-Semiboldcaps;
+    z-index: 9;
+    margin-bottom: 10px;
+  }
+}
+.question {
+  display: flex !important;
+  justify-content: center;
+  margin-bottom: 45px !important;
+}
+.tick-background-second {
+  visibility: hidden;
+}
+
 @media only screen and (max-width: 768px) {
+  .result-button-box .sex-box__btn__p {
+    font-size: 8px;
+  }
+  .product-name-title {
+    font-size: 15px;
+  }
+  .product-name {
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  #quizzie ul li.results-inner img {
+    max-width: 354px;
+  }
   .baner-desk {
     display: none;
   }
