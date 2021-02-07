@@ -362,6 +362,9 @@ body {
   border: none;
 }
 @media only screen and (max-width: 768px) {
+  #results {
+    background-color: #f7f7f7;
+  }
   .quizzie-main-box {
     padding-left: 10px;
     padding-right: 10px;
