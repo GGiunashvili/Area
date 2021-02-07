@@ -339,6 +339,7 @@ body {
   font-family: markgeocapscaps-medium;
   background-color: unset !important;
   font-size: 20px;
+  cursor: pointer;
 }
 
 .sex-box__btn:active {
@@ -436,11 +437,16 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+  .quizzie-main-box {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
   .sex-box__btn {
     margin-bottom: 20px;
   }
   #quizzie {
     background-color: #7a24fb0d;
+    border-radius: 10px;
   }
   .question {
     margin-bottom: 20px !important;
@@ -512,8 +518,8 @@ body {
     font-size: 15px;
   }
   .sex-box__btn {
-    width: 100px;
-    height: 35px;
+    width: 110px;
+    height: 40px;
     border-radius: 8px;
   }
   .sex-box__btn__p {
