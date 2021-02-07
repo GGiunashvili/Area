@@ -428,7 +428,7 @@ body {
   visibility: hidden;
 }
 
-.answer-wrap:focus {
+.quiz-answer > .answer-wrap:focus {
   background: #f72163 !important;
   outline: none;
   text-decoration: none;
