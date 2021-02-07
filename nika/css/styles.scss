@@ -355,12 +355,31 @@ body {
 }
 
 .quiz-answer > .answer-wrap:focus {
-  background: #f72163 !important;
+  background: #7a24fb !important;
   outline: none;
   text-decoration: none;
   border: none;
 }
 @media only screen and (max-width: 768px) {
+  .sex-box__btn {
+    margin-bottom: 20px;
+  }
+  #quizzie {
+    background-color: #7a24fb0d;
+  }
+  .question {
+    margin-bottom: 20px !important;
+    margin-top: 20px !important;
+  }
+  .question-wrap p {
+    font-size: 15px;
+  }
+  .answer-text {
+    font-size: 15px;
+  }
+  #quizzie ul li {
+    width: 80%;
+  }
   .result-button-box .sex-box__btn__p {
     font-size: 8px;
   }

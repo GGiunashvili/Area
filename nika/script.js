@@ -67,7 +67,7 @@ function check() {
     step++;
 }
 
-var elements = document.getElementsByClassName("sex-box__btn__p");
+var elements = document.getElementsByClassName("sex-box__btn");
 for (var i = 0; i < elements.length; i++) {
     elements[i].addEventListener('click', check, false);
 }
