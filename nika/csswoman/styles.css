@@ -457,6 +457,9 @@ body {
   font-size: 20px;
   font-family: markgeo-semibold;
   line-height: 1.3;
+  text-align: left;
+  padding-left: 10px;
+  font-family: markgeo-regular;
 }
 
 .img-text > p:hover {
@@ -473,6 +476,8 @@ body {
     font-size: 12px;
     margin-top: 5px;
     margin-bottom: 5px;
+    text-align: unset;
+    padding-left: unset;
   }
   .img-text {
     display: block;
