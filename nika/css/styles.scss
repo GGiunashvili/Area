@@ -361,7 +361,38 @@ body {
   text-decoration: none;
   border: none;
 }
+.sex-box__btn {
+  position: relative;
+}
+.img-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-text > p {
+  width: 429px;
+  font-size: 20px;
+  font-family: markgeo-semibold;
+  line-height: 1.3;
+}
+.img-text > p:hover {
+  color: black;
+}
+.result-button-box__second-btn:active {
+  box-shadow: 0 0 0 0.2rem #7a1dff !important;
+}
 @media only screen and (max-width: 768px) {
+  .img-text > p {
+    font-size: 12px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .img-text {
+    display: block;
+  }
+  .img-text > p {
+    width: unset;
+  }
   #results {
     background-color: #f7f7f7;
   }
