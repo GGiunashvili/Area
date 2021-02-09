@@ -277,7 +277,7 @@ body {
     justify-content: center;
     width: 200px;
     height: 65px;
-    background: #fd561f;
+    background: #7a24fb;
     border-radius: 12px;
     border: none;
     outline: none;
@@ -292,7 +292,7 @@ body {
     }
   }
   &__btn:active {
-    box-shadow: 0 0 0 0.2rem #fd561f !important;
+    box-shadow: 0 0 0 0.2rem #7a24fb !important;
   }
 }
 .messenger-btn {
@@ -356,7 +356,7 @@ body {
 }
 
 .quiz-answer > .answer-wrap:focus {
-  background: #fd561f !important;
+  background: #7a24fb !important;
   outline: none;
   text-decoration: none;
   border: none;
@@ -384,6 +384,9 @@ body {
 .result-button-box__second-btn:active {
   box-shadow: 0 0 0 0.2rem #7a1dff !important;
 }
+.result-single {
+  background-color: #f72163 !important;
+}
 @media only screen and (max-width: 768px) {
   .img-text > p {
     font-size: 12px;
@@ -409,7 +412,7 @@ body {
     margin-bottom: 20px;
   }
   #quizzie {
-    background-color: #fd561f0d;
+    background-color: #e6ddf4;
     border-radius: 10px;
   }
   .question {
