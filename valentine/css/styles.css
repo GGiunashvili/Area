@@ -66,7 +66,7 @@ a:hover {
 }
 
 .messenger-btn {
-  margin-left: 5px;
+  margin-left: 20px;
 }
 
 .banner {
@@ -438,7 +438,41 @@ button:focus {
   }
 }
 
+.three-btn {
+  border: 2px solid #f72163;
+  border-radius: 10px;
+  height: 53px;
+  margin-top: 8px;
+  background: #ede1e5;
+  -webkit-box-shadow: 0px 5px 10px #0000004d;
+          box-shadow: 0px 5px 10px #0000004d;
+  margin-right: 20px;
+}
+
+.three-btn__p {
+  color: #f72163;
+  font-size: 16px;
+  font-family: markgeo-bold;
+  width: 150px;
+  text-align: center;
+}
+
 @media only screen and (max-width: 768px) {
+  .three-btn {
+    height: 38px;
+    margin-right: 4px;
+    border-radius: 10px;
+  }
+  .three-btn__p {
+    font-size: 10px;
+    width: 82px;
+  }
+  .three-btn .quiz-btn {
+    height: 38px;
+  }
+  .messenger-btn {
+    margin-left: 15px;
+  }
   .banner__text-img {
     height: 14px;
   }
@@ -521,6 +555,10 @@ button:focus {
   .category-desk {
     display: none;
   }
+}
+
+.header-logo {
+  margin-top: 8px;
 }
 
 @media only screen and (max-width: 768px) {
