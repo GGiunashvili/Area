@@ -342,6 +342,11 @@ body {
   cursor: pointer;
 }
 
+.sex-box__btn:active {
+  -webkit-box-shadow: 0 0 0 0.2rem #fd561f !important;
+          box-shadow: 0 0 0 0.2rem #fd561f !important;
+}
+
 .sex-box__btn-single:active {
   -webkit-box-shadow: 0 0 0 0.2rem #7a24fb !important;
           box-shadow: 0 0 0 0.2rem #7a24fb !important;
