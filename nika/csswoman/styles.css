@@ -343,8 +343,8 @@ body {
 }
 
 .sex-box__btn:active {
-  -webkit-box-shadow: 0 0 0 0.2rem #fd561f !important;
-          box-shadow: 0 0 0 0.2rem #fd561f !important;
+  -webkit-box-shadow: 0 0 0 0.2rem #f72163 !important;
+          box-shadow: 0 0 0 0.2rem #f72163 !important;
 }
 
 .messenger-btn {
