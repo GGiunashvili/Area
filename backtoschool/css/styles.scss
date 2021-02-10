@@ -151,7 +151,6 @@ button:focus {
   margin-bottom: 60px;
 }
 .banner-container {
-  max-width: 1650px;
   display: flex;
   justify-content: center;
 }
@@ -462,12 +461,7 @@ button:focus {
 .btn-exchange {
   transition: 0.3s;
 }
-.btn-exchange__a:after {
-  content: 'შეიძინე';
-}
-.btn-exchange:hover > .btn-exchange__a:after {
-  content: 'შეიძინე';
-}
+
 .sec-exchange-p-title {
   margin-top: 20px;
 }
@@ -574,6 +568,16 @@ path {
 .how-it-works:hover path {
   fill: white !important;
 }
+.pt {
+  fill: #7a1dff !important;
+  margin-left: 10px;
+}
+.anner__btn:hover .pt {
+  fill: white !important;
+}
+.btn-exchange__a {
+  margin-right: 7px;
+}
 .shop-section {
   margin-top: 100px;
 }
@@ -589,7 +593,7 @@ path {
 }
 .footer-main {
   background-color: #2b2731;
-  margin-top: 100px;
+  margin-top: 60px;
 }
 @media only screen and (max-width: 1440px) {
   .my-modal-body {
