@@ -89,6 +89,7 @@ a:hover {
   align-items: center;
   width: 100%;
   background-color: #7a1dff;
+  text-align: center;
   height: 50px;
   &__p {
     color: white;
@@ -533,7 +534,63 @@ button:focus {
 .anner__btn {
   display: flex;
 }
-
+path {
+  fill: #f9561f !important;
+  transition: 0.3s;
+}
+.how-it-works {
+  background: blue;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 300px;
+  justify-content: space-evenly;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 15px #20202012;
+  border-radius: 20px;
+  transition: 0.5s;
+  &__p {
+    font-family: markgeocaps-medium;
+    font-size: 18px;
+    color: black;
+    max-width: 275px;
+    line-height: 1.3;
+  }
+}
+.how-it-works-title {
+  font-family: markgeocaps-medium;
+  font-size: 18px;
+  color: #000000;
+  margin-bottom: 25px;
+}
+.how-it-works:hover {
+  background: #f9561f;
+}
+.how-it-works:hover > p {
+  color: white;
+}
+.how-it-works:hover path {
+  fill: white !important;
+}
+.shop-section {
+  margin-top: 100px;
+}
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+  pointer-events: unset !important;
+}
+.exchange-last-p {
+  font-size: 24px;
+  font-family: markgeocaps-medium;
+  text-align: center;
+  line-height: 1.4;
+}
+.footer-main {
+  background-color: #2b2731;
+  margin-top: 100px;
+}
 @media only screen and (max-width: 1440px) {
   .my-modal-body {
     margin-top: unset;
@@ -727,6 +784,34 @@ button:focus {
   background-image: url(../image/Group5114.png);
 }
 @media only screen and (max-width: 768px) {
+  .footer-main {
+    margin-top: 20px;
+  }
+  .exchange-last-p {
+    font-size: 14px;
+    line-height: 1.4;
+  }
+  .header-alert {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 60px;
+    &__p {
+      line-height: 1.3;
+    }
+  }
+  .shop-section {
+    margin-top: 45px;
+  }
+  .h-i-w-middle {
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  .how-it-works {
+    height: 279px;
+  }
+  .how-it-works-title {
+    line-height: 1.3;
+  }
   .anner__btn {
     display: none;
   }
@@ -851,20 +936,15 @@ button:focus {
     width: 45px;
   }
   .exchange__h1 {
-    font-size: 16px;
-    font-size: 1.7 !important;
+    font-size: 18px;
+    margin-top: 21px;
+    margin-bottom: 10px;
   }
   .exchange__p {
     font-size: 12px;
     line-height: 2.4;
   }
-  .header-alert {
-    display: none;
-  }
-  .banner-container {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
+
   .banner-container-head {
     padding-left: 30px;
     padding-right: 29px;
