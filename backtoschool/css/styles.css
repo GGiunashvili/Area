@@ -345,7 +345,7 @@ button:focus {
 
 .exchange__h1 {
   font-size: 32px;
-  font-family: markgeocaps-medium;
+  font-family: markgeo-bold;
   margin-top: 30px;
   margin-bottom: 20px;
 }
@@ -419,6 +419,10 @@ button:focus {
 
 .btn-exchange:hover {
   background-color: #7a1dff;
+}
+
+.btn-exchange:hover > p {
+  color: white;
 }
 
 .btn-exchange:hover > a {
@@ -713,6 +717,12 @@ button:focus {
   align-items: center;
 }
 
+.anner__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 @media only screen and (max-width: 1440px) {
   .my-modal-body {
     margin-top: unset;
@@ -928,6 +938,9 @@ button:focus {
 }
 
 @media only screen and (max-width: 768px) {
+  .anner__btn {
+    display: none;
+  }
   .school-products {
     height: 132px;
     border-radius: 10px;

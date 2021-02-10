@@ -245,7 +245,7 @@ button:focus {
 
   &__h1 {
     font-size: 32px;
-    font-family: markgeocaps-medium;
+    font-family: markgeo-bold;
     margin-top: 30px;
     margin-bottom: 20px;
   }
@@ -305,6 +305,9 @@ button:focus {
 }
 .btn-exchange:hover {
   background-color: #7a1dff;
+}
+.btn-exchange:hover > p {
+  color: white;
 }
 .btn-exchange:hover > a {
   color: white;
@@ -527,6 +530,9 @@ button:focus {
   -webkit-align-items: center;
   align-items: center;
 }
+.anner__btn {
+  display: flex;
+}
 
 @media only screen and (max-width: 1440px) {
   .my-modal-body {
@@ -721,6 +727,9 @@ button:focus {
   background-image: url(../image/Group5114.png);
 }
 @media only screen and (max-width: 768px) {
+  .anner__btn {
+    display: none;
+  }
   .school-products {
     height: 132px;
     border-radius: 10px;
