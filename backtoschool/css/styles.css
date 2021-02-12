@@ -1068,7 +1068,7 @@ path {
   .swiper-button-next {
     width: 34px !important;
     height: 34px !important;
-    right: 0 !important;
+    right: 5px !important;
   }
   .swiper-button-next:after {
     width: 34px !important;
@@ -1081,11 +1081,15 @@ path {
   .swiper-button-prev {
     width: 34px !important;
     height: 34px !important;
-    left: 0 !important;
+    left: 5px !important;
   }
   .exchange-content__h1 {
     font-size: 16px;
     margin-bottom: 20px;
+  }
+  .swiper-button-next,
+  .swiper-button-prev {
+    top: 53% !important;
   }
   .pop-extra {
     height: 58px !important;
