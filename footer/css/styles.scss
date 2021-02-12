@@ -1,0 +1,201 @@
+@font-face {
+  src: url(../fonts/MarkGEO-Bold.ttf);
+  font-family: markgeo-bold;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEO-Regular.ttf);
+  font-family: markgeo-regular;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEO-SemiBold.ttf);
+  font-family: markgeo-semibold;
+}
+@font-face {
+  src: url(../fonts/MarkGEOCAPS-Bold.ttf);
+  font-family: markgeocaps-bold;
+}
+@font-face {
+  src: url(../fonts/MarkGEO-Medium.ttf);
+  font-family: markgeocaps-medium;
+}
+@font-face {
+  src: url(../fonts/MarkGEOCAPS-Medium.ttf);
+  font-family: markgeocapscaps-medium;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEO-SemiBold.ttf);
+  font-family: markgeocapscaps-Semibold;
+}
+
+@font-face {
+  src: url(../fonts/MARKGEOCAPS-SEMIBOLD.TTF);
+  font-family: markgeocapscaps-Semiboldcaps;
+}
+@font-face {
+  src: url(../fonts/HELVETICANEUELTGEOW82-75BD.TTF);
+  font-family: helve-bold;
+}
+@font-face {
+  src: url(../fonts/HELVETICANEUELTGEOW82-55RM.TTF);
+  font-family: helve-bold-rm;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #f9f9fb;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 40px 0;
+
+  &__col-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__p-box {
+      &__txt {
+        font-size: 12px;
+        color: #918f94;
+        font-weight: 300;
+        font-family: helve-bold-rm;
+        line-height: 1.2;
+        height: 30px;
+        display: flex;
+        align-items: center;
+      }
+      &__txt:hover {
+        color: white !important;
+      }
+      &__txt-parent {
+        display: flex;
+        align-items: center;
+        margin: 5px 0;
+
+        &__box {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: #55525a;
+          border-radius: 10px;
+          height: 36px;
+          width: 36px;
+          margin-right: 10px;
+        }
+        &__box:hover {
+          background-color: #3655ff;
+        }
+      }
+    }
+    &__p {
+      &__txt {
+        color: #918f94;
+        line-height: 1.2;
+      }
+    }
+
+    &__title {
+      height: 40px;
+      align-items: center;
+      display: flex;
+      width: 100%;
+      margin-bottom: 10px;
+      &__txt {
+        color: #ffffff;
+        font-size: 14px;
+        font-family: helve-bold;
+
+        font-weight: 400;
+      }
+      &__logo {
+        height: 35px;
+      }
+    }
+  }
+}
+.extra-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 57px;
+}
+.bog-icon {
+  margin-left: 10px;
+}
+.footer-container {
+  max-width: 1650px;
+}
+
+@media only screen and (max-width: 1440px) {
+  .footer-container {
+    max-width: 1140px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .responsive-footer {
+    display: none;
+  }
+  .btn:focus {
+    box-shadow: unset;
+    text-decoration: none;
+  }
+  .btn-link:hover {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .footer__col-one__p-box__txt {
+    font-size: 12px;
+  }
+  .footer__col-one__title {
+    margin-bottom: unset;
+  }
+
+  .responsive-footer {
+    display: block;
+    padding-top: 30px;
+  }
+  .resposive-footer-icons {
+    display: flex;
+  }
+
+  .footer__col-one {
+    display: none;
+  }
+  .extra-footer {
+    justify-content: center;
+  }
+  .footer-title {
+    margin: 5px 0 10px 0;
+  }
+  .footer-container {
+    display: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .my-modal-footer {
+    margin-top: 0;
+  }
+}
