@@ -204,6 +204,10 @@ body {
   margin-top: 3px;
 }
 
+.top-sale-box__child__btn:focus {
+  outline: none;
+}
+
 .top-sale-box__child__btn {
   background-color: #9de411;
   -webkit-box-shadow: 0px 3px 10px #0000001a;
