@@ -1,0 +1,203 @@
+@font-face {
+  src: url(../fonts/MarkGEO-Bold.ttf);
+  font-family: markgeo-bold;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEO-Regular.ttf);
+  font-family: markgeo-regular;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEO-SemiBold.ttf);
+  font-family: markgeo-semibold;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEOCAPS-Bold.ttf);
+  font-family: markgeocaps-bold;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEO-Medium.ttf);
+  font-family: mmarkgeo-medium;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEOCAPS-Medium.ttf);
+  font-family: markgeocaps-medium;
+}
+
+@font-face {
+  src: url(../fonts/MARKGEOCAPS-SEMIBOLD.TTF);
+  font-family: markgeocaps-Semibold;
+}
+
+@font-face {
+  src: url(../fonts/helve-roma-bold.OTF);
+  font-family: helve-bold;
+}
+
+@font-face {
+  src: url(..//fonts/helve-regular-roman.OTF);
+  font-family: helve-regular;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f4f1ed;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.promotion-swiper-box__slide {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: unset;
+}
+
+.promotion-swiper-box__slide__img {
+  -webkit-box-shadow: 0px 6px 18px #0000001a;
+          box-shadow: 0px 6px 18px #0000001a;
+}
+
+.promotion-swiper-box__slide__btn:focus {
+  outline: none !important;
+}
+
+.promotion-swiper-box__slide__btn {
+  background-color: #ece3fc;
+  width: 150px;
+  height: 50px;
+  border-radius: 12px;
+  margin-top: 20px;
+  border: none;
+}
+
+.promotion-swiper-box__slide__btn__child {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.promotion-swiper-box__slide__btn__child__p {
+  font-size: 12px;
+  font-family: helve-bold;
+  color: #791dff;
+  margin-right: 2px;
+}
+
+.promotion-swiper-box__arrows {
+  background-color: white;
+  height: 55px !important;
+  border-radius: 30px;
+  width: 55px !important;
+  -webkit-box-shadow: 0px 5px 20px #00000026;
+          box-shadow: 0px 5px 20px #00000026;
+}
+
+.promotion-swiper-box__arrows:after {
+  font-size: 14px !important;
+}
+
+.promotion-swiper-box__arrows:focus {
+  outline: none !important;
+}
+
+.promotion-swiper-box__prev {
+  left: -20px !important;
+  top: 43% !important;
+}
+
+.promotion-swiper-box__next {
+  right: -20px !important;
+  top: 43% !important;
+}
+
+.current-promotions-title {
+  font-family: helve-bold !important;
+  font-size: 36px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+  .promotion-swiper-box {
+    padding: 0;
+  }
+  .promotion-swiper-box {
+    height: 250px;
+  }
+  .promotion-swiper-box__arrows {
+    display: none !important;
+  }
+  .swiper-slide-active > img {
+    height: 185px !important;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .swiper-slide-next > img {
+    height: 111px !important;
+  }
+  .swiper-slide-prev > img {
+    height: 111px !important;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
