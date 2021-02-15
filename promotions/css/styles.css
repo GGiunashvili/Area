@@ -279,6 +279,10 @@ body {
   text-align: center;
 }
 
+.current-sale__div__btn:focus {
+  outline: none;
+}
+
 .current-sale__div__btn {
   background-color: #ece3fc;
   -webkit-box-shadow: 0px 3px 10px #0000001a;
@@ -296,7 +300,55 @@ body {
   font-size: 12px;
 }
 
+.promotion-banner {
+  width: 100%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 80px;
+}
+
+.promotion-banner__div {
+  max-width: 1650px;
+}
+
+.promotion-banner__div__img-mob {
+  display: none;
+}
+
+.current-container {
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 1700px) {
+  .promotion-banner__div {
+    max-width: 1350px !important;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .promotion-banner__div {
+    max-width: 1200px !important;
+  }
+}
+
 @media only screen and (max-width: 768px) {
+  .current-container {
+    margin-bottom: 40px;
+  }
+  .promotion-banner {
+    margin-top: 20px;
+  }
+  .promotion-banner__div__img-desk {
+    display: none;
+  }
+  .promotion-banner__div__img-mob {
+    display: block;
+  }
   .current-promotions-title {
     font-size: 24px;
     margin-top: 20px;
