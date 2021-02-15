@@ -311,6 +311,11 @@ body {
   .promotion-swiper-box__arrows {
     display: none !important;
   }
+  .swiper-slide > img {
+    height: 111px !important;
+    -webkit-transition: 0.9s;
+    transition: 0.9s;
+  }
   .swiper-slide-active > img {
     height: 185px !important;
     -webkit-transition: 0.9s;

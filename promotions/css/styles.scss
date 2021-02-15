@@ -277,6 +277,10 @@ body {
       display: none !important;
     }
   }
+  .swiper-slide > img {
+    height: 111px !important;
+    transition: 0.9s;
+  }
   .swiper-slide-active > img {
     height: 185px !important;
     transition: 0.9s;
