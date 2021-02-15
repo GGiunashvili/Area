@@ -179,10 +179,21 @@ body {
 }
 
 .top-sale-box {
+  padding-top: 14px;
+  padding-bottom: 25px;
   background-color: white;
   -webkit-box-shadow: 0px 6px 18px #0000001a;
           box-shadow: 0px 6px 18px #0000001a;
   border-radius: 10px;
+}
+
+.top-sale-box__child__border {
+  border-top: 1px solid #707070;
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  opacity: 0.1;
+  border-radius: 1px;
 }
 
 .top-sale-box__child__p {
@@ -259,6 +270,27 @@ body {
   font-size: 12px;
   font-family: helve-regular;
   line-height: 1.2;
+}
+
+.current-sale__div {
+  text-align: center;
+}
+
+.current-sale__div__btn {
+  background-color: #ece3fc;
+  -webkit-box-shadow: 0px 3px 10px #0000001a;
+          box-shadow: 0px 3px 10px #0000001a;
+  border-radius: 7px;
+  border: none;
+  width: 161px;
+  height: 37px;
+  margin-top: 10px;
+}
+
+.current-sale__div__btn__div__p {
+  color: #791dff;
+  font-family: helve-bold;
+  font-size: 12px;
 }
 
 @media only screen and (max-width: 768px) {
