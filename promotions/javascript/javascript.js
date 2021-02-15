@@ -6,7 +6,7 @@
   centeredSlides: true,
   spaceBetween: 10,
   loop: true,
-  speed: 900,
+  speed: 400,
 
 
 navigation: {

@@ -365,23 +365,23 @@ body {
   }
   .swiper-slide > img {
     height: 111px !important;
-    -webkit-transition: 0.9s;
-    transition: 0.9s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
   }
   .swiper-slide-active > img {
     height: 185px !important;
-    -webkit-transition: 0.9s;
-    transition: 0.9s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
   }
   .swiper-slide-next > img {
     height: 111px !important;
-    -webkit-transition: 0.9s;
-    transition: 0.9s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
   }
   .swiper-slide-prev > img {
     height: 111px !important;
-    -webkit-transition: 0.9s;
-    transition: 0.9s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
   }
 }
 /*# sourceMappingURL=styles.css.map */
