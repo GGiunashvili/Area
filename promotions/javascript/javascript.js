@@ -20,7 +20,7 @@ navigation: {
   },
   breakpoints: {
     640: {
-      slidesPerView: 1.1,
+      slidesPerView: 3,
 centeredSlides: true,
   spaceBetween: 10,
     },
@@ -33,7 +33,7 @@ centeredSlides: true,
    
       slidesPerView: 3,
 centeredSlides: true,
-  spaceBetween: 30,
+  spaceBetween: 20,
     },
   }
 
