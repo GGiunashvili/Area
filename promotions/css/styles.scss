@@ -154,26 +154,103 @@ body {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+.top-sale-box {
+  background-color: white;
+  box-shadow: 0px 6px 18px #0000001a;
+  border-radius: 10px;
+  &__child {
+    &__p {
+      font-size: 16px;
+      color: #707070;
+      font-family: helve-bold !important;
+      margin-top: 3px;
+    }
+    &__btn {
+      background-color: #9de411;
+      box-shadow: 0px 3px 10px #0000001a;
+      border-radius: 7px;
+      border: none;
+      width: 115px;
+      height: 25px;
+      margin-top: 10px;
+
+      &__div {
+        &__p {
+          color: white;
+          font-family: helve-regular;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+  &__child-two {
+    display: flex;
+    align-items: center;
+    &__box {
+      padding-left: 0;
+      &__img {
+        padding-right: 0;
+        &__vendor {
+          border-radius: 10px;
+        }
+      }
+      &__second {
+        margin-top: 15px;
+      }
+    }
+
+    &__box__title {
+      color: #707070;
+      font-size: 16px;
+      font-family: helve-regular;
+    }
+    &__box__p {
+      color: #707070;
+      font-size: 12px;
+      font-family: helve-regular;
+      margin-top: 5px;
+    }
+    &__box__second__title {
+      color: #707070;
+      font-size: 16px;
+      font-family: helve-regular;
+    }
+    &__box__second__title__p {
+      margin-top: 5px;
+      color: #707070;
+      font-size: 12px;
+      font-family: helve-regular;
+      line-height: 1.2;
+    }
+  }
+}
 
 @media only screen and (max-width: 768px) {
+  .current-promotions-title {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
   .promotion-swiper-box {
     padding: 0;
   }
   .promotion-swiper-box {
-    height: 250px;
+    height: 265px;
     &__arrows {
       display: none !important;
     }
   }
   .swiper-slide-active > img {
     height: 185px !important;
-    transition: 0.3s;
+    transition: 0.9s;
   }
 
   .swiper-slide-next > img {
     height: 111px !important;
+    transition: 0.9s;
   }
   .swiper-slide-prev > img {
     height: 111px !important;
+    transition: 0.9s;
   }
 }
