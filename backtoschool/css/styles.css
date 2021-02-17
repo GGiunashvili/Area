@@ -807,6 +807,14 @@ path {
   margin-top: 60px;
 }
 
+.swiper-button-next:focus {
+  outline: unset !important;
+}
+
+.swiper-button-prev:focus {
+  outline: unset !important;
+}
+
 @media only screen and (max-width: 1440px) {
   .my-modal-body {
     margin-top: unset;
@@ -1090,6 +1098,12 @@ path {
   .swiper-button-next,
   .swiper-button-prev {
     top: 53% !important;
+  }
+  .swiper-button-next:focus {
+    outline: unset !important;
+  }
+  .swiper-button-prev:focus {
+    outline: unset !important;
   }
   .pop-extra {
     height: 58px !important;
