@@ -428,7 +428,7 @@ button:focus {
 
 .full-div {
   position: absolute;
-  bottom: -230px;
+  bottom: -60px;
   width: 100%;
 }
 
@@ -640,7 +640,11 @@ button:focus {
     height: 35px;
   }
   .header-logo {
-    height: 27px;
+    height: 20px !important;
+    margin-bottom: 6px;
+  }
+  .logo-soc {
+    margin-bottom: 12px;
   }
   .footer__box__span {
     font-size: 10px;
@@ -680,6 +684,26 @@ button:focus {
 }
 
 @media only screen and (max-width: 768px) {
+  .m-navbar {
+    height: 25px;
+    border-radius: 5px;
+  }
+  .m-navbar__p {
+    font-size: 12px;
+  }
+  .navbar-mob {
+    padding-left: 0;
+  }
+  .header-logo-a {
+    width: 100%;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
   .rules__img {
     margin-left: 5px;
   }
