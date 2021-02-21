@@ -183,7 +183,12 @@ button:focus {
   &__img {
     border-radius: 10px;
     margin-bottom: 5px;
+    transition: 0.3s;
   }
+  &__img:hover {
+    transform: translate(0px, -24px);
+  }
+
   &__text {
     // display: flex;
     // align-items: center;
@@ -202,6 +207,10 @@ button:focus {
       font-size: 16px;
     }
   }
+}
+.category-col-divs:hover .category__img {
+  transform: translate(0px, -15px);
+  color: red;
 }
 .category:hover > .category__text > .category__text__p {
   font-weight: bold !important;

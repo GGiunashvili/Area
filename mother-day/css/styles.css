@@ -240,6 +240,13 @@ button:focus {
 .category__img {
   border-radius: 10px;
   margin-bottom: 5px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.category__img:hover {
+  -webkit-transform: translate(0px, -24px);
+          transform: translate(0px, -24px);
 }
 
 .category__text {
@@ -253,6 +260,12 @@ button:focus {
   color: black;
   font-family: markgeocapscaps-Semiboldcaps;
   font-size: 16px;
+}
+
+.category-col-divs:hover .category__img {
+  -webkit-transform: translate(0px, -15px);
+          transform: translate(0px, -15px);
+  color: red;
 }
 
 .category:hover > .category__text > .category__text__p {
