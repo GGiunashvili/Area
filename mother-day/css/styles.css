@@ -103,6 +103,7 @@
   -webkit-box-shadow: 0px 10px 10px #00000029;
           box-shadow: 0px 10px 10px #00000029;
   border-radius: 10px;
+  margin-top: 40px;
 }
 
 .msng-p {
@@ -218,6 +219,15 @@ button:focus {
 
 .category-col-divs {
   padding: 4px;
+  margin-top: 10px;
+}
+
+.grey-line {
+  width: 100%;
+  height: 2px;
+  background-color: #e4e4e4;
+  margin-top: 60px;
+  margin-bottom: 80px;
 }
 
 .category {
@@ -290,8 +300,8 @@ button:focus {
 
 .category-section {
   padding-top: 5px;
-  padding-bottom: 30px;
-  margin-top: 30px;
+  padding-bottom: 20px;
+  margin-top: 10px;
 }
 
 .category-section__h1 {
@@ -441,7 +451,7 @@ button:focus {
 
 .full-div {
   position: absolute;
-  bottom: -60px;
+  bottom: -109px;
   width: 100%;
 }
 
@@ -525,6 +535,10 @@ button:focus {
   border-radius: 10px;
 }
 
+.b-banner {
+  margin-bottom: 10px;
+}
+
 .mother-gift-box {
   background-image: url(../image/15.png);
   height: 200px;
@@ -535,7 +549,7 @@ button:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 24px;
+  margin-top: 28px;
 }
 
 .mother-gift-box__alert {
@@ -559,7 +573,11 @@ button:focus {
 
 .mother-gift-box__alert__p {
   font-family: markgeocapscaps-Semiboldcaps;
-  font-size: 15px;
+  font-size: 14px;
+}
+
+.mother-gift-box .arrow {
+  margin-left: 4px;
 }
 
 .mother-gift-box .mother-gift-button {
@@ -582,6 +600,26 @@ button:focus {
 
 .banner-img-one {
   margin-bottom: 20px;
+}
+
+.mother-gift-box-1 {
+  background-image: url(../image/3.png);
+}
+
+.mother-gift-box-2 {
+  background-image: url(../image/4.png);
+}
+
+.mother-gift-box-3 {
+  background-image: url(../image/5.png);
+}
+
+.mother-gift-box-4 {
+  background-image: url(../image/6.png);
+}
+
+.mother-gift-box-5 {
+  background-image: url(../image/7.png);
 }
 
 @media only screen and (max-width: 992px) {
@@ -607,6 +645,15 @@ button:focus {
 }
 
 @media only screen and (max-width: 768px) {
+  .mother-gift {
+    height: 443px;
+    background-image: url(../image/mobbba.png);
+    padding-top: unset;
+  }
+  .arrow {
+    height: 7px;
+    margin-left: 2px !important;
+  }
   .mother-gift-box__alert {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -618,7 +665,7 @@ button:focus {
     height: 37px;
   }
   .mother-gift-box__alert__p {
-    font-size: 10px;
+    font-size: 9px;
   }
   .mother-gift-box {
     height: 105px;
@@ -628,12 +675,12 @@ button:focus {
   }
   .mother-gift-button {
     height: 20px !important;
-    width: 85px !important;
-    border-radius: 8px !important;
+    width: 65px !important;
+    border-radius: 6px !important;
     margin-top: 2px !important;
   }
   .mother-gift-button__p {
-    font-size: 9px !important;
+    font-size: 7px !important;
   }
   .category {
     height: 120px;
