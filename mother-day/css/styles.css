@@ -549,6 +549,7 @@ button:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border-radius: 12px;
   margin-top: 28px;
 }
 
@@ -569,6 +570,7 @@ button:focus {
   height: 44px;
   padding-left: 10px;
   padding-right: 10px;
+  border-radius: 0px 0px 12px 12px;
 }
 
 .mother-gift-box__alert__p {
@@ -622,7 +624,43 @@ button:focus {
   background-image: url(../image/7.png);
 }
 
+.tooltipe-btn {
+  bottom: -25px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  display: none;
+  -webkit-transition-delay: 0.4s;
+          transition-delay: 0.4s;
+}
+
+.tooltipe-btn-first {
+  display: block;
+}
+
+.m-navbar-div:hover .tooltipe-btn {
+  display: block;
+}
+
+.m-navbar-div:hover .m-navbar__p {
+  font-weight: bold;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.gift-cols {
+  padding: 4px 6px 0 6px;
+}
+
 @media only screen and (max-width: 992px) {
+  .tooltipe-btn {
+    display: none;
+  }
   .category__text__p {
     font-size: 12px;
   }
@@ -645,6 +683,11 @@ button:focus {
 }
 
 @media only screen and (max-width: 768px) {
+  .grey-line {
+    height: 1px;
+    margin-top: 8px;
+    margin-bottom: 28px;
+  }
   .mother-gift {
     height: 443px;
     background-image: url(../image/mobbba.png);
@@ -803,7 +846,7 @@ button:focus {
     font-size: 10px;
   }
   .full-div {
-    bottom: -45px;
+    bottom: -18px;
   }
   .footer-hearts__img {
     bottom: -54px;
@@ -824,7 +867,7 @@ button:focus {
 }
 
 .m-navbar {
-  background-color: #fadae4;
+  background-color: #fbe4eb;
   border-radius: 10px;
   height: 50px;
 }
@@ -884,6 +927,9 @@ button:focus {
   }
   .banner-img-desk {
     display: none;
+  }
+  .mother-gift {
+    margin: 0 15px 0 15px;
   }
 }
 /*# sourceMappingURL=styles.css.map */

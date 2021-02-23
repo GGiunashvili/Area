@@ -432,6 +432,7 @@ button:focus {
   position: relative;
   display: flex;
   align-items: center;
+  border-radius: 12px;
   margin-top: 28px;
   &__alert {
     position: absolute;
@@ -444,11 +445,14 @@ button:focus {
     height: 44px;
     padding-left: 10px;
     padding-right: 10px;
+    border-radius: 0px 0px 12px 12px;
+
     &__p {
       font-family: markgeocapscaps-Semiboldcaps;
       font-size: 14px;
     }
   }
+
   .arrow {
     margin-left: 4px;
   }
@@ -482,8 +486,38 @@ button:focus {
 .mother-gift-box-5 {
   background-image: url(../image/7.png);
 }
+.tooltipe-btn {
+  bottom: -25px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  display: none;
+  transition-delay: 0.4s;
+}
+.tooltipe-btn-first {
+  display: block;
+}
 
+.m-navbar-div:hover .tooltipe-btn {
+  display: block;
+}
+.m-navbar-div:hover .m-navbar__p {
+  font-weight: bold;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.gift-cols {
+  padding: 4px 6px 0 6px;
+}
 @media only screen and (max-width: 992px) {
+  .tooltipe-btn {
+    display: none;
+  }
   .category__text__p {
     font-size: 12px;
   }
@@ -503,6 +537,11 @@ button:focus {
   margin-right: 20px;
 }
 @media only screen and (max-width: 768px) {
+  .grey-line {
+    height: 1px;
+    margin-top: 8px;
+    margin-bottom: 28px;
+  }
   .mother-gift {
     height: 443px;
     background-image: url(../image/mobbba.png);
@@ -656,7 +695,7 @@ button:focus {
     font-size: 10px;
   }
   .full-div {
-    bottom: -45px;
+    bottom: -18px;
   }
   .footer-hearts {
     &__img {
@@ -677,7 +716,7 @@ button:focus {
   height: 50px;
 }
 .m-navbar {
-  background-color: #fadae4;
+  background-color: #fbe4eb;
   border-radius: 10px;
   height: 50px;
   &__p {
@@ -733,5 +772,8 @@ button:focus {
   }
   .banner-img-desk {
     display: none;
+  }
+  .mother-gift {
+    margin: 0 15px 0 15px;
   }
 }
