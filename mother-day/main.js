@@ -44,3 +44,21 @@ function openNewTab() {
 function openGiftBox() {
     window.open("https://extra.ge/catalog/sasachuqre-baratebi?fbclid=IwAR1RI0vXkB7d_lgUf76PCY-0MgrhB1TakZDYXYjtIGmdcxBxHQ8PxWoy62k");
 }
+
+$(".m-navbar-div").hover(function() {
+    $('.tooltipe-btn-first').removeClass('tooltipe-btn-first');
+  }, function() {
+    $('.flyout').addClass('hidden');
+  });
+
+  $(".banner-img-one").hover(function() {
+    $('.tooltipe-btn-one').addClass('tooltipe-btn-first');
+  }, function() {
+    $('.flyout').addClass('hidden');
+  });
+  $(".extra").hover(function() {
+    $('.tooltipe-btn-one').addClass('tooltipe-btn-first');
+  }, function() {
+    $('.flyout').addClass('hidden');
+  });
+

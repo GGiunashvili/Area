@@ -122,7 +122,9 @@ a:hover {
     font-size: 16px;
     line-height: 1.3;
   }
-
+  &__btn:hover {
+    background-color: #fae4eb;
+  }
   &__btn {
     width: 150px;
     height: 50px;
@@ -164,7 +166,7 @@ button:focus {
   box-shadow: 0 0 0 0.2rem #fd561f !important;
 }
 .banner__btn-start:active {
-  box-shadow: 0 0 0 0.2rem #f72163 !important;
+  box-shadow: 0 0 0 0.2rem #fae4eb !important;
 }
 .category-col-divs {
   padding: 4px;
@@ -245,7 +247,7 @@ button:focus {
   margin-top: 10px;
   &__h1 {
     text-align: center;
-    font-family: markgeocapscaps-Semiboldcaps;
+    font-family: markgeocaps-bold;
     font-size: 25px;
     margin-bottom: 10px;
     display: flex;
@@ -331,6 +333,7 @@ button:focus {
     z-index: 9999999;
   }
   &__img {
+    display: none;
     height: 25px;
     margin-right: 5px;
     z-index: 9999999;
@@ -504,15 +507,21 @@ button:focus {
 .m-navbar-div:hover .tooltipe-btn {
   display: block;
 }
+
 .m-navbar-div:hover .m-navbar__p {
   font-weight: bold;
 }
-
+.dd {
+  display: block !important;
+}
 html {
   scroll-behavior: smooth;
 }
 .gift-cols {
   padding: 4px 6px 0 6px;
+}
+.extra-banner-p {
+  max-width: 420px;
 }
 @media only screen and (max-width: 992px) {
   .tooltipe-btn {
@@ -537,6 +546,12 @@ html {
   margin-right: 20px;
 }
 @media only screen and (max-width: 768px) {
+  .banner__btn:hover {
+    background-color: #f72163;
+  }
+  .tooltipe-btn {
+    bottom: -17px;
+  }
   .grey-line {
     height: 1px;
     margin-top: 8px;
@@ -567,7 +582,7 @@ html {
   }
   .mother-gift-button {
     height: 20px !important;
-    width: 65px !important;
+    width: 70px !important;
     border-radius: 6px !important;
     margin-top: 2px !important;
   }
@@ -744,7 +759,8 @@ html {
     justify-content: center;
   }
   .rules__img {
-    margin-left: 5px;
+    // margin-left: 5px;
+    display: block;
   }
   .content {
     padding-left: 5px;
