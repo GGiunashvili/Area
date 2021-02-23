@@ -523,6 +523,10 @@ html {
 .extra-banner-p {
   max-width: 420px;
 }
+.banner__btn-start:hover .banner__btn__p {
+  color: #f72163;
+  font-weight: bold;
+}
 @media only screen and (max-width: 992px) {
   .tooltipe-btn {
     display: none;
