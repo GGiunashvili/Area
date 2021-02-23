@@ -435,6 +435,8 @@ button:focus {
   position: relative;
   display: flex;
   align-items: center;
+  background-size: cover;
+
   border-radius: 12px;
   margin-top: 28px;
   &__alert {
