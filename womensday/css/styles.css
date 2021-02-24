@@ -926,15 +926,16 @@ html {
     font-size: 9px;
   }
   .msng-p {
-    font-size: 9px;
+    font-size: 6px;
   }
   .msng-icon {
-    height: 19px;
+    height: 14px;
   }
   .soc-media {
     height: 41px;
     margin: 0 4px;
-    width: 153px;
+    width: 120px;
+    border-radius: 8px;
   }
   .icon-set {
     height: unset;
