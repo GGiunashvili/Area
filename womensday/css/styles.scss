@@ -525,7 +525,7 @@ html {
   padding: 4px 10px 4px 10px;
 }
 .extra-banner-p {
-  max-width: 420px;
+  max-width: 486px;
 }
 .banner__btn-start:hover .banner__btn__p {
   color: #f72163;
@@ -616,6 +616,9 @@ html {
   margin-right: 20px;
 }
 @media only screen and (max-width: 768px) {
+  .shop-now-bt {
+    display: none;
+  }
   .last-two-compo {
     display: none;
   }
@@ -642,7 +645,7 @@ html {
   }
   .product-name,
   .product-price {
-    font-size: 11px;
+    font-size: 12px;
   }
   .detailed-product-div {
     border-radius: 12px;

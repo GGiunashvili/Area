@@ -673,7 +673,7 @@ html {
 }
 
 .extra-banner-p {
-  max-width: 420px;
+  max-width: 486px;
 }
 
 .banner__btn-start:hover .banner__btn__p {
@@ -788,6 +788,9 @@ html {
 }
 
 @media only screen and (max-width: 768px) {
+  .shop-now-bt {
+    display: none;
+  }
   .last-two-compo {
     display: none;
   }
@@ -823,7 +826,7 @@ html {
   }
   .product-name,
   .product-price {
-    font-size: 11px;
+    font-size: 12px;
   }
   .detailed-product-div {
     border-radius: 12px;
