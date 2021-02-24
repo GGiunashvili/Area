@@ -170,7 +170,7 @@ button:focus {
   box-shadow: 0 0 0 0.2rem #fae4eb !important;
 }
 .category-col-divs {
-  padding: 4px;
+  // padding: 4px;
   margin-top: 10px;
 }
 .grey-line {
@@ -598,6 +598,14 @@ html {
 .back-btn:hover {
   background-color: #fd56017a !important;
 }
+@media only screen and (max-width: 1025px) {
+  .banner__btn {
+    width: 120px;
+  }
+  .detailed-product-div {
+    width: 270px;
+  }
+}
 @media only screen and (max-width: 992px) {
   .tooltipe-btn {
     display: none;
@@ -611,6 +619,9 @@ html {
   .banner__h1 {
     font-size: 16px;
   }
+  .banner__btn {
+    width: 100px;
+  }
 }
 .three-btn {
   border: 2px solid #f72163;
@@ -620,8 +631,14 @@ html {
   box-shadow: 0px 5px 10px #0000004d;
   margin-right: 20px;
 }
-@media only screen and (max-width: 768px) {
-  .shop-now-bt {
+@media only screen and (max-width: 765px) {
+  .category-col-divs {
+    padding: 0;
+  }
+  .banner-img-one {
+    margin-bottom: 0;
+  }
+  .shop-now-dt {
     display: none;
   }
   .last-two-compo {
@@ -668,12 +685,13 @@ html {
   .grey-line {
     height: 1px;
     margin-top: 8px;
-    margin-bottom: 28px;
+    margin-bottom: 0px;
   }
   .mother-gift {
-    height: 553px;
+    height: 560px;
     background-image: url(../image/change-mob.png);
     padding-top: unset;
+    margin-bottom: 10px !important;
   }
   .arrow {
     height: 7px;
