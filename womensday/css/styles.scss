@@ -188,6 +188,8 @@ button:focus {
   /* align-items: center; */
   justify-content: space-around;
   height: 235px;
+  max-width: 350px;
+
   margin-bottom: 10px;
   display: flex;
   align-items: flex-end;
@@ -208,7 +210,7 @@ button:focus {
     // justify-content: center;
     position: absolute;
     top: 12px;
-    left: 10px;
+    left: 25px;
     // height: 85px;
     // box-shadow: 0px 2px 5px #0000001a;
     border-radius: 0px 0px 10px 10px;
@@ -220,6 +222,9 @@ button:focus {
       font-size: 16px;
     }
   }
+}
+.category__img {
+  height: 196px;
 }
 .category-col-divs:hover .category__img {
   transform: translate(0px, -15px);
