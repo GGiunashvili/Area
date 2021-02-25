@@ -45,12 +45,6 @@ function openGiftBox() {
     window.open("https://extra.ge/catalog/sasachuqre-baratebi?fbclid=IwAR1RI0vXkB7d_lgUf76PCY-0MgrhB1TakZDYXYjtIGmdcxBxHQ8PxWoy62k");
 }
 
-function tanamedrove1() {
-    window.open("https://www.google.com/search?q=tanamedrove+simgerebi&oq=tanamedrove&aqs=chrome.0.0j69i57j0l8.1428j0j7&sourceid=chrome&ie=UTF-8");
-}
-function tanamedrove2() {
-    window.open("https://www.google.com/search?sxsrf=ALeKk02LAmuayyQMWJqTqkVgHEqdCS4Y0Q%3A1614174354173&ei=klg2YMuECtGflwSDoaOABw&q=2222&oq=2222&gs_lcp=Cgdnd3Mtd2l6EAMyBAgAEBMyBAgAEBMyBAgAEBMyBAgAEBMyBAgAEBMyBAgAEBMyBAgAEBMyBAgAEBMyBAgAEBMyBAgAEBM6CAgAELADEMsBOgkIABCwAxAHEB46BwgAELADEB46CQgAELADEAgQHjoFCAAQxAI6BAgAEANQ1vACWJ71AmD69QJoA3AAeACAAZMBiAGaA5IBAzAuM5gBAKABAaoBB2d3cy13aXrIAQrAAQE&sclient=gws-wiz&ved=0ahUKEwjLlfGH1ILvAhXRz4UKHYPQCHAQ4dUDCA0&uact=5");
-}
 
 $(".m-navbar-div").hover(function() {
     $('.tooltipe-btn-first').removeClass('tooltipe-btn-first');
@@ -69,3 +63,43 @@ $(".m-navbar-div").hover(function() {
     $('.flyout').addClass('hidden');
   });
 
+
+
+
+function tanamedrove1() {
+    window.open("https://extra.ge/detailed/silamaze-da-janmrteloba/sakhis-movla/sakhis-kremi/sakhis-movlis-nakrebi-31-101776");
+}
+function tanamedrove11() {
+    window.open("https://extra.ge/catalog/silamaze-da-janmrteloba/sakhis-movla/sakhis-kremi?type=2&current=1&sortType=1&sortBy=2");
+}
+
+
+function tanamedrove2() {
+    window.open("https://extra.ge/detailed/eleqtronika/saojakho-teqnika/samzareulos-teqnika/tsvensatsuri/tsvensatsuri-je135-2544-90047");
+}
+function tanamedrove22() {
+    window.open("https://extra.ge/catalog/eleqtronika/saojakho-teqnika/samzareulos-teqnika/tsvensatsuri?type=2&current=1&sortType=1&sortBy=2");
+}
+
+
+
+function tanamedrove3() {
+    window.open("https://extra.ge/detailed/eleqtronika/saojakho-teqnika/silamaze-da-tavis-movla/tmis-uto/eh-hv11-k865-tmis-uto-227361");
+}
+function tanamedrove33() {
+    window.open("https://extra.ge/catalog/eleqtronika/saojakho-teqnika/silamaze-da-tavis-movla/tmis-uto");
+}
+
+function tanamedrove4() {
+    window.open("https://extra.ge/detailed/eleqtronika/saojakho-teqnika/saqofatskhovrebo-teqnika/churchlis-saretskhi-manqana/sms88ti03e-churchlis-saretskhi-manqana-136985");
+}
+function tanamedrove44() {
+    window.open("https://extra.ge/catalog/eleqtronika/saojakho-teqnika/saqofatskhovrebo-teqnika/churchlis-saretskhi-manqana?type=2&current=1&sortType=1&sortBy=2");
+}
+
+function tanamedrove5() {
+    window.open("https://extra.ge/detailed/eleqtronika/saojakho-teqnika/sakhli-da-dasuftaveba/mtversasruti/srv-2230ti-roboti-mtversasruti-199734");
+}
+function tanamedrove55() {
+    window.open("https://extra.ge/catalog/eleqtronika/saojakho-teqnika/sakhli-da-dasuftaveba/mtversasruti");
+}
