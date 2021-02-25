@@ -84,14 +84,14 @@ function tanamedrove22() {
 
 
 function tanamedrove3() {
-    window.open("https://extra.ge/detailed/eleqtronika/saojakho-teqnika/silamaze-da-tavis-movla/tmis-uto/eh-hv11-k865-tmis-uto-227361");
+    window.open("https://extra.ge/detailed/eleqtronika/saojakho-teqnika/silamaze-da-tavis-movla/tmis-uto/tmis-uto-philips-bhs37800-black-199083");
 }
 function tanamedrove33() {
     window.open("https://extra.ge/catalog/eleqtronika/saojakho-teqnika/silamaze-da-tavis-movla/tmis-uto");
 }
 
 function tanamedrove4() {
-    window.open("https://extra.ge/detailed/eleqtronika/saojakho-teqnika/saqofatskhovrebo-teqnika/churchlis-saretskhi-manqana/sms88ti03e-churchlis-saretskhi-manqana-136985");
+    window.open("https://extra.ge/detailed/eleqtronika/saojakho-teqnika/saqofatskhovrebo-teqnika/churchlis-saretskhi-manqana/churchlis-saretskhi-manqana-indesit-dsfe-1b10-27790");
 }
 function tanamedrove44() {
     window.open("https://extra.ge/catalog/eleqtronika/saojakho-teqnika/saqofatskhovrebo-teqnika/churchlis-saretskhi-manqana?type=2&current=1&sortType=1&sortBy=2");
@@ -120,7 +120,7 @@ function realtanamedrove11() {
 
 
 function realtanamedrove2() {
-    window.open("https://extra.ge/detailed/eleqtronika/telefonebi-da-aqsesuarebi/smart-saatebi-da-aqsesuarebi/smart-saati/band-4-pink-smart-saati-186882");
+    window.open("https://extra.ge/detailed/eleqtronika/telefonebi-da-aqsesuarebi/smart-saatebi-da-aqsesuarebi/smart-saati/smart-saati-watch-series-3-gps-42mm-space-gray-aluminum-case-with-black-sport-band-mtf32fsa-92731");
 }
 function realtanamedrove22() {
     window.open("https://extra.ge/catalog/eleqtronika/telefonebi-da-aqsesuarebi/smart-saatebi-da-aqsesuarebi/smart-saati?type=2&current=1&sortType=1&sortBy=2");
@@ -136,7 +136,7 @@ function realtanamedrove33() {
 }
 
 function realtanamedrove4() {
-    window.open("https://extra.ge/detailed/eleqtronika/kompiuteruli-teqnika/noutbuqis-aqsesuarebi/qursasmeni/rb-hx220beek-black-qursasmeni-133112");
+    window.open("https://extra.ge/detailed/eleqtronika/kompiuteruli-teqnika/noutbuqis-aqsesuarebi/qursasmeni/qursasmeni-house-of-marley-em-jh133-sb-black-13012");
 }
 function realtanamedrove44() {
     window.open("https://extra.ge/catalog/eleqtronika/kompiuteruli-teqnika/noutbuqis-aqsesuarebi/qursasmeni?type=2&current=1&sortType=1&sortBy=2");
@@ -181,7 +181,7 @@ function tanamedrovee33() {
 }
 
 function tanamedrovee4() {
-    window.open("https://extra.ge/detailed/eleqtronika/saojakho-teqnika/samzareulos-teqnika/blenderi/sencor-shb-4466yl-yellow-khelis-blenderi-203790");
+    window.open("https://extra.ge/detailed/eleqtronika/saojakho-teqnika/samzareulos-teqnika/blenderi/blenderebi-sencor-shb-5601gr-12802");
 }
 function tanamedrovee44() {
     window.open("https://extra.ge/catalog/eleqtronika/saojakho-teqnika/samzareulos-teqnika/blenderi?type=2&current=1&sortType=1&sortBy=2");
