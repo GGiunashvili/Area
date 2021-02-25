@@ -103,3 +103,48 @@ function tanamedrove5() {
 function tanamedrove55() {
     window.open("https://extra.ge/catalog/eleqtronika/saojakho-teqnika/sakhli-da-dasuftaveba/mtversasruti");
 }
+
+
+
+
+
+
+
+
+function realtanamedrove1() {
+    window.open("https://extra.ge/detailed/modis-samqaro/unisex/unisex-aqsesuarebi/unisex-chanta/zurgchanta-diagonal-97998");
+}
+function realtanamedrove11() {
+    window.open("https://extra.ge/catalog/modis-samqaro/unisex/unisex-aqsesuarebi/unisex-chanta?type=2&current=1&sortType=1&sortBy=2");
+}
+
+
+function realtanamedrove2() {
+    window.open("https://extra.ge/detailed/eleqtronika/telefonebi-da-aqsesuarebi/smart-saatebi-da-aqsesuarebi/smart-saati/band-4-pink-smart-saati-186882");
+}
+function realtanamedrove22() {
+    window.open("https://extra.ge/catalog/eleqtronika/telefonebi-da-aqsesuarebi/smart-saatebi-da-aqsesuarebi/smart-saati?type=2&current=1&sortType=1&sortBy=2");
+}
+
+
+
+function realtanamedrove3() {
+    window.open("https://extra.ge/detailed/modis-samqaro/unisex/unisex-tansatsmeli/unisex-hudi/shavi-hudi-qviteli-khelit-229250");
+}
+function realtanamedrove33() {
+    window.open("https://extra.ge/catalog/modis-samqaro/unisex/unisex-tansatsmeli/unisex-hudi?type=2&current=1&sortType=1&sortBy=2");
+}
+
+function realtanamedrove4() {
+    window.open("https://extra.ge/detailed/eleqtronika/kompiuteruli-teqnika/noutbuqis-aqsesuarebi/qursasmeni/rb-hx220beek-black-qursasmeni-133112");
+}
+function realtanamedrove44() {
+    window.open("https://extra.ge/catalog/eleqtronika/kompiuteruli-teqnika/noutbuqis-aqsesuarebi/qursasmeni?type=2&current=1&sortType=1&sortBy=2");
+}
+
+function realtanamedrove5() {
+    window.open("https://extra.ge/detailed/sporti-da-mogzauroba/fitnesi-da-ioga/fitnes-mati/ioga-mati-198399");
+}
+function realtanamedrove55() {
+    window.open("https://extra.ge/catalog/sporti-da-mogzauroba/fitnesi-da-ioga/fitnes-mati?type=2&current=1&sortType=1&sortBy=2");
+}
