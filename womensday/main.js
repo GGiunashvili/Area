@@ -148,3 +148,48 @@ function realtanamedrove5() {
 function realtanamedrove55() {
     window.open("https://extra.ge/catalog/sporti-da-mogzauroba/fitnesi-da-ioga/fitnes-mati?type=2&current=1&sortType=1&sortBy=2");
 }
+
+
+
+
+
+
+
+
+function tanamedrovee1() {
+    window.open("https://extra.ge/detailed/bavshvta-samqaro/bavshvta-usafrtkhoeba/avtomobilis-savardzeli/bavshvis-avtosavardzeli-goodyear-zlatek-colibri-0-15-ts-0-13-kg-tsisferi-219850");
+}
+function tanamedrovee11() {
+    window.open("https://extra.ge/catalog/bavshvta-samqaro/bavshvta-usafrtkhoeba/avtomobilis-savardzeli?type=2&current=1&sortType=1&sortBy=2");
+}
+
+
+function tanamedrovee2() {
+    window.open("https://extra.ge/detailed/bavshvta-samqaro/sabavshvo-eleqtronika/radio-dzidza/radio-dzidza-bbremed-bd-3100-23116");
+}
+function tanamedrovee22() {
+    window.open("https://extra.ge/catalog/bavshvta-samqaro/sabavshvo-eleqtronika/radio-dzidza?type=2&current=1&sortType=1&sortBy=2");
+}
+
+
+
+function tanamedrovee3() {
+    window.open("https://extra.ge/detailed/silamaze-da-janmrteloba/sameditsino-danadgarebi/sadezinfeqtsio-sashualeba/sadezinfeqtsio-motsqobiloba-216272");
+}
+function tanamedrovee33() {
+    window.open("https://extra.ge/catalog/silamaze-da-janmrteloba/sameditsino-danadgarebi/sadezinfeqtsio-sashualeba?type=2&current=1&sortType=1&sortBy=2");
+}
+
+function tanamedrovee4() {
+    window.open("https://extra.ge/detailed/eleqtronika/saojakho-teqnika/samzareulos-teqnika/blenderi/sencor-shb-4466yl-yellow-khelis-blenderi-203790");
+}
+function tanamedrovee44() {
+    window.open("https://extra.ge/catalog/eleqtronika/saojakho-teqnika/samzareulos-teqnika/blenderi?type=2&current=1&sortType=1&sortBy=2");
+}
+
+function tanamedrovee5() {
+    window.open("https://extra.ge/detailed/eleqtronika/foto-video/fotoaparatebi/instax-mini-11-blush-pink-fotoaparati-119373");
+}
+function tanamedrovee55() {
+    window.open("https://extra.ge/catalog/eleqtronika/foto-video/fotoaparatebi?type=2&current=1&sortType=1&sortBy=2");
+}
