@@ -115,7 +115,7 @@ function realtanamedrove1() {
     window.open("https://extra.ge/detailed/modis-samqaro/unisex/unisex-aqsesuarebi/unisex-chanta/zurgchanta-diagonal-97998");
 }
 function realtanamedrove11() {
-    window.open("https://extra.ge/catalog/modis-samqaro/unisex/unisex-aqsesuarebi/unisex-chanta?type=2&current=1&sortType=1&sortBy=2");
+    window.open("https://extra.ge/catalog/modis-samqaro/qalis-samosi/qalis-aqsesuarebi/qalis-chanta");
 }
 
 
@@ -132,7 +132,7 @@ function realtanamedrove3() {
     window.open("https://extra.ge/detailed/modis-samqaro/unisex/unisex-tansatsmeli/unisex-hudi/shavi-hudi-qviteli-khelit-229250");
 }
 function realtanamedrove33() {
-    window.open("https://extra.ge/catalog/modis-samqaro/unisex/unisex-tansatsmeli/unisex-hudi?type=2&current=1&sortType=1&sortBy=2");
+    window.open("https://extra.ge/catalog/modis-samqaro/qalis-khazi/tansatsmeli/qalis-hudi-sviteri?type=2&current=1&sortType=1&sortBy=2");
 }
 
 function realtanamedrove4() {
