@@ -599,6 +599,20 @@ html {
 .back-btn:hover {
   background-color: #fd56017a !important;
 }
+.navbar-scroll {
+  background-color: #f9f9fb;
+  display: flex;
+  position: relative;
+  height: 105px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  &__div {
+    position: fixed;
+    z-index: 99999999;
+    background: #f9f9fb;
+  }
+}
 @media only screen and (max-width: 1025px) {
   .banner__btn {
     width: 120px;
@@ -877,6 +891,9 @@ html {
   }
 }
 @media only screen and (max-width: 768px) {
+  .navbar-scroll {
+    height: 75px;
+  }
   .rules__p {
     font-size: 12px;
     padding-right: 10px;

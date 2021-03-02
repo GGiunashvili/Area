@@ -144,48 +144,52 @@
    
   </div>
 
-  <div class="container">
-    <div class="row justify-content-between align-items-center">
-      <div class="col-12 logo-soc">
-
-        <div class="col-12 col-md-6 pl-0 extra">
-          <a href="https://extra.ge/" target="_balnk" class="header-logo-a"><img class="header-logo" src="image/Group 137.svg" alt=""></a>
-
-        </div>
-        <div class="col-12 col-md-6 pr-0 navbar-mob">
-          
-          <div class="m-navbar soc-media-btn d-flex align-items-center justify-content-around" >
-            <div class="m-navbar-div " style="position: relative;">
-              <a href="#main" class="h-100">
-                <p class="m-navbar__p">მთავარი</p>
-              </a>
-              <img class="tooltipe-btn tooltipe-btn-first tooltipe-btn-one" src="image/Hover.svg" alt="">
+  <div class="w-100 navbar-scroll" id="main">
+    <div class="container navbar-scroll__div">
+      <div>
+        <div class="row justify-content-between align-items-center">
+          <div class="col-12 logo-soc">
+    
+            <div class="col-12 col-md-6 pl-0 extra">
+              <a href="https://extra.ge/" target="_balnk" class="header-logo-a"><img class="header-logo" src="image/Group 137.svg" alt=""></a>
+    
             </div>
-            <div class="m-navbar-div" style="position: relative;">
-              <a href="#choose"  class="h-100">
-                <p class="m-navbar__p">შეარჩიე</p>
-              </a>
-              <img class="tooltipe-btn" src="image/Hover.svg" alt="">
-            </div>
-            
-            <div class="m-navbar-div" style="position: relative;">
-              <a href="#blog"  class="h-100">
-                <p class="m-navbar__p">ბლოგი</p>
-              </a>
-              <img class="tooltipe-btn" src="image/Hover.svg" alt="">
-            </div>
-            <div class="m-navbar-div m-navbar-div-one" style="position: relative;">
-              <a href="#rules" class="h-100">
-                <p class="m-navbar__p">წესები</p>
-              </a>
-              <img class="tooltipe-btn" src="image/Hover.svg" alt="">
-            </div>
-            
-            <div class="m-navbar-div" style="position: relative;">
-              <a href="#contact"  class="h-100">
-                <p class="m-navbar__p">კონტაქტი</p>
-              </a>
-              <img class="tooltipe-btn" src="image/Hover.svg" alt="">
+            <div class="col-12 col-md-6 pr-0 navbar-mob">
+              
+              <div class="m-navbar soc-media-btn d-flex align-items-center justify-content-around" >
+                <div class="m-navbar-div " style="position: relative;">
+                  <a href="#main" class="h-100">
+                    <p class="m-navbar__p">მთავარი</p>
+                  </a>
+                  <img class="tooltipe-btn tooltipe-btn-first tooltipe-btn-one" src="image/Hover.svg" alt="">
+                </div>
+                <div class="m-navbar-div" style="position: relative;">
+                  <a href="#choose"  class="h-100">
+                    <p class="m-navbar__p">შეარჩიე</p>
+                  </a>
+                  <img class="tooltipe-btn" src="image/Hover.svg" alt="">
+                </div>
+                
+                <div class="m-navbar-div" style="position: relative;">
+                  <a href="#blog"  class="h-100">
+                    <p class="m-navbar__p">ბლოგი</p>
+                  </a>
+                  <img class="tooltipe-btn" src="image/Hover.svg" alt="">
+                </div>
+                <div class="m-navbar-div m-navbar-div-one" style="position: relative;">
+                  <a href="#rules" class="h-100">
+                    <p class="m-navbar__p">წესები</p>
+                  </a>
+                  <img class="tooltipe-btn" src="image/Hover.svg" alt="">
+                </div>
+                
+                <div class="m-navbar-div" style="position: relative;">
+                  <a href="#contact"  class="h-100">
+                    <p class="m-navbar__p">კონტაქტი</p>
+                  </a>
+                  <img class="tooltipe-btn" src="image/Hover.svg" alt="">
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -198,7 +202,7 @@
 
 
   <div class="container">
-    <div class="row banner-img-one" id="#main">
+    <div class="row banner-img-one" >
       <div class="col-md-6 col-12 banner-img-mob">
         <img class="w-100" src="image/guli-4.png" alt="">
         <!-- <div class="video-main-box">
@@ -215,11 +219,11 @@
           <p class="banner__p  extra-banner-p">გადაიხადე <span style="  font-family: markgeo-bold;">Mastercard-ით</span> და <span style="  font-family: markgeo-bold;">მიიღე</span> დამატებით <span style="  font-family: markgeo-bold;">30%-იანი ფასდაკლება და უფასო მიწოდება</span> საქართველოს მასშტაბით.</p>
           <!-- <p class="banner__p">შესაბამისად, თუ საჩუქრის ასარჩევად ჯერ კიდევ ინსპირაციის ძიების პროცესში ხარ, გადაწყვეტილების მიღებაში ჩვენ დაგეხმარებით. Mastercard-ი კი, შენი შენაძენისთვის დამატებით 20% ფასდაკლებას უზრუნველყოფს.</p> -->
           <button class="banner__btn banner__btn-start" onclick="location.href='#choose'">
-            <p class="banner__btn__p">დაწყება</p>
+            <p class="banner__btn__p" id="choose">დაწყება</p>
           </button>
         </div>
       </div>
-      <div class="col-md-6 col-12 banner-img-desk">
+      <div class="col-md-6 col-12 banner-img-desk" >
         <img class="w-100" src="image/guli-4.png" alt="">
 
         <!-- <div class="video-main-box">
@@ -233,9 +237,9 @@
   </div>
 
 
-  <div class="category-section">
+  <div class="category-section" >
     <div class="container">
-        <div class="row" id="choose" >
+        <div class="row" >
           <h1 class="col-12 category-section__h1">შეარჩიე კატეგორიის მიხედვით</h1>
 
           <div class="col-12 d-flex justify-content-between flex-wrap p-md-0 ">
@@ -301,10 +305,10 @@
             
     
             <div class="col-md-4 col-4 category-col-divs">
-              <a href="https://extra.ge/landing/tsignebi-d7260379"  target="_blank" class=" category" style="background-color: #F4F9EA;">
+              <a  href="https://extra.ge/landing/tsignebi-d7260379"  target="_blank" class=" category" style="background-color: #F4F9EA;">
                 <img class=" category__img" src="image/Image5.png" alt="">
                 <div class="category__text">
-                  <p class="category__text__p">წიგნები</p>
+                  <p class="category__text__p" >წიგნები</p>
                 </div>
               </a>
             </div>
@@ -360,10 +364,10 @@
         </div>
      </div>
   </div>
-
+<div id="blog"></div>
   
-  <div class="container pr-md-4 pl-md-4">
-    <div class="row" id="blog">
+  <div class="container pr-md-4 pl-md-4" >
+    <div class="row">
       <div class="mother-gift">
         <h1 class="col-12 category-section__h1">დააფასე და აჩუქე დედას</h1>
         <p class="banner__p text-center b-banner">მისი დაფასება მარტივი საქმე როდია, თუმცა <br>მცირედი საჩუქრით მაინც შეძლებ დაანახო, თუ რამდენად ფასეულია ის შენთვის.</p>
@@ -397,7 +401,7 @@
               <div class="mother-gift-box__alert">
                 <p class="mother-gift-box__alert__p">ახალბედა დედა</p>
                 <button class="banner__btn banner__btn-start mother-gift-button" type="button" onclick="location.href='momavali-deda.html'" target="_blank" target="_blank">
-                  <p class="banner__btn__p mother-gift-button__p">დეტალურად</p>
+                  <p class="banner__btn__p mother-gift-button__p" id="rules">დეტალურად</p>
                   <img class="arrow" src="image/arow.svg" alt="">
                 </button>
               </div>
@@ -420,13 +424,13 @@
   
 
 
-<div class="container p-md-0">
+<div class="container p-md-0" >
   <div class="grey-line"></div>
 
 </div>
 <div class="rules-box">
   <div class="container" >
-    <div class="row" id="rules">
+    <div class="row" >
       <h1 class="col-12 category-section__h1 text-center"  >აქციის პირობები</h1>
 
       <div class="d-flex rules">
