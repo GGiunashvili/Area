@@ -260,5 +260,11 @@
   .lana-box__col__div__description__job {
     font-size: 12px;
   }
+  .category-product__col-frst {
+    padding-right: 7px;
+  }
+  .category-product__col-second {
+    padding-left: 7px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
