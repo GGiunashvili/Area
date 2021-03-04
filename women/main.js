@@ -44,7 +44,7 @@ $('.icon-3').click( function() {
 
 
 
-///responsive footer////
+///extra native footer////
 $(document).ready(function() {
 
     $(".toggle-accordion").on("click", function() {

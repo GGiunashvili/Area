@@ -57,6 +57,7 @@ a:hover {
   text-decoration: none;
 }
 
+///extra native footer///
 .footer {
   display: flex;
   width: 100%;
@@ -144,18 +145,9 @@ a:hover {
   margin-left: 10px;
 }
 .footer-container {
-  max-width: 1650px;
-}
-///responsive footer///
-body {
-  color: #6a6c6f;
-  background-color: #f1f3f6;
-  margin-top: 30px;
+  max-width: 1140px;
 }
 
-// .container {
-//   max-width: 960px;
-// }
 .panel-heading {
   background-color: #2b2731 !important;
 }
@@ -269,50 +261,13 @@ body {
 .accordion-option .toggle-accordion.active:before {
   content: 'Collapse All';
 }
-
-//////
-@media only screen and (max-width: 992px) {
-  .my-panel-body {
-    display: flex;
-    flex-direction: column;
-    background-color: #2b2731;
-    // height: 90px;
-    justify-content: space-around;
-    padding-left: 15px;
-    margin-bottom: 10px;
-    padding-top: 5px;
-  }
-  .header {
-    height: 80px;
-    &__box {
-      justify-content: center !important;
-      &__extra-logo {
-        height: 26px;
-      }
-
-      &__nav-box {
-        display: none !important;
-      }
-    }
-  }
-}
 .responsive-footer {
   display: none;
 }
-.btn:focus {
-  box-shadow: unset;
-  text-decoration: none;
-}
-.btn-link:hover {
-  color: white;
-  text-decoration: none;
-}
-.cla {
-  transform: rotate(45deg) !important;
-  transition: 0.3s !important;
-}
+//////
 
 @media only screen and (max-width: 992px) {
+  ///extra native footer///
   .footer__col-one__p-box__txt {
     font-size: 12px;
   }
@@ -355,9 +310,12 @@ body {
   .footer-container {
     display: none;
   }
+  //////
 }
 @media only screen and (max-width: 575px) {
+  ///extra-native-footer///
   .contact-us-last {
     padding-bottom: 50px;
   }
+  //////
 }

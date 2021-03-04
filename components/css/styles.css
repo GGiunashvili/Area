@@ -138,7 +138,7 @@ button:focus {
   font-weight: bold;
 }
 
-.footer {
+.factory-footer {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -153,7 +153,7 @@ button:focus {
   height: 65px;
 }
 
-.footer__box {
+.factory-footer__box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -164,7 +164,7 @@ button:focus {
   font-family: markgeo-regular;
 }
 
-.footer__box__span {
+.factory-footer__box__span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -173,15 +173,15 @@ button:focus {
   align-items: center;
 }
 
-.footer__box__a__img {
+.factory-footer__box__a__img {
   margin: 0 5px;
 }
 
-.footer__media-icon__a__img {
+.factory-footer__media-icon__a__img {
   height: 20px;
 }
 
-.footer__media-icon__a__img-linkedin {
+.factory-footer__media-icon__a__img-linkedin {
   margin: 0 10px;
 }
 
@@ -331,7 +331,7 @@ button:focus {
   .cta-btn__p {
     font-size: 10px;
   }
-  .footer__box__span {
+  .factory-footer__box__span {
     font-size: 10px;
   }
 }

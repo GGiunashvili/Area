@@ -191,13 +191,7 @@ a:hover {
 }
 
 .footer-container {
-  max-width: 1650px;
-}
-
-body {
-  color: #6a6c6f;
-  background-color: #f1f3f6;
-  margin-top: 30px;
+  max-width: 1140px;
 }
 
 .panel-heading {
@@ -328,58 +322,8 @@ body {
   content: 'Collapse All';
 }
 
-@media only screen and (max-width: 992px) {
-  .my-panel-body {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    background-color: #2b2731;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    padding-left: 15px;
-    margin-bottom: 10px;
-    padding-top: 5px;
-  }
-  .header {
-    height: 80px;
-  }
-  .header__box {
-    -webkit-box-pack: center !important;
-        -ms-flex-pack: center !important;
-            justify-content: center !important;
-  }
-  .header__box__extra-logo {
-    height: 26px;
-  }
-  .header__box__nav-box {
-    display: none !important;
-  }
-}
-
 .responsive-footer {
   display: none;
-}
-
-.btn:focus {
-  -webkit-box-shadow: unset;
-          box-shadow: unset;
-  text-decoration: none;
-}
-
-.btn-link:hover {
-  color: white;
-  text-decoration: none;
-}
-
-.cla {
-  -webkit-transform: rotate(45deg) !important;
-          transform: rotate(45deg) !important;
-  -webkit-transition: 0.3s !important;
-  transition: 0.3s !important;
 }
 
 @media only screen and (max-width: 992px) {
