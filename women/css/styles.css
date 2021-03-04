@@ -67,14 +67,22 @@
   margin-top: 20px;
 }
 
+.category-product__col__kulon {
+  height: 310px;
+  width: 100%;
+}
+
+.category-product__col__airpod {
+  height: 310px;
+  width: 100%;
+}
+
 .category-product__col__skate {
   width: 310px;
-  height: 100%;
 }
 
 .category-product__col__shoes {
   width: 310px;
-  height: 100%;
 }
 
 .category-product__col__book {
@@ -94,7 +102,7 @@
 .category-product__col__div__p {
   font-size: 20px;
   font-family: markgeo-regular;
-  margin-top: 16px;
+  margin-top: 10px;
   margin-bottom: 28px;
   line-height: 1.3;
 }
@@ -111,7 +119,7 @@
       -ms-flex-align: center;
           align-items: center;
   position: absolute;
-  bottom: 15px;
+  bottom: 5px;
 }
 
 .category-product__col__div__see-more__p {
@@ -130,13 +138,13 @@
 }
 
 .category-product__col__div-book {
-  height: 262px !important;
+  height: 153px !important;
 }
 
 .category-product__col__div-shoes-skate {
   margin-top: 14px;
-  height: 310px !important;
-  padding: 0;
+  height: 245px !important;
+  padding: 2px;
 }
 
 @media only screen and (max-width: 992px) {
@@ -161,7 +169,7 @@
     width: 100%;
   }
   .category-product__col__div {
-    padding: 15px;
+    padding: 5px;
     height: 84px;
   }
   .category-product__col__div__name {
@@ -211,6 +219,46 @@
     margin-top: 14px;
     height: 85px !important;
     padding: 0;
+  }
+  .category-product-col-extra-airpod {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .category-product__col-phone-mb-none {
+    display: none;
+  }
+  .category-product__col__div-shoes-skate-skate {
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: reverse !important;
+        -ms-flex-direction: row-reverse !important;
+            flex-direction: row-reverse !important;
+  }
+  .category-product__col__div-shoes-skate {
+    padding-left: 5px;
+  }
+  .category-product__col__kulon {
+    height: 111px;
+  }
+  .category-product__col__airpod {
+    height: 100px;
+    width: 100px;
+  }
+  .lana-box {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .lana-box__col__div {
+    height: 160px;
+  }
+  .lana-box__col__div__p {
+    font-size: 12px;
+  }
+  .lana-box__col__div__description__name {
+    font-size: 12px;
+  }
+  .lana-box__col__div__description__job {
+    font-size: 12px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
