@@ -129,7 +129,7 @@ a:hover {
       -ms-flex-pack: center;
           justify-content: center;
   background-color: #55525a;
-  border-radius: 10px;
+  border-radius: 5px;
   height: 36px;
   width: 36px;
   margin-right: 10px;
@@ -165,6 +165,11 @@ a:hover {
 
 .footer__col-one__title__logo {
   height: 35px;
+}
+
+.footer__col-one__p-box__txt-parent:hover
+.footer__col-one__p-box__txt-parent__box {
+  background-color: #77727e !important;
 }
 
 .extra-footer {
@@ -225,7 +230,7 @@ body {
   font-weight: 300;
   font-family: helve-bold-rm;
   line-height: 1.2;
-  height: 12px;
+  height: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -275,8 +280,17 @@ body {
   transform: rotate(135deg);
 }
 
-.my-panel-title {
+.my-panel-title-middle {
+  border-bottom: 1px solid white;
+}
+
+.my-panel-title-first {
   border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.my-panel-title-last {
+  border-bottom: 1px solid white;
 }
 
 .panel-default > .panel-heading a[aria-expanded='false']:after {
@@ -324,7 +338,6 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
     background-color: #2b2731;
-    height: 90px;
     -ms-flex-pack: distribute;
         justify-content: space-around;
     padding-left: 15px;
@@ -560,7 +573,6 @@ body {
   }
   .banner__p__text-middle {
     margin-bottom: 15px;
-    margin-top: 15px;
   }
   .btn-mob {
     display: block;
