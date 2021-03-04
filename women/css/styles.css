@@ -199,6 +199,8 @@
             align-items: center;
     position: absolute;
     bottom: 15px;
+    width: 111px;
+    background: #ff00001f;
   }
   .category-product__col__div__see-more__p {
     font-size: 11px;
@@ -265,6 +267,9 @@
   }
   .category-product__col-second {
     padding-left: 7px;
+  }
+  .extra-logo {
+    height: 20px;
   }
 }
 /*# sourceMappingURL=styles.css.map */

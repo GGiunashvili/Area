@@ -172,6 +172,10 @@
           align-items: center;
           position: absolute;
           bottom: 15px;
+
+          width: 111px;
+          background: #ff00001f;
+
           &__p {
             font-size: 11px;
             color: #f42865;
@@ -242,5 +246,8 @@
   }
   .category-product__col-second {
     padding-left: 7px;
+  }
+  .extra-logo {
+    height: 20px;
   }
 }
