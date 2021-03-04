@@ -119,7 +119,7 @@
       -ms-flex-align: center;
           align-items: center;
   position: absolute;
-  bottom: 5px;
+  bottom: 15px;
 }
 
 .category-product__col__div__see-more__p {
@@ -145,6 +145,14 @@
   margin-top: 14px;
   height: 245px !important;
   padding: 2px;
+}
+
+.grey-line {
+  width: 100%;
+  height: 2px;
+  background-color: #e4e4e4;
+  margin-top: 47px;
+  margin-bottom: 25px;
 }
 
 @media only screen and (max-width: 992px) {
@@ -269,6 +277,13 @@
   }
   .extra-logo {
     height: 20px;
+  }
+  .lanchbox-img {
+    padding: 0;
+  }
+  .grey-line {
+    margin-top: 26px;
+    margin-bottom: 13px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
