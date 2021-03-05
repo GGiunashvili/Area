@@ -132,7 +132,132 @@
   margin-left: 0px;
   margin-right: 0px;
 }
+.detail-box {
+  display: flex;
+  background-color: #f4286514;
+  border-radius: 6px;
+  &__col {
+    padding: 10px;
+    padding-left: 0;
+  }
+  &__col-two {
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    &__h1 {
+      font-size: 20px;
+      font-family: markgeocapscaps-Semiboldcaps;
+    }
+    &__div {
+      display: flex;
+      align-items: center;
+      &__price {
+        font-size: 20px;
+        text-decoration: line-through;
+        margin-right: 5px;
+      }
+      &__new-price {
+        color: #fd561f;
+        font-size: 30px;
+        font-family: markgeocapscaps-Semiboldcaps;
+      }
+    }
+    &__p {
+      font-size: 20px;
+      font-family: markgeo-regular;
+      line-height: 1.3;
+    }
+    &__btn-div {
+      display: flex;
+      align-items: center;
+      &__a {
+        margin-right: 20px;
+        background-color: #fd561f;
+      }
+      &__a-second {
+        background-color: #ffc208;
+      }
+      &__a-second:hover {
+        background: #ffc20859 !important;
+      }
+      &__a-second:hover .cta-btn__p-second {
+        color: #ffc208;
+      }
+    }
+  }
+}
+.detail-box__col-two__btn-div__a-back {
+  margin-top: 40px;
+}
+.footer-container {
+  margin-top: 50px;
+}
+.detail-box__col-two__btn-div__a-back {
+  margin-bottom: 40px;
+}
+.kulon-pod-mobile {
+  display: none;
+}
+
 @media only screen and (max-width: 992px) {
+  .skate-extra {
+    text-align: end;
+    padding-right: 0;
+  }
+  .kulon-pod-desk {
+    display: none;
+  }
+  .kulon-pod-mobile {
+    display: block;
+  }
+  .frst-container {
+    padding: 20px;
+  }
+  .detail-box__col-two__btn-div__a-back {
+    margin-top: 16px;
+    margin-bottom: 10px;
+  }
+  .detail-box {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    &__col-two {
+      height: unset;
+      &__h1 {
+        font-size: 12px;
+      }
+      &__div {
+        justify-content: center;
+        margin-top: 10px;
+        margin-bottom: 8px;
+
+        &__price {
+          font-size: 12px;
+        }
+        &__new-price {
+          font-size: 20px;
+        }
+      }
+      &__p {
+        text-align: left;
+        font-size: 12px;
+        margin-bottom: 16px;
+      }
+      &__btn-div {
+        justify-content: center;
+        margin-bottom: 16px;
+      }
+    }
+  }
+  .cta-btn {
+    width: 100px;
+    height: 35px;
+    border-radius: 8px;
+    .cta-btn__p {
+      font-size: 9px;
+    }
+  }
   .category-product__col-barbare {
     display: none;
   }
@@ -266,5 +391,11 @@
   .grey-line {
     margin-top: 26px;
     margin-bottom: 13px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .detail-box__col__img {
+    height: 220px;
+    width: 220px !important;
   }
 }
