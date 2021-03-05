@@ -34,11 +34,6 @@
 }
 
 @font-face {
-  src: url(../fonts/MarkGEOCAPS-Light.ttf);
-  font-family: markgeocaps-light;
-}
-
-@font-face {
   src: url(../fonts/MARKGEOCAPS-SEMIBOLD.TTF);
   font-family: markgeocapscaps-Semiboldcaps;
 }
@@ -51,6 +46,11 @@
 @font-face {
   src: url(../fonts/HELVETICANEUELTGEOW82-55RM.TTF);
   font-family: helve-bold-rm;
+}
+
+@font-face {
+  src: url(../fonts/MarkGEOCAPS-Light.ttf);
+  font-family: lightcaps-light;
 }
 
 a:hover {
