@@ -357,7 +357,7 @@
             align-items: center !important;
     text-align: center !important;
     position: relative;
-    min-height: 375px;
+    min-height: 470px;
     background-color: yellow;
   }
   .detail-box__col-two {
