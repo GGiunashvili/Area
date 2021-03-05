@@ -1,9 +1,13 @@
 .lana-box {
   display: flex;
   align-items: center;
+  flex-direction: column;
   background-color: #fae5e5;
   border-radius: 6px;
   &__col {
+    align-items: center;
+    display: flex;
+
     &__div {
       height: 220px;
       display: flex;
@@ -199,8 +203,29 @@
 .kulon-pod-mobile {
   display: none;
 }
-
+.mobile-lana-txt {
+  display: none;
+}
+.pink-ln-line {
+  height: 4px;
+  width: 100%;
+  background-color: #f54277;
+  opacity: 0.15;
+  border-radius: 12px;
+}
 @media only screen and (max-width: 992px) {
+  .pink-ln-line {
+    height: 2px;
+    border-radius: 6px;
+  }
+  .lana-txt-hd {
+    display: none;
+  }
+  .lana-box__col {
+    padding-right: 0;
+    align-items: unset;
+    display: unset;
+  }
   .skate-extra {
     text-align: end;
     padding-right: 0;
@@ -357,10 +382,10 @@
   }
   .lana-box {
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 0;
     &__col {
       &__div {
-        height: 160px;
+        height: 100px;
 
         &__p {
           font-size: 12px;
@@ -391,6 +416,13 @@
   .grey-line {
     margin-top: 26px;
     margin-bottom: 13px;
+  }
+  .mobile-lana-txt {
+    font-size: 12px;
+    font-family: markgeo-regular;
+    line-height: 1.2;
+    padding-left: 15px;
+    display: block;
   }
 }
 @media only screen and (max-width: 575px) {

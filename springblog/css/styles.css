@@ -5,8 +5,21 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   background-color: #fae5e5;
   border-radius: 6px;
+}
+
+.lana-box__col {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .lana-box__col__div {
@@ -260,7 +273,33 @@
   display: none;
 }
 
+.mobile-lana-txt {
+  display: none;
+}
+
+.pink-ln-line {
+  height: 4px;
+  width: 100%;
+  background-color: #f54277;
+  opacity: 0.15;
+  border-radius: 12px;
+}
+
 @media only screen and (max-width: 992px) {
+  .pink-ln-line {
+    height: 2px;
+    border-radius: 6px;
+  }
+  .lana-txt-hd {
+    display: none;
+  }
+  .lana-box__col {
+    padding-right: 0;
+    -webkit-box-align: unset;
+        -ms-flex-align: unset;
+            align-items: unset;
+    display: unset;
+  }
   .skate-extra {
     text-align: end;
     padding-right: 0;
@@ -425,10 +464,10 @@
   }
   .lana-box {
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 0;
   }
   .lana-box__col__div {
-    height: 160px;
+    height: 100px;
   }
   .lana-box__col__div__p {
     font-size: 12px;
@@ -454,6 +493,13 @@
   .grey-line {
     margin-top: 26px;
     margin-bottom: 13px;
+  }
+  .mobile-lana-txt {
+    font-size: 12px;
+    font-family: markgeo-regular;
+    line-height: 1.2;
+    padding-left: 15px;
+    display: block;
   }
 }
 
