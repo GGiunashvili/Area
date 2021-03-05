@@ -218,6 +218,8 @@
   font-size: 20px;
   text-decoration: line-through;
   margin-right: 5px;
+  font-family: markgeocaps-light;
+  color: red;
 }
 
 .detail-box__col-two__div__new-price {
@@ -510,10 +512,10 @@
     font-size: 12px;
   }
   .category-product__col-frst {
-    padding-right: 8px;
+    padding-right: 10px;
   }
   .category-product__col-second {
-    padding-left: 8px;
+    padding-left: 10px;
   }
   .extra-logo {
     height: 20px;
