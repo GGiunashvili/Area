@@ -259,10 +259,21 @@
     margin-top: 16px;
     margin-bottom: 10px;
   }
+  .detail-box-1 {
+    position: absolute;
+    top: 0;
+  }
+  .detail-box-2 {
+    position: absolute;
+    bottom: 0;
+  }
   .detail-box {
     flex-direction: column !important;
     align-items: center !important;
     text-align: center !important;
+    position: relative;
+    min-height: 375px;
+    background-color: yellow;
     &__col-two {
       height: 231px !important;
       &__h1 {
