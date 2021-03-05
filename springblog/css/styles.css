@@ -529,5 +529,9 @@
   .detail-box__col__img {
     height: 114px;
   }
+  .detail-imgs {
+    height: 220px;
+    width: 220px !important;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
