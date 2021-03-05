@@ -286,6 +286,25 @@
   border-radius: 12px;
 }
 
+.category-product__col__div__see-more-skate {
+  bottom: 0px;
+}
+
+.category-product__col__div__see-more-book-1 {
+  margin-bottom: 10px;
+}
+
+.reverse {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.reverse-txt {
+  padding-left: 10px;
+}
+
 @media only screen and (max-width: 992px) {
   .pink-ln-line {
     height: 2px;
