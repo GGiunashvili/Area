@@ -198,6 +198,7 @@
           flex-direction: column;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  background-color: red;
 }
 
 .detail-box__col-two__h1 {
