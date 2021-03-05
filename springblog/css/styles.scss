@@ -100,6 +100,8 @@
         align-items: center;
         position: absolute;
         bottom: 15px;
+        width: 200px;
+
         &__p {
           font-size: 20px;
           color: #f42865;
@@ -213,9 +215,7 @@
   opacity: 0.15;
   border-radius: 12px;
 }
-.connect-btns__messenger__a:hover{
-  
-}
+
 @media only screen and (max-width: 992px) {
   .pink-ln-line {
     height: 2px;
