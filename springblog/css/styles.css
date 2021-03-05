@@ -198,7 +198,6 @@
           flex-direction: column;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  background-color: red;
 }
 
 .detail-box__col-two__h1 {
@@ -358,7 +357,6 @@
     text-align: center !important;
     position: relative;
     min-height: 470px;
-    background-color: yellow;
   }
   .detail-box__col-two {
     height: 231px !important;
