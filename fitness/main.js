@@ -79,11 +79,11 @@ $(document).ready(function() {
 
 
   function openGiftBox() {
-    window.open("https://extra.ge/landing/savarjisho-tansatsmeli");
+    window.open("https://extra.ge/landing/savarjisho-tansatsmeli?type=2&current=1&filterByDiscount=true");
 }
 function openGiftBox2() {
-  window.open("https://extra.ge/landing/savarjisho-aqsesuarebi");
+  window.open("https://extra.ge/landing/savarjisho-aqsesuarebi?type=2&current=1&filterByDiscount=true");
 }
 function openGiftBox3() {
-  window.open("https://extra.ge/landing/vitaminebi-da-sakvebi-danamatebi");
+  window.open("https://extra.ge/landing/vitaminebi-da-sakvebi-danamatebi?type=2&current=1&filterByDiscount=true");
 }
