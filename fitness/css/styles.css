@@ -239,18 +239,25 @@ body {
   fill: #fd5601 !important;
 }
 
+.orange-btn {
+  border-radius: 14px;
+  width: 130px;
+}
+
 .orange-btn:hover .a {
   fill: white !important;
 }
 
 .swiper-button-prev {
   left: -30px !important;
-  top: 48% !important;
+  top: 50% !important;
   z-index: 99999999 !important;
   background-color: white;
   border-radius: 100%;
-  width: 60px !important;
-  height: 60px !important;
+  min-width: 50px !important;
+  max-width: 50px !important;
+  min-height: 50px !important;
+  max-height: 50px !important;
   -webkit-box-shadow: 0px 5px 20px #00000026;
           box-shadow: 0px 5px 20px #00000026;
   text-decoration: none;
@@ -259,12 +266,15 @@ body {
 
 .swiper-button-next {
   right: -30px !important;
-  top: 48% !important;
+  top: 50% !important;
   z-index: 999999999999999999999 !important;
   background-color: white;
   border-radius: 100%;
-  width: 60px !important;
-  height: 60px !important;
+  font-size: 40px;
+  min-width: 50px !important;
+  max-width: 50px !important;
+  min-height: 50px !important;
+  max-height: 50px !important;
   -webkit-box-shadow: 0px 5px 20px #00000026;
           box-shadow: 0px 5px 20px #00000026;
   text-decoration: none;
