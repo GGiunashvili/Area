@@ -77,7 +77,6 @@ $(document).ready(function() {
 
 
 
-
   function openGiftBox() {
     window.open("https://extra.ge/landing/savarjisho-tansatsmeli?type=2&current=1&filterByDiscount=true");
 }
@@ -86,4 +85,7 @@ function openGiftBox2() {
 }
 function openGiftBox3() {
   window.open("https://extra.ge/landing/vitaminebi-da-sakvebi-danamatebi?type=2&current=1&filterByDiscount=true");
+}
+function openGiftBox4() {
+  window.open("https://extra.ge/merchant/vitamini-vitamini?type=2&current=1&sortType=1&sortBy=2");
 }

@@ -406,6 +406,7 @@ body {
 .container-relative {
   position: relative;
   margin-top: 97px;
+  cursor: pointer;
 }
 
 .mob {
