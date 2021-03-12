@@ -19,7 +19,7 @@
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 24px;
-  margin-bottom: 35px;
+  margin-bottom: 0px;
 }
 
 .ft-header__img {
@@ -83,6 +83,12 @@
 }
 
 .component-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-top: 50px;
   margin-bottom: 50px;
   font-family: markgeocaps-bold;
@@ -118,13 +124,14 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
   background-repeat: round;
+  cursor: pointer;
 }
 
 .ft-category-box__frst__p {
@@ -166,11 +173,15 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  text-align: center;
+  cursor: pointer;
 }
 
 .ft-category-box__scnd__three {
   background-image: url(../image/Group5425.png);
   background-repeat: round;
+  text-align: center;
+  cursor: pointer;
 }
 
 .last-two-white-btn {
@@ -286,6 +297,7 @@ body {
 .swiper-slide-box__title {
   text-align: left;
   width: 190px;
+  height: 55px;
 }
 
 .swiper-slide-box__title__h1 {
@@ -313,6 +325,9 @@ body {
 }
 
 @media only screen and (max-width: 1440px) {
+  .ft-header {
+    margin-bottom: 30px;
+  }
   .ft-header-banner {
     height: 430px;
   }
@@ -325,7 +340,83 @@ body {
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .component-title__p {
+    max-width: 278px;
+  }
+  .ft-category-box__frst {
+    background-image: url(../image/m1.png);
+  }
+  .ft-category-box__scnd__one {
+    background-image: url(../image/m.png);
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .ft-category-box__scnd__three {
+    background-image: url(../image/Group5425m.png);
+    margin-top: 0;
+  }
+  .scnd-two {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .ft-category-box__scnd {
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  .ft-category-box {
+    padding: 0 20px;
+  }
+  .ft-header-banner__div {
+    margin-left: 20px;
+  }
+  .ft-header-banner__div__h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    width: 182px;
+  }
+  .ft-header-banner__div__p {
+    font-size: 12px;
+    width: 254px;
+  }
+  .ft-header {
+    margin-bottom: 0;
+  }
+  .component-title {
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  .ft-category-box__frst {
+    height: 245px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .ft-category-box__frst__one {
+    height: 245px;
+  }
+  .ft-category-box__scnd {
+    height: unset;
+  }
+  .ft-category-box__frst__p {
+    font-size: 18px;
+  }
+  .component-title__p {
+    font-size: 24px;
+  }
+}
+
 @media only screen and (max-width: 575px) {
+  .last-two-white-btn {
+    visibility: hidden;
+  }
+  .ft-header-banner {
+    background-image: url(../image/mob-ban.png);
+    height: 315px;
+  }
   .ft-category-box__scnd {
     height: unset;
   }
@@ -344,13 +435,13 @@ body {
     left: 15px !important;
     height: 50px !important;
     width: 50px !important;
-    top: 52% !important;
+    top: 44% !important;
   }
   .swiper-button-next {
     right: 15px !important;
     height: 50px !important;
     width: 50px !important;
-    top: 52% !important;
+    top: 44% !important;
   }
   .detail-box__col__img {
     height: 114px;

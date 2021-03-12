@@ -11,7 +11,7 @@
   align-items: center;
   justify-content: center;
   margin-top: 24px;
-  margin-bottom: 35px;
+  margin-bottom: 0px;
   &__img {
     width: 150px;
   }
@@ -69,6 +69,8 @@
   }
 }
 .component-title {
+  display: flex;
+  justify-content: center;
   margin-top: 50px;
   margin-bottom: 50px;
   font-family: markgeocaps-bold;
@@ -91,11 +93,12 @@
     border-radius: 15px;
     display: inline-flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
     background-repeat: round;
+    cursor: pointer;
 
     &__p {
       font-family: markgeocaps-bold;
@@ -118,10 +121,14 @@
       align-items: center;
       justify-content: center;
       flex-direction: column;
+      text-align: center;
+      cursor: pointer;
     }
     &__three {
       background-image: url(../image/Group5425.png);
       background-repeat: round;
+      text-align: center;
+      cursor: pointer;
     }
   }
 }
@@ -226,6 +233,7 @@ body {
   &__title {
     text-align: left;
     width: 190px;
+    height: 55px;
 
     &__h1 {
       font-size: 16px;
@@ -251,6 +259,9 @@ body {
   position: relative;
 }
 @media only screen and (max-width: 1440px) {
+  .ft-header {
+    margin-bottom: 30px;
+  }
   .ft-header-banner {
     height: 430px;
   }
@@ -263,7 +274,82 @@ body {
     padding-left: 50px;
   }
 }
+@media only screen and (max-width: 768px) {
+  .component-title__p {
+    max-width: 278px;
+  }
+  .ft-category-box__frst {
+    background-image: url(../image/m1.png);
+  }
+  .ft-category-box__scnd__one {
+    background-image: url(../image/m.png);
+
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .ft-category-box__scnd__three {
+    background-image: url(../image/Group5425m.png);
+    margin-top: 0;
+  }
+  .scnd-two {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .ft-category-box__scnd {
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  .ft-category-box {
+    padding: 0 20px;
+  }
+  .ft-header-banner {
+    &__div {
+      margin-left: 20px;
+    }
+  }
+  .ft-header-banner__div__h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    width: 182px;
+  }
+  .ft-header-banner__div__p {
+    font-size: 12px;
+    width: 254px;
+  }
+  .ft-header {
+    margin-bottom: 0;
+  }
+  .component-title {
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+  .ft-category-box__frst {
+    height: 245px;
+    justify-content: space-between;
+  }
+  .ft-category-box__frst__one {
+    height: 245px;
+  }
+  .ft-category-box__scnd {
+    height: unset;
+  }
+
+  .ft-category-box__frst__p {
+    font-size: 18px;
+  }
+  .component-title__p {
+    font-size: 24px;
+  }
+}
 @media only screen and (max-width: 575px) {
+  .last-two-white-btn {
+    visibility: hidden;
+  }
+  .ft-header-banner {
+    background-image: url(../image/mob-ban.png);
+    height: 315px;
+  }
   .ft-category-box__scnd {
     height: unset;
   }
@@ -284,13 +370,13 @@ body {
     left: 15px !important;
     height: 50px !important;
     width: 50px !important;
-    top: 52% !important;
+    top: 44% !important;
   }
   .swiper-button-next {
     right: 15px !important;
     height: 50px !important;
     width: 50px !important;
-    top: 52% !important;
+    top: 44% !important;
   }
   .detail-box__col__img {
     height: 114px;
