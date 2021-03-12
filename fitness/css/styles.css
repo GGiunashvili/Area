@@ -482,8 +482,6 @@ body {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    padding-top: 20px;
-    padding-bottom: 20px;
   }
   .ft-category-box__scnd__three {
     background-image: url(../image/Group5425m.png);
