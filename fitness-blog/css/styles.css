@@ -100,6 +100,7 @@
 }
 
 .swiper-slide-own-img {
+  position: relative;
   width: 100%;
 }
 
@@ -113,8 +114,9 @@
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   border-radius: 15px;
   -webkit-transition: 0.3;
   transition: 0.3;
@@ -292,7 +294,7 @@ body {
 
 .swiper-button-prev {
   left: -30px !important;
-  top: 50% !important;
+  top: 65% !important;
   z-index: 99999999 !important;
   background-color: white;
   border-radius: 100%;
@@ -308,7 +310,7 @@ body {
 
 .swiper-button-next {
   right: -30px !important;
-  top: 50% !important;
+  top: 65% !important;
   z-index: 999999999999999999999 !important;
   background-color: white;
   border-radius: 100%;
@@ -336,6 +338,8 @@ body {
 }
 
 .swiper-slide-box {
+  position: absolute;
+  bottom: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -364,6 +368,9 @@ body {
   color: black;
   font-family: markgeo-regular;
   margin-top: 5px;
+  font-family: markgeocaps-bold;
+  color: white;
+  text-align: left;
 }
 
 .swiper-slide-box__p {
@@ -460,6 +467,16 @@ body {
   margin-top: 24px;
 }
 
+.orange-mob {
+  height: 30px;
+  width: 30px;
+}
+
+.orange-mob__p {
+  min-height: unset;
+  height: 10px !important;
+}
+
 @media only screen and (max-width: 1440px) {
   .ft-category-box__frst__p {
     font-size: 24px;
@@ -483,6 +500,9 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
+  .mobile-slider-hd {
+    display: none;
+  }
   .paddings {
     padding: 0;
   }
@@ -600,13 +620,13 @@ body {
     left: 15px !important;
     height: 50px !important;
     width: 50px !important;
-    top: 44% !important;
+    top: 60% !important;
   }
   .swiper-button-next {
     right: 15px !important;
     height: 50px !important;
     width: 50px !important;
-    top: 44% !important;
+    top: 60% !important;
   }
   .detail-box__col__img {
     height: 114px;
