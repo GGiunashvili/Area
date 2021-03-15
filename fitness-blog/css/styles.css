@@ -125,7 +125,7 @@
 }
 
 .ft-category-box__frst__opc:hover {
-  background-color: rgba(22, 30, 63, 0.5);
+  background-color: rgba(22, 30, 63, 0.3);
 }
 
 .banner {
@@ -286,6 +286,7 @@ body {
   border-radius: 100%;
   width: 60px;
   height: 60px;
+  margin-left: 30px;
 }
 
 .orange-btn:hover .a {
@@ -439,7 +440,7 @@ body {
 }
 
 .ft-ct-img-2 {
-  margin-top: 24px;
+  margin-top: 30px;
   height: 297px;
 }
 
@@ -464,7 +465,7 @@ body {
 }
 
 .ft-ct-img-4 {
-  margin-top: 24px;
+  margin-top: 30px;
 }
 
 .orange-mob {
