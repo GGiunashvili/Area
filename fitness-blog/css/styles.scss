@@ -331,6 +331,26 @@ body {
 .mob {
   display: none;
 }
+.ft-ct-img-01{
+  background-image: url(../image/03.png)!important;
+  
+}
+.ft-ct-img-02{
+  background-image: url(../image/04.png)!important;
+  
+}
+.ft-ct-img-022{
+  background-image: url(../image/05.png)!important;
+  
+}
+.ft-ct-img-03{
+  background-image: url(../image/01.png)!important;
+  
+}
+.ft-ct-img-04{
+  background-image: url(../image/02.png)!important;
+  
+}
 .ft-ct-img-1{
   height: 610px!important;
   background-image: url(../image/1111.png);
@@ -364,6 +384,7 @@ height: 100%!important;
 margin-top: 24px;
 }
 
+
 @media only screen and (max-width: 1440px) {
 
   .ft-category-box__frst__p {
@@ -391,6 +412,9 @@ margin-top: 24px;
   }
 }
 @media only screen and (max-width: 768px) {
+  .paddings{
+    padding: 0;
+  }
   .banner-p {
     position: absolute;
     top: 10px;
@@ -461,14 +485,14 @@ margin-top: 24px;
     margin-bottom: 30px;
   }
   .ft-category-box__frst {
-    height: 245px!important;
+    height: 325px!important;
     justify-content: space-between;
   }
   .ft-category-box__frst__opc{
-    height: 245px;
+    height: 325px;
   }
   .ft-category-box__frst__one {
-    height: 245px;
+    height: 325px;
   }
   .ft-category-box__scnd {
     height: unset;
@@ -485,9 +509,9 @@ margin-top: 24px;
   .container-relative {
     margin-top: 40px;
   }
-  .last-two-white-btn {
-    visibility: hidden;
-  }
+  // .last-two-white-btn {
+  //   visibility: hidden;
+  // }
   .ft-header-banner {
     background-image: url(../image/mob-ban.png);
 
