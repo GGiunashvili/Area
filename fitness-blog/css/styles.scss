@@ -37,7 +37,9 @@
 
 .ft-header-banner {
   background-image: url(../image/Group5422.png);
-
+  // image-set for FF, only jpg gets downloaded for not supporting browsers
+  background-image: -webkit-image-set(url('../image/deskrun.webp') 1x);
+  /* background-size: contain; */
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -122,7 +124,7 @@
   align-items: center;
   &__frst {
     background-image: url(../image/Group5423.png);
-    height: 572px;
+    // height: 572px;
     border-radius: 15px;
     display: inline-flex;
     flex-direction: column;
@@ -327,16 +329,24 @@ body {
 .mob {
   display: none;
 }
+.ft-ct-img-1{
+  height: 610px!important;
+
+}
+.ft-ct-img-3, .ft-ct-img-4{
+height: 100%!important;
+}
+.ft-ct-img-4{
+margin-top: 15px;
+}
+
 @media only screen and (max-width: 1440px) {
+
   .ft-category-box__frst__p {
     font-size: 24px;
   }
-  .ft-category-box__frst {
-    height: 490px;
-  }
-  .ft-category-box__scnd__one {
-    height: 237px;
-  }
+ 
+
   .ft-header-banner__div__h1 {
     font-size: 36px;
   }
@@ -382,9 +392,7 @@ body {
   .extra-sport {
     margin-top: 20px;
   }
-  .ft-category-box__frst__opc {
-    justify-content: unset;
-  }
+
   .component-title__p {
     max-width: 278px;
   }
