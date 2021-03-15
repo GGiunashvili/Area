@@ -398,12 +398,16 @@ margin-top: 24px;
 
   }
 }
-
+.twenty-two-font{
+  font-size: 22px;
+  line-height: 1.2;
+}
+.eighteen-font{
+  font-size: 18px;
+  line-height: 1.2;
+}
 @media only screen and (max-width: 1440px) {
 
-  .ft-category-box__frst__p {
-    font-size: 24px;
-  }
  
 
   .ft-header-banner__div__h1 {
@@ -502,7 +506,7 @@ margin-top: 24px;
     margin-bottom: 30px;
   }
   .ft-category-box__frst {
-    height: 325px!important;
+    height: 214px!important;
     justify-content: space-between;
   }
   .ft-category-box__frst__opc{
@@ -547,7 +551,7 @@ margin-top: 24px;
   }
   .swiper-slide-own-img {
     img {
-      height: 248px;
+      height: 159px;
     }
   }
   .swiper-button-prev {
