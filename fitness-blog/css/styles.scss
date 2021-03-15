@@ -37,9 +37,7 @@
 
 .ft-header-banner {
   background-image: url(../image/Group5422.png);
-  // image-set for FF, only jpg gets downloaded for not supporting browsers
-  background-image: -webkit-image-set(url('../image/deskrun.webp') 1x);
-  /* background-size: contain; */
+
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
