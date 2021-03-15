@@ -159,6 +159,7 @@
 }
 
 .ft-category-box__frst {
+  width: 100%;
   background-image: url(../image/Group5423.png);
   border-radius: 15px;
   display: -webkit-inline-box;
@@ -491,17 +492,12 @@ body {
   .component-title__p {
     max-width: 278px;
   }
-  .ft-category-box__frst {
-    background-image: url(../image/m1.png);
-  }
   .ft-category-box__scnd__one {
-    background-image: url(../image/m.png);
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
   .ft-category-box__scnd__three {
-    background-image: url(../image/Group5425m.png);
     margin-top: 0;
   }
   .scnd-two {
@@ -535,10 +531,13 @@ body {
     margin-bottom: 30px;
   }
   .ft-category-box__frst {
-    height: 245px;
+    height: 245px !important;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+  }
+  .ft-category-box__frst__opc {
+    height: 245px;
   }
   .ft-category-box__frst__one {
     height: 245px;
@@ -563,7 +562,6 @@ body {
   }
   .ft-header-banner {
     background-image: url(../image/mob-ban.png);
-    background-image: -webkit-image-set(url("../image/mobrun.webp") 1x);
     height: 315px;
   }
   .ft-category-box__scnd {

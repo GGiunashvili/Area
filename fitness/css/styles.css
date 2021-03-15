@@ -544,7 +544,6 @@ body {
   }
   .ft-header-banner {
     background-image: url(../image/mob-ban.png);
-    background-image: -webkit-image-set(url("../image/mobrun.webp") 1x);
     height: 315px;
   }
   .ft-category-box__scnd {
