@@ -36,8 +36,8 @@
 }
 
 .ft-header-banner {
-  background-image: url(../image/wm.jpg);
-
+  // background-image: url(../image/wm.jpg);
+  position: relative; width: 100%;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -46,12 +46,14 @@
   -ms-flex-align: center;
   align-items: center;
   // background-color: #cccccc;
-  height: 655px;
+  height: 600px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   &__div {
     margin-left: 10px;
+    z-index: 99;
+
     &__h1 {
       font-size: 48px;
       color: white;
@@ -87,7 +89,7 @@
 }
 .ft-category-box__frst__opc {
   width: 100%;
-  border-radius: 15px;
+  border-radius: 12px;
   height: 100%;
   display: flex;
   align-items: flex-end;
@@ -124,7 +126,7 @@
   align-items: center;
   &__frst {
     width: 100%;
-    background-image: url(../image/Group5423.png);
+    // background-image: url(../image/Group5423.png);
     // height: 572px;
     border-radius: 15px;
     display: inline-flex;
@@ -280,6 +282,7 @@ body {
   display: flex;
   align-items: center;
   position: absolute;
+  width: 100%;
   bottom:0;
   display: flex;
   justify-content: space-between;
@@ -343,7 +346,7 @@ body {
   display: none;
 }
 .ft-ct-img-01{
-  background-image: url(../image/03.png)!important;
+  background-image: url(../image/1111.png)!important;
   
 }
 .ft-ct-img-02{
@@ -363,8 +366,8 @@ body {
   
 }
 .ft-ct-img-1{
-  height: 610px!important;
-  background-image: url(../image/1111.png);
+  // height: 610px!important;
+  // background-image: url(../image/1111.png);
 
 }
 .ft-ct-img-2{
@@ -452,7 +455,17 @@ margin-top: 30px;
     padding-left: 50px;
   }
 }
+.ft-category-img-1{
+  position: absolute; width: 100%; bottom:5px; left:0; height: 99%;
+}
 @media only screen and (max-width: 768px) {
+
+  .ft-category-img-1{
+    bottom:4px;
+  }
+  .ft-category-box__frst__opc:hover {
+    border-radius: 5px;
+}
   .mobile-slider-hd{
     display: none;
   }
@@ -505,7 +518,7 @@ margin-top: 30px;
     margin-bottom: 30px;
   }
   .ft-category-box {
-    padding: 0 20px;
+    padding: 0 20px!important;
   }
   .ft-header-banner {
     &__div {
@@ -551,13 +564,19 @@ margin-top: 30px;
   .orange-btn {
     height:36px;
     width: 36px;
+    margin-left: 0;
     &__p{
       min-height: unset;
       height: 7px;
     }
   }
+  .swiper-slide-box{
+    padding: 0 15px;
+
+  }
 }
 @media only screen and (max-width: 575px) {
+
   .swiper-slide-box__title__p {
     font-size: 12px;
   }
@@ -575,10 +594,14 @@ margin-top: 30px;
   //   visibility: hidden;
   // }
   .ft-header-banner {
-    background-image: url(../image/Group-5531.jpg);
 
-    height: 315px;
+    height: 250px;
+    &__img{
+      height: 250px;
+    }
+    
   }
+
   .ft-category-box__scnd {
     height: unset;
   }

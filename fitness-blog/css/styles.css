@@ -46,7 +46,8 @@
 }
 
 .ft-header-banner {
-  background-image: url(../image/wm.jpg);
+  position: relative;
+  width: 100%;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -54,7 +55,7 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  height: 655px;
+  height: 600px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -62,6 +63,7 @@
 
 .ft-header-banner__div {
   margin-left: 10px;
+  z-index: 99;
 }
 
 .ft-header-banner__div__h1 {
@@ -106,7 +108,7 @@
 
 .ft-category-box__frst__opc {
   width: 100%;
-  border-radius: 15px;
+  border-radius: 12px;
   height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -160,7 +162,6 @@
 
 .ft-category-box__frst {
   width: 100%;
-  background-image: url(../image/Group5423.png);
   border-radius: 15px;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -350,6 +351,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   position: absolute;
+  width: 100%;
   bottom: 0;
   display: flex;
   -webkit-box-pack: justify;
@@ -421,7 +423,7 @@ body {
 }
 
 .ft-ct-img-01 {
-  background-image: url(../image/03.png) !important;
+  background-image: url(../image/1111.png) !important;
 }
 
 .ft-ct-img-02 {
@@ -438,11 +440,6 @@ body {
 
 .ft-ct-img-04 {
   background-image: url(../image/02.png) !important;
-}
-
-.ft-ct-img-1 {
-  height: 610px !important;
-  background-image: url(../image/1111.png);
 }
 
 .ft-ct-img-2 {
@@ -525,7 +522,21 @@ body {
   }
 }
 
+.ft-category-img-1 {
+  position: absolute;
+  width: 100%;
+  bottom: 5px;
+  left: 0;
+  height: 99%;
+}
+
 @media only screen and (max-width: 768px) {
+  .ft-category-img-1 {
+    bottom: 4px;
+  }
+  .ft-category-box__frst__opc:hover {
+    border-radius: 5px;
+  }
   .mobile-slider-hd {
     display: none;
   }
@@ -576,7 +587,7 @@ body {
     margin-bottom: 30px;
   }
   .ft-category-box {
-    padding: 0 20px;
+    padding: 0 20px !important;
   }
   .ft-header-banner__div {
     margin-left: 20px;
@@ -621,10 +632,14 @@ body {
   .orange-btn {
     height: 36px;
     width: 36px;
+    margin-left: 0;
   }
   .orange-btn__p {
     min-height: unset;
     height: 7px;
+  }
+  .swiper-slide-box {
+    padding: 0 15px;
   }
 }
 
@@ -642,8 +657,10 @@ body {
     margin-top: 40px;
   }
   .ft-header-banner {
-    background-image: url(../image/Group-5531.jpg);
-    height: 315px;
+    height: 250px;
+  }
+  .ft-header-banner__img {
+    height: 250px;
   }
   .ft-category-box__scnd {
     height: unset;
