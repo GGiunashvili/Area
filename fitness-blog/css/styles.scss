@@ -524,6 +524,9 @@ margin-left: 10px;
 .webp-mob{
   display: none;
 }
+.detail-footer-extra{
+  margin-top: 197px!important;
+}
 @media only screen and (max-width: 1440px) {
   .ft-header-banner__div {
     margin-left: 30px;
@@ -565,6 +568,9 @@ margin-left: 10px;
   position: absolute; width: 100%; bottom:5px; left:0; height: 99%;
 }
 @media only screen and (max-width: 768px) {
+  .detail-footer-extra{
+    margin-top: 60px!important;
+  }
   .webp-desk{
     display: none;
   }
