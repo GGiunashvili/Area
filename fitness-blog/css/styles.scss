@@ -521,6 +521,9 @@ margin-left: 10px;
 .swiper-slide-box{
   padding-left: 15px;
 }
+.webp-mob{
+  display: none;
+}
 @media only screen and (max-width: 1440px) {
   .ft-header-banner__div {
     margin-left: 30px;
@@ -562,6 +565,12 @@ margin-left: 10px;
   position: absolute; width: 100%; bottom:5px; left:0; height: 99%;
 }
 @media only screen and (max-width: 768px) {
+  .webp-desk{
+    display: none;
+  }
+  .webp-mob{
+    display: block;
+  }
   .item-detail-view__buy {
     flex-direction: column;
     align-items: inherit;
