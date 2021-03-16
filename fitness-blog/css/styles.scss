@@ -61,7 +61,7 @@
       font-family: markgeocaps-bold;
       max-width: 950px;
       line-height: 1.2;
-      margin-bottom: 50px;
+      margin-bottom: 30px;
     }
     &__p {
       font-size: 18px;
@@ -146,6 +146,8 @@
       font-size: 32px;
       color: white;
       text-align: left;
+      line-height: 1.2;
+
       
 
     }
@@ -528,6 +530,14 @@ margin-left: 10px;
   margin-top: 197px!important;
 }
 @media only screen and (max-width: 1440px) {
+  .detail-cont {
+    margin-top: 30px;
+}
+
+.detail-footer-extra {
+  margin-top: 90px!important;
+}
+
   .swiper-button-prev {
     left: -15px !important;
     

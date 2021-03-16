@@ -73,7 +73,7 @@
   font-family: markgeocaps-bold;
   max-width: 950px;
   line-height: 1.2;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 
 .ft-header-banner__div__p {
@@ -187,6 +187,7 @@
   font-size: 32px;
   color: white;
   text-align: left;
+  line-height: 1.2;
 }
 
 .ft-category-box__scnd {
@@ -610,6 +611,12 @@ body {
 }
 
 @media only screen and (max-width: 1440px) {
+  .detail-cont {
+    margin-top: 30px;
+  }
+  .detail-footer-extra {
+    margin-top: 90px !important;
+  }
   .swiper-button-prev {
     left: -15px !important;
   }
