@@ -321,8 +321,11 @@ body {
 }
 .container-relative {
   position: relative;
-  margin-top: 97px;
+  // margin-top: 97px;
   cursor: pointer;
+}
+.extra-blog-title {
+  margin-top: 77px;
 }
 .mob {
   display: none;
@@ -357,6 +360,9 @@ body {
   }
 }
 @media only screen and (max-width: 768px) {
+  .extra-blog-title {
+    margin-top: 37px !important;
+  }
   .banner-p {
     position: absolute;
     font-size: 14px;
