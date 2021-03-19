@@ -78,7 +78,7 @@ $(document).ready(function() {
 
 
   function openGiftBox() {
-    window.open("https://extra.ge/landing/savarjisho-tansatsmeli?type=2&current=1&filterByDiscount=false");
+    window.open("https://extra.ge/catalog/sporti-da-mogzauroba/fitnesi-da-ioga/sportuli-tansatsmeli?type=2&current=1&prod=%7B%7D");
 }
 function openGiftBox2() {
   window.open("https://extra.ge/landing/savarjisho-aqsesuarebi?type=2&current=1&filterByDiscount=false");
