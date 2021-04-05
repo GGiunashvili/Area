@@ -12,18 +12,12 @@
     height: 54px;
   }
 }
-body,
-html {
-  margin: 0;
-  padding: 0;
-}
-* {
-  box-sizing: border-box;
-}
+
 .easter-img {
   &__home-page-box {
     &__main-img {
       height: 100vh;
+      height: calc(var(--vh, 1vh) * 100);
     }
   }
 }
@@ -41,6 +35,7 @@ html {
     &__home-page-box {
       &__main-img {
         height: 100vh;
+        height: calc(var(--vh, 1vh) * 100);
       }
     }
   }

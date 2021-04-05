@@ -94,7 +94,8 @@
 </head>
 
 <body >
-  <div style="height: 100vh;">
+  <div style="height: 100vh;     height: calc(var(--vh, 1vh) * 100);
+  ">
     <!-- <div class="easter-header d-flex align-items-center justify-content-center">
       <a href="#" target="_blank">
         <img src="image/Group 4924.svg" alt="">
@@ -109,16 +110,7 @@
       </picture>
     </div>
   </div>
-<script>
-  //In your js file:
-window.addEventListener('resize', () => { 
-  document.querySelector(':root').style
-    .setProperty('--vw', window.innerWidth/100 + 'px');
-})
 
-//Css
-width: calc(100 * var(--vw));
-</script>
 
     <!-- extra native footer -->
     <div style="background-color: #2B2731;   margin-top: 50px; ">

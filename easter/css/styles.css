@@ -15,19 +15,9 @@
   height: 54px;
 }
 
-body,
-html {
-  margin: 0;
-  padding: 0;
-}
-
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
 .easter-img__home-page-box__main-img {
   height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
 }
 
 @media only screen and (max-width: 575px) {
@@ -43,6 +33,7 @@ html {
   }
   .easter-img__home-page-box__main-img {
     height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
   }
 }
 /*# sourceMappingURL=styles.css.map */
