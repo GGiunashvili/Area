@@ -26,6 +26,10 @@
   .easter-header img {
     height: 28px;
   }
+  .easter-img {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
   .easter-img__home-page-box__main-img {
     height: 100vh;
   }

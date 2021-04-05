@@ -29,6 +29,7 @@
   }
 
   .easter-img {
+    object-fit: cover;
     &__home-page-box {
       &__main-img {
         height: 100vh;
