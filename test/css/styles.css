@@ -3,6 +3,10 @@
   font-family: lightcaps-light;
 }
 
+.modal {
+  left: unset;
+}
+
 .home-page {
   position: relative;
   height: 100vh;
@@ -34,6 +38,16 @@
   right: 0%;
   -webkit-transform: translate(0%, -50%);
   transform: translate(0%, -50%);
+}
+
+.modal-header {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.modal-body {
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .container {
