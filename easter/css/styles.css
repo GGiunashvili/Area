@@ -3,37 +3,7 @@
   font-family: lightcaps-light;
 }
 
-.easter-header {
-  text-align: center;
-  width: 100%;
-  margin-top: 12px;
-  margin-bottom: 12px;
-  height: 6vh;
-}
-
-.easter-header img {
-  height: 54px;
-}
-
 .easter-img__home-page-box__main-img {
   height: 100vh;
-  height: calc(var(--vh, 1vh) * 100);
-}
-
-@media only screen and (max-width: 575px) {
-  .easter-header {
-    height: 5vh;
-  }
-  .easter-header img {
-    height: 28px;
-  }
-  .easter-img {
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-  .easter-img__home-page-box__main-img {
-    height: 100vh;
-    height: calc(var(--vh, 1vh) * 100);
-  }
 }
 /*# sourceMappingURL=styles.css.map */

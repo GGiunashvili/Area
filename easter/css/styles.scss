@@ -2,41 +2,24 @@
   src: url(../fonts/MarkGEOCAPS-Light.ttf);
   font-family: lightcaps-light;
 }
-.easter-header {
-  text-align: center;
-  width: 100%;
-  margin-top: 12px;
-  margin-bottom: 12px;
-  height: 6vh;
-  img {
-    height: 54px;
-  }
-}
+// .easter-header {
+//   text-align: center;
+//   width: 100%;
+//   margin-top: 12px;
+//   margin-bottom: 12px;
+//   height: 6vh;
+//   img {
+//     height: 54px;
+//   }
+// }
 
 .easter-img {
   &__home-page-box {
     &__main-img {
       height: 100vh;
-      height: calc(var(--vh, 1vh) * 100);
     }
   }
 }
 
 @media only screen and (max-width: 575px) {
-  .easter-header {
-    height: 5vh;
-    img {
-      height: 28px;
-    }
-  }
-
-  .easter-img {
-    object-fit: cover;
-    &__home-page-box {
-      &__main-img {
-        height: 100vh;
-        height: calc(var(--vh, 1vh) * 100);
-      }
-    }
-  }
 }
