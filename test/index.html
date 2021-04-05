@@ -57,9 +57,8 @@
     }
 
     .img2 {
-      height: 60px;
-      width: 60px;
-      border-radius: 25px;
+      height: 40px;
+      width: 40px;
     }
 
     .img0 {
@@ -68,7 +67,6 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      background-color: red;
     }
     @media (min-width: 576px){
       .modal-dialog {
@@ -82,10 +80,46 @@
 <body>
 
   <div>
-    <picture>
-      <source srcset="https://promo.extra.ge/test/image/yleoba.webp" type="image/webp"> 
-        <img class="w-100" src="image/yleoba.png">
-    </picture>
+    <div class="home-page">
+      <div class="d-flex justify-content-center align-items-center w-100">
+        <img class="home-page__logo" src="image/Group 4924.svg" alt="">
+
+      </div>
+      <picture>
+        <source srcset="https://promo.extra.ge/test/image/yleoba.webp" type="image/webp"> 
+          <img class="home-page__img w-100" src="image/yleoba.png">
+      </picture>
+  
+      <div class="container">
+        <div class="row">
+          <div class="col-6 home-page__txt">
+            <p>აღმოაჩინე ექსტრას ბრწყინვალე ფასდაკლებები!</p>
+            <p>მოხვდი პირველ 1500 მომხმარებელში და დაზოგე დამატებით 30% MASTERCARD-ით გადახდისას!</p>
+            <p>*აქციაში ჩასართავად აუცილებელია ბარათის დამატება ექსტრას პროფილზე. ნახე ვიდეო ინსტრუქცია!</p>
+          </div>
+          <a class="col-6 img0" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter"
+          href="https://commschool.ge/">
+      
+          <div class="d1">
+      
+            <div class="dd">
+      
+              <div class="img1">
+      
+
+                  
+                <svg class="img2" xmlns="http://www.w3.org/2000/svg" width="28.28" height="31.558" viewBox="0 0 28.28 31.558"><defs><style>.a{fill:#0d0d0d;}</style></defs><path class="a" d="M6,9.09a4.346,4.346,0,0,1,6.535-3.754L32.124,16.763a4.346,4.346,0,0,1,0,7.507L12.535,35.7A4.346,4.346,0,0,1,6,31.944ZM29.934,20.517,10.346,9.09V31.944Z" transform="translate(-6 -4.738)"/></svg>
+      
+      
+              </div>
+            </div>
+      
+          </div>
+      
+        </a>
+        </div>
+      </div>
+    </div>
   </div>
 
 
@@ -107,50 +141,37 @@
   </button> -->
 
   <!-- Modal -->
-  <div class="modal fade container" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
-    aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          
-          <iframe width="100%" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1">
-          </iframe>
-          
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
-        </div>
+  <div class="container">
+    <div class="row">
+       <div>
+        <div class=" modal fade container" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"aria-hidden="true">
+          <div class="col-12 modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                
+                <iframe width="100%" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1">
+                </iframe>
+                
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
       </div>
+       </div>
     </div>
   </div>
 
 
-  <a class="img0" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter"
-    href="https://commschool.ge/">
-
-    <div class="d1">
-
-      <div class="dd">
-
-        <div class="img1">
-
-          <img class="img2"
-            src="https://cdn0.iconfinder.com/data/icons/buntu-media/100/media_player_glyph_convert-512.png">
-
-
-        </div>
-      </div>
-
-    </div>
-
-  </a>
+ 
 
 
   
@@ -168,11 +189,6 @@
     body {
       color: #6a6c6f;
       background-color: #f1f3f6;
-      margin-top: 30px;
-    }
-
-    .container {
-      max-width: 960px;
     }
 
     .panel-default>.panel-heading {

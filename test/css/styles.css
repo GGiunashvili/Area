@@ -3,6 +3,39 @@
   font-family: lightcaps-light;
 }
 
+.home-page {
+  position: relative;
+  height: 100vh;
+}
+
+.home-page__txt {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  -webkit-transform: translate(0%, -50%);
+          transform: translate(0%, -50%);
+}
+
+.home-page__img {
+  width: 100%;
+  height: 100%;
+}
+
+.home-page__logo {
+  height: 54px;
+  margin: 5px;
+}
+
+.img0 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  -webkit-transform: translate(0%, -50%);
+  transform: translate(0%, -50%);
+}
+
 .container {
   max-width: 1440px;
 }
