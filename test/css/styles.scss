@@ -7,7 +7,7 @@
 }
 .home-page {
   position: relative;
-  height: 100vh;
+  // height: 100vh;
   &__txt {
     margin: 0;
     position: absolute;
@@ -17,10 +17,10 @@
   }
   &__img {
     width: 100%;
-    height: 100%;
+    height: 95vh;
   }
   &__logo {
-    height: 54px;
+    height: 4vh;
     margin: 5px;
   }
 }
