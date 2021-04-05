@@ -109,7 +109,16 @@
       </picture>
     </div>
   </div>
+<script>
+  //In your js file:
+window.addEventListener('resize', () => { 
+  document.querySelector(':root').style
+    .setProperty('--vw', window.innerWidth/100 + 'px');
+})
 
+//Css
+width: calc(100 * var(--vw));
+</script>
 
     <!-- extra native footer -->
     <div style="background-color: #2B2731;   margin-top: 50px; ">
