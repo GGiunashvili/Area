@@ -16,7 +16,7 @@
 }
 
 .easter-img__home-page-box__main-img {
-  height: 94vh;
+  height: 100vh;
 }
 
 @media only screen and (max-width: 575px) {
@@ -27,7 +27,7 @@
     height: 28px;
   }
   .easter-img__home-page-box__main-img {
-    height: 95vh;
+    height: 100vh;
   }
 }
 /*# sourceMappingURL=styles.css.map */
