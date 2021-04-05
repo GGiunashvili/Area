@@ -1,0 +1,11 @@
+@font-face {
+  src: url(../fonts/MarkGEOCAPS-Light.ttf);
+  font-family: lightcaps-light;
+}
+
+.easter-header {
+  text-align: center;
+  width: 100%;
+  margin: 12px 0;
+}
+/*# sourceMappingURL=styles.css.map */
