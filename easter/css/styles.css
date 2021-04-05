@@ -18,4 +18,16 @@
 .easter-img__home-page-box__main-img {
   height: 94vh;
 }
+
+@media only screen and (max-width: 575px) {
+  .easter-header {
+    height: 5vh;
+  }
+  .easter-header img {
+    height: 28px;
+  }
+  .easter-img__home-page-box__main-img {
+    height: 95vh;
+  }
+}
 /*# sourceMappingURL=styles.css.map */

@@ -19,3 +19,20 @@
     }
   }
 }
+
+@media only screen and (max-width: 575px) {
+  .easter-header {
+    height: 5vh;
+    img {
+      height: 28px;
+    }
+  }
+
+  .easter-img {
+    &__home-page-box {
+      &__main-img {
+        height: 95vh;
+      }
+    }
+  }
+}
