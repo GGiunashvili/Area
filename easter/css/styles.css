@@ -5,7 +5,7 @@
 
 .easter-img__home-page-box__main-img {
   height: 100vh;
-  -o-object-fit: contain;
-     object-fit: contain;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 /*# sourceMappingURL=styles.css.map */
