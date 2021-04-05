@@ -5,5 +5,17 @@
 .easter-header {
   text-align: center;
   width: 100%;
-  margin: 12px 0;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  height: 6vh;
+  img {
+    height: 54px;
+  }
+}
+.easter-img {
+  &__home-page-box {
+    &__main-img {
+      height: 94vh;
+    }
+  }
 }

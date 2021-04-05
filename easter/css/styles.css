@@ -6,6 +6,16 @@
 .easter-header {
   text-align: center;
   width: 100%;
-  margin: 12px 0;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  height: 6vh;
+}
+
+.easter-header img {
+  height: 54px;
+}
+
+.easter-img__home-page-box__main-img {
+  height: 94vh;
 }
 /*# sourceMappingURL=styles.css.map */
