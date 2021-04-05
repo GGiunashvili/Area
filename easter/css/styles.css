@@ -15,6 +15,11 @@
   height: 54px;
 }
 
+.easter-img {
+  min-width: 100%;
+  min-height: 100%;
+}
+
 .easter-img__home-page-box__main-img {
   height: 100vh;
 }
@@ -29,9 +34,6 @@
   .easter-img {
     -o-object-fit: cover;
        object-fit: cover;
-  }
-  .easter-img__home-page-box__main-img {
-    height: 100vh;
   }
 }
 /*# sourceMappingURL=styles.css.map */

@@ -13,6 +13,8 @@
   }
 }
 .easter-img {
+  min-width: 100%;
+  min-height: 100%;
   &__home-page-box {
     &__main-img {
       height: 100vh;
@@ -32,7 +34,7 @@
     object-fit: cover;
     &__home-page-box {
       &__main-img {
-        height: 100vh;
+        // height: 100vh;
       }
     }
   }
