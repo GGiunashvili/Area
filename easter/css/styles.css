@@ -25,6 +25,10 @@ body {
      object-fit: cover;
 }
 
+.pop-up-video {
+  height: 868px;
+}
+
 .home-container {
   margin: 0;
   position: absolute;
@@ -168,11 +172,13 @@ button {
 .card-header {
   border-bottom: 2px solid #f72163;
   padding-left: 0.76rem;
+  background-color: unset;
 }
 
 .card-body {
   font-family: markgeo-semibold;
   font-size: 14px;
+  line-height: 1.3;
 }
 
 .btn-link.focus,
@@ -191,9 +197,16 @@ button {
           box-shadow: unset;
 }
 
+@media only screen and (max-width: 1440px) {
+  .my-modal-dialog-centered {
+    max-width: 1140px !important;
+    height: 480px !important;
+  }
+}
+
 @media (min-width: 576px) {
   .my-modal-dialog-centered {
-    max-width: 1140px;
+    max-width: 1545px;
   }
 }
 
