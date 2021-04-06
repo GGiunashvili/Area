@@ -82,9 +82,11 @@ button {
   font-family: markgeocapscaps-Semiboldcaps;
   font-size: 28px;
   text-align: center;
+  margin-top: 50px;
 }
 .product-col {
   margin-top: 41px;
+  padding: 0 12px;
 }
 
 .product-box {
@@ -106,20 +108,71 @@ button {
     }
   }
 }
-
+.btn-link {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: markgeocapscaps-Semiboldcaps;
+  color: black;
+  font-size: 16px;
+  text-decoration: none;
+  font-family: markgeo-semibold;
+}
+.card {
+  border: unset;
+}
+.card-header:visited {
+  background-color: red;
+}
+.card-header {
+  border-bottom: 2px solid #f72163;
+}
+.card-body {
+  font-family: markgeo-semibold;
+}
+.btn-link.focus,
+.btn-link:focus {
+  text-decoration: none;
+}
+.btn-link:hover {
+  color: unset;
+  text-decoration: none;
+}
+.btn.focus,
+.btn:focus {
+  box-shadow: unset;
+}
 @media (min-width: 576px) {
   .my-modal-dialog-centered {
     max-width: 1140px;
   }
 }
 @media only screen and (max-width: 768px) {
+  .product-col:nth-child(odd) {
+    padding-left: 4px;
+  }
+  .product-col:nth-child(even) {
+    padding-right: 4px;
+  }
   .product-box {
+    border-radius: 8px;
+    img {
+      border-radius: 8px;
+    }
     &__div {
+      height: 25px;
+      border-radius: 0 0 8px 8px;
       &__p {
-        font-size: 14px;
+        font-size: 10px;
+        text-align: center;
       }
     }
   }
+  .easter-title {
+    font-size: 18px;
+  }
+
   .desk {
     display: none;
   }
