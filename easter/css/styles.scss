@@ -21,6 +21,58 @@
     }
   }
 }
-
-@media only screen and (max-width: 575px) {
+.home-container {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  z-index: 999;
+  &__h1 {
+    font-family: markgeocapscaps-Semiboldcaps;
+    color: white;
+    font-size: 24px;
+    line-height: 1.3;
+  }
+  &__p1 {
+    font-family: markgeocapscaps-Semiboldcaps;
+    color: white;
+    font-size: 22px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    line-height: 1.3;
+  }
+  &__p2 {
+    font-family: markgeocapscaps-Semiboldcaps;
+    color: white;
+    font-size: 22px;
+    line-height: 1.3;
+  }
+}
+.player-col {
+  display: flex;
+  justify-content: flex-end;
+}
+@media only screen and (max-width: 768px) {
+  .player-col {
+    justify-content: center;
+    margin-top: 105px;
+  }
+  .home-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    &__h1 {
+      font-size: 18px;
+    }
+    &__p1 {
+      font-size: 14px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+    &__p2 {
+      font-size: 14px;
+    }
+  }
 }
