@@ -68,6 +68,10 @@ button {
   outline: none;
   border: none;
 }
+.d1:hover > .dd {
+  width: 140px;
+  height: 140px;
+}
 @media (min-width: 576px) {
   .my-modal-dialog-centered {
     max-width: 1140px;
@@ -83,11 +87,6 @@ button {
   .player-col {
     justify-content: center;
     margin-top: 105px;
-  }
-
-  .d1:hover > .dd {
-    width: 140px;
-    height: 140px;
   }
 
   .d1:hover > .dd {
