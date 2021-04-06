@@ -62,7 +62,17 @@
           justify-content: flex-end;
 }
 
+.mob {
+  display: none;
+}
+
 @media only screen and (max-width: 768px) {
+  .desk {
+    display: none;
+  }
+  .mob {
+    display: block;
+  }
   .player-col {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
