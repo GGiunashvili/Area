@@ -72,6 +72,12 @@ button {
   width: 140px;
   height: 140px;
 }
+.my-modal-content {
+  background-color: black;
+}
+.modal-header {
+  border-bottom: none;
+}
 @media (min-width: 576px) {
   .my-modal-dialog-centered {
     max-width: 1140px;
