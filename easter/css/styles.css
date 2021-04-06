@@ -94,6 +94,11 @@ button {
   border-bottom: none;
 }
 
+.easter-title {
+  font-family: markgeocapscaps-Semiboldcaps;
+  font-size: 28px;
+}
+
 @media (min-width: 576px) {
   .my-modal-dialog-centered {
     max-width: 1140px;
