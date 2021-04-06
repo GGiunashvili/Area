@@ -2,6 +2,9 @@
   src: url(../fonts/MarkGEOCAPS-Light.ttf);
   font-family: lightcaps-light;
 }
+body {
+  background-color: #f9f9fb;
+}
 .easter-header {
   text-align: center;
   width: 100%;
@@ -118,6 +121,7 @@ button {
   font-size: 16px;
   text-decoration: none;
   font-family: markgeo-semibold;
+  padding: 0;
 }
 .card {
   border: unset;
@@ -127,9 +131,11 @@ button {
 }
 .card-header {
   border-bottom: 2px solid #f72163;
+  padding-left: 0.76rem;
 }
 .card-body {
   font-family: markgeo-semibold;
+  font-size: 14px;
 }
 .btn-link.focus,
 .btn-link:focus {
@@ -149,6 +155,10 @@ button {
   }
 }
 @media only screen and (max-width: 768px) {
+  .btn-link {
+    font-size: 14px;
+    text-align: left;
+  }
   .product-col:nth-child(odd) {
     padding-left: 4px;
   }
