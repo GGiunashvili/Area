@@ -94,4 +94,10 @@
     font-size: 14px;
   }
 }
+
+@media only screen and (max-width: 320px) {
+  .player-col {
+    margin-top: 10px;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
