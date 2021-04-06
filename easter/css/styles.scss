@@ -2,21 +2,21 @@
   src: url(../fonts/MarkGEOCAPS-Light.ttf);
   font-family: lightcaps-light;
 }
-// .easter-header {
-//   text-align: center;
-//   width: 100%;
-//   margin-top: 12px;
-//   margin-bottom: 12px;
-//   height: 6vh;
-//   img {
-//     height: 54px;
-//   }
-// }
+.easter-header {
+  text-align: center;
+  width: 100%;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  height: 4vh;
+  img {
+    height: 44px;
+  }
+}
 
 .easter-img {
   &__home-page-box {
     &__main-img {
-      height: 100vh;
+      height: 96vh;
       object-fit: cover;
     }
   }

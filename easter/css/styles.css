@@ -3,8 +3,20 @@
   font-family: lightcaps-light;
 }
 
+.easter-header {
+  text-align: center;
+  width: 100%;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  height: 4vh;
+}
+
+.easter-header img {
+  height: 44px;
+}
+
 .easter-img__home-page-box__main-img {
-  height: 100vh;
+  height: 96vh;
   -o-object-fit: cover;
      object-fit: cover;
 }
