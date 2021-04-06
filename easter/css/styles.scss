@@ -64,6 +64,10 @@
   padding-top: 0;
   padding-bottom: 0;
 }
+button {
+  outline: none;
+  border: none;
+}
 @media (min-width: 576px) {
   .my-modal-dialog-centered {
     max-width: 1140px;
@@ -80,6 +84,17 @@
     justify-content: center;
     margin-top: 105px;
   }
+
+  .d1:hover > .dd {
+    width: 140px;
+    height: 140px;
+  }
+
+  .d1:hover > .dd {
+    width: unset;
+    height: unset;
+  }
+
   .home-container {
     height: 100%;
     display: flex;
