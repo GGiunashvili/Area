@@ -197,7 +197,22 @@ button {
           box-shadow: unset;
 }
 
+.card-body-ul .card-body-ul__p {
+  position: relative;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.card-body-ul .card-body-ul__p .card-body-ul__p__img {
+  position: absolute;
+  left: -12px;
+  top: 4px;
+}
+
 @media only screen and (max-width: 1440px) {
+  .pop-up-video {
+    height: 480px;
+  }
   .my-modal-dialog-centered {
     max-width: 1140px !important;
     height: 480px !important;
