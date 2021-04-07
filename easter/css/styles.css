@@ -20,7 +20,7 @@ body {
 }
 
 .easter-img__home-page-box__main-img {
-  height: 96vh;
+  height: calc(100vh - 4vh - 12px - 12px);
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -154,11 +154,22 @@ button {
       -ms-flex-align: center;
           align-items: center;
   font-family: markgeocapscaps-Semiboldcaps;
-  color: black;
+  color: white;
   font-size: 16px;
   text-decoration: none;
   font-family: markgeo-semibold;
   padding: 0;
+  background-color: #f72163;
+}
+
+.btn-link:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.btn-link.collapsed {
+  background-color: transparent;
+  color: black;
 }
 
 .card {
@@ -173,6 +184,11 @@ button {
   border-bottom: 2px solid #f72163;
   padding-left: 0.76rem;
   background-color: unset;
+  padding: 0;
+}
+
+.btn-link {
+  border-radius: 0;
 }
 
 .card-body {
@@ -183,11 +199,6 @@ button {
 
 .btn-link.focus,
 .btn-link:focus {
-  text-decoration: none;
-}
-
-.btn-link:hover {
-  color: unset;
   text-decoration: none;
 }
 
