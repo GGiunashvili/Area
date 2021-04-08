@@ -140,6 +140,7 @@ button {
   font-family: markgeocapscaps-Semiboldcaps;
   font-size: 24px;
   color: white;
+  text-align: center;
 }
 
 .btn-link {
@@ -221,6 +222,10 @@ button {
   top: 4px;
 }
 
+#accordion {
+  margin-top: 50px;
+}
+
 @media only screen and (max-width: 1440px) {
   .pop-up-video {
     height: 480px;
@@ -245,11 +250,14 @@ button {
     font-size: 14px;
     text-align: left;
   }
+  .product-col {
+    margin-top: 12px;
+  }
   .product-col:nth-child(odd) {
-    padding-left: 4px;
+    padding-left: 6px;
   }
   .product-col:nth-child(even) {
-    padding-right: 4px;
+    padding-right: 6px;
   }
   .product-box {
     border-radius: 8px;
@@ -266,10 +274,18 @@ button {
     text-align: center;
   }
   .easter-title {
+    margin-top: 25px;
     font-size: 18px;
+  }
+  #accordion {
+    margin-top: 25px;
   }
   .desk {
     display: none;
+  }
+  .easter-title-sec {
+    margin-top: 30px;
+    margin-bottom: 18px;
   }
   .mob {
     display: block;
