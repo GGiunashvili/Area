@@ -226,6 +226,10 @@ button {
   margin-top: 50px;
 }
 
+.my-modal-dialog-centered {
+  width: 100% !important;
+}
+
 @media only screen and (max-width: 1440px) {
   .pop-up-video {
     height: 480px;
@@ -354,7 +358,7 @@ button {
 
 @media only screen and (max-width: 575px) {
   #myModal {
-    padding-right: 0;
+    padding-right: 14px;
   }
   .player-col {
     margin-top: 105px;
@@ -367,6 +371,12 @@ button {
   }
   .home-container__p2 {
     font-size: 14px;
+  }
+  .modal {
+    position: absolute;
+    -webkit-transform: translate(0%, -35%);
+            transform: translate(0%, -35%);
+    top: unset;
   }
 }
 

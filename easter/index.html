@@ -181,9 +181,9 @@
           <div class="col-md-6 col-12">
             <p class="home-container__h1">აღმოაჩინე ექსტრას ბრწყინვალე ფასდაკლებები!</p>
             <p class="home-container__p1">დაამატე ბარათი და დაზოგე დამატებით 30% MASTERCARD-ით გადახდისას!</p>
-            <p class="home-container__p2" type="button" class="btn btn-primary" data-toggle="modal"
-              data-target="#exampleModalCenter">*აქციაში ჩასართავად აუცილებელია ბარათის დამატება ექსტრას პროფილზე. <span
-                style="color:#F9561F;">ნახე ვიდეო ინსტრუქცია!</span></p>
+            <p class="home-container__p2">*აქციაში ჩასართავად აუცილებელია ბარათის დამატება ექსტრას პროფილზე. <a
+                style="color:#F9561F;" href="#myModal" data-toggle="modal">ნახე ვიდეო
+                ინსტრუქცია!</a></p>
           </div>
 
           <div class="col-md-6 col-12 player-col ">
@@ -242,7 +242,7 @@
           </button>
         </div>
         <div class="modal-body my-modal-body">
-          <iframe width="100%" class="pop-up-video" src="https://www.youtube.com/embed/jgEMcCh5_-I?autoplay=1&mute=1">
+          <iframe width="100%" class="pop-up-video" src="https://www.youtube.com/embed/jgEMcCh5_-I?autoplay=1">
           </iframe>
         </div>
 
@@ -254,17 +254,19 @@
     <!-- <a href="#myModal" class="btn btn-primary btn-lg" data-toggle="modal">Launch Demo Modal</a> -->
 
     <!-- Modal HTML -->
-    <div id="myModal" class="modal fade">
-      <div class="modal-dialog my-modal-dialog-centered">
-        <div class="modal-content my-modal-content">
-          <div class="modal-header my-modal-header">
-            <!-- <h5 class="modal-title">YouTube Video</h5> -->
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
-          </div>
-          <div class="modal-body my-modal-body">
-            <div class="embed-responsive embed-responsive-16by9 pop-up-video">
-              <iframe class="pop-up-video" id="cartoonVideo" class="embed-responsive-item" width="560" height="315"
-                src="https://www.youtube.com/embed/jgEMcCh5_-I?autoplay=1&" allowfullscreen></iframe>
+    <div class="d-flex align-items-center">
+      <div id="myModal" class="modal fade">
+        <div class="modal-dialog my-modal-dialog-centered">
+          <div class="modal-content my-modal-content">
+            <div class="modal-header my-modal-header">
+              <!-- <h5 class="modal-title">YouTube Video</h5> -->
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body my-modal-body">
+              <div class="embed-responsive embed-responsive-16by9 pop-up-video">
+                <iframe class="pop-up-video" id="cartoonVideo" class="embed-responsive-item" width="560" height="315"
+                  src="https://www.youtube.com/embed/jgEMcCh5_-I?autoplay=1&" allowfullscreen></iframe>
+              </div>
             </div>
           </div>
         </div>
