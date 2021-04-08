@@ -332,8 +332,8 @@ button {
   }
   .modal {
     position: absolute;
-    transform: translate(0%, -35%);
-    top: unset;
+
+    top: 20%;
   }
 }
 @media only screen and (max-width: 320px) {
