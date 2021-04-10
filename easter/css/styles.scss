@@ -90,9 +90,13 @@ button {
   font-size: 28px;
   text-align: center;
   margin-top: 50px;
+  margin-bottom: 50px;
+}
+.easter-title-sec {
+  margin-bottom: 25px;
 }
 .product-col {
-  margin-top: 41px;
+  margin-top: 24px;
   padding: 0 12px;
 }
 
@@ -198,9 +202,6 @@ button {
   left: -12px;
   top: 4px;
 }
-#accordion {
-  margin-top: 50px;
-}
 
 // .card-body-ul__p {
 //   position: relative;
@@ -292,9 +293,7 @@ button {
     margin-top: 25px;
     font-size: 18px;
   }
-  #accordion {
-    margin-top: 25px;
-  }
+
   .desk {
     display: none;
   }
