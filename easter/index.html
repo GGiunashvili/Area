@@ -158,13 +158,18 @@
 <body>
 
   <div style="height: 100vh;    object-fit:cover; position: relative;">
-    <div class="easter-header d-flex align-items-center justify-content-center">
-      <a href="https://extra.ge/" target="_blank">
+    <div onClick="openGiftBox()" style="z-index: 99999;" target="_blank"
+      class="easter-header d-flex align-items-center justify-content-center">
+      <a href="https://extra.ge/" style="z-index: 99999;" target="_blank">
         <img src="image/Group 4924.svg" alt="">
       </a>
     </div>
 
-
+    <script>
+      function openGiftBox() {
+        window.open("https://extra.ge/");
+      }
+    </script>
     <div class="easter-img__home-page-box">
       <picture>
         <source srcset="https://promo.extra.ge/easter/image/desk.webp" type="image/webp">
@@ -176,7 +181,7 @@
       </picture>
 
 
-      <div class="container home-container">
+      <div class="container home-container " style="z-index: 1;">
         <div class="row align-items-center">
           <div class="col-md-6 col-12">
             <p class="home-container__h1">აღმოაჩინე ექსტრას ბრწყინვალე ფასდაკლებები!</p>
