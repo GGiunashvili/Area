@@ -56,6 +56,12 @@ body {
     margin-bottom: 10px;
   }
 }
+.lowercase {
+  font-family: markgeo-semibold;
+}
+.a-tab {
+  margin-top: 10px;
+}
 .player-col {
   display: flex;
   justify-content: flex-end;
@@ -259,6 +265,12 @@ button {
   }
 }
 @media only screen and (max-width: 768px) {
+  .a-tab {
+    margin-top: 0px;
+  }
+  .last-p {
+    margin-bottom: 0;
+  }
   .easter-header img {
     height: 36px;
   }
