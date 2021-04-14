@@ -26,6 +26,13 @@ html {
     }
   }
 }
+.line-animation-burger-p {
+  font-family: markgeocaps-bold;
+  font-size: 18px;
+}
+.topnav {
+  display: none;
+}
 .line {
   height: 5px;
   width: 39px;
@@ -75,5 +82,13 @@ body {
 @media only screen and (max-width: 992px) {
   .container {
     max-width: 952px !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .topnav {
+    display: block;
+  }
+  .ft-header {
+    display: none;
   }
 }
