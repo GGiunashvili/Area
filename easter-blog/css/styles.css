@@ -3,6 +3,10 @@
   font-family: lightcaps-light;
 }
 
+.container {
+  max-width: 952px !important;
+}
+
 body {
   background-color: #f9f9fb;
 }
@@ -42,5 +46,11 @@ body {
   font-family: markgeocaps-medium;
   font-size: 16px;
   line-height: 24px;
+}
+
+@media only screen and (max-width: 992px) {
+  .container {
+    max-width: 952px !important;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
