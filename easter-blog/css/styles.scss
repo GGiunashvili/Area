@@ -129,9 +129,9 @@ body {
   }
 }
 @media only screen and (max-width: 768px) {
-  .first-component {
-    margin-top: 90px;
-  }
+  // .first-component {
+  //   margin-top: 124px;
+  // }
   .ft-container {
     margin-bottom: unset;
   }
@@ -141,11 +141,6 @@ body {
   .topnav {
     display: block;
     margin-bottom: 24px;
-    overflow: hidden;
-    position: fixed !important;
-    background-color: white;
-    z-index: 9999999999;
-    width: 100%;
   }
   .ft-header {
     display: none;
