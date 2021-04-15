@@ -8,11 +8,17 @@
 html {
   scroll-behavior: smooth;
 }
+.ft-container-sec {
+  max-width: 1140px !important;
+}
 .line-animation {
+  margin-top: 50px;
   display: flex;
   justify-content: flex-end;
   flex-direction: column;
   align-items: flex-end;
+  position: absolute;
+  right: 0;
   &__div {
     display: flex;
     align-items: center;
@@ -23,6 +29,7 @@ html {
       font-size: 18px;
       opacity: 0.3;
       width: 310px;
+      color: black;
     }
   }
 }
@@ -47,17 +54,24 @@ html {
 .line-animation__div:hover .line-animation__div__p {
   opacity: 1;
   transition: 0.5s;
+  color: black;
 }
 body {
   background-color: #f9f9fb;
+}
+.ft-container {
+  margin-bottom: 36px;
 }
 .ft-header {
   display: flex;
   align-items: center;
   justify-content: center;
   &__img {
-    margin-top: 24px;
-    margin-bottom: 24px;
+    margin-top: 19px;
+    margin-bottom: 19px;
+    &__in {
+      height: 36px;
+    }
   }
 }
 .webp-img-picture {
@@ -79,14 +93,51 @@ body {
   font-size: 16px;
   line-height: 24px;
 }
+.footer-container {
+  max-width: 1140px !important;
+}
+@media only screen and (max-width: 1440px) {
+  .container {
+    max-width: 680px !important;
+  }
+  .footer-container {
+    max-width: 1140px !important;
+  }
+  .ft-container-sec {
+    max-width: 1140px !important;
+  }
+  .line-animation__div__p {
+    font-size: 14px;
+    width: 249px;
+    color: black;
+  }
+  .line {
+    width: 25px;
+  }
+  .line-animation__div:hover .line {
+    width: 45px;
+  }
+}
+@media only screen and (max-width: 1250px) {
+  .line-animation {
+    display: none;
+  }
+}
 @media only screen and (max-width: 992px) {
   .container {
     max-width: 952px !important;
   }
 }
 @media only screen and (max-width: 768px) {
+  .ft-container {
+    margin-bottom: unset;
+  }
+  .line-animation {
+    display: none;
+  }
   .topnav {
     display: block;
+    margin-bottom: 24px;
   }
   .ft-header {
     display: none;
