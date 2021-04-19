@@ -16,7 +16,6 @@ html {
 }
 
 .line-animation {
-  margin-top: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -30,7 +29,7 @@ html {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  position: absolute;
+  position: fixed;
   right: 0;
 }
 
@@ -135,6 +134,28 @@ body {
 
 .footer-container {
   max-width: 1140px !important;
+}
+
+.blog-btn {
+  background-color: #fbeae1;
+  width: 120px;
+  height: 50px;
+  border-radius: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.blog-btn__p {
+  color: #f9561f;
+  font-size: 12px;
+  font-family: markgeo-bold;
 }
 
 @media only screen and (max-width: 1440px) {

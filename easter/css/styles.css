@@ -19,6 +19,38 @@ body {
   height: 44px;
 }
 
+.blog-btn {
+  background-color: #fbeae1;
+  width: 120px;
+  height: 50px;
+  border-radius: 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.blog-btn__p {
+  color: #f9561f;
+  font-size: 12px;
+  font-family: markgeo-bold;
+}
+
+.ft-header__img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.ft-container {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 .easter-img__home-page-box__main-img {
   height: calc(100vh - 4vh - 12px - 12px);
   -o-object-fit: cover;
@@ -296,6 +328,14 @@ button {
 }
 
 @media only screen and (max-width: 768px) {
+  .ft-header__img {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .ft-header__img__in {
+    height: 30px;
+  }
   .a-tab {
     margin-top: 0px;
   }

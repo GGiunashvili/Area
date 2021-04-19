@@ -15,7 +15,28 @@ body {
     height: 44px;
   }
 }
-
+.blog-btn {
+  background-color: #fbeae1;
+  width: 120px;
+  height: 50px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__p {
+    color: #f9561f;
+    font-size: 12px;
+    font-family: markgeo-bold;
+  }
+}
+.ft-header__img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.ft-container {
+  margin-left: 10px;
+  margin-right: 10px;
+}
 .easter-img {
   &__home-page-box {
     &__main-img {
@@ -265,6 +286,12 @@ button {
   }
 }
 @media only screen and (max-width: 768px) {
+  .ft-header__img {
+    align-items: center;
+  }
+  .ft-header__img__in {
+    height: 30px;
+  }
   .a-tab {
     margin-top: 0px;
   }
