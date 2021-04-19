@@ -12,13 +12,13 @@ html {
   max-width: 1140px !important;
 }
 .line-animation {
-  margin-top: 50px;
   display: flex;
   justify-content: flex-end;
   flex-direction: column;
   align-items: flex-end;
-  position: absolute;
+  position: fixed;
   right: 0;
+
   &__div {
     display: flex;
     align-items: center;
@@ -95,6 +95,20 @@ body {
 }
 .footer-container {
   max-width: 1140px !important;
+}
+.blog-btn {
+  background-color: #fbeae1;
+  width: 120px;
+  height: 50px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__p {
+    color: #f9561f;
+    font-size: 12px;
+    font-family: markgeo-bold;
+  }
 }
 @media only screen and (max-width: 1440px) {
   .container {
