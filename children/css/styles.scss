@@ -264,6 +264,12 @@ border-radius: 10px;
     }
   }
 }
+.arrow-parent-one{
+  height: 65px;
+}
+.arrow-parent-one:hover{
+  border: 4px solid #FA987F!important;
+}
 .card-body {
   ul {
     li {
@@ -434,7 +440,6 @@ html {
   width: 165px;
   border-radius: 12px;
   justify-content: center;
-  height: 65px;
   display: flex;
   align-items: center;
 
@@ -453,6 +458,11 @@ html {
 }
 .arrow-parent{
   width: unset!important; margin-right: 8px;
+  font-family: markgeocaps-medium;
+
+}
+.blog:hover{
+  background-color: #FD561F12;
 }
 .blog-btn__p{
   font-family: markgeo-bold;

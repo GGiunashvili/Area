@@ -347,6 +347,14 @@ button {
   top: 4px;
 }
 
+.arrow-parent-one {
+  height: 65px;
+}
+
+.arrow-parent-one:hover {
+  border: 4px solid #FA987F !important;
+}
+
 .card-body ul li {
   position: relative;
   margin-top: 5px;
@@ -529,7 +537,6 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 65px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -559,6 +566,11 @@ html {
 .arrow-parent {
   width: unset !important;
   margin-right: 8px;
+  font-family: markgeocaps-medium;
+}
+
+.blog:hover {
+  background-color: #FD561F12;
 }
 
 .blog-btn__p {
