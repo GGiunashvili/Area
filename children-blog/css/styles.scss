@@ -47,6 +47,9 @@ html {
   border-radius: 30px;
   transition: width 0.5s;
 }
+.p-txt:hover{
+  color: black;
+}
 
 .line-animation__div:hover .line {
   width: 83px;
