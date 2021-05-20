@@ -94,6 +94,10 @@ body {
   background-color: #f9f9fb;
 }
 
+.col-12 {
+  overflow: hidden;
+}
+
 .ft-container {
   margin-bottom: 36px;
 }

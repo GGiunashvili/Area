@@ -66,6 +66,10 @@ html {
 }
 body {
   background-color: #f9f9fb;
+  
+}
+.col-12{
+  overflow: hidden;
 }
 .ft-container {
   margin-bottom: 36px;
@@ -118,6 +122,7 @@ body {
     font-family: markgeo-bold;
   }
 }
+
 @media only screen and (max-width: 1440px) {
   .container {
     max-width: 680px !important;
