@@ -48,7 +48,7 @@ html {
   font-family: markgeocaps-bold;
   font-size: 18px;
   opacity: 0.3;
-  width: 310px;
+  width: 100%;
   color: black;
 }
 
@@ -83,6 +83,11 @@ html {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   color: black;
+}
+
+.line-animation__div__p {
+  text-align: right;
+  margin-right: 20px;
 }
 
 body {
@@ -173,9 +178,10 @@ body {
     max-width: 1140px !important;
   }
   .line-animation__div__p {
-    font-size: 14px;
+    font-size: 12px;
     width: 249px;
     color: black;
+    margin-right: 15px;
   }
   .line {
     width: 25px;
