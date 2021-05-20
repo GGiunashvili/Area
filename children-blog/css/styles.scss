@@ -1,0 +1,162 @@
+@font-face {
+  src: url(../fonts/MarkGEOCAPS-Light.ttf);
+  font-family: lightcaps-light;
+}
+.container {
+  max-width: 952px !important;
+}
+html {
+  scroll-behavior: smooth;
+}
+.ft-container-sec {
+  max-width: 1140px !important;
+}
+.line-animation {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: flex-end;
+  position: fixed;
+  right: 0;
+
+  &__div {
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    &__p {
+      font-family: markgeocaps-bold;
+      font-size: 18px;
+      opacity: 0.3;
+      width: 310px;
+      color: black;
+    }
+  }
+}
+.line-animation-burger-p {
+  font-family: markgeocaps-bold;
+  font-size: 18px;
+}
+.topnav {
+  display: none;
+}
+.line {
+  height: 5px;
+  width: 39px;
+  background: #f72163;
+  border-radius: 30px;
+  transition: width 0.5s;
+}
+
+.line-animation__div:hover .line {
+  width: 83px;
+}
+.line-animation__div:hover .line-animation__div__p {
+  opacity: 1;
+  transition: 0.5s;
+  color: black;
+}
+body {
+  background-color: #f9f9fb;
+}
+.ft-container {
+  margin-bottom: 36px;
+}
+.ft-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__img {
+    margin-top: 19px;
+    margin-bottom: 19px;
+    &__in {
+      height: 36px;
+    }
+  }
+}
+.webp-img-picture {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.title {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  font-family: markgeocaps-bold;
+  font-size: 16px;
+  color: black;
+}
+.p-txt {
+  color: black;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  font-family: markgeocaps-medium;
+  font-size: 16px;
+  line-height: 24px;
+}
+.footer-container {
+  max-width: 1140px !important;
+}
+.blog-btn {
+  background-color: #fbeae1;
+  width: 120px;
+  height: 50px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__p {
+    color: #f9561f;
+    font-size: 12px;
+    font-family: markgeo-bold;
+  }
+}
+@media only screen and (max-width: 1440px) {
+  .container {
+    max-width: 680px !important;
+  }
+  .footer-container {
+    max-width: 1140px !important;
+  }
+  .ft-container-sec {
+    max-width: 1140px !important;
+  }
+  .line-animation__div__p {
+    font-size: 14px;
+    width: 249px;
+    color: black;
+  }
+  .line {
+    width: 25px;
+  }
+  .line-animation__div:hover .line {
+    width: 45px;
+  }
+}
+@media only screen and (max-width: 1250px) {
+  .line-animation {
+    display: none;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .container {
+    max-width: 952px !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  // .first-component {
+  //   margin-top: 124px;
+  // }
+  .ft-container {
+    margin-bottom: unset;
+  }
+  .line-animation {
+    display: none;
+  }
+  .topnav {
+    display: block;
+    margin-bottom: 24px;
+  }
+  .ft-header {
+    display: none;
+  }
+}
