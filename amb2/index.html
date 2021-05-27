@@ -1,435 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta property="og:url" content="https://promo.extra.ge/amb2/" />
-  <meta property="og:type" content="article" />
-  <meta property="og:title" content="ექსტრა ამბასადორები"  />
-  <meta property="og:description" content="ახალი პროგრამა საქართველოს წამყვანი ციფრული მოლისგან" />
-  <meta property="og:image" content="https://promo.extra.ge/amb2/image/thumbnn.png" />
-  <title>🌈 ექსტრა ამბასადორები  </title>
-  <link rel="icon" href="image/extra_tab_logo-01.svg" type="image/gif" >
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/rangeslider.js/2.3.0/rangeslider.min.css'>
+  <head>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+      
+    />
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="css/reset.css">
+
+    <!-- Demo styles -->
+    <style>
   
 
-  <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-  <link rel="stylesheet" href="https://jqueryui.com/resources/demos/style.css">
+    
+    </style>
+  </head>
+
+  <body>
+    <!-- Swiper -->
+ <div class="lg:container lg:mx-auto">
+  <div class="swiper-container mySwiper w-full h-full">
+    <div class="swiper-wrapper ">
+      <a href="#" class="swiper-slide flex-col text-center flex items-center justify-center ml-4">
+        <img class="rounded-xl block w-full h-full object-cover" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgolBdeaXdt7hZ4G28YiA8shOCg4jkBg08uA&usqp=CAU" alt="">
+        <p class="text-left w-full	">აღმოაჩინე ფასდაკლებები სმარტფონებზე</p>
+        <div class="flex items-center absolute	top-5 right-0">
+          <div class="h-11 w-0 h-0  " style="border-top: 22px solid transparent; border-bottom: 22px solid transparent; border-right: 10px solid #F12D2D;"></div>
+          <div class="h-11	" style="width: 75px;  background-color: #F12D2D;"></div>
+          <p class="absolute left-0" style="right: -5px; margin: 0 auto; font-size: 14px; color: white;">-15% მდე</p>
+        </div>
+      </a>
+      <a href="#" class="swiper-slide flex-col text-center flex items-center justify-center">
+        <img class="rounded-xl block w-full h-full object-cover" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgolBdeaXdt7hZ4G28YiA8shOCg4jkBg08uA&usqp=CAU" alt="">
+        <p class="text-left	w-full">ჭკვიანი საათები</p>
+      </a>
+      <a href="#" class="swiper-slide flex-col text-center flex items-center justify-center">
+        <img class="rounded-xl block w-full h-full object-cover" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgolBdeaXdt7hZ4G28YiA8shOCg4jkBg08uA&usqp=CAU" alt="">
+        <p class="text-left w-full">შეარჩიე ავეჯი და მიიღე საჩუქარი</p>
+      </a>
+      <a href="#" class="swiper-slide flex-col text-center flex items-center justify-center">
+        <img class="rounded-xl block w-full h-full object-cover" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgolBdeaXdt7hZ4G28YiA8shOCg4jkBg08uA&usqp=CAU" alt="">
+        <p class="text-left	w-full">ბავშვთა სამყარო</p>
+      </a>
+    </div>
+  </div>
+ </div>
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+     var swiper = new Swiper('.swiper-container', {
+
+      slidesPerView: 1.5,
+      spaceBetween: 18,
   
-  <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
-<script src="http://code.jquery.com/ui/1.8.21/jquery-ui.min.js"></script>
-<script src="jquery.ui.touch-punch.min.js"></script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
-  <script>
-    $( function() {
-      var handle1 = $("#handle1");
-      var handle2 = $("#handle2");
-      var result = $("#result");
-      var value1div = $("#value1");
-      var value2div = $("#value2");
-      var value1 = 0;
-      var value2 = 0;
-  
-      function updateResult() {
-        result.text((value1 * value2 * 0.05 * 0.8).toFixed() );
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      breakpoints: {
+        1024: {
+        slidesPerView: 4,
+        spaceBetween: 18,
+        allowSlideNext: false,
+        allowSlidePrev:false,
+        },
       }
-      var slider1 = $( "#slider1" ).slider({
-        min: 15,
-        max: 100,
-        value: 30,
-        create: function() {
-          // handle1.text( $( this ).slider( "value" ) );
-          value1 = $( this ).slider( "value" );
-          value1div.text( $( this ).slider( "value" ) );
-        },
-        slide: function( event, ui ) {
-          // handle1.text( ui.value );
-          value1div.text( ui.value );
-          value1 = ui.value;
-          updateResult();
-        }
+
+
       });
-      $( "#slider2" ).slider({
-        min: 20,
-        max: 5000,
-        value: 150,
-        create: function() {
-          // handle2.text( $( this ).slider( "value" ) );
-          value2 = $( this ).slider( "value" );
-          value2div.text( $( this ).slider( "value" ) );
-        },
-        slide: function( event, ui ) {
-          // handle2.text( ui.value );
-          value2div.text( ui.value );
-          value2 = ui.value;
-          updateResult();
-        }
-      });
-    } );
+      
     </script>
-
-
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-PBJJTKB');</script>
-  <!-- End Google Tag Manager -->
-
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-87689958-2"></script> 
-  <!-- End - Google Analytics -->
-
-  <script>
-      !function(f,b,e,v,n,t,s)
-      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-      n.queue=[];t=b.createElement(e);t.async=!0;
-      t.src=v;s=b.getElementsByTagName(e)[0];
-      s.parentNode.insertBefore(t,s)}(window, document,'script',
-      'https://connect.facebook.net/en_US/fbevents.js');
-
-      fbq('init', '244629576982625');
-      fbq('track', 'PageView');
-
-      fbq('track', 'AddToCart');
-      
-  </script>
-   
-   <noscript><img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=244629576982625&ev=PageView&noscript=1"/>
-  </noscript> 
-   <!-- End Facebook Pixel Code -->
-
-   <script>
-       // <!-- Global site tag (gtag.js) - Google Analytics -->
-       
-      
-       window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'UA-87689958-2');
-
-          // <!-- END Google Analytics -->
-
-
-        /////////////////hotjar script///////////
-      (function(h,o,t,j,a,r){
-          h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-          h._hjSettings={hjid:1418341,hjsv:6};
-          a=o.getElementsByTagName('head')[0];
-          r=o.createElement('script');r.async=1;
-          r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-          a.appendChild(r);
-      })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-      ////////////////////////////////////////////
-   </script>
-</head>
-
-<body  style="background: #EEEEEE;">
-  
-  <div class="main-header-parent">
-    <div class="main-header d-flex justify-content-between align-items-center">
-      <a href="#">
-        <img class="header-logo" src="image/Group 3.svg" alt="">
-
-      </a>
-      <div class="d-flex justify-content-between">
-        <a href="#section4" class="header-ticks">ანაზღაურება</a>
-        <a href="#section2" class="header-ticks">მოთხოვნები</a>
-        <a href="#section3" class="header-ticks">გამოცდილება</a>
-        <a href="#section7" class="header-ticks" >იდეა</a>
-
-        <a href="https://extracareer.typeform.com/to/uHrMTkG7" target="_blank" class="join-us-box join-us-frst" >
-          <p class="join-us-text join-font-mobile">შემოგვიერთდი</p>
-        </a>
-  
-      </div>
-    </div>
-  </div>
-
-
-
-
-  <div id="section4" class="container">
-    <div class="row align-items-center">
-      <div class="col-md-6 col-12 d-flex justify-content-center first-ambasador-box-one" style="margin-top: 120px;">
-        <div class="first-ambasador-box-one-child">
-          <div class="first-text-component">
-            <p class="first-ambasador-box-one-title">ვეძებთ ექსტრას <br> ამბასადორებს!</p>
-            
-            <div class="blue-line-parent">
-              <div class="blue-line"></div>
-            </div>
-            <div>
-              <p class="first-ambasador-box-one-text">თუ სამსახურს ეძებ, მაგრამ გამოცდილება ჯერ არ გაქვს, შემოგვიერთდი! ​</p>
-            <p class="first-ambasador-box-one-text first-ambasador-box-one-text-sec">​დაეხმარე პოტენციურ მომხმარებლებს სასურველი ნივთის შეძენაში და გამოიმუშავე საკუთარი ხელფასი!</p>
-            </div>
-
-           
-          
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6 col-12 top-houndred" >
-        <p class="financ-interest">ფინანსური ინტერესი</p>
-
-        <div class="value-title d-flex justify-content-between align-items-center">
-          <div id="value1" class="value1"></div>
-          <p class="sold-product">გაყიდული პროდუქტების რაოდენობა</p>
-          <div style="visibility: hidden;">s</div>
-        </div>
-        <div id="slider1">
-          <div id="handle1" class="ui-slider-handle"></div>
-        </div>
-        ​
-
-        
-        <div class="value-title-2 d-flex justify-content-between align-items-center">
-          <div id="value2" class="value2"></div>
-           <p class="sold-product-vl2">პროდუქტის საშუალო ღირებულება</p>
-           <p style="visibility:hidden;">3</p>
-        </div>
-        <div id="slider2">
-
-          <div id="handle2" class="ui-slider-handle"></div>
-
-        </div>
-        ​
-        <div class="your-cost-box">
-          <p class="your-cost-p">თქვენი შმოსავალი იქნება</p>
-          <div class="d-flex justify-content-center"> 
-            <h2 id="result" class="result">450 </h2>
-            <h2 style="color: #7A1DFF;font-size: 35px;"> ₾</h2>
-          </div>
-
-        </div>     
-
-      </div>
-      </div>
-    </div>
-  </div>
-
-
-
-  <div class="container" style="margin-top:25px; margin-bottom:25px;"> 
-    <div class="row">
-
-      <div class="embed-responsive embed-responsive-16by9" style="    border-radius: 30px;      ">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/icxcsnn3oJM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  </div>
-
- 
-
-
-
-  <div id="section2"  class="container">
-    <div class="row">
-      <p class="col-12 wondering-main-title" style="text-align: center;">რას გთავაზობთ ჩვენ</p>
-
-      <div class="col-md-3 col-6 wondering">
-        <img class="first-simple wondering-img" src="image/1Group 565.svg" alt="">
-        <p class="wondering-text">ყოველთვიური</p>
-        <p class="wondering-text wondering-text-second">ანაზღაურება</p>
-      </div>
-
-      <div class="col-md-3 col-6 wondering">
-        <img class="first-simple  wondering-img" src="image/2Group 566.svg" alt="">
-        <p class="wondering-text">მოქნილი სამუშაო </p>
-        <p class="wondering-text  wondering-text-second">გრაფიკი</p>
-      </div>
-
-      <div class="col-md-3 col-6 wondering">
-        <img class="first-simple  wondering-img" src="image/3Group 567.png" alt="">
-        <p class="wondering-text">ექსკლუზიური </p>
-        <p class="wondering-text  wondering-text-second">შეთავაზებები</p>
-      </div>
-      <div class="col-md-3 col-6 wondering">
-        <img class="first-simple  wondering-img" src="image/4Group 568.svg" alt="">
-        <p class="wondering-text">პრაქტიკული ცოდნა </p>
-        <p class="wondering-text  wondering-text-second">და გამოცდილება​</p>
-      </div>
-
-
-      <div class="blue-line-parent  blue-line-last " style="visibility: hidden;">
-        <div class="blue-line"></div>
-      </div>
-
-      <div class="col-12 d-flex justify-content-center ">
-        <a href="https://extracareer.typeform.com/to/uHrMTkG7" target="_blank" class="join-us-box  blue-line-last" style="text-align: center; margin-top:20px; margin-bottom:25px;">
-          <p class="join-us-text">შემოგვიერთდი</p>
-        </a>
-
-      </div>
-
-      <div class="col-12 d-flex justify-content-center ">
-        <div style="width: 150px; height: 4px; background-color: #7A1DFF;"></div>
- 
-
-      </div>
-
-
-    </div>
-  </div>
-
-
-
-
-  <div  class="container">
-    <div id="section3"  class="row">
-      <p class="col-12 wondering-main-title" style="text-align: center;">რას ველით შენგან</p>
-
-      <div class="col-md-3 col-6  wondering">
-        <img class="wondering-img" src="image/Shape 2.png" alt="">
-        <p class="wondering-text">შეხვედრა და გასაუბრება</p>
-        <p class="wondering-text wondering-text-second">პოტენციურ მომხმარებელთან</p>
-      </div>
-
-      <div class="col-md-3 col-6  wondering">
-        <img class="wondering-img" src="image/Shape 3.png" alt="">
-        <p class="wondering-text">დახმარება საიტზე</p>
-        <p class="wondering-text  wondering-text-second">ნავიგაციაში</p>
-      </div>
-
-      <div class="col-md-3 col-6 wondering">
-        <img class="wondering-img" src="image/Shape 4.png" alt="">
-        <p class="wondering-text">საჭიროებებისა და</p>
-        <p class="wondering-text  wondering-text-second">სურვილების იდენტიფიცირება</p>
-      </div>
-      <div class="col-md-3 col-6 wondering">
-        <img class="wondering-img" src="image/Shape 5.png" alt="">
-        <p class="wondering-text">ახალი პროდუქტებისა და</p>
-        <p class="wondering-text  wondering-text-second">შეთავაზებების პრეზენტაცია</p>
-      </div>
-
-
-      <div class="blue-line-parent  blue-line-last" style="visibility: hidden;">
-        <div class="blue-line"></div>
-      </div>
-
-      <div class="col-12 d-flex justify-content-center">
-        <a href="https://extracareer.typeform.com/to/uHrMTkG7" target="_blank" class="join-us-box" style="text-align: center; margin-top:20px; margin-bottom:25px;">
-          <p class="join-us-text">შემოგვიერთდი</p>
-        </a>
-
-      </div>
-
-      <div class="col-12 d-flex justify-content-center">
-        <div style="width: 150px; height: 4px; background-color: #7A1DFF;"></div>
- 
-
-      </div>
-
-
-    </div>
-  </div>
-
-
-  
-
-  
-
-
-
-  
-
-</div>
-</div>
-
-
-    
-
-<div class="container">
-  <div class="row">
-    <div  class="col-md-6 col-12 ambasador-box-one  hidden">
-      <p  class="ambasador-box-one-title" >ჩვენ არ ვითხოვთ გამოცდილებას!</p>
-      <p  class="ambasador-box-one-text">ჩვენთვის სრულიად საკმარისია ის უნიკალური უნარები, რომლებიც ისედაც გაქვს, შენივე ყოველდღიურობიდან გამომდინარე! ჩვენთვის მნიშვნელოვანია: ენერგიულობა, პასუხისმგებლობა და სხვების დახმარების სურვილი. სხვა ყველანაირი საჭირო უნარ-ჩვევებითა და ტქენიკებიტ ჩვენ უზრუნველვყოფთ შენს არჭურვას!</p>
-
-      <a href="https://extracareer.typeform.com/to/uHrMTkG7" target="_blank" class="join-us-box" style="margin-bottom:25pxpx;">
-        <p class="join-us-text">შემოგვიერთდი</p>
-      </a>
-    </div>
-    
-    <div class="col-md-6 col-12 ambasador-box-one unhidden">
-      <p class="ambasador-box-one-title">ჩვენ არ ვითხოვთ გამოცდილებას!</p>
-      <p class="ambasador-box-one-text">ჩვენთვის სრულიად საკმარისია ის უნიკალური უნარები, რომლებიც ისედაც გაქვს, შენივე ყოველდღიურობიდან გამომდინარე! ჩვენთვის მნიშვნელოვანია: ენერგიულობა, პასუხისმგებლობა და სხვების დახმარების სურვილი. სხვა ყველანაირი საჭირო უნარ-ჩვევებითა და ტქენიკებიტ ჩვენ უზრუნველვყოფთ შენს არჭურვას!</p>
-      <a href="https://extracareer.typeform.com/to/uHrMTkG7" target="_blank" class="join-us-box" style="margin-bottom:25px;">
-        <p class="join-us-text">შემოგვიერთდი</p>
-      </a>
-    </div>
-    <div  class="col-md-6 col-12">
-      <img class="ambasador-img-1 w-100"  src="image/Group 128.svg" alt="">
-    </div>
-    <div class="blue-line-parent " style="visibility: hidden;">
-      <div class="blue-line"></div>
-    </div>
-  </div>
-</div>
-
-
-
-<div id="section7" class="container" style="margin-top:30px;">
-  <div class="row align-items-center">
-    <div  class="col-md-6 col-12 ambasador-box-one  hidden">
-      <p  class="ambasador-box-one-title" >პროექტის იდეა</p>
-      <p  class="ambasador-box-one-text">პოსტ კოვიდის პერიოდში განსაკუთებით გართულდა სამსახურის ძიება სტუდენტებისთვის, ვისთვისაც ისედაც პრობლემატური იყო გამოცდილების გარეშე დასაქმება. ამ დროს, ახალგაზრდებს განსაკუთრებულად განვითარებული უნარები აქვთ ციფრულ პლატფორმებთან ადაპტაციაში. გარშმო კი ჯერ კიდევ ბევრი ადამიანია, ვისთვისაც ახალია ციფრული ნავიგაცია და უარს არ იტყოდნენ დახმარების შეთავაზებაზე. გინდა, რომ მოგცეთ მოტივაცია და აგრეთვე დაგეხმაროთ კარიერის საწყისი ნაბიჯების გადადგმაში, რაღა თქმა უნდა, ჩვენი ინდუსტრიის მეშვეობით. სწორედ ამიტომ, ვაცხადებთ ვაკანსიას ყველა ახალგაზრდისათვის, რომელიც დაინტერესებულია ელექტრონული კომერციით და სურვილი აქვს გაიუმჯობესოს კომუნიკაციისა და გაყიდვების უნარ-ჩვევები.</p>
-
-      <a href="https://extracareer.typeform.com/to/uHrMTkG7" target="_blank" class="join-us-box" style="margin-bottom:25px;">
-        <p class="join-us-text">შემოგვიერთდი</p>
-      </a>
-    </div>
-    <div  class="col-md-6 col-12">
-      <img class="ambasador-img-1 w-100"  style="max-height: 400px;" src="image/Group 564.svg" alt="">
-    </div>
-    <div class="col-md-6 col-12 ambasador-box-one unhidden">
-      <p class="ambasador-box-one-title">პროექტის იდეა</p>
-      <p class="ambasador-box-one-text">პოსტ კოვიდის პერიოდში განსაკუთებით გართულდა სამსახურის ძიება სტუდენტებისთვის, ვისთვისაც ისედაც პრობლემატური იყო გამოცდილების გარეშე დასაქმება. ამ დროს, ახალგაზრდებს განსაკუთრებულად განვითარებული უნარები აქვთ ციფრულ პლატფორმებთან ადაპტაციაში. გარშმო კი ჯერ კიდევ ბევრი ადამიანია, ვისთვისაც ახალია ციფრული ნავიგაცია და უარს არ იტყოდნენ დახმარების შეთავაზებაზე. გინდა, რომ მოგცეთ მოტივაცია და აგრეთვე დაგეხმაროთ კარიერის საწყისი ნაბიჯების გადადგმაში, რაღა თქმა უნდა, ჩვენი ინდუსტრიის მეშვეობით. სწორედ ამიტომ, ვაცხადებთ ვაკანსიას ყველა ახალგაზრდისათვის, რომელიც დაინტერესებულია ელექტრონული კომერციით და სურვილი აქვს გაიუმჯობესოს კომუნიკაციისა და გაყიდვების უნარ-ჩვევები.</p>
-      <a href="https://extracareer.typeform.com/to/uHrMTkG7" target="_blank" class="join-us-box" style="margin-bottom:25px;">
-        <p class="join-us-text">შემოგვიერთდი</p>
-      </a>
-    </div>
-   
-    <div class="blue-line-parent  blue-line-last" style="visibility: hidden;">
-      <div class="blue-line"></div>
-    </div>
-  </div>
-</div>
- 
-
-
-
-<div class="d-flex align-items-center justify-content-between footer-main-box" style="background-color: #161E3F; padding:14px">
-  <p class="d-flex footer-text" style="color: white; font-family: markgeocapscaps-medium;">© 2020 designed with <a href=""><img style="margin:0 5px; margin-top:6px;" src="image/Heart.svg" alt=""></a>
-      <span class="extra-footer" style="margin-right: 5px;  font-family: markgeocapscaps-medium;">by </span>
-      <a href="https://extra.ge/?utm_source=visa" class="extra-footer" style="font-family: markgeocapscaps-medium; color:white;">extra.ge</a></p>
-  <div>
-      <a href="https://www.facebook.com/Extramarketplace/ "><img style="height: 20px;" src="image/facebook (1).svg" alt="" width="20" class="CToWUd"> </a>
-      <a href="https://www.linkedin.com/company/extra-ge " target="_blank"><img class=" linkedin-icon" style="height: 20px; " src="image/linkedin.svg" alt="" width="20"></a>
-      <a href="https://www.instagram.com/extra__ge/ " target="_blank"><img style="height: 20px; padding-top: 3px;" src="image/instagram.svg" alt="" width="20" class="CToWUd"> </a>
-  </div>
-</div>
-
-
-
-  <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script> -->
-  
-  <script  src="./main.js"></script>
-
-
-</body>
+  </body>
 </html>
-
-
-
-
