@@ -79,8 +79,8 @@ html,
   }
 }
 .main-text-one {
-  font-size: 25px;
-  font-family: markgeocaps-bold;
+  font-size: 20px;
+  font-family: markgeocaps-medium;
   color: white;
   text-align: left;
 }
@@ -125,10 +125,9 @@ html,
 .mg-head-text {
   text-align: left;
   color: black;
-  font-family: MARKGEOCAPS-semibold;
+  font-family: markgeocaps-medium;
   line-height: 1.2;
   font-size: 20px;
-  font-weight: bold;
 }
 p {
   text-decoration: none !important;
@@ -465,7 +464,7 @@ a {
   justify-content: center;
 }
 .category-img-div-text {
-  font-family: markgeocaps-regular;
+  font-family: markgeocaps-medium;
   font-size: 16px;
   color: white;
 }
@@ -528,11 +527,10 @@ a {
 }
 .textt {
   color: white;
-  font-family: markgeocaps-regular;
+  font-family: markgeo-medium;
   text-align: left;
   line-height: 1.4;
   font-size: 24px;
-  font-weight: bold;
   margin: 20px 0;
 }
 .p-box {
@@ -745,7 +743,7 @@ a {
     display: none;
   }
   .footer {
-    margin-top: 94px;
+    margin-top: 36px;
   }
   .call-button {
     font-size: 9px;
