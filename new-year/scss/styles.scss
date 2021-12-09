@@ -35,6 +35,9 @@
 .mobile-look {
   display: none;
 }
+.category-imgs{
+  border-radius: 8px;
+}
 body,
 html,
 .app {
@@ -79,8 +82,8 @@ html,
   }
 }
 .main-text-one {
-  font-size: 20px;
-  font-family: markgeocaps-medium;
+  font-size: 24px;
+  font-family: markgeo-regular;
   color: white;
   text-align: left;
 }
@@ -125,9 +128,10 @@ html,
 .mg-head-text {
   text-align: left;
   color: black;
-  font-family: markgeocaps-medium;
+  font-family: markgeo-regular;
   line-height: 1.2;
-  font-size: 20px;
+  font-size: 24px;
+  margin-top: 24px;
 }
 p {
   text-decoration: none !important;
@@ -160,7 +164,7 @@ body {
 .header-text {
   color: white;
   padding: 30px 20px;
-  font-family: markgeocaps-regular;
+  font-family: markgeo-regular;
   font-size: 16px;
 }
 .header-text:hover {
@@ -281,7 +285,7 @@ a {
   margin-top: 40px;
 }
 .how-use-sale {
-  font-family: markgeocaps-bold;
+  font-family: markgeo-bold;
   font-size: 30px;
   color: black;
   text-align: center;
@@ -394,10 +398,10 @@ a {
 .category-title {
   color: black;
   width: 100%;
-  font-family: markgeocaps-bold;
+  font-family: markgeo-bold;
   font-size: 28px;
   text-align: center;
-  margin-top: 75px;
+  margin-top: 30px;
   margin-bottom: 30px;
 }
 .second-category-row {
@@ -434,13 +438,13 @@ a {
   height: 38px;
 }
 .shop-p {
-  font-family: markgeocaps-regular;
-
+  font-family: markgeo-regular;
   font-size: 16px;
   color: white;
 }
 .main-text-one-first {
   color: black;
+  margin-top: 50px;
 }
 .shop-1 {
   display: none;
@@ -462,10 +466,14 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
 }
 .category-img-div-text {
-  font-family: markgeocaps-medium;
-  font-size: 16px;
+  font-family: markgeo-regular;
+  font-size: 14px;
   color: white;
 }
 .category-img-box {
@@ -486,7 +494,7 @@ a {
   height: 80px;
   justify-content: center;
   box-shadow: 0px 10px 10px #00000029;
-  border-radius: 1px;
+  border-radius: 8px;
 }
 .msng-p {
   font-size: 16px;
@@ -580,7 +588,7 @@ a {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: flex-start;
 }
 .shop-box {
   display: flex;
@@ -646,7 +654,10 @@ a {
 }
 
 @media only screen and (max-width: 768px) {
-  .mastercard {
+  .main-text-one-first{
+    margin-top: 0;
+  }
+  .Mastercard {
     margin: 17px 0;
   }
   .ho-img {
@@ -715,7 +726,7 @@ a {
     height: 85px;
   }
   .shop-p {
-    font-size: 9px;
+    font-size: 12px;
   }
   .shop-btn {
     width: 178px;
@@ -763,10 +774,10 @@ a {
     height: 11px;
   }
   .category-img-div-p {
-    height: 26px;
+    height: 34px;
   }
   .category-img-div-text {
-    font-size: 10px;
+    font-size: 12px;
   }
   .category-img-box {
     padding-right: 5px;
@@ -774,7 +785,7 @@ a {
   }
   .logo-box {
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   .logos {
     height: 25px;
@@ -841,6 +852,7 @@ a {
   }
   .mg-head-text {
     font-size: 8px;
+    margin: 0;
   }
   .how-use-sale-div {
     padding: 0;
@@ -853,8 +865,9 @@ a {
     font-size: 16px;
   }
   .category-title {
-    margin-top: 10px;
-    margin-bottom: 0px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 16px;
   }
   .second-category-row {
     margin: 0;
