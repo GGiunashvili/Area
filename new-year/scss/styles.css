@@ -728,7 +728,7 @@ a {
 }
 
 .fifq {
-  background: url(../image/bannerd.png) !important;
+  background-image: url(../image/santa.jpg) !important;
   width: 100%;
   background-size: cover;
 }
@@ -841,6 +841,9 @@ a {
 }
 
 @media only screen and (max-width: 768px) {
+  .fifq {
+    background-image: url(../image/mobsan.jpg) !important;
+  }
   .main-text-one-first {
     margin-top: 0;
   }
